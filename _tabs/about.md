@@ -4,5 +4,45 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+# About UPC GIFT Pasay
+
+Welcome to United Pentecostal Church - G.I.F.T (Grace-In Christ Fellowship Temple) Pasay! We are a Spirit-filled community dedicated to spreading the Gospel and nurturing spiritual growth through Biblical teaching and fellowship.
+
+## Our Vision
+
+A grace abounding church that everyone would want to join and be apart of. Seeking and saving God's lost children in Pasay City; Distributing His GIFTS to everyone, glorifying the name of The Lord Jesus Christ in the process.
+
+## What We Offer
+
+- 📖 **Bible Studies**: In-depth exploration of God's Word
+- 🙏 **Prayer Gatherings**: United in prayer and worship
+- 📝 **Study Notes**: Biblical resources and teaching materials
+- 💭 **Blog Posts**: Spiritual insights and devotionals
+- 🤝 **Fellowship**: Community events and gatherings
+
+## Service Schedule
+
+- **Sunday Worship Services**: 8:00 AM and 4:00 PM
+- **Midweek Bible Study**: Wednesday 7:00 PM
+- **Prayer Meeting**: Tuesday 7:00 PM
+
+## Our Beliefs
+
+We believe in the fundamental doctrine of the Apostolic Faith:
+
+- The oneness of God
+- Repentance
+- Baptism in Jesus' name
+- The infilling of the Holy Ghost
+- Living a holy, separated life
+
+## Connect With Us
+
+- 📍 **Location**: 719 P. Rivera St. Brgy 116, Zone 14, Pasay City, Philippines, 1300
+- 📞 **Contact**: <a href="tel:09205703382">0920 570 3382</a>
+- 📧 **Email**: <a href="mailto:upcgiftpasay@gmail.com">upcgiftpasay@gmail.com</a>
+- 📱 **Facebook**: <a href="https://www.facebook.com/GIFTPASAY" target="_blank">UPC Pasay - GIFT</a>
+
+---
+
+_"Growing In Faith Together - Teaching the Word, Reaching the World"_
