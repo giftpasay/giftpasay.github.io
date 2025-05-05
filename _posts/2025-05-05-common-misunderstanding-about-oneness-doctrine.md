@@ -15,7 +15,7 @@ The Oneness doctrine is often misunderstood by those unfamiliar with Apostolic t
 - **Son** — God in redemption (manifest in flesh).
 - **Holy Ghost** — God in action within the Church.
 
-> “The Lord our God is one Lord.” — _Deuteronomy 6:4_
+> “The Lord our God is one Lord.” — *Deuteronomy 6:4*
 
 We don’t reject these roles—we **embrace them** and identify the **name** behind them: **Jesus**.
 
@@ -49,5 +49,15 @@ We follow the teachings of the apostles and baptize in Jesus’ name, receive th
 
 **Truth:** The Jesus we worship is the **biblical Jesus**—the Son of God, born of a virgin, crucified, risen again, and exalted above all.
 
-- **Acts 4:12** – _“There is no other name…”_
-- **Philippians 2:9–11** – _“At the name of Jesus every_
+- **Acts 4:12** – *“There is no other name…”*
+- **Philippians 2:9–11** – *“At the name of Jesus every knee should bow…”*
+
+We believe Jesus is **God with us**—not a created being or a secondary person, but the **one true God revealed in flesh**.
+
+## Conclusion
+
+The Oneness doctrine is not a deviation from Scripture—it is a call back to **apostolic truth**. Many misunderstand it due to tradition, unfamiliarity, or misrepresentation. But a close look at the Bible reveals the consistent testimony: **God is one, and His name is Jesus**.
+
+Let us seek truth with open hearts and be willing to reexamine our beliefs in the light of God's Word.
+
+> “And ye shall know the truth, and the truth shall make you free.” — *John 8:32*
