@@ -22,7 +22,7 @@ A grace abounding church that everyone would want to join and be apart of. Seeki
 
 ## Service Schedule
 
-- **Sunday Worship Services**: 8:00 AM and 4:00 PM
+- **Sunday Worship Services**: 8:00 AM and 4:00 PM (_No afternoon service on the first Sunday of the month_)
 - **Midweek Bible Study**: Wednesday 7:00 PM
 - **Prayer Meeting**: Tuesday 7:00 PM
 
