@@ -103,7 +103,7 @@ avatar: https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/448548075_86598106
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-6/488220772_1075074464656651_6405632778244929813_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEXvw4DBHlE-_Azwo041rpMy0NDsTSXbZrLQ0OxNJdtmtCD87wMmO2PkUOzw2ILifsqWJ5n5u5e1uHhceBMfax2&_nc_ohc=LBEz2qCTwR0Q7kNvwFCliYg&_nc_oc=AdljLL8Rtz7z3TWc_ceokVBlG-ge4fVBUlbmtv9uWauLAOedN-JgPMrz0gezM0mH79oUs9UioU-m_tmrqaNAJEi3&_nc_zt=23&_nc_ht=scontent.fmnl25-4.fna&_nc_gid=mtSArC91x1_7dfyg6RMCQQ&oh=00_AfIxBGDM2NFPYLR-8khe0MIMYe7ailEREuhviJLEsqTqUw&oe=681F5AB5 # string, local or CORS resources
+social_preview_image: https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/448548075_865981065565993_6685927515677957295_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFSUKlFU2Ckjeb43bQJlrANrUO6Js3CjBitQ7omzcKMGEDWasD2RUFFD0QOW32oaDutCXOdjlpl8LK8Na0jezMV&_nc_ohc=UfL8ipDD9ZUQ7kNvwGeJgKJ&_nc_oc=AdkZk_mWQZKBG1T6HV7sH4GzwvnJchZ-T1oTGOkNLejyFQwrTyP34__JmDJ2eLvtSrmVklQqcVgD70NOrp_YSsGH&_nc_zt=23&_nc_ht=scontent.fmnl25-1.fna&_nc_gid=WVF2vazEaIeng4aKWEu6Fw&oh=00_AfEGm4dDVeHZ7f5BzjjdPQDbR-63gOk4xcHK2pxDXH67qw&oe=681E8F7A # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -121,14 +121,14 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: giftpasay/giftpasay.github.io # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo_id: R_kgDOOko8ww
+    category: General # the name of the category to which the discussion belongs
+    category_id: DIC_kwDOOko8w84Cp0eD
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    reactions_enabled: 1 # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:

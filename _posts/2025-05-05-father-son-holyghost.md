@@ -5,6 +5,8 @@ categories: [Theology, Doctrine]
 tags: [Godhead, Oneness, Father, Son, Holy Ghost]
 ---
 
+![Desktop View](https://images.unsplash.com/photo-1521106581851-da5b6457f674?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){: width="700" height="400" }
+
 Understanding the Godhead is central to knowing who God is and how He relates to humanity. Oneness Pentecostals affirm the absolute **oneness of God**—not as three separate persons, but as **one indivisible Spirit** who has revealed Himself as **Father, Son, and Holy Ghost**. These are not distinct persons in a Trinity, but **distinct roles or manifestations** of the one true God.
 
 ## One God
