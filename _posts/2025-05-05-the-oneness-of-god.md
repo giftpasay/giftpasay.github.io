@@ -3,6 +3,7 @@ title: The Oneness of God
 date: 2025-05-05
 categories: [Theology, Doctrine]
 tags: [Oneness, God, Theology]
+pin: true
 ---
 
 The Oneness of God is a fundamental doctrine in the United Pentecostal Church and many other Apostolic denominations. It emphasizes the belief that there is only one God, who has revealed Himself in various ways throughout history. This doctrine is rooted in Scripture and is essential to understanding the nature of God and His relationship with humanity.
