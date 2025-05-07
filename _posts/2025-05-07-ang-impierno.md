@@ -8,7 +8,7 @@ pin: true
 
 ![Desktop View](https://ik.imagekit.io/g0xkgtz2g/Hell.jpg?updatedAt=1746605766240){: width="700" height="400" }
 
-**Mga Awit 9:17** Ang masama ay mauwi sa **Sheol** (impierno), pati ng lahat ng mga bansa na nagsisiliimot sa Dios. (Basahin din ang Lucas 16:19-31).
+**Mga Awit 9:17** Ang masama ay mauwi sa **Sheol** (impierno), pati ng lahat ng mga bansa na nagsisilimot sa Dios. (Basahin din ang Lucas 16:19-31).
 
 ## Panimula:
 
@@ -109,7 +109,7 @@ Ang **Isaias 14:9-11; Lucas 16:19-31; Apoc. 14:9-11** - ay ilan lang sa mga tala
 
 Ang **impierno** ay ang pansamantalang hantungan ng mga namamatay na makasalanan. Pagkatapos ng Milenyum (1,000 taong paghahari ni Cristo sa lupa), ang mga makasalanan ay iaahon mula rito upang makipag-isa sa **nabuhay na muli at di-namamatay nilang katawan** upang humarap sa Dios at itapon sa Dagat-dagatang apoy magpasa-walang hanggan (Apoc. 20:11-15).
 
-Ang **dagat-dagatang apoy o Lake of Fire** ay tutukoy sa ikalawang kamatayan o walang hanggang kapahamakan para sa lahat ng mga nagkasalang anghel, kay Satanas, sa mga demonyo at maging ang mga makasalanang taong hindi naglingkod sa Dios (Apoc. 20:6, 11-15; 21:8; 22:15). Ito ang **walang hanggang impierno** na magiging huling hantungan o destinasyon ng kamatayan at ng hades.
+Ang **dagat-dagatang apoy o Lake of Fire** ay tumutukoy sa ikalawang kamatayan o walang hanggang kapahamakan para sa lahat ng mga nagkasalang anghel, kay Satanas, sa mga demonyo at maging ang mga makasalanang taong hindi naglingkod sa Dios (Apoc. 20:6, 11-15; 21:8; 22:15). Ito ang **walang hanggang impierno** na magiging huling hantungan o destinasyon ng kamatayan at ng hades.
 
 **Apoc. 20:6** Mapalad at banal ang makakakip sa unang pagkabuhay na maguli: sa mga ito'y walang kapangyarihan ang ikalawang kamatayan; kundi sila'y magiging mga saserdote ng Dios at ni Cristo, at mangaghahari kasama niya sa loob ng isang libong taon... 11 At nakita ko ang isang malaking luklukang maputi, at ang nakaluklok doon, na sa kaniyang harapan, ang lupa at ang langit ay tumakas; at walang nasumpungang kalalaayan nila. 12 At nakita ko ang mga patay, malalaki at maliliit, na nangakatayo sa harapan ng luklukan; at nangabuksan ang mga aklat: at nabuksan ang ibang aklat, na siyang aklat ng buhay: at ang mga patay ay hinatulan ayon sa mga bagay na nasulat sa mga aklat, ayon sa kanilang mga gawa. 13 At ibinigay ng dagat ang mga patay na nasa kaniya; at ibinigay ng kamatayan at ng Hades ang mga patay na nasa kanila: at sila'y hinatulan bawa't tao ayon sa kanikaniyang mga gawa. 14 **At ang kamatayan at ang Hades ay ibinulid sa dagatdagatang apoy**. Ito ang ikalawang kamatayan, sa makatuwid ay ang dagatdagatang apoy. 15 At kung **ang sinoman ay hindi nasumpungang na-kasulat sa aklat ng buhay, ay ibinulid sa dagatdagatang apoy**.
 
