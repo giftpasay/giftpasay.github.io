@@ -43,7 +43,7 @@ Kapag pinag-usapan ang dakong kinalalaagan ng impierno, ang biblia ay laging nag
 
 ![Desktop View](https://ik.imagekit.io/g0xkgtz2g/Bottomless%20pit%20hell.jpg?updatedAt=1746606030805){: width="700" height="400" }
 
-**Isa 14:9** Ang Sheol mula sa ibaba ay nakikitos sa iyo upang salubungin ka sa iyong pagdating; nangapupukaw ang mga patay dahil sa iyo, sa makatuwid baga'y ang lahat na pinaka-pangulo sa lupa; nagsiindig mula sa kanilang mga luklukan ang lahat ng hari ng mga bansa.
+**Isa 14:9** **_Ang Sheol mula sa ibaba_** ay nakikilos sa iyo upang salubungin ka sa iyong pagdating; nangapupukaw ang mga patay dahil sa iyo, sa makatuwid baga'y ang lahat na pinaka-pangulo sa lupa; nagsiindig mula sa kanilang mga luklukan ang lahat ng hari ng mga bansa.
 
 **Mga Awit 63:9** Nguni't ang nagsisihanap ng kaluluwa ko, upang ipahamak, magsisilusong sa mga lalong **mababang bahagi ng lupa**.
 
@@ -81,7 +81,7 @@ Para bagang sinasabi ng talatang ito na kahit gaano karami ang gustong pumunta s
 
 **Dake's Annotated Reference Bible, Chart and Maps Page 2-3.**
 
-Ang libingan (Heb. qeburah / Gk. Mnaymion) ay lugar na kung saan ay dinadala at inilalaga5k ang katawan ng isang taong namatay – naglilinkod man sa Dios o hindi (Gen. 33:20; Deut.34:6; Mateo 27:59-60; Juan 11:17). Kaya nga iba ang libingan sa impierno (Mga Awit 9:17).
+Ang libingan (Heb. qeburah / Gk. Mnaymion) ay lugar na kung saan ay dinadala at inilalagak ang katawan ng isang taong namatay – naglilinkod man sa Dios o hindi (Gen. 33:20; Deut.34:6; Mateo 27:59-60; Juan 11:17). Kaya nga iba ang libingan sa impierno (Mga Awit 9:17).
 
 ## IV - Para kanino ginawa ang impierno?
 
