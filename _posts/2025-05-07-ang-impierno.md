@@ -18,7 +18,7 @@ Inilarawan sa Biblia ang isang nakapangingilabot na dakong pupuntahan ng mga tao
 
 **Ang Salitang impierno (_sa Hebreo – Sheol, at sa Griego – Hades_)** ayon sa diksiyunaryo ay: Ang tirahan ng mga masasamang espiritu at lugar ng pagdurusa o labis na pagpapahirap.
 
-**Ayon sa Biblia**, Ang impiyerno ay lugar ng pagdurusa sa pamamagitan ng apoy na kung saan ang mga makasalanang tao na hindi nakakilala sa Dios at hindi tumalima sa kaniyang evangelio, pagkatapos mamatay sa panahong kasalukuyan, ay mapupunta roon upang magdanas ng kaparusahan.
+**Ayon sa Biblia**, Ang impierno ay lugar ng pagdurusa sa pamamagitan ng apoy na kung saan ang mga makasalanang tao na hindi nakakilala sa Dios at hindi tumalima sa kaniyang evangelio, pagkatapos mamatay sa panahong kasalukuyan, ay mapupunta roon upang magdanas ng kaparusahan.
 
 **Luk 16:22** At nangyari, na namatay ang pulubi at siya'y dinala ng mga anghel sa sinapupunan ni Abraham: at **namatay naman ang mayaman, at inilibing. 23 At sa Hades na nasa mga pagdurusa** ay itiningin niya ang kaniyang mga mata, at natanaw sa malayo si Abraham, at si Lazaro ay nasa kaniyang sinapupunan. **24** At siya'y sumigaw at sinabi, Amang Abraham, maawa ka sa akin, at suguin mo si Lazaro, upang itubog niya sa tubig ang dulo ng kaniyang daliri, at palamigan ang aking dila; sapagka't **naghihirap ako sa alab na ito**. `(Basahin din ang 1 Tes. 1:7-9; Marcos 16:16; Apoc. 14:9-12)`.
 
@@ -27,7 +27,7 @@ Inilarawan sa Biblia ang isang nakapangingilabot na dakong pupuntahan ng mga tao
 **Ang Impierno ay:**
 
 - Lugar ng pagdurusa sa apoy – `Awit ng mga awit 8:6; Lucas 16:19-31`
-- Ito'y pinagniiningas dahil sa galit ng Dios sa kasalanan – `Mga Awit 9:17; Mateo 25:41`
+- Ito'y pinagniningas dahil sa galit ng Dios sa kasalanan – `Mga Awit 9:17; Mateo 25:41`
 - Susupukin nito gaano man karami ang tao sa mundo na mamamatay dahil sa pagsalansang – `Isaias 5:14; Isaias 14:9; Apoc. 20:11-15`
 - Ang apoy at uod dito ay hindi namamatay – `Marcos 9:43-48`
 
@@ -57,7 +57,7 @@ Si Jesus ay namatay at pumunta sa impierno `(Hades / Sheol)` hindi para maghirap
 
 Noong hindi pa namamatay si Cristo, ang lugar na kinalalaayan ng mga mananampalatayang namatay, tinatawag na sinapupunan ni Abraham, ay nasa ilalim ng lupa at ito'y isang dako na katapat lang ng hades na tila baga nakaangat kumpara dito ayon sa `Lucas 16:23`.
 
-Dito sa `Lucas 16:19-31`, isinasalarawan ang dalawang dako kung saan pumupunta ang mga taong namatay. Ito ay ang **Hades** (impiyerno) o ang lugar kung saan pumupunta ang nangamatay na makasalanan – inilarawan ito bilang dako ng pagdurusa (Torment place/compartment), at ang **sinapupunan ni Abraham** (paraiso) – ang lugar na pinupuntahan ng mga matuwid na kaluluwa ng namatay na ayon sa pagsasalarawan ng Biblia ay ang lugar ng kaaliwan (Comfort place/compartment). Sa pagitan nila ay ang **malaking bangin** nagpapahiwalay upang hindi makatawid ang sinoman sa magkabila – maaaring ito yung tinatawag na Abyss o kulungan ng mga masasamang Espiritu `(Apoc. 9:1-21)`. Dito itatapon at ikukulong si Satanas sa loob ng isang libong taon `(Apoc. 20:1-3)` at mula rin dito ay aahon ang hayop `(Apoc. 11:7; 17:8)`.
+Dito sa `Lucas 16:19-31`, isinasalarawan ang dalawang dako kung saan pumupunta ang mga taong namatay. Ito ay ang **Hades** (impierno) o ang lugar kung saan pumupunta ang nangamatay na makasalanan – inilarawan ito bilang dako ng pagdurusa (Torment place/compartment), at ang **sinapupunan ni Abraham** (paraiso) – ang lugar na pinupuntahan ng mga matuwid na kaluluwa ng namatay na ayon sa pagsasalarawan ng Biblia ay ang lugar ng kaaliwan (Comfort place/compartment). Sa pagitan nila ay ang **malaking bangin** nagpapahiwalay upang hindi makatawid ang sinoman sa magkabila – maaaring ito yung tinatawag na Abyss o kulungan ng mga masasamang Espiritu `(Apoc. 9:1-21)`. Dito itatapon at ikukulong si Satanas sa loob ng isang libong taon `(Apoc. 20:1-3)` at mula rin dito ay aahon ang hayop `(Apoc. 11:7; 17:8)`.
 
 Ang sinapupunan ni Abraham na dati'y nasa ilalim ng lupa, sa ngayon ay wala ng laman, sapagka't sila'y nasa paraiso na sa itaas. Posible kaya na ang dakong ito ay inukupa na rin ni Satanas at ng kaniyang mga demonyo kung kaya't sinasabi ng Biblia na:
 
@@ -141,7 +141,7 @@ Kung ikaw ay papipiliin, anong gugustuhin mo? Kaligtasan at buhay na walang hang
 
 2. Ang `________` ay lugar ng pagdurusa sa pamamagitan ng apoy na kung saan ang mga makasalanang tao na hindi `________` sa Dios at hindi `________` sa kaniyang evangelio, pagkatapos mamatay sa panahong ito, ay mapupunta roon upang magdanas ng kaparusahan. `(Lucas 16:22-24; II Tes. 1:7-9; Marcos 16:16)`.
 
-3. Magbigay ng dalawang talatang nagpapatunay na ang impiyerno ay nasa ibabang dako (ilalim ng lupa)<br>
+3. Magbigay ng dalawang talatang nagpapatunay na ang impierno ay nasa ibabang dako (ilalim ng lupa)<br>
    A. <br>
    B.
 
