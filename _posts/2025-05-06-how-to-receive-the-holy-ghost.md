@@ -3,7 +3,7 @@ title: How to Receive the Holy Ghost
 date: 2025-05-06
 categories: [Salvation, Experience]
 tags: [holy ghost, new birth, pentecost, spiritual gifts]
-image: https://scontent.fmnl25-3.fna.fbcdn.net/v/t39.30808-6/490562163_1082394310591333_6548425185114231754_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF2m8r0c9Hxf_pGI7G3LRnL-yGQ7W7m4Yj7IZDtbubhiJbLmbTgfZgDaoYDbayyuhFq4gJHIY-UrGq3tW3o2xzt&_nc_ohc=Bm_fHeGzsUIQ7kNvwE_zrx4&_nc_oc=AdmVz8HUueY-s-9BjXs78ayPB7dwDOl38iKr7T5HqjHgQG8evDWG6Cyjp8lICy4fzzlWK_IPTrx5gyMiP9C26Hta&_nc_zt=23&_nc_ht=scontent.fmnl25-3.fna&_nc_gid=faEpFcRVBf-gmg8csnAo0g&oh=00_AfI-0JxutRuq7XqOUheEU3WW1bw8HA9Ga13fTzndusiN3w&oe=681FD804
+image: https://ik.imagekit.io/g0xkgtz2g/490562163_1082394310591333_6548425185114231754_n.jpg?updatedAt=1746661697280
 ---
 
 Receiving the Holy Ghost is one of the greatest experiences a person can have—it is the **indwelling of God’s Spirit**, the fulfillment of God’s promise, and the essential second part of the New Birth. This experience is not reserved for a select few; it is available to **everyone who believes and obeys** the Gospel.

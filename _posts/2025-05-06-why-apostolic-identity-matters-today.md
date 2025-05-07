@@ -3,7 +3,7 @@ title: Why Apostolic Identity Matters Today?
 date: 2025-05-06 10:30:00 +0800
 categories: [Church, Doctrine, Culture]
 tags: [apostolic, identity, holiness, doctrine]
-image: https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/487860161_1074963758001055_1321541071429171598_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHsyaigV7fb-TpzmRBjY5OjL_Iq2Os5QUwv8irY6zlBTNwlNdvIDuPEe3B4no2oqU_4lY1yBxnaeReQ4lSaLQ1g&_nc_ohc=hM2AiApoPZkQ7kNvwHXTEdQ&_nc_oc=AdkSVEUB2QVSsQ0v6Kywss0aigtwCfm2Gm4qROzIPkIz8AYEqD6BReM2o9I8AzXEK37JoLe5LaweVVCURfR4GB1e&_nc_zt=23&_nc_ht=scontent.fmnl25-1.fna&_nc_gid=vVJ-NLAiaKsZEYSEPuX_Hw&oh=00_AfKg2fs4oyrYPrIsuyjXJGK784YWeRf2iMiVeUTYd6VyXg&oe=681FF66C
+image: https://ik.imagekit.io/g0xkgtz2g/487860161_1074963758001055_1321541071429171598_n.jpg?updatedAt=1746661258441
 ---
 
 In a world of shifting values, blurred theology, and cultural compromise, maintaining a strong **Apostolic identity** is not just important—it is **essential**. Apostolic identity is rooted in the doctrine, experience, and lifestyle of the early Church as revealed in the Book of Acts. It defines who we are, what we believe, and how we live.
