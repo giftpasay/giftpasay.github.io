@@ -3,9 +3,8 @@ title: Common Misunderstandings About the Oneness Doctrine
 date: 2025-05-05
 categories: [Theology, Apologetics]
 tags: [oneness, godhead, doctrine, misunderstandings]
+image: https://images.unsplash.com/photo-1665789318391-6057c533005e?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
-
-![Desktop View](https://images.unsplash.com/photo-1665789318391-6057c533005e?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){: width="700" height="400" }
 
 The Oneness doctrine is often misunderstood by those unfamiliar with Apostolic theology. Sometimes it’s misrepresented or confused with heresies of the past. To engage in honest discussion and clarify truth, we must address these misunderstandings with Scripture, clarity, and love.
 

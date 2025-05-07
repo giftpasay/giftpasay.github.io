@@ -7,8 +7,6 @@ image: https://ik.imagekit.io/g0xkgtz2g/Hell.jpg?updatedAt=1746605766240
 pin: true
 ---
 
-![Desktop View](https://ik.imagekit.io/g0xkgtz2g/Hell.jpg?updatedAt=1746605766240){: width="700" height="400" }
-
 **Mga Awit 9:17** Ang masama ay mauwi sa **Sheol** (impierno), pati ng lahat ng mga bansa na nagsisilimot sa Dios. `(Basahin din ang Lucas 16:19-31)`.
 
 ## Panimula:

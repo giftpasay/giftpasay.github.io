@@ -3,9 +3,8 @@ title: The Name of Jesus in Salvation
 date: 2025-05-05
 categories: [Theology, Doctrine]
 tags: [jesus name, salvation, baptism, apostolic]
+image: https://images.unsplash.com/photo-1508829040592-72f179f8a73f?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
-
-![Desktop View](https://images.unsplash.com/photo-1508829040592-72f179f8a73f?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){: width="700" height="400" }
 
 The name of Jesus holds a central and powerful place in the Apostolic doctrine of salvation. Oneness Pentecostals believe that **salvation comes through faith in the name of Jesus**, and that His name is essential in baptism, prayer, and spiritual authority. This conviction is not merely traditional—it is firmly grounded in Scripture and the teachings of the early church.
 

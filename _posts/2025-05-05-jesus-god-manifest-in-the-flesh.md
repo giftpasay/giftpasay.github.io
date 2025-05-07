@@ -3,9 +3,8 @@ title: Jesus - God Manifest in the Flesh
 date: 2025-05-05
 categories: [Theology, Christology]
 tags: [jesus, incarnation, godhead, oneness]
+image: https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
-
-![Desktop View](https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){: width="700" height="400" }
 
 The incarnation of Jesus Christ is one of the most powerful truths in all of Scripture. Oneness Pentecostals believe that **Jesus is not the second person of a Trinity**, but **the one true God revealed in human form**. He is **God manifest in the flesh**, the visible image of the invisible God, and the full expression of God's nature, character, and purpose.
 
