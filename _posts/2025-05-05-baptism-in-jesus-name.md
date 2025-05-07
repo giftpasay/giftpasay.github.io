@@ -1,5 +1,5 @@
 ---
-title: Baptism in Jesus’ Name
+title: Baptism in Jesus' Name
 date: 2025-05-05
 categories: [Theology, Doctrine]
 tags: [baptism, jesus name, salvation, apostolic]

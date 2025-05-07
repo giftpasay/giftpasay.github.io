@@ -174,4 +174,4 @@ Kung ikaw ay papipiliin, anong gugustuhin mo? Kaligtasan at buhay na walang hang
 ## About the Article
 
 > **Book:** Mga Pangunahing Doktrina sa Biblia - Pages 27-31 <br> **Author:** <a href="https://www.facebook.com/cometa.ranny" target="_blank"> Rev. Ranny D. Cometa | UPC Naga</a>
-{: .prompt-info }
+> {: .prompt-info }

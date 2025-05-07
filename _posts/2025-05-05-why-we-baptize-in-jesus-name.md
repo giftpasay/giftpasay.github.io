@@ -1,5 +1,5 @@
 ---
-title: Why We Baptize in Jesus’ Name
+title: Why We Baptize in Jesus’ Name?
 date: 2025-05-05
 categories: [Theology, Salvation]
 tags: [baptism, jesus name, apostolic doctrine]

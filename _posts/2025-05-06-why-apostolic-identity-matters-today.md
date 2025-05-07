@@ -1,5 +1,5 @@
 ---
-title: Why Apostolic Identity Matters Today
+title: Why Apostolic Identity Matters Today?
 date: 2025-05-06 10:30:00 +0800
 categories: [Church, Doctrine, Culture]
 tags: [apostolic, identity, holiness, doctrine]
