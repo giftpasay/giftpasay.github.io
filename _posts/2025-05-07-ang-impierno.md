@@ -139,6 +139,41 @@ Kung ikaw ay papipiliin, anong gugustuhin mo? Kaligtasan at buhay na walang hang
 
 ---
 
+## Sagutan ang sumusunod na mga katanungan:
+
+1. Mga Awit 9:17 Ang ______________ ay mauwi sa Sheol (impierno), pati ng lahat ng mga bansa na ______________ sa Dios.
+
+2. Ang ________________ ay lugar ng pagdurusa sa pamamagitan ng apoy na kung saan ang mga makasalanang tao na hindi ______________ sa Dios at hindi ___________ sa kaniyang evangelio, pagkatapos mamatay sa panahong ito, ay mapupunta roon upang magdanas ng kaparusahan. (Lucas 16:22-24; II Tes. 1:7-9; Marcos 16:16).
+
+3. Magbigay ng dalawang talatang nagpapatunay na ang impiyerno ay nasa ibabang dako (ilalim ng lupa)<br>
+   A. <br>
+   B. 
+
+4. Ayon sa ating napag-aralan sa Lucas 16:22-24, ano ang magkaibang pagsasalarawan tungkol sa impierno at Paraiso?<br>
+   A. Ang impierno ay –<br>
+   
+   B. Ang Paraiso ay –
+
+5. Ibigay ang ang 5 dako ng underworld ng mga yumaong Espiritu <br>
+   A.<br>
+   B.<br>
+   C.<br>
+   D.<br>
+   E.
+
+6. Magbigay ng talatang nagpapatunay na mayroong buhay at pakiramdam ang mga taong mapupunta sa impierno <br>
+   A.<br>
+   B.
+
+7. Ibigay ang pagkakaiba ng Impierno sa Lake of Fire.
+   1. Ang Impierno ay –
+   
+   2. Ang Lake of fire ay –
+
+8. Ayon sa Roma 1:16 at Marcos 16:15-16, ano ang dapat gawin upang maligtas at hindi mapunta sa kapahamakan doon sa impierno?
+
+---
+
 ## About the Article
 
 **Book:** Mga Pangunahing Doktrina sa Biblia - Page 27-31
