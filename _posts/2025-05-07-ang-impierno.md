@@ -20,7 +20,7 @@ Inilarawan sa Biblia ang isang nakapangingilabot na dakong pupuntahan ng mga tao
 
 **Ayon sa Biblia**, Ang impiyerno ay lugar ng pagdurusa sa pamamagitan ng apoy na kung saan ang mga makasalanang tao na hindi nakakilala sa Dios at hindi tumalima sa kaniyang evangelio, pagkatapos mamatay sa panahong kasalukuyan, ay mapupunta roon upang magdanas ng kaparusahan.
 
-**Luk 16:22** At nangyari, na namatay ang pulubi at siya'y dinala ng mga anghel sa sinapupunan ni Abraham: at **namatay naman ang mayaman, at inilibing. 23 At sa Hades na nasa mga pagdurusa** ay itiningin niya ang kaniyang mga mata, at natanaw sa malayo si Abraham, at si Lazaro ay nasa kaniyang sinapupunan. 24 At siya'y sumigaw at sinabi, Amang Abraham, maawa ka sa akin, at suguin mo si Lazaro, upang itubog niya sa tubig ang dulo ng kaniyang daliri, at palamigan ang aking dila; sapagka't **naghihirap ako sa alab na ito**. `(Basahin din ang 1 Tes. 1:7-9; Marcos 16:16; Apoc. 14:9-12)`.
+**Luk 16:22** At nangyari, na namatay ang pulubi at siya'y dinala ng mga anghel sa sinapupunan ni Abraham: at **namatay naman ang mayaman, at inilibing. 23 At sa Hades na nasa mga pagdurusa** ay itiningin niya ang kaniyang mga mata, at natanaw sa malayo si Abraham, at si Lazaro ay nasa kaniyang sinapupunan. **24** At siya'y sumigaw at sinabi, Amang Abraham, maawa ka sa akin, at suguin mo si Lazaro, upang itubog niya sa tubig ang dulo ng kaniyang daliri, at palamigan ang aking dila; sapagka't **naghihirap ako sa alab na ito**. `(Basahin din ang 1 Tes. 1:7-9; Marcos 16:16; Apoc. 14:9-12)`.
 
 ## II – Ilan sa mga katotohanang binabanggit ng Biblia tungkol sa impierno
 
@@ -32,8 +32,6 @@ Inilarawan sa Biblia ang isang nakapangingilabot na dakong pupuntahan ng mga tao
 - Ang apoy at uod dito ay hindi namamatay – `Marcos 9:43-48`
 
 Ang impierno ay iba sa libingan sapagkat ang impierno ay lugar na hindi namamatay ang uod at apoy, at ang mga taong mapupunta roon ay yaon lamang masasama at nakalimot o hindi naglingkod sa Dios.
-
----
 
 **Mga Awit 9:17** Ang masama ay mauuwi sa Sheol (impierno), pati ng lahat ng mga bansa na nagsisiliimot sa Dios.
 
@@ -53,13 +51,11 @@ Kapag pinag-usapan ang dakong kinalalaagan ng impierno, ang biblia ay laging nag
 
 **Eph 4:8** Kaya't sinasabi niya, Nang umakyat siya sa itaas ay dinala niyang bihag ang pagkabihag, At nagbigay ng mga kaloob sa mga tao. **9** (Ngayon ito, umakyat Siya, ano ito, kundi siya'y bumaba rin naman **sa mga dakong kalaliman ng lupa**?
 
-Si Jesus ay namatay at pumunta sa impierno (Hades / Sheol) hindi para maghirap o magbigay ng tsansa sa mga naroon kundi upang ipahayag ang kaniyang pagtatagumpay at kunin ang susi ng kamatayan at ng hades, at ng sa gayon ay mawala ang takot ng tao sa sumpa ng kamatayan - sapagka't kung paanong si Cristo ay nagtagumpay ay magtatagumpay din tayo laban sa kamatayan.
+Si Jesus ay namatay at pumunta sa impierno `(Hades / Sheol)` hindi para maghirap o magbigay ng tsansa sa mga naroon kundi upang ipahayag ang kaniyang pagtatagumpay at kunin ang susi ng kamatayan at ng hades, at ng sa gayon ay mawala ang takot ng tao sa sumpa ng kamatayan - sapagka't kung paanong si Cristo ay nagtagumpay ay magtatagumpay din tayo laban sa kamatayan.
 
 **Apoc 1:17** At nang siya'y aking makita, ay nasubasob akong waring patay sa kaniyang paanan. At ipinatong niya sa akin ang kaniyang kanang kamay, na sinasabi, Huwag kang matakot; ako'y ang una at ang huli, **18** At ang Nabubuhay; at ako'y namatay, at narito, ako'y nabubuhay magpakailan man, at nasa akin ang mga susi ng kamatayan at ng Hades. `(Basahin din: I Pedro 4:6; Efeso 4:8-10; Heb. 2:14-15; Apoc. 1:17-18)`
 
 Noong hindi pa namamatay si Cristo, ang lugar na kinalalaayan ng mga mananampalatayang namatay, tinatawag na sinapupunan ni Abraham, ay nasa ilalim ng lupa at ito'y isang dako na katapat lang ng hades na tila baga nakaangat kumpara dito ayon sa `Lucas 16:23`.
-
----
 
 Dito sa `Lucas 16:19-31`, isinasalarawan ang dalawang dako kung saan pumupunta ang mga taong namatay. Ito ay ang **Hades** (impiyerno) o ang lugar kung saan pumupunta ang nangamatay na makasalanan – inilarawan ito bilang dako ng pagdurusa (Torment place/compartment), at ang **sinapupunan ni Abraham** (paraiso) – ang lugar na pinupuntahan ng mga matuwid na kaluluwa ng namatay na ayon sa pagsasalarawan ng Biblia ay ang lugar ng kaaliwan (Comfort place/compartment). Sa pagitan nila ay ang **malaking bangin** nagpapahiwalay upang hindi makatawid ang sinoman sa magkabila – maaaring ito yung tinatawag na Abyss o kulungan ng mga masasamang Espiritu `(Apoc. 9:1-21)`. Dito itatapon at ikukulong si Satanas sa loob ng isang libong taon `(Apoc. 20:1-3)` at mula rin dito ay aahon ang hayop `(Apoc. 11:7; 17:8)`.
 
