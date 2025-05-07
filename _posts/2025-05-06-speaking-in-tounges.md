@@ -2,7 +2,7 @@
 title: Speaking in Tongues - The Biblical Evidence
 date: 2025-05-06 09:00:00 +0800
 categories: [Theology, Experience]
-tags: [Speaking in Tongues, Holy Ghost, Pentecostal Experience]
+tags: [speaking in tongues, holy ghost, pentecostal experience]
 ---
 
 ![Desktop View](https://scontent.fmnl25-5.fna.fbcdn.net/v/t39.30808-6/490405891_1082153410615423_1497166315293781031_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeG1gawJ0Z6p5ztXmvFtZY_oR0lh4E0XdNJHSWHgTRd00q9njGqCP7N6x-tixDZwF5X_rvbY8zhEjKzBZXt7dCQw&_nc_ohc=aHghwOz1bhQQ7kNvwFTXCCV&_nc_oc=AdkOxBUNWi0suAnPTFcS6Jgk0tju8SLUkYpoeak-GR1bYorsHWmaAg6nmopnfv-v2zgZfmuLrI3u4spFfESy24fP&_nc_zt=23&_nc_ht=scontent.fmnl25-5.fna&_nc_gid=jrB04oUgvof8ZU-8b16pjA&oh=00_AfLSFGByaCF1THA3e2XopvtmnCNQkNbedISCC4daEuFXDg&oe=681FD2C1){: width="700" height="400" }

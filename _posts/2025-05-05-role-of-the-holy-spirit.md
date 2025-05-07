@@ -2,7 +2,7 @@
 title: The Role of the Holy Spirit in the Believer's Life
 date: 2025-05-05
 categories: [Theology, Christian Living]
-tags: [Holy Spirit, Apostolic, New Birth, Power]
+tags: [holy spirit, apostolic, new birth, power]
 ---
 
 ![Desktop View](https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-6/489877858_1082394397257991_5048972485609006127_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHOHkecDvTqyZs9TCmF9O1C6EcqpdeRf0ToRyql15F_RAzGiZAmwJoXEk7a_FX2dimkiAM121OwgR9UuR7jFB43&_nc_ohc=rbCQJEoSn1sQ7kNvwENFxZO&_nc_oc=Adk7vkuoWwlClF0OfmQOZmvmIAbNqL7u-OsvQRGcRhtBMzL7-yJBPjVv-PCjZ9BIgGxl3EP-n4SsfbWnopjRpQnT&_nc_zt=23&_nc_ht=scontent.fmnl25-4.fna&_nc_gid=wQV7bxbjji7hWERuho_U0A&oh=00_AfJhVGJb9ZkxMC0GEguuqcsEgjCWOAeI-jDufzoNzp1d1g&oe=682000E2){: width="700" height="400" }

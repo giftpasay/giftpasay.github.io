@@ -2,8 +2,7 @@
 title: The Oneness of God
 date: 2025-05-05
 categories: [Theology, Doctrine]
-tags: [Oneness, God, Theology]
-pin: true
+tags: [oneness, god, theology]
 ---
 
 ![Desktop View](https://images.unsplash.com/photo-1492176273113-2d51f47b23b0?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){: width="700" height="400" }

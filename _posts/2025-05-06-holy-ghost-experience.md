@@ -2,7 +2,7 @@
 title: The Holy Ghost and the New Birth Experience
 date: 2025-05-06 09:30:00 +0800
 categories: [Salvation, Doctrine]
-tags: [Holy Ghost, New Birth, Salvation, Pentecost]
+tags: [holy ghost, new birth, salvation, pentecost]
 ---
 
 ![Desktop View](https://scontent.fmnl25-7.fna.fbcdn.net/v/t39.30808-6/490553748_1082153483948749_3984393425650411163_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeEfMd0M3ru3oN3Tvl2QLufi-j6Zfjj5kDX6Ppl-OPmQNUcKvKTzavXuQIPcZjSibpV3lwhN6kEbjyLw1LyJxwyJ&_nc_ohc=cJs_9_aMfpsQ7kNvwEtCsZQ&_nc_oc=AdmSY2t4DSNHXMkgaDjR9i0bKREiSWCNxh13DmvKZOiUFI2jzLfXUVst3KQVu_I0ilAz1le18kiDFXEzvUkb-i3j&_nc_zt=23&_nc_ht=scontent.fmnl25-7.fna&_nc_gid=-7tuntkjLZyElEqBO5KyBQ&oh=00_AfIf_5VO5k2j5psOJganIrDW2_LbtxEE_cNXcQWU4v9cTg&oe=681FE45F){: width="700" height="400" }

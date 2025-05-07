@@ -2,7 +2,7 @@
 title: Baptism in Jesus’ Name
 date: 2025-05-05
 categories: [Theology, Doctrine]
-tags: [Baptism, Jesus Name, Salvation, Apostolic]
+tags: [baptism, jesus name, salvation, apostolic]
 ---
 
 ![Desktop View](https://scontent.fmnl25-5.fna.fbcdn.net/v/t39.30808-6/491802090_1091195556377875_1785689666353715976_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeElOTLbDaJRaMmkhd_yDwmV7j2NZHPldrXuPY1kc-V2tZ6WC6irrtxIEo08H69_da_EMiMlPpCH73VtYkZsztpy&_nc_ohc=i7wF6yYjvSoQ7kNvwEWQAAU&_nc_oc=AdnOopoSwea4v9TeMXzA_izFdmir8ypIGFTEOCeCNTuQcZ3zRjyO8ZUuFF-taWgd9AqDkWC7e8i71sU8B-CTuXym&_nc_zt=23&_nc_ht=scontent.fmnl25-5.fna&_nc_gid=4rssah1NEpT9kQxr78mE7A&oh=00_AfIkeUTb7L4JshKi6mbgS9jmZXdOYa8Bbg-eVsIOgmSgcw&oe=681FFDF5){: width="700" height="400" }
