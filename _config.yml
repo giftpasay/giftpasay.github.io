@@ -102,7 +102,7 @@ avatar: https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/448548075_86598106
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/448548075_865981065565993_6685927515677957295_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFSUKlFU2Ckjeb43bQJlrANrUO6Js3CjBitQ7omzcKMGEDWasD2RUFFD0QOW32oaDutCXOdjlpl8LK8Na0jezMV&_nc_ohc=UfL8ipDD9ZUQ7kNvwGeJgKJ&_nc_oc=AdkZk_mWQZKBG1T6HV7sH4GzwvnJchZ-T1oTGOkNLejyFQwrTyP34__JmDJ2eLvtSrmVklQqcVgD70NOrp_YSsGH&_nc_zt=23&_nc_ht=scontent.fmnl25-1.fna&_nc_gid=WVF2vazEaIeng4aKWEu6Fw&oh=00_AfEGm4dDVeHZ7f5BzjjdPQDbR-63gOk4xcHK2pxDXH67qw&oe=681E8F7A # string, local or CORS resources
+social_preview_image: https://ik.imagekit.io/g0xkgtz2g/giftchurch.jpg?updatedAt=1746626721382 # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
