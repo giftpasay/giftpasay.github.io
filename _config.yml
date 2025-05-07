@@ -16,7 +16,7 @@ timezone: Asia/Manila
 
 title: G.I.F.T Pasay # the main title
 
-tagline: Growing In Faith Together # it will display as the subtitle
+tagline: Grace In-Christ Fellowship Temple - Blog Site # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   This blog is a collection of Bible study materials, sermons, and other resources to help you grow in your faith.
@@ -51,7 +51,7 @@ webmaster_verifications:
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
-  facebook: GIFTPASAY # fill in your Facebook verification code
+  facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -59,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-LZLXJYB0B4 # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:

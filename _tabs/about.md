@@ -40,7 +40,7 @@ We believe in the fundamental doctrine of the Apostolic Faith:
 
 ## Connect With Us
 
-- 📍 **Location**: 719 P. Rivera St. Brgy 116, Zone 14, Pasay City, Philippines, 1300
+- 📍 **Location**: <a href="https://g.co/kgs/GXztGwH" target="_blank"> 719 P. Rivera St. Brgy 116, Zone 14, Pasay City, Philippines, 1300</a>
 - 📞 **Contact**: <a href="tel:09205703382">0920 570 3382</a>
 - 📧 **Email**: <a href="mailto:upcgiftpasay@gmail.com">upcgiftpasay@gmail.com</a>
 - 📱 **Facebook**: <a href="https://www.facebook.com/GIFTPASAY" target="_blank">UPC Pasay - GIFT</a>
