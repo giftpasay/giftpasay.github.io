@@ -8,7 +8,7 @@ order: 4
 
 # About UPC GIFT Pasay
 
-Welcome to United Pentecostal Church Phil. Inc. - G.I.F.T (Grace-In Christ Fellowship Temple) Pasay! We are a Spirit-filled community dedicated to spreading the Gospel and nurturing spiritual growth through Biblical teaching and fellowship.
+Welcome to United Pentecostal Church Phil. Inc. - G.I.F.T (Grace In-Christ Fellowship Temple) Pasay! We are a Spirit-filled community dedicated to spreading the Gospel and nurturing spiritual growth through Biblical teaching and fellowship.
 
 ## Our Vision
 
