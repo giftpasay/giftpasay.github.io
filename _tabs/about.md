@@ -18,7 +18,7 @@ Welcome to United Pentecostal Church Phil. Inc. - G.I.F.T (Grace In-Christ Fello
 
 ## Our Vision
 
-A grace abounding church that everyone would want to join and be apart of. Seeking and saving God's lost children in Pasay City; Distributing His GIFTS to everyone, glorifying the name of The Lord Jesus Christ in the process.
+A grace-abounding church that everyone would want to join and be a part of—seeking and saving God's lost children in Pasay City, distributing His gifts to everyone, and glorifying the name of the Lord Jesus Christ in the process.
 
 ## What We Offer
 
