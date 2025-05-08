@@ -70,4 +70,4 @@ The Holy Spirit is not a side note in the Christian life—it is **the very life
 
 > “Christ in you, the hope of glory.” — _Colossians 1:27_
 
-Let us not settle for a powerless Christianity. Let us be filled, led,
+Let us not settle for a powerless Christianity. Let us be filled, led, and transformed by **the Holy Spirit**, who is none other than **Jesus Christ living in us**.

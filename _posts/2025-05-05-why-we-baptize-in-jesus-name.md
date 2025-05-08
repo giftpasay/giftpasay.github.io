@@ -45,4 +45,16 @@ Baptism is more than symbolic. It’s the moment when sins are **remitted**—wa
 
 Romans 6 teaches that we are baptized **into Christ’s death**, buried with Him through baptism. If baptism represents His burial, then using His name is **essential**. No one was buried in the title “Father” or “Son”—He was buried as **Jesus**.
 
-To obey the Gospel fully
+To obey the Gospel fully means to:
+
+1. **Repent** (death to sin),
+2. **Be baptized in Jesus’ name** (burial),
+3. **Receive the Holy Ghost** (resurrection).
+
+## Conclusion
+
+Baptizing in Jesus’ name isn’t just a tradition—it’s a **command** rooted in Scripture and practiced by the apostles. It’s how the early Church fulfilled Christ’s commission, and it’s how we enter into the covenant of salvation today.
+
+> “Whatsoever ye do… do all in the name of the Lord Jesus.” — _Colossians 3:17_
+
+If the apostles baptized in Jesus’ name, then so should we.
