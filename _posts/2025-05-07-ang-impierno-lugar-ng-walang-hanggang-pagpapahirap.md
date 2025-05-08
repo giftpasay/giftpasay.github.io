@@ -37,11 +37,11 @@ Ang impierno ay iba sa libingan sapagkat ang impierno ay lugar na hindi namamata
 
 ## III – Saan matatagpuan ang Impierno?
 
-Kapag pinag-usapan ang dakong kinalalaagan ng impierno, ang biblia ay laging nagbabanggit na ito ay nasa ilalim o ibabang dako.
+Kapag pinag-usapan ang dakong kinalalagyan ng impierno, ang biblia ay laging nagbabanggit na ito ay nasa ilalim o ibabang dako.
 
 ![Desktop View](https://ik.imagekit.io/g0xkgtz2g/Bottomless%20pit%20hell.jpg?updatedAt=1746606030805){: width="700" height="400" }
 
-**Isa 14:9** **_Ang Sheol mula sa ibaba_** ay nakikilos sa iyo upang salubungin ka sa iyong pagdating; nangapupukaw ang mga patay dahil sa iyo, sa makatuwid baga'y ang lahat na pinaka-pangulo sa lupa; nagsiindig mula sa kanilang mga luklukan ang lahat ng hari ng mga bansa.
+**Isa 14:9** **_Ang Sheol mula sa ibaba_** ay nakikilos sa iyo upang salubungin ka sa iyong pagdating; nangapupukaw ang mga patay dahil sa iyo, sa makatuwid baga'y ang lahat na pinaka-pangulo sa lupa; nagsitindig mula sa kanilang mga luklukan ang lahat ng hari ng mga bansa.
 
 **Mga Awit 63:9** Nguni't ang nagsisihanap ng kaluluwa ko, upang ipahamak, magsisilusong sa mga lalong **mababang bahagi ng lupa**.
 
