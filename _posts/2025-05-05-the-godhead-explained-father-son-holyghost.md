@@ -60,4 +60,19 @@ This is not a contradiction or confusion, but a beautiful revelation of how the 
 
 ## What About Matthew 28:19?
 
-Some point to **Matthew 28:19** to support a Trinitarian view, where Jesus instructed to baptize
+Some point to **Matthew 28:19** to support a Trinitarian view, where Jesus instructed to baptize _“in the name of the Father, and of the Son, and of the Holy Ghost.”_ Oneness believers affirm this verse but understand it **in light of the name**:
+
+- The verse says _“name”_ (singular), not _“names.”_
+- What is the name of the Father? Jesus (John 5:43).
+- What is the name of the Son? Jesus (Matthew 1:21).
+- What is the name of the Holy Ghost? Jesus (John 14:26).
+
+Thus, the **one name** that fulfills all three titles is **Jesus**. That’s why every baptism in the Book of Acts was done **in Jesus’ name**—because the apostles understood who Jesus truly is.
+
+## Conclusion
+
+The Godhead is not a mystery of three persons but a **revelation of one God** in three distinct roles or manifestations. This understanding doesn’t diminish the greatness of God—it magnifies His love, plan, and personal involvement in our salvation. Jesus is the **fullness of the Godhead bodily** (Colossians 2:9), and in Him, we have everything we need.
+
+> “For in him dwelleth all the fulness of the Godhead bodily.” — _Colossians 2:9_
+
+To know Jesus is to know the Father, to receive the Holy Ghost is to receive Jesus, and to believe in One God is to embrace the truth of Scripture. **The Godhead is revealed in the name of Jesus**.

@@ -5,6 +5,7 @@ categories: [Bible Study, Eschatology]
 tags: [hell, punishment, suffering, eternal life]
 image: https://ik.imagekit.io/g0xkgtz2g/Hell.jpg?updatedAt=1746605766240
 pin: true
+comments: false
 ---
 
 **Mga Awit 9:17** Ang masama ay mauwi sa **Sheol** (impierno), pati ng lahat ng mga bansa na nagsisilimot sa Dios. `(Basahin din ang Lucas 16:19-31)`.
@@ -173,4 +174,4 @@ Kung ikaw ay papipiliin, anong gugustuhin mo? Kaligtasan at buhay na walang hang
 ## Credits
 
 > **Book:** Mga Pangunahing Doktrina sa Biblia - Pages 27-31 <br> **Author:** <a href="https://www.facebook.com/cometa.ranny" target="_blank"> Rev. Ranny D. Cometa | UPC Naga</a>
-{: .prompt-info }
+> {: .prompt-info }
