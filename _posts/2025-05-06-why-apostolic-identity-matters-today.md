@@ -4,6 +4,7 @@ date: 2025-05-06 10:30:00 +0800
 categories: [Church, Doctrine, Culture]
 tags: [apostolic, identity, holiness, doctrine]
 image: https://ik.imagekit.io/g0xkgtz2g/487860161_1074963758001055_1321541071429171598_n.jpg?updatedAt=1746661258441
+comments: false
 ---
 
 In a world of shifting values, blurred theology, and cultural compromise, maintaining a strong **Apostolic identity** is not just important—it is **essential**. Apostolic identity is rooted in the doctrine, experience, and lifestyle of the early Church as revealed in the Book of Acts. It defines who we are, what we believe, and how we live.

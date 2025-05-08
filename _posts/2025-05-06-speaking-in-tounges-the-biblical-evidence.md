@@ -4,6 +4,7 @@ date: 2025-05-06 09:00:00 +0800
 categories: [Theology, Experience]
 tags: [speaking in tongues, holy ghost, pentecostal experience]
 image: https://ik.imagekit.io/g0xkgtz2g/490405891_1082153410615423_1497166315293781031_n.jpg?updatedAt=1746661584268
+comments: false
 ---
 
 One of the most distinctive marks of the Pentecostal experience is **speaking in tongues**—a miraculous sign of the infilling of the Holy Ghost. But far from being a modern phenomenon or emotional outburst, speaking in tongues is a **biblical pattern** found throughout the New Testament. It is the initial, outward evidence of receiving the Holy Spirit and continues to be a vital part of the believer’s spiritual life.

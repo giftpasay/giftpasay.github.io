@@ -4,6 +4,7 @@ date: 2025-05-06
 categories: [Salvation, Experience]
 tags: [holy ghost, new birth, pentecost, spiritual gifts]
 image: https://ik.imagekit.io/g0xkgtz2g/490562163_1082394310591333_6548425185114231754_n.jpg?updatedAt=1746661697280
+comments: false
 ---
 
 Receiving the Holy Ghost is one of the greatest experiences a person can have—it is the **indwelling of God’s Spirit**, the fulfillment of God’s promise, and the essential second part of the New Birth. This experience is not reserved for a select few; it is available to **everyone who believes and obeys** the Gospel.

@@ -4,6 +4,7 @@ date: 2025-05-05
 categories: [Theology, Doctrine]
 tags: [baptism, jesus name, salvation, apostolic]
 image: https://ik.imagekit.io/g0xkgtz2g/491802090_1091195556377875_1785689666353715976_n.jpg?updatedAt=1746661811180
+comments: false
 ---
 
 Baptism is a foundational act of obedience in the Christian life, and how it is performed carries deep theological meaning. For Oneness Pentecostals, **baptism in the name of Jesus Christ** is not merely a tradition, but a **biblical command** and an essential part of the new birth experience. It is directly connected to the remission of sins and the application of the gospel to a person’s life.

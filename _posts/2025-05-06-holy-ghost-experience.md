@@ -4,6 +4,7 @@ date: 2025-05-06 09:30:00 +0800
 categories: [Salvation, Doctrine]
 tags: [holy ghost, new birth, salvation, pentecost]
 image: https://ik.imagekit.io/g0xkgtz2g/490553748_1082153483948749_3984393425650411163_n.jpg?updatedAt=1746661490136
+comments: false
 ---
 
 The message of the New Testament is clear: **you must be born again**. Jesus declared it plainly in John 3:5:

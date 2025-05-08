@@ -4,6 +4,7 @@ date: 2025-05-05
 categories: [Theology, Christian Living]
 tags: [holy spirit, apostolic, new birth, power]
 image: https://ik.imagekit.io/g0xkgtz2g/489877858_1082394397257991_5048972485609006127_n.jpg?updatedAt=1746661697282
+comments: false
 ---
 
 The Holy Spirit is not an impersonal force or a separate divine person, but **the Spirit of Jesus Christ living and working within us**. For Oneness Pentecostals, the Holy Spirit plays a central role in every aspect of salvation, sanctification, and daily Christian living. It is the indwelling power of God that transforms the heart, empowers the believer, and sustains the walk of faith.

@@ -4,6 +4,7 @@ date: 2025-05-05
 categories: [Theology, Salvation]
 tags: [baptism, jesus name, apostolic doctrine]
 image: https://ik.imagekit.io/g0xkgtz2g/492147910_1091194929711271_4116181856548017464_n.jpg?updatedAt=1746661696951
+comments: false
 ---
 
 Baptism in the name of Jesus Christ is not a denominational preference—it is a **biblical command**. Oneness Pentecostals baptize in Jesus’ name because it aligns with the apostolic pattern and clearly declares the name of the One who saves. It is an essential part of the new birth experience and the covenantal act of identifying with the death, burial, and resurrection of Jesus Christ.
