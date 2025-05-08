@@ -10,6 +10,12 @@ order: 4
 
 Welcome to United Pentecostal Church Phil. Inc. - G.I.F.T (Grace In-Christ Fellowship Temple) Pasay! We are a Spirit-filled community dedicated to spreading the Gospel and nurturing spiritual growth through Biblical teaching and fellowship.
 
+# Our Pastor
+
+![Desktop View](<https://ik.imagekit.io/g0xkgtz2g/490066295_1081477980682966_7613510574937348021_n(1).jpg?updatedAt=1746663282298>){: w="200" h="200" }
+
+**Rev. Virgilio (Sael) C. Anota Jr** is the pastor of UPC GIFT Pasay. He is a dedicated servant of God with a passion for teaching and preaching the Word. Under his leadership, our church has grown in faith and community outreach.
+
 ## Our Vision
 
 A grace abounding church that everyone would want to join and be apart of. Seeking and saving God's lost children in Pasay City; Distributing His GIFTS to everyone, glorifying the name of The Lord Jesus Christ in the process.
