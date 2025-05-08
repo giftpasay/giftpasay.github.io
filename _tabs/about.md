@@ -7,14 +7,13 @@ order: 4
 ![Desktop View](https://ik.imagekit.io/g0xkgtz2g/giftchurch.jpg?updatedAt=1746626721382){: width="700" height="400" }
 _15th Year Anniversary Celebration of UPC GIFT Pasay_
 
-# About UPC GIFT Pasay
+# Welcome to __United Pentecostal Church Philippines, Inc., Grace In-Christ Fellowship Temple (GIFT) Pasay!__
 
-Welcome to United Pentecostal Church Philippines, Inc. - G.I.F.T (Grace In-Christ Fellowship Temple) Pasay!
 We are a Spirit-filled community dedicated to spreading the Gospel and nurturing spiritual growth through Biblical teaching and fellowship. This year marks our 15th Anniversary, and we joyfully celebrate God's faithfulness, guidance, and abundant grace throughout the years. Join us as we honor this milestone and continue to grow together in faith, love, and purpose.
 
-# Our Pastor
+## Our Pastor
 
-![Desktop View](<https://ik.imagekit.io/g0xkgtz2g/490066295_1081477980682966_7613510574937348021_n(1).jpg?updatedAt=1746663282298>){: w="200" h="200" }
+![Desktop View](<https://ik.imagekit.io/g0xkgtz2g/490066295_1081477980682966_7613510574937348021_n(1).jpg?updatedAt=1746663282298>){: w="324" h="324" .normal}
 
 **Rev. Virgilio (Sael) C. Anota Jr** is the pastor of UPC GIFT Pasay. He is a dedicated servant of God with a passion for teaching and preaching the Word. Under his leadership, our church has grown in faith and community outreach.
 
