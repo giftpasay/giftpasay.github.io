@@ -65,6 +65,6 @@ Ang bagong kapanganakan ay **hindi lamang paniniwala**, kundi **pagsisisi, bauti
 
 ---
 
-**Tunay ngang iisa lamang ang daan patungong langit—at ang daang iyon ay si Jesus.** Hindi relihiyon, hindi ang gawa ng tao, kundi ang Panginoong si Jesucristo ang tanging daan tungo sa Ama.
+**Tunay ngang iisa lamang ang daan patungong langit—at ang daang iyon ay si Jesus.**
 
 > _“Ako ang pintuan; sinumang pumasok sa pamamagitan Ko, ay maliligtas…”_ — **Juan 10:9**
