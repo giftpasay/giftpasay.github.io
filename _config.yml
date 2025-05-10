@@ -16,7 +16,7 @@ timezone: Asia/Manila
 
 title: G.I.F.T Pasay # the main title
 
-tagline: Grace In-Christ Fellowship Temple - Blog Site # it will display as the subtitle
+tagline: Grace In-Christ Fellowship Temple # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   This blog is a collection of Bible study materials, sermons, and other resources to help you grow in your faith.
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/448548075_865981065565993_6685927515677957295_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFSUKlFU2Ckjeb43bQJlrANrUO6Js3CjBitQ7omzcKMGEDWasD2RUFFD0QOW32oaDutCXOdjlpl8LK8Na0jezMV&_nc_ohc=UfL8ipDD9ZUQ7kNvwGeJgKJ&_nc_oc=AdkZk_mWQZKBG1T6HV7sH4GzwvnJchZ-T1oTGOkNLejyFQwrTyP34__JmDJ2eLvtSrmVklQqcVgD70NOrp_YSsGH&_nc_zt=23&_nc_ht=scontent.fmnl25-1.fna&_nc_gid=WVF2vazEaIeng4aKWEu6Fw&oh=00_AfEGm4dDVeHZ7f5BzjjdPQDbR-63gOk4xcHK2pxDXH67qw&oe=681E8F7A
+avatar: https://ik.imagekit.io/g0xkgtz2g/favicon.jpg?updatedAt=1746848078185
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
