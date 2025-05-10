@@ -18,5 +18,4 @@ Think about times in the Bible when people felt like they couldn't go on. Moses 
 So, when you feel like you don't have enough strength, remember what the Bible says. God's strength can help you, even when you feel like you have none. It's not about being strong by yourself. It's about trusting that God can give you the strength you need, even when things are hard.
 
 Just like the seed trusts God to help it grow, we can trust God to give us strength beyond what we have on our own.
-
-_#GodsStrength #HelpFromGod #FaithInWeakness #BibleTruth #SimpleFaith_
+When we feel weak, we can ask God for help. He is always there to give us strength and help us grow. So, don't worry if you feel weak sometimes. Just remember that God's power is always with you, and He can help you do amazing things, even when you think you can't.
