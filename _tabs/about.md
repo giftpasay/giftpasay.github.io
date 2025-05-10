@@ -7,9 +7,9 @@ order: 4
 ![Desktop View](https://ik.imagekit.io/g0xkgtz2g/giftchurch.jpg?updatedAt=1746626721382){: width="700" height="400" }
 _15th Year Anniversary Celebration of UPC GIFT Pasay_
 
-# Welcome to __United Pentecostal Church Philippines, Inc., Grace In-Christ Fellowship Temple (GIFT) Pasay!__
+# Welcome to UPC GIFT Pasay
 
-We are a Spirit-filled community dedicated to spreading the Gospel and nurturing spiritual growth through Biblical teaching and fellowship. This year marks our 15th Anniversary, and we joyfully celebrate God's faithfulness, guidance, and abundant grace throughout the years. Join us as we honor this milestone and continue to grow together in faith, love, and purpose.
+We are a Spirit-filled community of believers at United Pentecostal Church Philippines, Inc. – Grace In-Christ Fellowship Temple (GIFT) Pasay, dedicated to sharing the Gospel and nurturing spiritual growth through sound Biblical teaching and genuine fellowship. This year, we joyfully celebrate our 15th Anniversary—a reflection of God’s unwavering faithfulness, divine guidance, and abundant grace. Come and celebrate this milestone with us as we continue to grow together in faith, love, and purpose.
 
 ## Our Pastor
 
