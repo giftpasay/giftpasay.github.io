@@ -1,10 +1,10 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 1
 ---
 
-![Desktop View](https://ik.imagekit.io/g0xkgtz2g/giftchurch.jpg?updatedAt=1746626721382){: width="700" height="400" }
+![Desktop View](https://ik.imagekit.io/g0xkgtz2g/giftchurch.jpg?updatedAt=1746626721382){: width="820" height="400" }
 _15th Year Anniversary Celebration of UPC GIFT Pasay_
 
 # Welcome to UPC GIFT Pasay
@@ -15,7 +15,7 @@ We are a Spirit-filled community of believers at United Pentecostal Church Phili
 
 ![Desktop View](<https://ik.imagekit.io/g0xkgtz2g/490066295_1081477980682966_7613510574937348021_n(1).jpg?updatedAt=1746663282298>){: w="324" h="324" .normal}
 
-**Rev. Virgilio (Sael) C. Anota Jr** is the pastor of UPC GIFT Pasay. He is a dedicated servant of God with a passion for teaching and preaching the Word. Under his leadership, our church has grown in faith and community outreach.
+**<a href="https://www.facebook.com/sael.anota" target="_blank">Rev. Virgilio (Sael) C. Anota Jr</a>** is the pastor of UPC GIFT Pasay. He is a dedicated servant of God with a passion for teaching and preaching the Word. Under his leadership, our church has grown in faith and community outreach.
 
 ## Our Vision
 
@@ -44,14 +44,11 @@ We believe in the fundamental doctrine of the Apostolic Faith:
 - Baptism in Jesus' name
 - The infilling of the Holy Ghost
 - Living a holy, separated life
-
-## Connect With Us
-
-- 📍 **Location**: <a href="https://g.co/kgs/GXztGwH" target="_blank"> 719 P. Rivera St. Brgy 116, Zone 14, Pasay City, Philippines, 1300</a>
-- 📞 **Contact**: <a href="tel:09205703382">0920 570 3382</a>
-- 📧 **Email**: <a href="mailto:upcgiftpasay@gmail.com">upcgiftpasay@gmail.com</a>
-- 📱 **Facebook**: <a href="https://www.facebook.com/GIFTPASAY" target="_blank">UPC Pasay - GIFT</a>
+  <br>
+  <br>
 
 ---
 
-_"Growing In Faith Together - Teaching the Word, Reaching the World"_
+## Get in Touch
+
+<i class="fab fa-facebook"></i> <a href="https://www.facebook.com/GIFTPASAY" target="_blank">UPC Pasay - GIFT</a>
