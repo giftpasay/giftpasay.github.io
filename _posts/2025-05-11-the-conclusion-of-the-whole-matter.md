@@ -81,7 +81,7 @@ But this shouldn't cause terror. Instead, it should help us live right. Knowing 
 
 Even when we mess up, God loves us deeply. Hell wasn't made for people. God wants everyone to be saved.
 
-That's why He sent Jesus to save us.
+That's why He came to save us.
 
 ## What We Should Do
 
