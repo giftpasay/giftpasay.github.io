@@ -79,8 +79,6 @@ But this shouldn't cause terror. Instead, it should help us live right. Knowing 
 
 ## 7. God Loves Us So Much
 
-Pastor Sael's voice filled with emotion when he said: _"Do you know how much God loves you? Do you know how much, how much, how much God loves you?"_
-
 Even when we mess up, God loves us deeply. Hell wasn't made for people. God wants everyone to be saved.
 
 That's why He sent Jesus to save us.
