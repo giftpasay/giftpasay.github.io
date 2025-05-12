@@ -1,7 +1,7 @@
 ---
 title: Beyond Your Own Strength
 date: 2025-05-10 10:06:00 +0800
-categories: [Devotionals]
+categories: [Devotional]
 tags: [faith, strength, weakness]
 image: https://ik.imagekit.io/g0xkgtz2g/BEYOND%20YOUR%20OWN%20STRENGTH_20250509_003257_0000.jpg?updatedAt=1746722147995
 comments: false
