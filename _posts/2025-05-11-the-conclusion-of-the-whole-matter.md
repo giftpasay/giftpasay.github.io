@@ -5,7 +5,7 @@ categories: [Sermon]
 tags: [fear of god, holiness, purpose, judgment, solomon]
 image: https://ik.imagekit.io/g0xkgtz2g/conclusion%20of%20the%20whole%20matter.jpg?updatedAt=1746971622184
 comments: false
-pin: true
+pin: false
 ---
 
 # 7 Key Lessons from "The Conclusion of the Whole Matter"
