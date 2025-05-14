@@ -236,53 +236,56 @@ Dahil sa kamatayan ni Cristo sa krus ng Kalbaryo, nagkaroon tayo ng pagkakataong
 
 ---
 
-📄 38 of 114
-
 ## Sagutan ang mga sumusunod na katanungan:
 
-1. `________________`
+**1.** `________________`
    At siya'y namatay `________ ___ _____`,  
    Upang ang nangabubuhay ay huwag nang mabuhay pa sa kanilang sarili,  
    Kundi doon sa namatay dahil sa kanila at muling nabuhay.
 
-2. **Magbigay ng dalawang talatang nagpapakita na ang kamatayan ni Cristo sa krus para matubos tayo sa kasalanan ay hindi biglaang solusyon kundi isang planong naipasiya Niya na bago pa itatag ang sanglibutan.**
-   A. `______________`
-   B. `______________`
+**2.** Magbigay ng dalawang talatang nagpapakita na ang kamatayan ni Cristo sa krus para matubos tayo sa kasalanan ay hindi biglaang solusyon kundi isang planong naipasiya Niya na bago pa itatag ang sanglibutan.
 
-3. **Ibigay ang dalawang talatang nagpapakita na ayon sa Biblia ang kasalanan ay matutubos lamang sa pamamagitan ng dugo na siyang katumbas ng buhay**
    A. `______________`  
    B. `______________`
 
-4. **Gen 3:15**  
+**3.** Ibigay ang dalawang talatang nagpapakita na ayon sa Biblia ang kasalanan ay matutubos lamang sa pamamagitan ng dugo na siyang katumbas ng buhay
+
+   A. `______________`  
+   B. `______________`
+
+**4.** **Gen 3:15**  
    At `_______________` ko ikaw at ang babae,  
    At ang iyong binhi at ang kaniyang binhi:  
    Ito ang dudurog ng iyong `___________`,  
    At ikaw ang dudurog ng kaniyang `____________`.
 
-5. **Ano ang ibig sabihin ng mga ito?**  
+**5.** Ano ang ibig sabihin ng mga ito?
+
    A. _Pagdurog sa ulo ng ahas_ – `_______________`  
    B. _Pagdurog sa sakong ng binhi ng babae_ – `_______________`
 
-6. **Magbigay ng dalawang talatang nagpapakita na ang kamatayan ni Cristo sa krus ay hindi kabiguan kundi pagtatagumpay Niya laban sa Diablo**  
+**6.** Magbigay ng dalawang talatang nagpapakita na ang kamatayan ni Cristo sa krus ay hindi kabiguan kundi pagtatagumpay Niya laban sa Diablo
+
    A. `______________`  
    B. `______________`
 
-7. **Doon sa \*\***\_**\*\***, binayaran ni Cristo ang ating `___________`,  
-   At ang pag-aalay Niyang ito ay para sa kapakinabangan ng lahat ng taong sasampalataya at tatalima sa Kaniya (Gal. 3:13; Roma 3:24–26).
+**7.** Doon sa `__________`, binayaran ni Cristo ang ating `___________`,
+   At ang pag-aalay Niyang ito ay para sa kapakinabangan ng lahat ng taong sasampalataya at tatalima sa Kaniya `(Gal. 3:13; Roma 3:24–26)`.
 
-8. **Anu-ano ang tatlong mahalagang layunin kung bakit nagkatawang tao at namatay si Cristo sa krus?**  
+**8.** Anu-ano ang tatlong mahalagang layunin kung bakit nagkatawang tao at namatay si Cristo sa krus?
+
    A. `_____________`  
    B. `_____________`  
    C. `_____________`
 
-9. **Heb 2:14**  
+**9.** **Heb 2:14**  
    Dahil sa ang mga anak ay mga may bahagi sa laman at dugo,  
    Siya nama'y gayon ding nakabahagi sa mga ito;  
    Upang sa pamamagitan ng `________________`  
    Ay kaniyang `___________` yaong may paghahari sa kamatayan,  
    Sa makatuwid ay ang `____________`:
 
-10. **Anong talata ito?**  
+**10.** **Anong talata ito?**  
     _Sapagka't ito ang aking dugo ng tipan, na nabubuhos dahil sa marami, sa ikapagpapatawad ng mga kasalanan._  
     `______________`.
 
