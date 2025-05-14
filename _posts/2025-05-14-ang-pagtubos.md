@@ -1,6 +1,6 @@
 ---
 title: Ang pagtubos (Ang Gawaing Pagliligtas ng Dios)
-date: 2025-05-11 06:30:00 +0800
+date: 2025-05-14 08:00:00 +0800
 categories: [Bible Study, Salvation]
 tags: [pagtubos, kaligtasan, dugo ni cristo, plano ng Dios, foreknowledge]
 image: https://ik.imagekit.io/g0xkgtz2g/Redemption.jpg?updatedAt=1747217858776
@@ -97,6 +97,7 @@ Kaya't nang dumating si Cristo sa sanglibutan, ginanap Niya ang layuning ito `(I
 > Na pinawi ang usapang nasusulat sa mga palatuntunan laban sa atin, na hindi naaayon sa atin: at ito'y kaniyang inalis, na ipinako sa krus;  
 > **15 Pagkasamsam sa mga pamunuan at sa mga kapangyarihan**, sila'y mga inilagay niya sa hayag na kahihiyan, na nagtatagumpay siya sa kanila sa bagay na ito.
 
+
 **Ang pagdurog sa sakong ng binhi ng babae** ay kumakatawan naman sa pansamantalang pagpapahirap ng Diablo sa Messias o Cristo `(Isa. 53:1-12; Mga Gawa 2:35-36; Heb. 2:14-15; Apoc. 1:18)`.
 
 **Isaias 53:5**
@@ -113,6 +114,8 @@ Lahat ng paraan ay ginawa ng Diablo upang **mahadlangan** ang paglitaw ng binhi 
 - At sa kahulihulihan ay ang pagpatay mismo kay Cristo sa krus ng Kalbaryo – `Mga Gawa 3:15`
 
 ### Ang Kabiguan ng Diablo:
+
+![Desktop View](https://ik.imagekit.io/g0xkgtz2g/Jesus%20died%20on%20the%20cross%20silhouette.jpg?updatedAt=1747223650754){: width="300" height="400" .normal }
 
 Ang kamatayan ni Cristo sa krus ay hindi pagtatagumpay ng Diablo kundi sa halip ay naging kabiguan niya, sapagka't lingid sa kaniyang kaalaman, **ang kamatayan ni Cristo sa krus** ang siyang katuparan sa planong pagtubos ng Dios sa sangkatauhan upang mailigtas ito mula sa tiyak na kapahamakan.
 
@@ -181,6 +184,9 @@ Nabautismuhan ba sila sa tubig sa pangalan ni Jesucristo at sa Espiritu Santo?
 Hindi porke't ginamit ng isang samahan ang pangalang "Iglesia ni Cristo" o kaya'y "Iglesia ng Dios" ay sila na ang tinutukoy nito sa Biblia.
 
 ## VI – Tatlo sa pinaka-mahalagang layunin kung bakit namatay si Cristo sa Krus:
+
+
+![Desktop View](https://ik.imagekit.io/g0xkgtz2g/Crown%20of%20thorns.jpg?updatedAt=1747223359983){: width="300" height="400" .normal }
 
 - **Para sa pagbabayad-sala o pagtubos sa ating kasalanan**
 
