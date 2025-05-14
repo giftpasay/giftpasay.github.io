@@ -1,6 +1,6 @@
 ---
 title: Ang pagtubos (Ang Gawaing Pagliligtas ng Dios)
-date: 2025-05-14 08:00:00 +0800
+date: 2025-05-14
 categories: [Bible Study, Salvation]
 tags: [pagtubos, kaligtasan, dugo ni cristo, plano ng Dios, foreknowledge]
 image: https://ik.imagekit.io/g0xkgtz2g/Redemption.jpg?updatedAt=1747217858776
