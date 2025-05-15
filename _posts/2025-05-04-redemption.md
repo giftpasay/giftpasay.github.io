@@ -40,7 +40,9 @@ In His foreknowledge, God saw that the human He would create would sin, and beca
 But God in His foreknowledge saw not only man's sin but also the solution to this problem, which is His incarnation as redemption for the sins of the world.
 
 `1 Peter 1:18-20`
-> Knowing that you were not redeemed with corruptible things, like silver or gold, from your aimless conduct received by tradition from your fathers, but with the precious blood of Christ, as of a lamb without blemish and without spot. He indeed was foreordained before the foundation of the world, but was manifest in these last times for you.
+> **18** Knowing that you were not redeemed with corruptible things, like silver or gold, from your aimless conduct received by tradition from your fathers,
+> **19** but with the precious blood of Christ, as of a lamb without blemish and without spot.
+> **20** He indeed was foreordained before the foundation of the world, but was manifest in these last times for you.
 
 `Revelation 13:8`
 > All who dwell on the earth will worship him, whose names have not been written in the Book of Life of the Lamb slain from the foundation of the world.
@@ -79,7 +81,8 @@ The bruising of the serpent's head is an Eastern phrase meaning the destruction 
 So when Christ came into the world, He fulfilled this purpose (`1 Timothy 2:6`; `3:16`; `Acts 26:18`; `Colossians 1:12-14`; `2:14-15`).
 
 `Colossians 2:14-15`
-> Having wiped out the handwriting of requirements that was against us, which was contrary to us. And He has taken it out of the way, having nailed it to the cross. Having disarmed principalities and powers, He made a public spectacle of them, triumphing over them in it.
+> **14** Having wiped out the handwriting of requirements that was against us, which was contrary to us. And He has taken it out of the way, having nailed it to the cross.
+> **15** Having disarmed principalities and powers, He made a public spectacle of them, triumphing over them in it.
 
 The bruising of the heel of the woman's seed represents the temporary suffering that the Devil would inflict on the Messiah or Christ (`Isaiah 53:1-12`; `Acts 2:35-36`; `Hebrews 2:14-15`; `Revelation 1:18`).
 
@@ -103,7 +106,8 @@ Christ's death on the cross was not the Devil's victory but rather his failure, 
 > Which none of the rulers of this age knew; for had they known, they would not have crucified the Lord of glory.
 
 `Revelation 1:17-18`
-> And when I saw Him, I fell at His feet as dead. But He laid His right hand on me, saying to me, "Do not be afraid; I am the First and the Last. I am He who lives, and was dead, and behold, I am alive forevermore. Amen. And I have the keys of Hades and of Death."
+> **17** And when I saw Him, I fell at His feet as dead. But He laid His right hand on me, saying to me, "Do not be afraid; I am the First and the Last.
+> **18** I am He who lives, and was dead, and behold, I am alive forevermore. Amen. And I have the keys of Hades and of Death."
 
 ## IV – The shadow of redemption in the Old Testament
 
@@ -159,7 +163,10 @@ The question is: are they those people? Were they baptized in water in the name 
   (Read: `Ephesians 2:11-17` and `Colossians 1:19-22`)
 
   `Colossians 1:19-22`
-  > For it pleased the Father that in Him all the fullness should dwell, and by Him to reconcile all things to Himself, by Him, whether things on earth or things in heaven, having made peace through the blood of His cross. And you, who once were alienated and enemies in your mind by wicked works, yet now He has reconciled in the body of His flesh through death, to present you holy, and blameless, and above reproach in His sight.
+  > **19** For it pleased the Father that in Him all the fullness should dwell,
+  > **20** and by Him to reconcile all things to Himself, by Him, whether things on earth or things in heaven, having made peace through the blood of His cross.
+  > **21** And you, who once were alienated and enemies in your mind by wicked works, yet now He has reconciled
+  > **22** in the body of His flesh through death, to present you holy, and blameless, and above reproach in His sight.
 
 ## Conclusion:
 
@@ -174,7 +181,6 @@ Because of Christ's death on the cross of Calvary, we have the opportunity to be
 > For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life.
 
 (Also read: `Ephesians 1:7`; `Colossians 1:14`; `Hebrews 9:15`; `Revelation 5:9-10`)
-
 
 <br>
 
