@@ -20,7 +20,7 @@ Today's sermon revealed something profound about God's method for reaching peopl
 
 > _"For after that in the wisdom of God the world by wisdom knew not God, it pleased God by the foolishness of preaching to save them that believe."_ - **1 Corinthians 1:21**
 
-Pastor Sael reminded us that to the world, preaching seems foolish. It seems like nothing special. But God chose this very thingc-this seemingly simple act of proclaiming His Word-as His primary method to save people.
+Pastor Sael reminded us that to the world, preaching seems foolish. It seems like nothing special. But God chose this very thing-this seemingly simple act of proclaiming His Word-as His primary method to save people.
 
 **Key insight:** God didn't choose elaborate rituals, complicated philosophy, or spectacular shows. He chose the simple proclamation of His Word.
 
