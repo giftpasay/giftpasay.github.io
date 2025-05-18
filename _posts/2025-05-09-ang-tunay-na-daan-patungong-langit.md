@@ -5,7 +5,7 @@ categories: [Kaligtasan, Pananampalataya]
 tags: [kaligtasan, langit, born again]
 image: https://ik.imagekit.io/g0xkgtz2g/Walking%20to%20heaven.jpg?updatedAt=1746761037589
 comments: false
-pin: true
+pin: false
 ---
 
 ## Saan Nga Ba Ang Daan Patungong Langit?

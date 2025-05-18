@@ -5,7 +5,7 @@ categories: [Bible Study, Salvation]
 tags: [pagtubos, kaligtasan, dugo ni cristo, plano ng Dios, foreknowledge]
 image: https://ik.imagekit.io/g0xkgtz2g/Redemption.jpg?updatedAt=1747217858776
 comments: false
-pin: true
+pin: false
 ---
 
 **2 Cor 5:15**
