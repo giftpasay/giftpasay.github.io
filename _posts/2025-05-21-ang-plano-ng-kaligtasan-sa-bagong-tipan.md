@@ -14,23 +14,17 @@ pin: true
 > at magbangong muli sa mga patay sa ikatlong araw;  
 > **47** At ipangaral sa kaniyang pangalan ang **pagsisisi** at **pagpapatawad ng mga kasalanan** sa lahat ng mga bansa, **magbuhat sa Jerusalem**.  
 > **48** Kayo'y mga saksi ng mga bagay na ito.  
-> **49** At narito, ipadadala ko sa inyo ang pangako ng aking Ama,  
-> datapuwa't magsitira kayo sa bayan, hanggang sa kayo'y masangkapan ng kapangyarihang galing sa itaas.
+> **49** At narito, ipadadala ko sa inyo ang pangako ng aking Ama, datapuwa't magsitira kayo sa bayan, hanggang sa kayo'y masangkapan ng kapangyarihang galing sa itaas.
 
 ## Panimula
 
 **Ano ang kaligtasan?**  
-Sa konteksto ng Banal na Kasulatan, ang _kaligtasan_ ay nangangahulugang  
-**"ang kalayaan ng tao mula sa lahat ng kapangyarihan at epekto ng kasalanan."**  
-Sa Biblia, ito ay tumutukoy sa _panunumbalik ng tao sa Dios mula sa kapangyarihan ni Satanas._
+Sa konteksto ng Banal na Kasulatan, ang _kaligtasan_ ay nangangahulugang **"ang kalayaan ng tao mula sa lahat ng kapangyarihan at epekto ng kasalanan."** Sa Biblia, ito ay tumutukoy sa _panunumbalik ng tao sa Dios mula sa kapangyarihan ni Satanas._
 
 **Mga Gawa 26:17–18**
 
 > **17** Na ililigtas kita sa bayan, at sa mga Gentil, na sa kanila'y sinusugo kita,  
-> **18** Upang idilat mo ang kanilang mga mata, upang sila'y mangagbalik sa ilaw mula sa kadiliman  
-> at mula sa kapangyarihan ni Satanas hanggang sa Dios,  
-> upang sila'y magsitanggap ng **kapatawaran ng mga kasalanan**  
-> at ng mga mana sa kasamahan ng mga pinapaging banal sa pamamagitan ng pananampalataya sa akin.
+> **18** Upang idilat mo ang kanilang mga mata, upang sila'y mangagbalik sa ilaw mula sa kadiliman at mula sa kapangyarihan ni Satanas hanggang sa Dios, upang sila'y magsitanggap ng **kapatawaran ng mga kasalanan** at ng mga mana sa kasamahan ng mga pinapaging banal sa pamamagitan ng pananampalataya sa akin.
 
 ---
 
@@ -45,21 +39,16 @@ Sa Biblia, ito ay tumutukoy sa _panunumbalik ng tao sa Dios mula sa kapangyariha
 
 **Roma 3:23**
 
-> **23** Sapagka't ang lahat ay nangagkasala nga,  
-> at hindi nangakaabot sa kaluwalhatian ng Dios.
+> **23** Sapagka't ang lahat ay nangagkasala nga, at hindi nangakaabot sa kaluwalhatian ng Dios.
 
 **... at ang kabayaran ng kasalanan ay Kamatayan!!!**
 
 **Roma 6:23**
 
-> **23** Sapagka't **ang kabayaran ng kasalanan ay kamatayan**;  
-> datapuwa't ang kaloob na walang bayad ng Dios ay buhay na walang hanggan  
-> kay Cristo Jesus na Panginoon natin.
+> **23** Sapagka't **ang kabayaran ng kasalanan ay kamatayan**; datapuwa't ang kaloob na walang bayad ng Dios ay buhay na walang hanggan kay Cristo Jesus na Panginoon natin.
 
 **Tandaan:**  
-Ang kamatayang tinutukoy dito ay hindi lamang sa pisikal (`Santiago 2:26`),  
-kundi pati na rin ang **espiritwal na kamatayan** (`Isaias 59:1–2`; `Efeso 2:1–3`)  
-na siyang magdadala sa tao sa kapahamakan doon sa **impierno** (`Apoc. 20:11–15`; `Apoc. 21:8`).
+Ang kamatayang tinutukoy dito ay hindi lamang sa pisikal (`Santiago 2:26`), kundi pati na rin ang **espiritwal na kamatayan** (`Isaias 59:1–2`; `Efeso 2:1–3`) na siyang magdadala sa tao sa kapahamakan doon sa **impierno** (`Apoc. 20:11–15`; `Apoc. 21:8`).
 
 ![Desktop View](https://ik.imagekit.io/g0xkgtz2g/Hell.jpg?updatedAt=1746605766240){: width="800" height="400" .normal }
 
@@ -67,24 +56,17 @@ na siyang magdadala sa tao sa kapahamakan doon sa **impierno** (`Apoc. 20:11–1
 
 ## II – Ang Paglalaan ng Dios ng Kaligtasan
 
-Maliwanag ayon sa Biblia na ang tao ay makasalanan  
-at wala siyang magagawa upang iligtas ang kaniyang sarili (`Roma 7:24`; `Efeso 2:8–9`).  
-Dahil dito, **ang Dios mismo ang siyang gumawa ng paraan** —  
-Siya'y **nagkatawang tao**, upang tayo'y mailigtas mula sa kasalanan  
-at sa tiyak na parusang kamatayan sa impierno.
+Maliwanag ayon sa Biblia na ang tao ay makasalanan at wala siyang magagawa upang iligtas ang kaniyang sarili (`Roma 7:24`; `Efeso 2:8–9`). Dahil dito, **ang Dios mismo ang siyang gumawa ng paraan** — Siya'y **nagkatawang tao**, upang tayo'y mailigtas mula sa kasalanan at sa tiyak na parusang kamatayan sa impierno.
 
 Ayon sa `I Tim. 3:16`, ang Dios ay nagkatawang tao, upang makapaglaan ng malinis na dugong ipangtutubos sa kasalanan ng buong sanglibutan (`Heb. 2:9`). Tandaan natin na ang **dugo** ang siyang katugunan sa hinihingi ng Batas ng Dios bilang kabayaran sa kasalanan.
 
 **Lev. 17:11**
 
-> **11** Sapagka't ang buhay ng laman ay nasa dugo;  
-> at aking ibinigay sa inyo sa ibabaw ng dambana upang itubos sa inyong mga kaluluwa:  
-> sapagka't ang dugo'y siyang tumutubos dahil sa buhay.
+> **11** Sapagka't ang buhay ng laman ay nasa dugo; at aking ibinigay sa inyo sa ibabaw ng dambana upang itubos sa inyong mga kaluluwa: sapagka't ang dugo'y siyang tumutubos dahil sa buhay.
 
 **Heb. 9:22**
 
-> **22** At ayon sa kautusan, ay halos masasabi kong lahat ng mga bagay ay nililinis ng dugo,  
-> at maliban na sa pagkabuhos ng dugo ay walang kapatawaran.
+> **22** At ayon sa kautusan, ay halos masasabi kong lahat ng mga bagay ay nililinis ng dugo, at maliban na sa pagkabuhos ng dugo ay walang kapatawaran.
 
 **Note:**  
 Sa Lumang Tipan, dugo ng malinis na hayop ang ginagamit upang bayaran o tubusin ang tao sa kaniyang kasalanan (`Lev. 1:1–17`; `Lev. 4:1–35`). Ang Dios mismo ang nagpakita ng ganitong halimbawa ng damitan Niya ng balat ng hayop sina Adan at Eva – pumatay Siya ng hayop, hindi lamang para bigyan ng damit sina Adan at Eva kundi para **bayaran ang kanilang kasalanan sa pamamagitan ng pagtigis ng dugo nito** (`Gen. 3:21`). Ang palatuntunang ito ay pinapraktis sa Lumang Tipan at ipinatutupad sa batas ni Moises (`Gen. 4:4`; `Gen. 22:7–13`; `Exodo 12:1–42`; `Lev. 1:1–17`; `Lev. 4:1–35`). Lahat ng ginagawa nilang ito ay nakaturo sa tunay na paghahandog ni Cristo na siyang **Kordero ng Dios na nag-aalis ng kasalanan ng sanglibutan** (`Juan 1:29`). Kaya nga sa pamamagitan ng **dugo ni Cristo**, nagkaroon tayo ng katubusan mula sa kasalanan (`Efeso 1:7`).
@@ -95,23 +77,17 @@ Sa Lumang Tipan, dugo ng malinis na hayop ang ginagamit upang bayaran o tubusin 
 
 **Roma 5:8**
 
-> **8** Datapuwa't ipinagtatagubilin ng Dios ang kaniyang pagibig sa atin,  
-> na nang tayo'y mga makasalanan pa, si Cristo ay **namatay dahil sa atin**.
+> **8** Datapuwa't ipinagtatagubilin ng Dios ang kaniyang pagibig sa atin, na nang tayo'y mga makasalanan pa, si Cristo ay **namatay dahil sa atin**.
 
 **Heb. 2:9**
 
-> **9** Kundi nakikita natin ang ginawang mababa ng kaunti kay sa mga anghel,  
-> sa makatuwid ay si **Jesus**, na dahil sa pagbata ng kamatayan  
-> ay pinutungan ng kaluwalhatian at karangalan,  
-> upang sa pamamagitan ng biyaya ng Dios ay **lasapin niya ang kamatayan dahil sa bawa't tao**.
+> **9** Kundi nakikita natin ang ginawang mababa ng kaunti kay sa mga anghel, sa makatuwid ay si **Jesus**, na dahil sa pagbata ng kamatayan ay pinutungan ng kaluwalhatian at karangalan, upang sa pamamagitan ng biyaya ng Dios ay **lasapin niya ang kamatayan dahil sa bawa't tao**.
 
 **Doon sa Krus**, binayaran ni Cristo ang lahat ng kasalanan sa lahat ng panahon...
 
 **Gal. 3:13**
 
-> **13** Sa sumpa ng kautusan ay tinubos tayo ni Cristo,  
-> na naging sumpa sa ganang atin;  
-> sapagka't nasusulat, **Sinumpa ang bawa't binibitay sa punong kahoy**:
+> **13** Sa sumpa ng kautusan ay tinubos tayo ni Cristo, na naging sumpa sa ganang atin; sapagka't nasusulat, **Sinumpa ang bawa't binibitay sa punong kahoy**:
 
 ...at ang **benepisyo** sa pag-aalay Niyang ito ay matatanggap ng **bawat taong sasampalataya sa Kaniya ng may kalakip na pagtalima** (`Juan 3:16`, `36`; `Roma 3:24–26`).
 
@@ -123,9 +99,7 @@ Ang kaligtasan ay **biyaya ng Dios**, at ito'y matatanggap sa pamamagitan ng **p
 Ang biyaya ng Dios ay naipaabot sa atin nang si Cristo ay mamatay doon sa krus ng Kalbaryo (`Juan 3:16`; `Roma 5:8`).  
 Ang **pananampalataya** naman ay ang aktibong tugon natin sa Salita at pagliligtas ng Dios, at ito'y **pinatutunayan ng ating pagtalima** (`Heb. 5:9`; `II Tes. 1:7–8`; `I Pedro 4:17`).
 
-Mula sa Matandang Tipan hanggang sa Bagong Tipan,  
-ang Dios ay nagbibigay ng **espisipikong tagubilin o instruksiyon** na dapat sundin ng tao upang sila ay maligtas.  
-Ang **pagsunod nilang ito sa ipinag-uutos ng Dios** ay pagpapakita ng kanilang **tunay na pananampalataya** sa Dios at sa Kaniyang Salita.
+Mula sa Matandang Tipan hanggang sa Bagong Tipan, ang Dios ay nagbibigay ng **espisipikong tagubilin o instruksiyon** na dapat sundin ng tao upang sila ay maligtas. Ang **pagsunod nilang ito sa ipinag-uutos ng Dios** ay pagpapakita ng kanilang **tunay na pananampalataya** sa Dios at sa Kaniyang Salita.
 
 ### Mga Halimbawa:
 
@@ -184,44 +158,26 @@ Nangangahulugan ito na ang plano ng kaligtasang dapat nating ipangaral at sasamp
 **Mga Gawa 2:1–4**
 
 > **1** At nang dumating nga ang araw ng Pentecostes, silang lahat ay nangagkakatipon sa isang dako.  
-> **2** At biglang dumating mula sa langit ang isang ugong na gaya ng sa isang humahagibis na hanging malakas,  
-> at pinuno ang buong bahay na kanilang kinauupuan.  
-> **3** At sa kanila'y may napakitang mga dilang kawangis ng apoy, na nagkakabahabahagi;  
-> at dumapo sa bawa't isa sa kanila.  
-> **4** At silang lahat ay **nangapuspos ng Espiritu Santo**,  
-> at nangagpasimulang magsalita ng iba't ibang wika, ayon sa ipinagkakaloob ng Espiritu na kanilang salitain.
+> **2** At biglang dumating mula sa langit ang isang ugong na gaya ng sa isang humahagibis na hanging malakas, at pinuno ang buong bahay na kanilang kinauupuan.  
+> **3** At sa kanila'y may napakitang mga dilang kawangis ng apoy, na nagkakabahabahagi; at dumapo sa bawa't isa sa kanila.  
+> **4** At silang lahat ay **nangapuspos ng Espiritu Santo**, at nangagpasimulang magsalita ng iba't ibang wika, ayon sa ipinagkakaloob ng Espiritu na kanilang salitain.
 
 ![Desktop View](https://ik.imagekit.io/g0xkgtz2g/day%20of%20pentecost.jpg?updatedAt=1747824639487){: width="800" height="400" .normal }
 
-Sa **Jerusalem** ay naganap ang unang pagbubuhos ng Espiritu Santo at ito'y nakaagaw pansin sa mga taong nagdiriwang ng Pista ng Pentecostes.  
-Nang sila'y mag-usyuso at magtanong kung anong ibig sabihin ng mahimalang pangyayaring ito,  
-Si Pedro ay tumayo at nangaral tungkol sa **pagbubuhos ng Espiritu Santo** sa huling mga araw,  
-na inihula ni propeta Joel (`Joel 2:28–32`) at **sa Panginoong Jesucristo na kaniyang Tagapagligtas**  
-subalit kanilang ipinako at pinatay doon sa krus.
+Sa **Jerusalem** ay naganap ang unang pagbubuhos ng Espiritu Santo at ito'y nakaagaw pansin sa mga taong nagdiriwang ng Pista ng Pentecostes. Nang sila'y mag-usyuso at magtanong kung anong ibig sabihin ng mahimalang pangyayaring ito, si Pedro ay tumayo at nangaral tungkol sa **pagbubuhos ng Espiritu Santo** sa huling mga araw, na inihula ni propeta Joel (`Joel 2:28–32`) at **sa Panginoong Jesucristo na kaniyang Tagapagligtas** subalit kanilang ipinako at pinatay doon sa krus.
 
 Dala ng banal na takot at kunsensiya, ang mga tao ay nagtanong kay Pedro at sa ibang mga apostol:
 
 **Mga Gawa 2:37–39**
 
-> **37** Nang marinig nga nila ito, ay nasaktan ang kanilang puso,  
-> at sinabi kay Pedro at sa ibang mga apostol,  
-> **Mga kapatid, anong gagawin namin?**  
+> **37** Nang marinig nga nila ito, ay nasaktan ang kanilang puso, at sinabi kay Pedro at sa ibang mga apostol, **Mga kapatid, anong gagawin namin?**  
 > **38** At sinabi sa kanila ni Pedro, **Mangagsisi kayo,  
-> at mangagbautismo ang bawa't isa sa inyo sa pangalan ni Jesu-cristo  
-> sa ikapagpapatawad ng inyong mga kasalanan;  
-> tatanggapin ninyo ang kaloob ng Espiritu Santo**.  
-> **39** Sapagka't sa inyo ang pangako, at sa inyong mga anak,  
-> at sa lahat nangasa malayo,  
-> maging ilan man ang tawaging Panginoon nating Dios sa Kaniya.
+> at mangagbautismo ang bawa't isa sa inyo sa pangalan ni Jesu-cristo sa ikapagpapatawad ng inyong mga kasalanan; tatanggapin ninyo ang kaloob ng Espiritu Santo**.  
+> **39** Sapagka't sa inyo ang pangako, at sa inyong mga anak, at sa lahat nangasa malayo, maging ilan man ang tawaging Panginoon nating Dios sa Kaniya.
 
-Ang sagot na ito ni Pedro sa mga tao ay siyang **unang katuparan** sa iniutos sa kanila ng Panginoon  
-na dapat ipangaral sa mga tao para sa ikapagtatamo ng kaligtasan,  
-at ito ay **unang ipinangaral sa Jerusalem**.
+Ang sagot na ito ni Pedro sa mga tao ay siyang **unang katuparan** sa iniutos sa kanila ng Panginoon na dapat ipangaral sa mga tao para sa ikapagtatamo ng kaligtasan, at ito ay **unang ipinangaral sa Jerusalem**.
 
-Samakatuwid, kung si Apostol Pedro ay nangaral ng may pagsang-ayon ang lahat ng mga alagad  
-tungkol sa **pagsisisi**, **bautismo sa tubig**, sa **pangalan ni Jesucristo**,  
-at **pagtanggap ng Espiritu Santo**, ay **kinakailangang ganoon din** ang dapat nating gagawin.  
-**Huwag natin itong baguhin** (`Gal. 1:8–9`).
+Samakatuwid, kung si Apostol Pedro ay nangaral ng may pagsang-ayon ang lahat ng mga alagad tungkol sa **pagsisisi**, **bautismo sa tubig**, sa **pangalan ni Jesucristo**, at **pagtanggap ng Espiritu Santo**, ay **kinakailangang ganoon din** ang dapat nating gagawin. **Huwag natin itong baguhin** (`Gal. 1:8–9`).
 
 Ibig sabihin, kung ang ipinangangaral nating **plano ng kaligtasan**  
 ay hindi **katulad sa unang ipinangaral ng mga apostol doon sa Jerusalem**,  
@@ -420,7 +376,7 @@ Ang pagsisisi, pagpapabautismo sa tubig at pagtanggap ng Espiritu Santo ay hindi
 
 1. **Kung bakit tayo nagsisi** ay dahil kinilos ng Dios ang puso natin upang sasampalatayáng ang kasalanan ay mali at ito'y magdudulot ng kapahamakan sa ating kaluluwa (`Roma 2:4`; `Mga Gawa 2:37-38`; `Roma 6:23`).
 
-   **Roma 2:**
+   **Roma 2:4**
 
    > O hinahamak mo ang mga kayamanan ng kaniyang kabutihan at pagtitiis at pagpapahinhod, na hindi mo nalalaman na **ang kabutihan ng Dios ay siyang umaakay sa iyo sa pagsisisi?**
 
