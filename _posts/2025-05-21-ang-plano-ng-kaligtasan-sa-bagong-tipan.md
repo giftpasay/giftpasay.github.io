@@ -3,7 +3,7 @@ title: Ang Plano ng Kaligtasan sa Bagong Tipan
 date: 2025-05-21 10:50:00 +0800
 categories: [Bible Study]
 tags: [salvation, gospel, new testament]
-image: https://ik.imagekit.io/g0xkgtz2g/gospel.jpg?updatedAt=1747811993809
+image: https://ik.imagekit.io/g0xkgtz2g/plano-ng-kaligtasan.jpg?updatedAt=1747825764302
 comments: false
 pin: true
 ---
