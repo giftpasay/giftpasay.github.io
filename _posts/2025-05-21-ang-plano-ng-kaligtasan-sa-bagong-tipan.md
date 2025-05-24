@@ -5,7 +5,6 @@ categories: [Bible Study]
 tags: [salvation, gospel, new testament]
 image: https://ik.imagekit.io/g0xkgtz2g/plano-ng-kaligtasan.jpg?updatedAt=1747825764302
 comments: false
-pin: true
 ---
 
 **Lucas 24:46–49**

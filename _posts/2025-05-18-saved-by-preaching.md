@@ -5,7 +5,6 @@ categories: [Sermon]
 tags: [preaching, salvation, calling, gospel, ministry]
 image: https://ik.imagekit.io/g0xkgtz2g/494570642_476767388814573_7254594102611498172_n.jpg?updatedAt=1747579244195
 comments: false
-pin: true
 ---
 
 # Saved By Preaching
