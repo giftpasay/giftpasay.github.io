@@ -5,7 +5,6 @@ categories: [Sermon Notes]
 tags: [forward in faith, philippians, progress, ministry, legacy]
 image: https://ik.imagekit.io/g0xkgtz2g/FORWARD%20IN%20FAITH.png?updatedAt=1748104521419
 comments: false
-pin: true
 ---
 
 # Forward In Faith
@@ -127,3 +126,5 @@ The sermon closed with a prophetic challenge to two groups:
 > _"I press toward the mark for the prize of the high calling of God in Christ Jesus."_ — **Philippians 3:14**
 
 The call tonight is clear: **Don't worship the miracles of yesterday. Move forward in faith toward what God has prepared for tomorrow.**
+
+Watch the full sermon <a href="https://www.facebook.com/share/v/1JwSrWqUdJ/" target="_blank">here</a>.
