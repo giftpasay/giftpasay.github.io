@@ -1,7 +1,7 @@
 ---
 title: Forward In Faith
 date: 2025-05-24 19:30:00 +0800
-categories: [Sermon Notes, General Conference 2025]
+categories: [Sermon Notes]
 tags: [forward in faith, philippians, progress, ministry, legacy]
 image: https://ik.imagekit.io/g0xkgtz2g/FORWARD%20IN%20FAITH.png?updatedAt=1748104521419
 comments: false
