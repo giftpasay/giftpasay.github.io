@@ -3,7 +3,7 @@ title: The Promise is Personal
 date: 2025-05-25
 categories: [Sermon Notes, General Conference 2025]
 tags: [personal promise, pentecost, holy spirit, healing, covenant]
-image: https://ik.imagekit.io/g0xkgtz2g/THE%20PROMISE%20IS%20PERSONAL.jpg?updatedAt=1748178615802
+image: https://ik.imagekit.io/g0xkgtz2g/THE%20PROMISE%20IS%20PERSONAL.jpg?updatedAt=1748279066352
 comments: false
 ---
 
