@@ -3,7 +3,7 @@ title: Fire Dwellers - Dwelling in the Fire of God's Presence
 date: 2025-05-25
 categories: [Sermon Notes, General Conference 2025]
 tags: [fire dwellers, holy spirit, baptism in fire, pentecostal, revival]
-image: https://ik.imagekit.io/g0xkgtz2g/FIRE%20DWELLERS.jpg?updatedAt=1748278866678
+image: https://ik.imagekit.io/g0xkgtz2g/FIRE%20DWELLERS_20250527_012126_0000.jpg?updatedAt=1748280157410
 comments: false
 ---
 
