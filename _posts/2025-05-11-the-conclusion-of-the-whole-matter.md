@@ -1,7 +1,7 @@
 ---
 title: The Conclusion of the Whole Matter
 date: 2025-05-11 9:50:00 +0800
-categories: [Sermon]
+categories: [Sermon Notes]
 tags: [fear of god, holiness, purpose, judgment, solomon]
 image: https://ik.imagekit.io/g0xkgtz2g/conclusion%20of%20the%20whole%20matter.jpg?updatedAt=1746971622184
 comments: false
