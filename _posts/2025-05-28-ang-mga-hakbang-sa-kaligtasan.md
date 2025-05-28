@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/g0xkgtz2g/steps-to-salvation.jpg?updatedAt=1748428
 comments: false
 ---
 
-**Mga Gawa 16:30**
+**Mga Gawa 16:30-34**
 
 > **30** At sila'y inilabas at sinabi, Mga ginoo, **ano ang kinakailangan kong gawin upang maligtas?** <br>
 > **31** At kanilang sinabi, Manampalataya ka sa Panginoong Jesus, at maliligtas ka, ikaw at ang iyong sangbahayan.<br>
@@ -76,7 +76,7 @@ Ang sagot ng Panginoong Jesus sa tanong na ito ay **"Kinakailangang kayo'y ipang
 
 ## II - Ang sagot ni Apostol Pedro sa mga Judio no'ng araw ng Pentecostes (Mga Gawa 2:37-39)
 
-**Mga Gawa 2:37**
+**Mga Gawa 2:37-39**
 > **37** Nang marinig nga nila ito, ay nangasaktan ang kanilang puso, at sinabi kay Pedro at sa ibang mga apostol, Mga kapatid, anong gagawin namin? <br>
 > **38** At sinabi sa kanila ni Pedro, Mangagsisi kayo, at mangagbautismo ang bawa't isa sa inyo sa pangalan ni Jesucristo sa ikapagpapatawad ng inyong mga kasalanan; at tatanggapin ninyo ang kaloob ng Espiritu Santo.<br>
 > **39** Sapagka't sa inyo ang pangako, at sa inyong mga anak, at sa lahat ng nangasa malayo, maging ilan man ang tawaging ng Panginoon nating Dios sa kaniya.
@@ -100,12 +100,12 @@ Maliwanag sa talatang ito na may tatlong bagay na kinakailangang gawin upang ang
 
 ## III - at ang sagot ni Pablo sa tanong ng bantay ng kulungan sa Filipos
 
-**Mga Gawa 16:30** 
-> 30 At sila'y inilabas at sinabi, Mga ginoo, ano ang kinakailangan kong gawin upang maligtas? <br>
-> 31 At kanilang sinabi, Manampalataya ka sa Panginoong Jesus, at maliligtas ka, ikaw at ang iyong sangbahayan.<br>
-> 32 At sa kaniya'y sinalita nila ang salita ng Panginoon, pati sa lahat ng nangasa kaniyang bahay.<br>
-> 33 At sila'y kaniyang kinuha nang oras ding yaon ng gabi, at hinugasan ang kanilang mga latay; at pagdaka'y binautismuhan, **siya at ang buong sangbahayan niya**.<br>
-> 34 At sila'y kaniyang ipinanhik sa kaniyang bahay, at hinaian sila ng pagkain, at nagalak na totoo, pati ng buong sangbahayan niya, na nagsisampalataya sa Dios.
+**Mga Gawa 16:30-34** 
+> **30** At sila'y inilabas at sinabi, Mga ginoo, ano ang kinakailangan kong gawin upang maligtas? <br>
+> **31** At kanilang sinabi, Manampalataya ka sa Panginoong Jesus, at maliligtas ka, ikaw at ang iyong sangbahayan.<br>
+> **32** At sa kaniya'y sinalita nila ang salita ng Panginoon, pati sa lahat ng nangasa kaniyang bahay.<br>
+> **33** At sila'y kaniyang kinuha nang oras ding yaon ng gabi, at hinugasan ang kanilang mga latay; at pagdaka'y binautismuhan, **siya at ang buong sangbahayan niya**.<br>
+> **34** At sila'y kaniyang ipinanhik sa kaniyang bahay, at hinaian sila ng pagkain, at nagalak na totoo, pati ng buong sangbahayan niya, na nagsisampalataya sa Dios.
 
 Ang siping ito ng kasulatan ay ang tanging mga talata sa Bagong tipan na nagtataglay ng direktang tanong at sagot sa kung, **"Ano ang kinakailangan kong gawin upang maligtas?"**
 
