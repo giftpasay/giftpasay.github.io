@@ -9,7 +9,7 @@ comments: false
 
 **Mga Gawa 16:30**
 
-> **30** At sila'y inilabas at sinabi, Mga ginoo, **ano ang kinakailangan kung gawin upang maligtas?** <br>
+> **30** At sila'y inilabas at sinabi, Mga ginoo, **ano ang kinakailangan kong gawin upang maligtas?** <br>
 > **31** At kanilang sinabi, Manampalataya ka sa Panginoong Jesus, at maliligtas ka, ikaw at ang iyong sangbahayan.<br>
 > **32** At sa kaniya'y sinalita nila ang salita ng Panginoon, pati sa lahat ng nangasa kaniyang bahay.<br>
 > **33** At sila'y kaniyang kinuha nang oras ding yaon ng gabi, at hinugasan ang kanilang mga latay; at pagdaka'y binautismuhan, siya at ang buong sangbahayan niya.<br>
@@ -17,7 +17,7 @@ comments: false
 
 ## Panimula:
 
-Mayroong tatlong sipi ng Kasulatan sa Bagong Tipan ang nagpapahayag at sumasagot sa napakahalagang katanungang ito ng tao sa kaniyang buhay, **"Ano ang kinakailangan kung gawin upang maligtas?"**
+Mayroong tatlong sipi ng Kasulatan sa Bagong Tipan ang nagpapahayag at sumasagot sa napakahalagang katanungang ito ng tao sa kaniyang buhay, **"Ano ang kinakailangan kong gawin upang maligtas?"**
 
 ## I - Ang pakikipag-usap ni Jesus kay Nicodemo "YOU MUST BE BORN AGAIN"
 
