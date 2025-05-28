@@ -74,7 +74,7 @@ Samakatuwid, ang tanong na **"Ano ang kinakailangan kong gawin upang maligtas?"*
 
 Ang sagot ng Panginoong Jesus sa tanong na ito ay **"Kinakailangang kayo'y ipanganak na muli" "You must be Born Again"** (`Juan 3:1-7` – na ang ibig sabihin ay mabautismuhan sa tubig at Espiritu Santo).
 
-## II - Ang sagot ni Apostol Pedro sa mga Judio no'ng araw ng Pentecostes (`Mga Gawa 2:37-39`)
+## II - Ang sagot ni Apostol Pedro sa mga Judio no'ng araw ng Pentecostes (Mga Gawa 2:37-39)
 
 **Mga Gawa 2:37**
 > **37** Nang marinig nga nila ito, ay nangasaktan ang kanilang puso, at sinabi kay Pedro at sa ibang mga apostol, Mga kapatid, anong gagawin namin? <br>
