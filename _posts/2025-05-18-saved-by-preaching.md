@@ -7,7 +7,7 @@ image: https://ik.imagekit.io/g0xkgtz2g/494570642_476767388814573_72545941026114
 comments: false
 ---
 
-# Saved By Preaching
+## Saved By Preaching
 
 _Texts: Mark 16:15-16; 1 Corinthians 1:21-23, 2:4; Revelations 1:12-20_
 

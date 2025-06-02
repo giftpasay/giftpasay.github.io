@@ -7,8 +7,6 @@ image: https://ik.imagekit.io/g0xkgtz2g/SILENT.png?updatedAt=1748175234068
 comments: false
 ---
 
-# Silent but not forgotten
-
 _Text: Luke 2:36-37_  
 _Preacher: Ptr. Dexter Velasco_
 

@@ -7,8 +7,6 @@ image: https://ik.imagekit.io/g0xkgtz2g/THE%20PROMISE%20IS%20PERSONAL.jpg?update
 comments: false
 ---
 
-# The Promise is Personal
-
 _Text: Acts 2:37-41_  
 _Preacher: Rev. Adam Hunley_
 

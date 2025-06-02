@@ -7,8 +7,6 @@ image: https://ik.imagekit.io/g0xkgtz2g/FIRE%20DWELLERS_20250527_012126_0000.jpg
 comments: false
 ---
 
-# Fire Dwellers - Dwelling in the Fire of God's Presence
-
 _Text: Isaiah 33:14-17_  
 _Preacher: Rev. Adam Hunley_
 

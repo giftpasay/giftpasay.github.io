@@ -8,7 +8,7 @@ comments: false
 pin: false
 ---
 
-# 7 Key Lessons from "The Conclusion of the Whole Matter"
+## 7 Key Lessons from "The Conclusion of the Whole Matter"
 
 _Notes from Sunday's Sermon on Ecclesiastes 12:13-14_
 

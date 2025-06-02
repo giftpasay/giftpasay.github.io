@@ -7,8 +7,6 @@ image: https://ik.imagekit.io/g0xkgtz2g/Forward%20in%20faith.jpg?updatedAt=17482
 comments: false
 ---
 
-# Forward In Faith
-
 _Text: Philippians 3:13-14_  
 _Preacher: Rev. Adam Hunley_
 
