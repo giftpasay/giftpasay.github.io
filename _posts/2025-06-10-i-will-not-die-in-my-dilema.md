@@ -1,6 +1,6 @@
 ---
 title: I Will Not Die In My Dilemma
-date: 2025-06-09 10:00:00 +0800
+date: 2025-06-10
 categories: [Sermon Notes]
 tags: [dilemma, destiny, resurrection, trouble, purpose, transformation, hope]
 image: https://ik.imagekit.io/g0xkgtz2g/I%20will%20not%20die%20in%20my%20dilemma.jpg?updatedAt=1749566365904
@@ -33,8 +33,9 @@ From Genesis 15:12-16, Rev. Arnold highlighted God's prophetic word to Abraham a
 ## The Power of Perspective: Purpose Over Problems
 
 **Revolutionary Mindset:** When you understand that God's purpose was established before your problem arrived, the problem cannot:
+
 - Wreck your faith
-- Steal your vision  
+- Steal your vision
 - Kill your hope
 - Define your destiny
 
@@ -45,6 +46,7 @@ From Genesis 15:12-16, Rev. Arnold highlighted God's prophetic word to Abraham a
 Rev. Arnold vulnerably shared his own struggles:
 
 ### The Reality of His Dilemma
+
 - Financial devastation and humiliation
 - Business deals that backfired
 - Owing $400,000 in debts
@@ -52,6 +54,7 @@ Rev. Arnold vulnerably shared his own struggles:
 - Sleepless nights of crying and despair
 
 ### The Declaration of Faith
+
 Despite overwhelming circumstances, he declared:
 
 > _"I'm not going to die in my dilemma. I'm going to come out of this. I don't know when, I don't know how, but I know I've got 700% coming my way."_
@@ -67,6 +70,7 @@ Despite overwhelming circumstances, he declared:
 **Physical Truth:** Muscles grow through resistance, not comfort. Similarly, spiritual strength and character develop through adversity.
 
 **Divine Strategy:** God uses opposition to:
+
 - Develop our spiritual muscles
 - Push us to higher levels
 - Transform our character
@@ -75,6 +79,7 @@ Despite overwhelming circumstances, he declared:
 ## The Value of Betrayal and Adversity
 
 **Controversial Truth:** We need people in our lives who:
+
 - Cheat and lie to us
 - Deceive and betray us
 - Cut us deeply
@@ -88,10 +93,12 @@ Despite overwhelming circumstances, he declared:
 ## The Pearl Principle: Transforming Irritation into Beauty
 
 **Natural Illustration:** When an irritant enters an oyster, the oyster has two choices:
+
 1. **Remain Agitated:** Live with constant irritation and resentment
 2. **Transform the Trouble:** Secrete coating after coating around the irritant until it becomes a precious pearl
 
 **Spiritual Application:** We can either:
+
 - Let trouble become a barrier that embitters us
 - Transform trouble into a blessing that helps others
 
@@ -102,12 +109,14 @@ Despite overwhelming circumstances, he declared:
 **Personal Decision:** Every believer must choose what to do with their troubles:
 
 ### Option 1: Let It Become a Barrier
+
 - Always carry a chip on your shoulder
 - Constantly recall past hurts
 - Live in perpetual agitation
 - Let bitterness define your life
 
 ### Option 2: Transform It Into a Blessing
+
 - Wrap God's solution around the irritation
 - Create something beautiful from the pain
 - Use your testimony to help others
@@ -118,6 +127,7 @@ Despite overwhelming circumstances, he declared:
 **Divine Declaration:** _"I'm on my way to greatness. I'm on my way to being a better person."_
 
 **Requirements for Victory:**
+
 - You must overcome something to be victorious
 - You must transform trouble into testimony
 - You must embrace the process of purification
@@ -126,8 +136,9 @@ Despite overwhelming circumstances, he declared:
 ## The Ultimate Truth: Destiny Overrides Everything
 
 **Powerful Reality:** True destiny is so powerful that it can override:
+
 - Death itself
-- Demonic opposition  
+- Demonic opposition
 - Disasters and setbacks
 - Human betrayal and opposition
 
@@ -138,18 +149,23 @@ Despite overwhelming circumstances, he declared:
 Rev. Arnold concluded with a challenge for believers to:
 
 ### Change Your Perspective
+
 Stop giving the devil credit for your troubles and recognize God's hand in your process.
 
 ### Embrace the Resistance
+
 Welcome the opposition that builds your spiritual strength and character.
 
 ### Transform Your Troubles
+
 Don't waste your pain - use it to create something beautiful that can help others.
 
 ### Trust the Timeline
+
 God's timing is perfect, even when we can't see the end from the beginning.
 
 ### Declare Your Destiny
+
 Boldly proclaim that you will not die in your dilemma but will come out with great substance.
 
 ---
