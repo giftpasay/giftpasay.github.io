@@ -8,7 +8,7 @@ comments: false
 ---
 
 _Text: Genesis 4:1-8; Hebrews 11:4_  
-_Preacher: Min. Mike Barcena_
+_Preacher: Min. Michaelle Barcena_
 
 ---
 
@@ -128,7 +128,7 @@ When God accepted Abel's offering but rejected Cain's:
 
 ## The Call to Faith-Filled Worship
 
-Min. Barcena concluded with a powerful challenge for believers to:
+Min. Mike concluded with a powerful challenge for believers to:
 
 ### Examine Your Heart
 Stop going through the motions of worship and start worshipping with genuine faith and expectation.
@@ -147,7 +147,3 @@ Don't offer God the fruits of your cursed nature, but present Him with offerings
 > _"By faith Abel offered to God a more excellent sacrifice than Cain, through which he obtained witness that he was righteous, God testifying of his gifts; and through it he being dead still speaks."_ — **Hebrews 11:4**
 
 The message of "In Loving Memory Of" challenges us to understand that our worship, service, and offerings to God must be motivated by genuine faith rather than religious duty. Abel's simple act of faith-filled worship earned him an eternal place in God's hall of fame, and his testimony continues to speak today. The question for each believer is: What kind of legacy are you creating through your faith-filled actions? Will your worship be remembered as mere religious duty, or will it speak of genuine faith long after you're gone?
-
----
-
-_Delivered by Min. Mike Barcena_
