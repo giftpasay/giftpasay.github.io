@@ -1,6 +1,6 @@
 ---
 title: In Loving Memory Of
-date: 2025-06-16
+date: 2025-06-15
 categories: [Sermon Notes]
 tags: [faith, offering, worship, Abel, Cain, legacy, remembrance, pananampalataya]
 image: https://ik.imagekit.io/g0xkgtz2g/in%20loving%20memory%20of.gif?updatedAt=1750133739371

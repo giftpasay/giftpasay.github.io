@@ -1,6 +1,6 @@
 ---
 title: Baal Perazim - The God of the Breakthroughs
-date: 2025-06-16
+date: 2025-06-15
 categories: [Sermon Notes]
 tags: [breakthroughs, david, philistines, waiting on god, victory, divine timing]
 image: https://ik.imagekit.io/g0xkgtz2g/BAAL-PERAZIM.jpg?updatedAt=1750129266010
