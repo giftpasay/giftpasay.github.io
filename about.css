@@ -24,20 +24,21 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif; /* Set default font */
-  background-color: var(--dark-bg-1);
+  /* background-color: var(--dark-bg-1); */
+  background: linear-gradient(to bottom, #1b2735 0%, #090a0f 100%);
+
   color: var(--text-primary-dark);
+  background-size: cover;
+}
+
+main > section {
+  background-color: transparent;
 }
 
 /* --- Navbar --- */
 .navbar {
   backdrop-filter: blur(var(--blur-radius));
-  background-color: rgba(
-    30,
-    31,
-    34,
-    0.8
-  ); /* Semi-transparent dark background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: trabsparent; /* Transparent background */
   z-index: 1020;
 }
 .navbar-brand img {
@@ -58,17 +59,10 @@ body {
 /* --- Hero Section --- */
 .hero-section {
   position: relative;
+  overflow: hidden;
   height: calc(100svh - 64px);
-  background-color: #1e1f22;
+  background-color: transparent;
   opacity: 1;
-  background-image: radial-gradient(
-      rgba(255, 255, 255, 0.09) 0.75px,
-      transparent 0.75px
-    ),
-    radial-gradient(rgba(255, 255, 255, 0.09) 0.75px, #1e1f22 0.75px);
-  background-size: 30px 30px;
-  background-position: 0 0, 15px 15px;
-  background-attachment: fixed;
   color: white;
   display: flex;
   align-items: center;
@@ -76,6 +70,155 @@ body {
   text-align: center;
   padding: 20px;
   overflow: hidden;
+}
+
+.lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  margin: auto;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between; /* Distribute lines evenly */
+}
+
+.line {
+  position: relative;
+  width: 1px;
+  height: 100%;
+  /*background: #ffffff;  /* Line color */
+  overflow: hidden;
+}
+
+.line::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 15vh;
+  width: 100%;
+  top: -50%;
+  left: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 75%,
+    #ffffff 100%
+  );
+  animation: drop 7s 0s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+/* Different colors for each line's pseudo-element */
+.line:nth-child(1)::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #ff4500 75%,
+    #ff4500 100%
+  );
+  animation-delay: 0.5s;
+}
+
+.line:nth-child(2)::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #32cd32 75%,
+    #32cd32 100%
+  );
+  animation-delay: 1s;
+}
+
+.line:nth-child(3)::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #1e90ff 75%,
+    #1e90ff 100%
+  );
+  animation-delay: 1.5s;
+}
+
+.line:nth-child(4)::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #ffd700 75%,
+    #ffd700 100%
+  );
+  animation-delay: 2s;
+}
+
+.line:nth-child(5)::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #8a2be2 75%,
+    #8a2be2 100%
+  );
+  animation-delay: 2.5s;
+}
+
+.line:nth-child(6)::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #20b2aa 75%,
+    #20b2aa 100%
+  );
+  animation-delay: 3s;
+}
+
+.line:nth-child(7)::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #dc143c 75%,
+    #dc143c 100%
+  );
+  animation-delay: 3.5s;
+}
+
+.line:nth-child(8)::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #00fa9a 75%,
+    #00fa9a 100%
+  );
+  animation-delay: 4s;
+}
+
+.line:nth-child(9)::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #ff1493 75%,
+    #ff1493 100%
+  );
+  animation-delay: 4.5s;
+}
+
+.line:nth-child(10)::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #00bfff 75%,
+    #00bfff 100%
+  );
+  animation-delay: 5s;
+}
+
+@keyframes drop {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -98,7 +241,7 @@ body {
 }
 
 .hero-title span {
-  color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 .hero-subtitle {
@@ -160,6 +303,18 @@ body {
   background-color: rgba(137, 180, 248, 0.05);
 }
 
+.img-wrapper {
+  max-width: 768px;
+  margin: 2rem auto 0;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+}
+
 /* --- About Us Introduction --- */
 .about-intro-text {
   font-size: 1.15rem;
@@ -174,18 +329,6 @@ body {
 .about-intro-text b {
   color: var(--text-primary-dark);
   font-weight: 600;
-}
-
-.fix-bg {
-  position: relative;
-  background-image: url('https://ik.imagekit.io/g0xkgtz2g/giftchurch.jpg?updatedAt=1746626721382');
-  background-size: cover;
-  background-position: bottom center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 50svh;
-  z-index: 0;
-  overflow: hidden;
 }
 
 @media (max-width: 767.98px) {
@@ -289,7 +432,7 @@ body {
 }
 .offer-card:hover {
   transform: translateY(-10px);
-  background-color: rgba(50, 51, 54, 0.85); /* Slightly more opaque on hover */
+  background-color: rgba(50, 51, 54, 0.4); /* Slightly more opaque on hover */
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
 }
 .offer-icon {
@@ -330,8 +473,8 @@ body {
   text-align: left;
 }
 .schedule-table th {
-  background-color: #3c4043; /* Darker grey header for contrast with blue text */
-  color: var(--accent-color);
+  background-color: #1b2735; /* Darker grey header for contrast with blue text */
+  color: var(--primary-color);
   font-weight: 600;
   border-color: var(--border-dark);
 }
@@ -502,10 +645,11 @@ body {
   color: var(--text-secondary-dark);
 }
 .footer-bottom {
-  background-color: #161719; /* A slightly different dark for footer bottom */
+  background-color: transparent; /* A slightly different dark for footer bottom */
   color: var(--text-secondary-dark);
   padding: 25px 0;
   font-size: 0.9rem;
+  border-top: 1px solid var(--border-dark);
 }
 .contact-info-footer {
   margin-top: 20px;
