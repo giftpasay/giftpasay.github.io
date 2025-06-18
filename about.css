@@ -424,6 +424,7 @@ body {
 .contact-item {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
   text-align: center;
