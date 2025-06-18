@@ -150,11 +150,7 @@ body {
   background: linear-gradient(to right, var(--dark-bg-1), var(--dark-bg-2));
 }
 .section-bg-primary-fade {
-  background: linear-gradient(
-    to right,
-    rgba(137, 180, 248, 0.05),
-    /* Subtle blue tint */ rgba(137, 180, 248, 0.01)
-  );
+  background-color: rgba(137, 180, 248, 0.05);
 }
 
 /* --- About Us Introduction --- */
@@ -183,6 +179,12 @@ body {
   height: 50svh;
   z-index: 0;
   overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+  .fix-bg {
+    height: 40svh; /* Adjust height for smaller screens */
+  }
 }
 
 /* Overlay */
@@ -267,10 +269,10 @@ body {
 
 /* --- What We Offer (WITH BLURRED CARDS) --- */
 .offer-card {
-  background-color: var(--card-bg-blur);
-  backdrop-filter: blur(var(--blur-radius));
+  /* background-color: var(--card-bg-blur); */
+  /* backdrop-filter: blur(var(--blur-radius)); */
   border-radius: 12px;
-  box-shadow: var(--shadow-medium);
+  /* box-shadow: var(--shadow-light); */
   padding: 35px;
   text-align: center;
   border: 1px solid var(--border-dark);
@@ -305,7 +307,7 @@ body {
   margin: 0 auto;
   background-color: var(--dark-bg-2);
   border-radius: 8px;
-  box-shadow: var(--shadow-light);
+  /* box-shadow: var(--shadow-light); */
   overflow: hidden;
   margin-bottom: 40px;
 }
@@ -356,9 +358,9 @@ body {
 
 /* --- Biblical Foundation Card Styling --- */
 .biblical-foundation-card {
-  background-color: var(--dark-bg-2);
-  border-radius: 12px;
-  box-shadow: var(--shadow-light);
+  /* background-color: var(--dark-bg-2); */
+  /* border-radius: 12px; */
+  /* box-shadow: var(--shadow-light); */
   padding: 40px;
   margin: 0 auto;
 }
