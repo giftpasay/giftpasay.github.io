@@ -2,8 +2,8 @@
 
 :root {
   /* NEW: Gemini-inspired Dark Theme Palette */
-  --primary-color: #89b4f8; /* A friendly, accessible blue */
-  --accent-color: #ffc107; /* Kept for secondary accents */
+  --primary-color: #f50057; /* A friendly, accessible blue */
+  --accent-color: #38bdf8; /* Kept for secondary accents */
   --dark-bg-1: #1e1f22; /* Deep charcoal background */
   --dark-bg-2: #2a2b2e; /* Lighter charcoal for cards and elevated surfaces */
   --dark-bg-3: #3c3d40; /* Lighter shade for hovers */
@@ -37,14 +37,14 @@ body {
     34,
     0.8
   ); /* Semi-transparent dark background */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-  border-bottom: 1px solid var(--border-dark);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1020;
 }
-.navbar-brand {
-  font-weight: 700;
+.navbar-brand img {
+  max-width: 60px; /* Adjust logo size */
+  /* font-weight: 700;
   font-size: 1.6rem;
-  color: var(--primary-color) !important;
+  color: var(--primary-color) !important; */
 }
 .nav-link {
   font-weight: 500;
@@ -59,9 +59,16 @@ body {
 .hero-section {
   position: relative;
   height: calc(100svh - 64px);
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url('https://ik.imagekit.io/g0xkgtz2g/giftchurch.jpg?updatedAt=1746626721382')
-      no-repeat center center/cover;
+  background-color: #1e1f22;
+  opacity: 1;
+  background-image: radial-gradient(
+      rgba(255, 255, 255, 0.09) 0.75px,
+      transparent 0.75px
+    ),
+    radial-gradient(rgba(255, 255, 255, 0.09) 0.75px, #1e1f22 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-attachment: fixed;
   color: white;
   display: flex;
   align-items: center;
@@ -82,6 +89,11 @@ body {
   letter-spacing: -1px;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
 }
+
+.hero-title span {
+  color: var(--accent-color);
+}
+
 .hero-subtitle {
   font-size: 1.75rem;
   font-weight: 300;
@@ -114,7 +126,7 @@ body {
   font-weight: 700;
   margin-bottom: 50px;
   text-align: center;
-  color: var(--primary-color);
+  color: var(--text-primary-dark);
   position: relative;
 }
 .section-heading::after {
@@ -161,6 +173,33 @@ body {
   font-weight: 600;
 }
 
+.fix-bg {
+  position: relative;
+  background-image: url('https://ik.imagekit.io/g0xkgtz2g/giftchurch.jpg?updatedAt=1746626721382');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 50svh;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Overlay */
+.fix-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  z-index: 1;
+}
+
+/* Optional: Ensure content inside stays above overlay */
+.fix-bg > * {
+  position: relative;
+  z-index: 2;
+}
+
 /* --- Pastor Section --- */
 .pastor-section-content {
   display: flex;
@@ -175,7 +214,7 @@ body {
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  border: 6px solid var(--primary-color);
+  border: 6px solid var(--accent-color);
   box-shadow: var(--shadow-light);
   margin-bottom: 30px;
   transition: transform 0.3s ease;
@@ -210,7 +249,7 @@ body {
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.7;
-  color: var(--primary-color);
+  color: var(--text-primary-dark);
   border-left: 5px solid var(--accent-color);
   padding-left: 20px;
   margin: 40px auto;
@@ -283,7 +322,7 @@ body {
 }
 .schedule-table th {
   background-color: #3c4043; /* Darker grey header for contrast with blue text */
-  color: var(--primary-color);
+  color: var(--accent-color);
   font-weight: 600;
   border-color: var(--border-dark);
 }
@@ -309,7 +348,7 @@ body {
 .schedule-subheading {
   font-size: 1.8rem;
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--text-primary-dark);
   margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
@@ -386,23 +425,11 @@ body {
 }
 
 .btn-cta.btn-primary {
-  background-color: var(--primary-color);
+  background-color: var(--accent-color);
   color: var(--dark-bg-1);
 }
 .btn-cta.btn-primary:hover {
-  background-color: #a2c7f9; /* Lighter blue on hover */
-  color: var(--dark-bg-1);
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-medium);
-}
-
-/* Override .btn-danger to match the new theme */
-.btn-cta.btn-danger {
-  background-color: var(--primary-color);
-  color: var(--dark-bg-1);
-}
-.btn-cta.btn-danger:hover {
-  background-color: #a2c7f9;
+  background-color: white; /* Lighter blue on hover */
   color: var(--dark-bg-1);
   transform: translateY(-3px);
   box-shadow: var(--shadow-medium);
@@ -599,3 +626,33 @@ body {
     margin-top: 30px;
   }
 }
+
+/* Animation classes */
+.anim {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.anim-fade {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* End Animation */
