@@ -19,7 +19,7 @@
 }
 
 html {
-  font-size: 18px; /* Set base font size to 18px */
+  font-size: 16px; /* Set base font size to 18px */
 }
 
 body {
@@ -176,7 +176,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
   border: 6px solid var(--primary-color);
-  box-shadow: var(--shadow-medium);
+  box-shadow: var(--shadow-light);
   margin-bottom: 30px;
   transition: transform 0.3s ease;
 }
