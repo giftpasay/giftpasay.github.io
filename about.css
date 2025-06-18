@@ -77,6 +77,13 @@ body {
   padding: 20px;
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 70vh; /* Adjust height for smaller screens */
+  }
+}
+
 .hero-content {
   z-index: 2;
   max-width: 1280px;
