@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  /* NEW: Gemini-inspired Dark Theme Palette */
+  --primary-color: #89b4f8; /* A friendly, accessible blue */
+  --accent-color: #ffc107; /* Kept for secondary accents */
+  --dark-bg-1: #1e1f22; /* Deep charcoal background */
+  --dark-bg-2: #2a2b2e; /* Lighter charcoal for cards and elevated surfaces */
+  --dark-bg-3: #3c3d40; /* Lighter shade for hovers */
+  --text-primary-dark: #e1e2e4; /* Soft, off-white for primary text */
+  --text-secondary-dark: #b0b1b3; /* Lighter grey for secondary text */
+  --border-dark: rgba(225, 227, 229, 0.15); /* A more visible, subtle border */
+
+  /* Effects */
+  --card-bg-blur: rgba(42, 43, 46, 0.75); /* Dark, semi-transparent for blur */
+  --blur-radius: 8px;
+  --shadow-light: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-medium: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+html {
+  font-size: 18px; /* Set base font size to 18px */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif; /* Set default font */
+  background-color: var(--dark-bg-1);
+  color: var(--text-primary-dark);
+}
+
+/* --- Navbar --- */
+.navbar {
+  backdrop-filter: blur(var(--blur-radius));
+  background-color: rgba(
+    30,
+    31,
+    34,
+    0.8
+  ); /* Semi-transparent dark background */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid var(--border-dark);
+  z-index: 1020;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--primary-color) !important;
+}
+.nav-link {
+  font-weight: 500;
+  color: var(--text-secondary-dark) !important;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+  position: relative;
+  height: calc(100svh - 64px);
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url('https://ik.imagekit.io/g0xkgtz2g/giftchurch.jpg?updatedAt=1746626721382')
+      no-repeat center center/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+}
+.hero-content {
+  z-index: 2;
+  max-width: 1280px;
+  margin-top: 2rem;
+}
+.hero-title {
+  font-size: 4.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  letter-spacing: -1px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+.hero-subtitle {
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.hero-text-small {
+  font-size: 1.1rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+.anniversary-badge {
+  background-color: var(--accent-color);
+  color: #121212;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  animation: bounceIn 1s ease-out;
+}
+
+/* --- General Section Styling --- */
+.section-padding {
+  padding: 80px 0;
+  position: relative;
+}
+.section-heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+  color: var(--primary-color);
+  position: relative;
+}
+.section-heading::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+/* --- Alternating Section Backgrounds --- */
+.section-bg-light {
+  background-color: var(--dark-bg-1);
+}
+.section-bg-dark {
+  background-color: var(--dark-bg-2);
+}
+.section-bg-gradient {
+  background: linear-gradient(to right, var(--dark-bg-1), var(--dark-bg-2));
+}
+.section-bg-primary-fade {
+  background: linear-gradient(
+    to right,
+    rgba(137, 180, 248, 0.05),
+    /* Subtle blue tint */ rgba(137, 180, 248, 0.01)
+  );
+}
+
+/* --- About Us Introduction --- */
+.about-intro-text {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: var(--text-secondary-dark);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.about-intro-text b {
+  color: var(--text-primary-dark);
+  font-weight: 600;
+}
+
+/* --- Pastor Section --- */
+.pastor-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.pastor-image-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid var(--primary-color);
+  box-shadow: var(--shadow-medium);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+.pastor-image-container:hover {
+  transform: scale(1.05);
+}
+.pastor-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.pastor-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary-dark);
+}
+.pastor-title {
+  font-size: 1.15rem;
+  color: var(--text-secondary-dark);
+  margin-bottom: 25px;
+}
+.pastor-bio {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-secondary-dark);
+  margin-bottom: 40px;
+}
+
+/* --- Vision Section --- */
+.vision-quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: var(--primary-color);
+  border-left: 5px solid var(--accent-color);
+  padding-left: 20px;
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+}
+.vision-detail-text {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-secondary-dark);
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* --- What We Offer (WITH BLURRED CARDS) --- */
+.offer-card {
+  background-color: var(--card-bg-blur);
+  backdrop-filter: blur(var(--blur-radius));
+  border-radius: 12px;
+  box-shadow: var(--shadow-medium);
+  padding: 35px;
+  text-align: center;
+  border: 1px solid var(--border-dark);
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out,
+    background-color 0.3s ease;
+  height: 100%;
+}
+.offer-card:hover {
+  transform: translateY(-10px);
+  background-color: rgba(50, 51, 54, 0.85); /* Slightly more opaque on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+.offer-icon {
+  font-size: 3.2rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+.offer-card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--text-primary-dark);
+}
+.offer-card-text {
+  color: var(--text-secondary-dark);
+  font-size: 0.95rem;
+}
+
+/* --- Worship Times & Foundation --- */
+.schedule-table-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--dark-bg-2);
+  border-radius: 8px;
+  box-shadow: var(--shadow-light);
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.schedule-table th,
+.schedule-table td {
+  padding: 15px;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--border-dark);
+  text-align: left;
+}
+.schedule-table th {
+  background-color: #3c4043; /* Darker grey header for contrast with blue text */
+  color: var(--primary-color);
+  font-weight: 600;
+  border-color: var(--border-dark);
+}
+.schedule-table tbody tr:last-child td {
+  border-bottom: none;
+}
+.schedule-table tbody tr {
+  color: var(--text-primary-dark);
+}
+.schedule-table tbody tr:nth-of-type(even) {
+  background-color: var(--dark-bg-3);
+}
+.schedule-table tbody tr:hover {
+  background-color: #444548;
+}
+.table-note {
+  font-size: 0.9rem;
+  color: var(--text-secondary-dark);
+  text-align: center !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.schedule-subheading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* --- Biblical Foundation Card Styling --- */
+.biblical-foundation-card {
+  background-color: var(--dark-bg-2);
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.biblical-foundation-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+.biblical-foundation-item {
+  padding: 20px 0;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--border-dark);
+  margin-bottom: 0;
+}
+.biblical-foundation-item:first-child {
+  padding-top: 0;
+}
+.biblical-foundation-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.foundation-icon {
+  font-size: 2rem;
+  margin-right: 20px;
+  flex-shrink: 0;
+  color: var(--primary-color);
+}
+.foundation-text strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.15rem;
+  color: var(--text-primary-dark);
+}
+.foundation-text p {
+  font-size: 0.95rem;
+  color: var(--text-secondary-dark);
+  line-height: 1.6;
+}
+
+/* --- Partnership Section & Buttons --- */
+.partnership-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.partnership-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-secondary-dark);
+  margin-bottom: 30px;
+}
+
+.btn-cta {
+  padding: 15px 40px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
+  box-shadow: var(--shadow-light);
+  border: none;
+}
+
+.btn-cta.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--dark-bg-1);
+}
+.btn-cta.btn-primary:hover {
+  background-color: #a2c7f9; /* Lighter blue on hover */
+  color: var(--dark-bg-1);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-medium);
+}
+
+/* Override .btn-danger to match the new theme */
+.btn-cta.btn-danger {
+  background-color: var(--primary-color);
+  color: var(--dark-bg-1);
+}
+.btn-cta.btn-danger:hover {
+  background-color: #a2c7f9;
+  color: var(--dark-bg-1);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-medium);
+}
+
+/* --- Contact Section --- */
+.contact-intro-text {
+  font-size: 1.1rem;
+  color: var(--text-secondary-dark);
+  margin-bottom: 3rem;
+}
+.contact-details-list {
+  display: grid;
+  justify-content: center;
+  font-size: 1.15rem;
+  line-height: 2.2;
+  text-align: center;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.contact-item i {
+  color: var(--primary-color);
+  width: 25px;
+  margin-right: 1rem;
+}
+.contact-item a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.contact-item a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+/* --- Footer --- */
+.footer-cta {
+  background-color: #282a2e; /* Use a dark card color */
+  color: var(--text-primary-dark);
+  padding: 60px 0;
+  text-align: center;
+  border-top: 8px solid var(--primary-color); /* Use blue for the accent line */
+}
+.footer-cta .lead {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.footer-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: var(--text-secondary-dark);
+}
+.footer-bottom {
+  background-color: #161719; /* A slightly different dark for footer bottom */
+  color: var(--text-secondary-dark);
+  padding: 25px 0;
+  font-size: 0.9rem;
+}
+.contact-info-footer {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.contact-info-footer i {
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+
+/* --- Animations --- */
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* --- Media Queries --- */
+@media (max-width: 991.98px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+  .section-heading {
+    font-size: 2.2rem;
+  }
+  .offer-card {
+    padding: 30px;
+  }
+  .vision-quote {
+    font-size: 1.3rem;
+  }
+  .schedule-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-section {
+    height: 70vh;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .anniversary-badge {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+  }
+  .section-padding {
+    padding: 60px 0;
+  }
+  .section-heading {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+  .pastor-image-container {
+    width: 150px;
+    height: 150px;
+  }
+  .pastor-name {
+    font-size: 1.5rem;
+  }
+  .pastor-title {
+    font-size: 1rem;
+  }
+  .vision-quote {
+    font-size: 1.1rem;
+    padding-left: 15px;
+  }
+  .offer-card {
+    padding: 25px;
+  }
+  .offer-icon {
+    font-size: 2.5rem;
+  }
+  .offer-card-title {
+    font-size: 1.2rem;
+  }
+  .schedule-table th,
+  .schedule-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  .biblical-foundation-item {
+    padding: 15px 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .foundation-icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .foundation-text strong {
+    font-size: 1.05rem;
+  }
+  .btn-cta {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+  .footer-cta .lead {
+    font-size: 1.3rem;
+  }
+  .footer-text {
+    font-size: 0.95rem;
+  }
+  .schedule-subheading {
+    font-size: 1.3rem;
+    margin-top: 30px;
+  }
+}
