@@ -94,7 +94,7 @@ body {
   font-weight: 800;
   margin-bottom: 1rem;
   letter-spacing: -1px;
-  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); */
 }
 
 .hero-title span {
@@ -180,7 +180,7 @@ body {
   position: relative;
   background-image: url('https://ik.imagekit.io/g0xkgtz2g/giftchurch.jpg?updatedAt=1746626721382');
   background-size: cover;
-  background-position: center;
+  background-position: bottom center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   height: 50svh;
@@ -199,7 +199,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  background: rgba(0, 0, 0, 0.2); /* Adjust opacity as needed */
   z-index: 1;
 }
 
