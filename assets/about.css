@@ -1,38 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
 
 :root {
   /* NEW: Gemini-inspired Dark Theme Palette */
-  --primary-color: #da2626; /* A friendly, accessible blue */
-  --accent-color: #38bdf8; /* Kept for secondary accents */
-  --tertiary-color: #ff7b01; /* A warm, inviting yellow */
-  --dark-bg-1: #1e1f22; /* Deep charcoal background */
-  --dark-bg-2: #2a2b2e; /* Lighter charcoal for cards and elevated surfaces */
-  --dark-bg-3: #3c3d40; /* Lighter shade for hovers */
-  --text-primary-dark: #e1e2e4; /* Soft, off-white for primary text */
-  --text-secondary-dark: #b0b1b3; /* Lighter grey for secondary text */
-  --border-dark: rgba(225, 227, 229, 0.15); /* A more visible, subtle border */
+  --ab-primary-color: #da2626; /* A friendly, accessible blue */
+  --ab-accent-color: #38bdf8; /* Kept for secondary accents */
+  --ab-tertiary-color: #ff7b01; /* A warm, inviting yellow */
+  --ab-dark-bg-1: #1e1f22; /* Deep charcoal background */
+  --ab-dark-bg-2: #2a2b2e; /* Lighter charcoal for cards and elevated surfaces */
+  --ab-dark-bg-3: #3c3d40; /* Lighter shade for hovers */
+  --ab-text-primary-dark: #e1e2e4; /* Soft, off-white for primary text */
+  --ab-text-secondary-dark: #b0b1b3; /* Lighter grey for secondary text */
+  --ab-border-dark: rgba(
+    225,
+    227,
+    229,
+    0.15
+  ); /* A more visible, subtle border */
 
   /* Effects */
-  --card-bg-blur: rgba(42, 43, 46, 0.75); /* Dark, semi-transparent for blur */
-  --blur-radius: 8px;
-  --shadow-light: 0 4px 12px rgba(0, 0, 0, 0.3);
-  --shadow-medium: 0 8px 25px rgba(0, 0, 0, 0.5);
+  --ab-card-bg-blur: rgba(
+    42,
+    43,
+    46,
+    0.75
+  ); /* Dark, semi-transparent for blur */
+  --ab-blur-radius: 8px;
+  --ab-shadow-light: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --ab-shadow-medium: 0 8px 25px rgba(0, 0, 0, 0.5);
 }
 
-html {
-  font-size: 16px; /* Set base font size to 18px */
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
+body.about-page {
+  /* font-family: 'Open Sans', sans-serif; */
   background: linear-gradient(to bottom, rgb(23, 23, 26) 0%, #090a0f 100%);
-  color: var(--text-primary-dark);
+  color: var(--ab-text-primary-dark);
   background-size: cover;
   position: relative;
   overflow-x: hidden;
 }
 
-body::before {
+body.about-page::before {
   content: '';
   position: fixed;
   top: 0;
@@ -45,60 +51,48 @@ body::before {
   background-repeat: repeat;
 }
 
-/* body::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 1; /* below ::before */
-  background-image: url('https://ik.imagekit.io/g0xkgtz2g/gift-bg.jpg?updatedAt=1750301423357');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.05; /* Optional */
-  filter: grayscale(100%);
-} */
-
-main > section {
+body.about-page main > section {
   background-color: transparent;
 }
 
-header,
-main,
-footer {
+body.about-page header,
+body.about-page main,
+body.about-page footer {
   position: relative;
   z-index: 2; /* Ensure content is above the background */
 }
 
 /* --- Navbar --- */
-.navbar {
-  backdrop-filter: blur(var(--blur-radius));
-  background-color: trabsparent; /* Transparent background */
+
+body.about-page .navbar {
+  backdrop-filter: blur(var(--ab-blur-radius));
+  background-color: transparent; /* Transparent background */
   z-index: 1020;
 }
-.navbar-brand img {
+
+body.about-page .navbar-brand img {
   max-width: 60px; /* Adjust logo size */
   /* font-weight: 700;
   font-size: 1.6rem;
-  color: var(--primary-color) !important; */
+  color: var(--ab-primary-color) !important; */
 }
-.nav-link {
+
+body.about-page .nav-link {
   font-weight: 500;
-  color: var(--text-secondary-dark) !important;
+  color: var(--ab-text-secondary-dark) !important;
   transition: color 0.3s ease;
+  font-size: 1.1rem;
 }
-.nav-link:hover {
-  color: var(--primary-color) !important;
+
+body.about-page .nav-link:hover {
+  color: var(--ab-primary-color) !important;
 }
 
 /* --- Hero Section --- */
 .hero-section {
   position: relative;
   overflow: hidden;
-  height: calc(100svh - 70px);
+  height: 100svh;
   background-color: transparent;
   opacity: 1;
   color: white;
@@ -113,8 +107,8 @@ footer {
 .text-gradient {
   background: linear-gradient(
     90deg,
-    var(--primary-color),
-    var(--tertiary-color)
+    var(--ab-primary-color),
+    var(--ab-tertiary-color)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -279,12 +273,13 @@ footer {
   font-size: 4.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  letter-spacing: -1px;
+  letter-spacing: 2px;
+  color: var(--ab-text-primary-dark);
   /* text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); */
 }
 
 /* .hero-title span {
-  color: var(--primary-color);
+  color: var(--ab-primary-color);
 } */
 
 .hero-subtitle {
@@ -298,7 +293,7 @@ footer {
   opacity: 0.9;
 }
 .anniversary-badge {
-  background-color: var(--accent-color);
+  background-color: var(--ab-accent-color);
   color: #121212;
   padding: 10px 25px;
   border-radius: 50px;
@@ -318,7 +313,7 @@ footer {
   font-weight: 700;
   margin-bottom: 50px;
   text-align: center;
-  color: var(--text-primary-dark);
+  color: var(--ab-text-primary-dark);
   position: relative;
 }
 .section-heading::after {
@@ -328,8 +323,8 @@ footer {
   height: 4px;
   background: linear-gradient(
     90deg,
-    var(--primary-color),
-    var(--tertiary-color)
+    var(--ab-primary-color),
+    var(--ab-tertiary-color)
   );
   margin: 15px auto 0;
   border-radius: 2px;
@@ -337,13 +332,17 @@ footer {
 
 /* --- Alternating Section Backgrounds --- */
 .section-bg-light {
-  background-color: var(--dark-bg-1);
+  background-color: var(--ab-dark-bg-1);
 }
 .section-bg-dark {
-  background-color: var(--dark-bg-2);
+  background-color: var(--ab-dark-bg-2);
 }
 .section-bg-gradient {
-  background: linear-gradient(to right, var(--dark-bg-1), var(--dark-bg-2));
+  background: linear-gradient(
+    to right,
+    var(--ab-dark-bg-1),
+    var(--ab-dark-bg-2)
+  );
 }
 .section-bg-primary-fade {
   background-color: rgba(137, 180, 248, 0.05);
@@ -358,7 +357,7 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 12px;
-  box-shadow: var(--shadow-light);
+  box-shadow: var(--ab-shadow-light);
 }
 
 /* --- About Us Introduction --- */
@@ -366,14 +365,14 @@ footer {
   font-size: 1.15rem;
   line-height: 1.8;
   margin-bottom: 1rem;
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 .about-intro-text b {
-  color: var(--text-primary-dark);
+  color: var(--ab-text-primary-dark);
   font-weight: 600;
 }
 
@@ -412,8 +411,8 @@ footer {
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  border: 6px solid var(--accent-color);
-  box-shadow: var(--shadow-light);
+  border: 6px solid var(--ab-accent-color);
+  box-shadow: var(--ab-shadow-light);
   margin-bottom: 30px;
   transition: transform 0.3s ease;
 }
@@ -428,17 +427,17 @@ footer {
 .pastor-name {
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--text-primary-dark);
+  color: var(--ab-text-primary-dark);
 }
 .pastor-title {
   font-size: 1.15rem;
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
   margin-bottom: 25px;
 }
 .pastor-bio {
   font-size: 1.05rem;
   line-height: 1.7;
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
   margin-bottom: 40px;
 }
 
@@ -447,8 +446,8 @@ footer {
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.7;
-  color: var(--text-primary-dark);
-  border-left: 5px solid var(--accent-color);
+  color: var(--ab-text-primary-dark);
+  border-left: 5px solid var(--ab-accent-color);
   padding-left: 20px;
   margin: 40px auto;
   max-width: 800px;
@@ -457,7 +456,7 @@ footer {
 .vision-detail-text {
   font-size: 1.05rem;
   line-height: 1.6;
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
@@ -465,13 +464,13 @@ footer {
 
 /* --- What We Offer (WITH BLURRED CARDS) --- */
 .offer-card {
-  /* background-color: var(--card-bg-blur); */
-  /* backdrop-filter: blur(var(--blur-radius)); */
+  /* background-color: var(--ab-card-bg-blur); */
+  /* backdrop-filter: blur(var(--ab-blur-radius)); */
   border-radius: 12px;
-  /* box-shadow: var(--shadow-light); */
+  /* box-shadow: var(--ab-shadow-light); */
   padding: 35px;
   text-align: center;
-  border: 1px solid var(--border-dark);
+  border: 1px solid var(--ab-border-dark);
   transition: transform 0.3s ease-out, box-shadow 0.3s ease-out,
     background-color 0.3s ease;
   height: 100%;
@@ -483,17 +482,17 @@ footer {
 }
 .offer-icon {
   font-size: 3.2rem;
-  color: var(--primary-color);
+  color: var(--ab-primary-color);
   margin-bottom: 20px;
 }
 .offer-card-title {
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 15px;
-  color: var(--text-primary-dark);
+  color: var(--ab-text-primary-dark);
 }
 .offer-card-text {
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
   font-size: 0.95rem;
 }
 
@@ -501,9 +500,9 @@ footer {
 .schedule-table-container {
   max-width: 800px;
   margin: 0 auto;
-  background-color: var(--dark-bg-2);
+  background-color: var(--ab-dark-bg-2);
   border-radius: 8px;
-  /* box-shadow: var(--shadow-light); */
+  /* box-shadow: var(--ab-shadow-light); */
   overflow: hidden;
   margin-bottom: 40px;
 }
@@ -515,30 +514,30 @@ footer {
 .schedule-table td {
   padding: 15px;
   vertical-align: middle;
-  border-bottom: 1px solid var(--border-dark);
+  border-bottom: 1px solid var(--ab-border-dark);
   text-align: left;
 }
 .schedule-table th {
   background-color: #1b2735; /* Darker grey header for contrast with blue text */
-  color: var(--accent-color);
+  color: var(--ab-accent-color);
   font-weight: 600;
-  border-color: var(--border-dark);
+  border-color: var(--ab-border-dark);
 }
 .schedule-table tbody tr:last-child td {
   border-bottom: none;
 }
 .schedule-table tbody tr {
-  color: var(--text-primary-dark);
+  color: var(--ab-text-primary-dark);
 }
 .schedule-table tbody tr:nth-of-type(even) {
-  background-color: var(--dark-bg-3);
+  background-color: var(--ab-dark-bg-3);
 }
 .schedule-table tbody tr:hover {
   background-color: #444548;
 }
 .table-note {
   font-size: 0.9rem;
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
   text-align: center !important;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -546,7 +545,7 @@ footer {
 .schedule-subheading {
   font-size: 1.8rem;
   font-weight: 600;
-  color: var(--text-primary-dark);
+  color: var(--ab-text-primary-dark);
   margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
@@ -554,9 +553,9 @@ footer {
 
 /* --- Biblical Foundation Card Styling --- */
 .biblical-foundation-card {
-  /* background-color: var(--dark-bg-2); */
+  /* background-color: var(--ab-dark-bg-2); */
   /* border-radius: 12px; */
-  /* box-shadow: var(--shadow-light); */
+  /* box-shadow: var(--ab-shadow-light); */
   padding: 40px;
   margin: 0 auto;
 }
@@ -570,7 +569,7 @@ footer {
   padding: 20px 0;
   display: flex;
   align-items: flex-start;
-  border-bottom: 1px solid var(--border-dark);
+  border-bottom: 1px solid var(--ab-border-dark);
   margin-bottom: 0;
 }
 .biblical-foundation-item:first-child {
@@ -584,17 +583,19 @@ footer {
   font-size: 2rem;
   margin-right: 20px;
   flex-shrink: 0;
-  color: var(--primary-color);
+  color: var(--ab-primary-color);
+  min-width: 36px;
+  text-align: center;
 }
 .foundation-text strong {
   display: block;
   margin-bottom: 5px;
   font-size: 1.15rem;
-  color: var(--text-primary-dark);
+  color: var(--ab-text-primary-dark);
 }
 .foundation-text p {
   font-size: 0.95rem;
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
   line-height: 1.6;
 }
 
@@ -607,7 +608,7 @@ footer {
 .partnership-text {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
   margin-bottom: 30px;
 }
 
@@ -618,25 +619,25 @@ footer {
   border-radius: 50px;
   transition: background-color 0.3s ease, transform 0.2s ease,
     box-shadow 0.3s ease;
-  box-shadow: var(--shadow-light);
+  box-shadow: var(--ab-shadow-light);
   border: none;
 }
 
 .btn-cta.btn-primary {
-  background-color: var(--accent-color);
-  color: var(--dark-bg-1);
+  background-color: var(--ab-accent-color);
+  color: var(--ab-dark-bg-1);
 }
 .btn-cta.btn-primary:hover {
   background-color: white; /* Lighter blue on hover */
-  color: var(--dark-bg-1);
+  color: var(--ab-dark-bg-1);
   transform: translateY(-3px);
-  box-shadow: var(--shadow-medium);
+  box-shadow: var(--ab-shadow-medium);
 }
 
 /* --- Contact Section --- */
 .contact-intro-text {
   font-size: 1.1rem;
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
   margin-bottom: 3rem;
 }
 .contact-details-list {
@@ -656,7 +657,7 @@ footer {
   margin-bottom: 1.5rem;
 }
 .contact-item i {
-  color: var(--primary-color);
+  color: var(--ab-primary-color);
   width: 25px;
   margin-right: 1rem;
 }
@@ -666,17 +667,17 @@ footer {
   transition: color 0.3s ease;
 }
 .contact-item a:hover {
-  color: var(--primary-color);
+  color: var(--ab-primary-color);
   text-decoration: underline;
 }
 
 /* --- Footer --- */
 .footer-cta {
   background-color: #282a2e; /* Use a dark card color */
-  color: var(--text-primary-dark);
+  color: var(--ab-text-primary-dark);
   padding: 60px 0;
   text-align: center;
-  border-top: 8px solid var(--primary-color); /* Use blue for the accent line */
+  border-top: 8px solid var(--ab-primary-color); /* Use blue for the accent line */
 }
 .footer-cta .lead {
   font-size: 1.6rem;
@@ -688,14 +689,14 @@ footer {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 30px;
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
 }
 .footer-bottom {
   background-color: transparent; /* A slightly different dark for footer bottom */
-  color: var(--text-secondary-dark);
+  color: var(--ab-text-secondary-dark);
   padding: 25px 0;
   font-size: 0.9rem;
-  border-top: 1px solid var(--border-dark);
+  border-top: 1px solid var(--ab-border-dark);
 }
 .contact-info-footer {
   margin-top: 20px;
@@ -704,7 +705,7 @@ footer {
 }
 .contact-info-footer i {
   margin-right: 10px;
-  color: var(--primary-color);
+  color: var(--ab-primary-color);
 }
 
 /* --- Animations --- */
