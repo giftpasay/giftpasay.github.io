@@ -45,7 +45,7 @@ body::before {
   background-repeat: repeat;
 }
 
-body::after {
+/* body::after {
   content: '';
   position: fixed;
   top: 0;
@@ -60,7 +60,7 @@ body::after {
   background-position: center;
   opacity: 0.05; /* Optional */
   filter: grayscale(100%);
-}
+} */
 
 main > section {
   background-color: transparent;
