@@ -2,7 +2,7 @@
 
 :root {
   /* NEW: Gemini-inspired Dark Theme Palette */
-  --ab-primary-color: #da2626; /* A friendly, accessible blue */
+  --ab-primary-color: #dc143c; /* A friendly, accessible blue */
   --ab-accent-color: #38bdf8; /* Kept for secondary accents */
   --ab-tertiary-color: #ff7b01; /* A warm, inviting yellow */
   --ab-dark-bg-1: #1e1f22; /* Deep charcoal background */
@@ -114,7 +114,6 @@ body.about-page .nav-link:hover {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
 }
 
 .lines {
@@ -656,9 +655,7 @@ body.about-page .nav-link:hover {
   margin-bottom: 1.5rem;
 }
 .contact-item i {
-  color: var(--ab-primary-color);
-  width: 25px;
-  margin-right: 1rem;
+  color: var(--ab-text-primary-dark);
 }
 .contact-item a {
   color: inherit;

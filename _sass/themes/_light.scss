@@ -38,7 +38,7 @@
   --sidebar-bg: #f6f8fa;
   --sidebar-border-color: #efefef;
   --sidebar-muted-color: #545454;
-  --sidebar-active-color: #1d1d1d;
+  --sidebar-active-color: #da2626;
   --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
   --sidebar-btn-bg: white;
   --sidebar-btn-color: #8e8e8e;
@@ -116,6 +116,11 @@
 
   .dark {
     display: none;
+  }
+
+  .btn.btn-outline-primary:hover {
+    background-color: #dc143c;
+    border-color: #dc143c !important;
   }
 
   /* --- Syntax highlight theme from `rougify style github` --- */

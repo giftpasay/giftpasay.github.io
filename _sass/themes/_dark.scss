@@ -14,8 +14,8 @@
   --label-color: #b0b1b3;
   --blockquote-border-color: #4a4a4e;
   --blockquote-text-color: #9fa0a3;
-  --link-color: #da2626;
-  --link-underline-color: #da2626;
+  --link-color: #dc143c;
+  --link-underline-color: #dc143c;
   --button-bg: #2a2b2e;
   --btn-border-color: #4a4a4e;
   --btn-backtotop-color: var(--text-color);
@@ -37,7 +37,7 @@
   --sidebar-bg: #1e1f22;
   --sidebar-border-color: #3c3d40;
   --sidebar-muted-color: #9fa0a3;
-  --sidebar-active-color: #da2626;
+  --sidebar-active-color: #dc143c;
   --sidebar-hover-bg: #2a2b2e;
   --sidebar-btn-bg: #303134;
   --sidebar-btn-color: #e1e2e4;
@@ -56,8 +56,8 @@
   --btn-paginator-hover-color: #2a2b2e;
 
   /* Posts */
-  --toc-highlight: #da2626;
-  --toc-popup-border-color: #4a4a4e;
+  --toc-highlight: #dc143c;
+  --toc-popup-border-color: #1e1e31;
   --tag-hover: #3c3d40;
   --tb-odd-bg: #2a2b2e;
   --tb-even-bg: #303134;
@@ -116,20 +116,29 @@
     display: none;
   }
 
+  #sidebar ul li.nav-item.active a {
+    font-weight: 700;
+  }
+
   .categories.card,
   .list-group-item {
     background-color: var(--card-bg);
   }
 
   // .card .card-title,
-  // article header h1,
-  // .profile-wrapper .site-title {
+  // article header h1 {
   //   background: linear-gradient(90deg, #da2626, #ff7b01);
   //   background-clip: text;
   //   -webkit-background-clip: text;
   //   -webkit-text-fill-color: transparent;
   //   font-weight: bold;
+  //   color: #dc143c;
   // }
+
+  .btn.btn-outline-primary:hover {
+    background-color: #dc143c;
+    border-color: #dc143c !important;
+  }
 
   .categories {
     .card-header {
