@@ -14,7 +14,7 @@
   --label-color: #b0b1b3;
   --blockquote-border-color: #4a4a4e;
   --blockquote-text-color: #9fa0a3;
-  --link-color: #89b4f8;
+  --link-color: #38bdf8;
   --link-underline-color: #537bb3;
   --button-bg: #2a2b2e;
   --btn-border-color: #4a4a4e;
@@ -65,7 +65,7 @@
   --footnote-target-bg: rgba(137, 180, 248, 0.5);
   --btn-share-color: #b0b1b3;
   --btn-share-hover-color: #e1e2e4;
-  --card-bg: rgba(#2a2b2e, 0.8);
+  --card-bg: var(--main-bg);
   --card-hovor-bg: #3c3d40;
   --card-shadow: rgba(0, 0, 0, 0) 0 8px 16px 0,
     rgba(225, 227, 229, 0.05) 0 0 0 1px;
@@ -120,6 +120,16 @@
   .list-group-item {
     background-color: var(--card-bg);
   }
+
+  // .card .card-title,
+  // article header h1,
+  // .profile-wrapper .site-title {
+  //   background: linear-gradient(90deg, #da2626, #ff7b01);
+  //   background-clip: text;
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+  //   font-weight: bold;
+  // }
 
   .categories {
     .card-header {
