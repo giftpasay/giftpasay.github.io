@@ -50,17 +50,15 @@
 
   {{ seo_tags }}
 
-<title>
-  {% if page.layout == 'about' %}
-    About Us | {{ site.title }}
-  {% elsif page.layout != 'home' %}
-    {{ page.title }} | {{ site.title }}
-  {% else %}
-    {{ site.title }}
-  {% endif %}
-</title>
-
-
+  <title>
+    {% if page.layout == 'about' %}
+      About Us | {{ site.title }}
+    {% elsif page.layout != 'home' %}
+      {{ page.title }} | {{ site.title }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </title>
 
   {% include_cached favicons.html %}
 
@@ -81,8 +79,6 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ '/assets/css/:THEME.css' | replace: ':THEME', site.theme | relative_url }}">
   
-  <link rel="stylesheet" href="/assets/css/about.css" />
-
   <!-- Web Font -->
   <link rel="stylesheet" href="{{ site.data.origin[type].webfonts | relative_url }}">
 
@@ -95,13 +91,17 @@
     <link rel="stylesheet" href="{{ site.data.origin[type].toc.css | relative_url }}">
   {% endif %}
 
-  {% if page.layout == 'post' or page.layout == 'page' or page.layout == 'home' %}
+  {% if page.layout == 'post' or page.layout == 'page' or page.layout == 'home' or page.layout == 'about' %}
     <link rel="stylesheet" href="{{ site.data.origin[type]['lazy-polyfill'].css | relative_url }}">
   {% endif %}
 
   {% if page.layout == 'page' or page.layout == 'post' %}
     <!-- Image Popup -->
     <link rel="stylesheet" href="{{ site.data.origin[type].glightbox.css | relative_url }}">
+  {% endif %}
+
+  {% if page.layout == 'about' %}
+    <link rel="stylesheet" href="/assets/about.css" />
   {% endif %}
 
   <!-- Scripts -->
