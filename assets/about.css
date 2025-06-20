@@ -38,6 +38,11 @@ body.about-page {
   overflow-x: hidden;
 }
 
+body.about-page section p {
+  color: var(--ab-text-secondary-dark);
+  line-height: 1.7;
+}
+
 body.about-page::before {
   content: '';
   position: fixed;
@@ -360,7 +365,7 @@ body.about-page .nav-link:hover {
 
 /* --- About Us Introduction --- */
 .about-intro-text {
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
   color: var(--ab-text-secondary-dark);
@@ -428,12 +433,12 @@ body.about-page .nav-link:hover {
   color: var(--ab-text-primary-dark);
 }
 .pastor-title {
-  font-size: 1.15rem;
+  font-size: 1rem;
   color: var(--ab-text-secondary-dark);
   margin-bottom: 25px;
 }
 .pastor-bio {
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.7;
   color: var(--ab-text-secondary-dark);
   margin-bottom: 40px;
@@ -452,7 +457,7 @@ body.about-page .nav-link:hover {
   text-align: center;
 }
 .vision-detail-text {
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.6;
   color: var(--ab-text-secondary-dark);
   max-width: 900px;
@@ -588,7 +593,7 @@ body.about-page .nav-link:hover {
 .foundation-text strong {
   display: block;
   margin-bottom: 5px;
-  font-size: 1.15rem;
+  font-size: 1rem;
   color: var(--ab-text-primary-dark);
 }
 .foundation-text p {
@@ -612,7 +617,7 @@ body.about-page .nav-link:hover {
 
 .btn-cta {
   padding: 15px 40px;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 600;
   border-radius: 50px;
   transition: background-color 0.3s ease, transform 0.2s ease,
@@ -641,7 +646,7 @@ body.about-page .nav-link:hover {
 .contact-details-list {
   display: grid;
   justify-content: center;
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 2.2;
   text-align: center;
 }
@@ -802,7 +807,7 @@ body.about-page .nav-link:hover {
     margin-bottom: 10px;
   }
   .foundation-text strong {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
   .btn-cta {
     padding: 12px 30px;
