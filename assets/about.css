@@ -111,6 +111,12 @@ body.about-page .nav-link:hover {
   border-bottom: 1px solid var(--ab-border-dark);
 }
 
+@media (max-width: 520px) {
+  .hero-section {
+    height: calc(70svh - 70px); /* Adjust height for smaller screens */
+  }
+}
+
 .text-gradient {
   background: linear-gradient(
     90deg,
@@ -279,6 +285,7 @@ body.about-page .nav-link:hover {
   margin-bottom: 1rem;
   letter-spacing: -1px;
   color: var(--ab-text-primary-dark);
+  white-space: nowrap;
   /* text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); */
 }
 
@@ -288,9 +295,10 @@ body.about-page .nav-link:hover {
 
 .hero-subtitle {
   font-size: 1.75rem;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 2rem;
 }
+
 .hero-text-small {
   font-size: 1.1rem;
   font-style: italic;
@@ -755,7 +763,7 @@ body.about-page .nav-link:hover {
     font-size: 2.5rem;
   }
   .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 1.5rem;
   }
   .anniversary-badge {
@@ -826,6 +834,16 @@ body.about-page .nav-link:hover {
   }
 }
 
+@media (max-width: 575.98px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
 /* Animation classes */
 .anim {
   opacity: 0;
@@ -858,7 +876,7 @@ body.about-page .nav-link:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .cursor {
