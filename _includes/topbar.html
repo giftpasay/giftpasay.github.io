@@ -13,6 +13,10 @@
         <!-- <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span> -->
         <span>Posts</span>
 
+      {% elsif page.layout == 'contact' %}
+        <span>Contact</span>
+      {% elsif page.layout == 'privacy' %}
+        <span>Privacy Policy</span>
       {% else %}
         {% for item in paths %}
           {% if forloop.first %}

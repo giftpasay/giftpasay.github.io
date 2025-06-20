@@ -131,12 +131,16 @@
 
   .content p,
   .content ul li,
-  .content ol li {
+  .content ol li,
+  .privacy-policy p,
+  .privacy-policy ul li {
     color: var(--sidebar-muted-color);
   }
 
   .content strong,
-  .content b {
+  .content b,
+  .privacy-policy strong,
+  .privacy-policy b {
     color: var(--text-color);
   }
 
