@@ -854,4 +854,36 @@ body.about-page .nav-link:hover {
   animation: float 3s ease-in-out infinite;
 }
 
+.typing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cursor {
+  display: inline-block;
+  width: 4px;
+  height: 5rem;
+  background-color: white;
+  animation: blink 0.7s infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .cursor {
+    height: 3rem; /* Adjust cursor height for smaller screens */
+    width: 2px; /* Adjust cursor width for smaller screens */
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 /* End Animation */

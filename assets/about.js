@@ -20,3 +20,39 @@ const observer = new IntersectionObserver(handleIntersection, {
 document.querySelectorAll('.anim').forEach(element => {
     observer.observe(element);
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const typedTextSpan = document.getElementById('typed-text');
+    const words = ["UPC", "GIFT", "PASAY"];
+    const typingDelay = 200;
+    const wordDelay = 1000;
+    let wordIndex = 0;
+    let charIndex = 0;
+
+    function type() {
+        if (wordIndex < words.length) {
+            if (charIndex < words[wordIndex].length) {
+                typedTextSpan.textContent += words[wordIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } else {
+                setTimeout(nextWord, wordDelay);
+            }
+        }
+    }
+
+    function nextWord() {
+        wordIndex++;
+        charIndex = 0;
+        typedTextSpan.textContent = '';
+        if (wordIndex < words.length) {
+            type();
+        } else {
+            // Optional: Restart the animation
+            wordIndex = 0;
+            setTimeout(type, wordDelay);
+        }
+    }
+
+    type();
+});
