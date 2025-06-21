@@ -56,3 +56,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     type();
 });
+
+// Wait for the document to be fully loaded
+document.addEventListener('DOMContentLoaded', function () {
+    // Select the navbar element
+    const navbar = document.querySelector('.about-page .navbar');
+
+    // Set a scroll threshold (e.g., 10 pixels)
+    const scrollThreshold = 10;
+
+    // Listen for the scroll event on the window
+    window.addEventListener('scroll', function () {
+        // Check if the vertical scroll position is greater than the threshold
+        if (window.scrollY > scrollThreshold) {
+            // If so, add the 'scrolled' class to the navbar
+            navbar.classList.add('scrolled');
+        } else {
+            // Otherwise, remove the 'scrolled' class
+            navbar.classList.remove('scrolled');
+        }
+    });
+});

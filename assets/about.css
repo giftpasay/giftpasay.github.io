@@ -71,9 +71,13 @@ body.about-page footer {
 /* --- Navbar --- */
 
 body.about-page .navbar {
-  backdrop-filter: blur(var(--ab-blur-radius));
   background-color: transparent; /* Transparent background */
   z-index: 1020;
+  transition: background-color 0.4s ease, backdrop-filter 0.4s ease;
+}
+
+body.about-page .navbar.scrolled {
+  backdrop-filter: blur(var(--ab-blur-radius));
 }
 
 body.about-page .navbar-brand img {
@@ -109,6 +113,23 @@ body.about-page .nav-link:hover {
   padding: 20px;
   overflow: hidden;
   border-bottom: 1px solid var(--ab-border-dark);
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1; /* below ::before */
+  background-image: url('https://ik.imagekit.io/g0xkgtz2g/gift-cover.jpg?updatedAt=1750476052448');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.04; /* Optional */
+  filter: grayscale(100%);
 }
 
 @media (max-width: 520px) {

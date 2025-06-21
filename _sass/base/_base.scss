@@ -89,6 +89,11 @@ main {
   }
 }
 
+* a:not(.btn) {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
 .post-preview {
   @extend %rounded;
 
