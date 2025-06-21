@@ -3,7 +3,7 @@ title: Ang Pananampalatayang Nagliligtas
 date: 2025-06-18
 categories: [Bible Study]
 tags: [salvation, gospel, new testament]
-image: https://ik.imagekit.io/g0xkgtz2g/pananampalatayang%20nagliligtas.jpg?updatedAt=1750240490607
+image: https://ik.imagekit.io/g0xkgtz2g/the-saving-faith.jpg?updatedAt=1750498547009
 comments: false
 ---
 
