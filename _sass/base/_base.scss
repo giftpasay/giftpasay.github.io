@@ -89,7 +89,7 @@ main {
   }
 }
 
-a:not(.btn):not(.tag) {
+a:not(.btn):not(.tag):not(.post-tag) {
   text-decoration: none !important;
   border-bottom: none !important;
 }
