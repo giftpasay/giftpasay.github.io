@@ -52,10 +52,13 @@
   {{ seo_tags }}
 
   <title>
-    {%- unless page.layout == 'home' -%}
-      {{ page.title | append: ' | ' }}
-    {%- endunless -%}
-    {{ site.title }} Pasay
+    {%- if page.layout == 'privacy' -%}
+      Privacy Policy | {{ site.title }} Pasay
+    {%- elsif page.layout == 'home' -%}
+      {{ site.title }} Pasay
+    {%- else -%}
+      {{ page.title | append: ' | ' }}{{ site.title }} Pasay
+    {%- endif -%}
   </title>
 
   {% include_cached favicons.html %}

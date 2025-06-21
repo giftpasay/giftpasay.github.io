@@ -1,5 +1,5 @@
 ---
 layout: contact
 icon: fa-solid fa-phone
-order: 0
+order: 4
 ---

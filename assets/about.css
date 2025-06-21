@@ -861,7 +861,7 @@ body.about-page .nav-link:hover {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   100% {
     transform: translateY(0);
@@ -869,7 +869,7 @@ body.about-page .nav-link:hover {
 }
 
 .floating {
-  animation: float 3s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
 }
 
 .typing-container {
