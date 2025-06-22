@@ -1,6 +1,6 @@
 ---
 title: I Will Not Die In My Dilemma
-date: 2025-06-10
+date: 2025-05-06
 categories: [Sermon Notes]
 tags: [dilemma, destiny, resurrection, trouble, purpose, transformation, hope]
 image: https://ik.imagekit.io/g0xkgtz2g/I%20will%20not%20die%20in%20my%20dilemma.jpg?updatedAt=1749566365904
