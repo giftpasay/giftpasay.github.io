@@ -3,6 +3,7 @@ title: Fire Dwellers - Dwelling in the Fire of God's Presence
 date: 2025-05-25
 categories: [Sermon Notes, General Conference 2025]
 tags: [fire dwellers, holy spirit, baptism in fire, pentecostal, revival]
+description: Rev. Adam Hunley's sermon at General Conference 2025, challenging believers to become "fire dwellers" who live in the transformative fire of God's presence rather than being mere tourists.
 image: https://ik.imagekit.io/g0xkgtz2g/FIRE%20DWELLERS_20250527_012126_0000.jpg?updatedAt=1748280157410
 comments: false
 ---
@@ -11,8 +12,6 @@ _Text: Isaiah 33:14-17_
 _Preacher: Rev. Adam Hunley_
 
 ---
-
-Rev. Adam Hunley delivered a powerful message about what it means to be "fire dwellers" in God's presence. This sermon challenged the common understanding of God's fire and revealed how believers can actually dwell in what once brought terror to humanity.
 
 ## The Question of the Ages
 

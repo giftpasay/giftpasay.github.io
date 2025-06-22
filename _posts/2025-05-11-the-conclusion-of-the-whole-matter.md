@@ -1,8 +1,9 @@
 ---
 title: The Conclusion of the Whole Matter
-date: 2025-05-11 9:50:00 +0800
+date: 2025-05-11
 categories: [Sermon Notes]
 tags: [fear of god, holiness, purpose, judgment, solomon]
+description: Key lessons from Pastor Sael Anota's sermon on Ecclesiastes 12:13-14, focusing on the eternal significance of our lives, the importance of fearing God, and the call to holiness over happiness.
 image: https://ik.imagekit.io/g0xkgtz2g/conclusion%20of%20the%20whole%20matter.jpg?updatedAt=1746971622184
 comments: false
 pin: false
@@ -13,8 +14,6 @@ pin: false
 _Notes from Sunday's Sermon on Ecclesiastes 12:13-14_
 
 ---
-
-The sermon today was truly powerful. King Solomon had everything - money, wisdom, power - but what did he finally decide was important? Let's look at the wisdom found in his conclusion in Ecclesiastes.
 
 ## 1. Your Life Matters Forever
 

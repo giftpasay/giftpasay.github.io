@@ -3,6 +3,7 @@ title: The Promise is Personal
 date: 2025-05-25
 categories: [Sermon Notes, General Conference 2025]
 tags: [personal promise, pentecost, holy spirit, healing, covenant]
+description: Rev. Adam Hunley's sermon at General Conference 2025, emphasizing that God's promises are personal and available to every believer, rooted in Acts 2:37-41.
 image: https://ik.imagekit.io/g0xkgtz2g/THE%20PROMISE%20IS%20PERSONAL.jpg?updatedAt=1748279066352
 comments: false
 ---
@@ -11,8 +12,6 @@ _Text: Acts 2:37-41_
 _Preacher: Rev. Adam Hunley_
 
 ---
-
-On the final night of General Conference 2025, Rev. Adam Hunley delivered a deeply personal message that reminded everyone present that God's promises are not just for others - they are personal and available to each individual believer.
 
 ## A Personal Testimony of Power
 

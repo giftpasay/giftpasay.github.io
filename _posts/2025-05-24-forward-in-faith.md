@@ -3,6 +3,7 @@ title: Forward In Faith
 date: 2025-05-24 19:30:00 +0800
 categories: [Sermon Notes, General Conference 2025]
 tags: [forward in faith, philippians, progress, ministry, legacy]
+description: Rev. Adam Hunley's sermon at General Conference 2025, focusing on the importance of moving forward in faith, honoring past sacrifices, and empowering the next generation.
 image: https://ik.imagekit.io/g0xkgtz2g/Forward%20in%20faith.jpg?updatedAt=1748279212171
 comments: false
 ---
@@ -11,8 +12,6 @@ _Text: Philippians 3:13-14_
 _Preacher: Rev. Adam Hunley_
 
 ---
-
-This powerful sermon was delivered by Rev. Adam Hunley to honor elders who have served in ministry for more than 25 years, celebrating those who have paved the way and sacrificed so others could be here today. The message comes from the elder statesman of the gospel, the Apostle Paul, who wrote nearly half the New Testament.
 
 ## The Heart of Paul's Message
 

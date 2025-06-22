@@ -3,6 +3,7 @@ title: Silent but not forgotten
 date: 2025-05-25
 categories: [Sermon Notes]
 tags: [silent seasons, anna the prophetess, perseverance, prayer, faithfulness]
+description: Pastor Dex Velasco's sermon on enduring silent seasons in our spiritual journey, using the life of Anna the prophetess as an example of faithfulness during times when God seems quiet.
 image: https://ik.imagekit.io/g0xkgtz2g/SILENT.png?updatedAt=1748175234068
 comments: false
 ---
@@ -11,8 +12,6 @@ _Text: Luke 2:36-37_
 _Preacher: Ptr. Dexter Velasco_
 
 ---
-
-Pastor Dex delivered a powerful message about enduring through silent seasons in our spiritual journey, using the life of Anna the prophetess as an example of faithfulness during times when God seems quiet.
 
 ## The 400 Silent Years
 

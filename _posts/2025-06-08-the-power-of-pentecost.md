@@ -2,7 +2,9 @@
 title: The Power of Pentecost
 date: 2025-06-08
 categories: [Sermon Notes]
-tags: [pentecost, holy spirit, power, transformation, baptism, witnesses, revival]
+tags:
+  [pentecost, holy spirit, power, transformation, baptism, witnesses, revival]
+description: Pastor Sael Anota's sermon on the necessity and transformative power of the Holy Spirit in believers' lives, emphasizing that God's work cannot be accomplished through human strength alone.
 image: https://ik.imagekit.io/g0xkgtz2g/The%20Power%20of%20Pentecost.jpg?updatedAt=1749388966862
 comments: false
 ---
@@ -11,8 +13,6 @@ _Text: Zechariah 4:6; Luke 24:44-53; Acts 1:8, 2:1-4_
 _Preacher: Ptr. Sael Anota_
 
 ---
-
-Pastor Sael delivered a powerful message on Pentecost Sunday about the necessity and transformative power of the Holy Spirit in believers' lives, emphasizing that God's work cannot be accomplished through human strength alone.
 
 ## The Foundation: Not By Might, But By My Spirit
 

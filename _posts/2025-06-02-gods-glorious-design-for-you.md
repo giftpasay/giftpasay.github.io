@@ -3,6 +3,7 @@ title: God's Glorious Design For You
 date: 2025-06-02
 categories: [Sermon Notes]
 tags: [gods design, calling, chosen, fruit bearing, evangelism, divine purpose]
+description: Pastor Sael Anota's sermon on understanding God's intentional design and purpose for each believer's life, emphasizing that our existence is part of God's glorious plan.
 image: https://ik.imagekit.io/g0xkgtz2g/God_s%20Glorious%20Design.jpg?updatedAt=1748854816928
 comments: false
 ---
@@ -11,8 +12,6 @@ _Text: John 15:16_
 _Preacher: Ptr. Sael Anota_
 
 ---
-
-Pastor Sael delivered an encouraging message about understanding God's intentional design and purpose for each believer's life, emphasizing that our existence is not accidental but part of God's glorious plan.
 
 ## The Foundation: You Are Chosen
 

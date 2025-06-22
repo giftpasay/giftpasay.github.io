@@ -2,7 +2,9 @@
 title: In Loving Memory Of
 date: 2025-06-16
 categories: [Sermon Notes]
-tags: [faith, offering, worship, Abel, Cain, legacy, remembrance, pananampalataya]
+tags:
+  [faith, offering, worship, Abel, Cain, legacy, remembrance, pananampalataya]
+description: A sermon exploring the legacy of faith through the story of Abel and Cain, emphasizing the importance of faith-filled worship and offerings to God.
 image: https://ik.imagekit.io/g0xkgtz2g/in%20loving%20memory%20of.jpg?updatedAt=1750087826140
 comments: false
 ---
@@ -11,8 +13,6 @@ _Text: Genesis 4:1-8; Hebrews 11:4_
 _Preacher: Min. Michaelle Barcena_
 
 ---
-
-Min. Mike delivered a profound message about leaving a lasting legacy through faith-filled worship, using the story of Abel and Cain to illustrate how our offerings to God must be accompanied by genuine faith rather than mere duty or obligation.
 
 ## The Foundation: Hebrews 11 - The Hall of Faith
 
@@ -27,12 +27,14 @@ The sermon opened with an exploration of Hebrews 11, known as the "Hall of Fame"
 From Genesis 4:1-8, the preacher examined the contrasting births and lives of Cain and Abel:
 
 ### Cain - The Favored Son
+
 - **Birth announcement:** "I have gotten a man from the Lord" (Genesis 4:1)
 - **Name meaning:** "God is my help" or "acquisition from God"
 - **Occupation:** Farmer, tiller of the ground
 - **Birth significance:** Celebrated and acknowledged as a special gift from God
 
 ### Abel - The Overlooked Son
+
 - **Birth announcement:** Simply stated as "she again bore his brother Abel"
 - **Name meaning:** "Vanity," "worthless," or "breath/vapor"
 - **Occupation:** Shepherd, keeper of sheep
@@ -45,12 +47,14 @@ From Genesis 4:1-8, the preacher examined the contrasting births and lives of Ca
 Both brothers brought offerings to the Lord from their respective occupations:
 
 ### Cain's Offering
+
 - **Content:** Fruits and crops from his farming
 - **Quality:** Described as his best produce
 - **Presentation:** Likely well-arranged and visually appealing
 - **God's Response:** Not accepted or respected
 
 ### Abel's Offering
+
 - **Content:** Firstborn of his flock and their fat
 - **Quality:** The best from his livestock, including the precious fat
 - **Presentation:** Messy, bloody, unattractive by human standards
@@ -63,12 +67,14 @@ Both brothers brought offerings to the Lord from their respective occupations:
 **Revolutionary Understanding:** The issue was not about the type of offering (crops vs. livestock) but about the heart and faith behind the offering.
 
 ### Why Cain's Offering Failed
+
 - **Lack of Faith:** Offered out of duty, tradition, or obligation
 - **Wrong Foundation:** Gave fruits from the cursed ground (consequence of Adam's sin)
 - **Missing Element:** No expectation of God's supernatural response
 - **Attitude Problem:** "This should be good enough" mentality
 
 ### Why Abel's Offering Succeeded
+
 - **Faith-Filled Expectation:** Believed God would respond supernaturally
 - **Proper Understanding:** Brought fat knowing it would create sweet aroma when consumed by heavenly fire
 - **Heart Motivation:** Offered with genuine faith and anticipation
@@ -81,12 +87,14 @@ Both brothers brought offerings to the Lord from their respective occupations:
 When God accepted Abel's offering but rejected Cain's:
 
 ### Cain's Response
+
 - **Emotional Reaction:** Became angry and his countenance fell
 - **God's Warning:** "Sin lies at the door, and its desire is for you, but you should rule over it"
 - **Fatal Decision:** Chose jealousy and murder over repentance and correction
 - **First Murder:** Killed Abel in the field, thinking death would end Abel's influence
 
 ### The Irony of Murder
+
 - **Cain's Logic:** "If I kill Abel, his influence will stop"
 - **Reality:** Abel's faith-filled offering continues to speak even after death
 - **Biblical Truth:** "He being dead yet speaks" (Hebrews 11:4)
@@ -96,6 +104,7 @@ When God accepted Abel's offering but rejected Cain's:
 **Fundamental Truth:** What transforms any offering, service, or worship from ordinary to extraordinary is the element of faith.
 
 ### Requirements for Acceptable Worship
+
 - **Not Performance:** Not about how loud you sing or how well you play
 - **Not Appearance:** Not about what you wear or how you look
 - **Not Ability:** Not about your talents or skills
@@ -112,6 +121,7 @@ When God accepted Abel's offering but rejected Cain's:
 ## The Legacy That Speaks Beyond Death
 
 **Powerful Truth:** Abel's one act of faith-filled worship earned him:
+
 - A place in Hebrews 11 alongside history's greatest faith heroes
 - A testimony that continues to speak thousands of years later
 - Recognition as the first person to demonstrate acceptable worship
@@ -121,6 +131,7 @@ When God accepted Abel's offering but rejected Cain's:
 ## Personal Application: What Will Your Legacy Say?
 
 **Challenge Questions:**
+
 - Are your offerings to God motivated by faith or mere duty?
 - Do you expect God to respond supernaturally to your worship?
 - What kind of legacy are you creating through your faith-filled actions?
@@ -131,15 +142,19 @@ When God accepted Abel's offering but rejected Cain's:
 Min. Mike concluded with a powerful challenge for believers to:
 
 ### Examine Your Heart
+
 Stop going through the motions of worship and start worshipping with genuine faith and expectation.
 
 ### Expect God's Response
+
 Believe that God will respond supernaturally to your faith-filled offerings and worship.
 
 ### Create an Eternal Legacy
+
 Let your faith-filled actions speak long after you're gone, just like Abel's offering continues to speak today.
 
 ### Avoid the Curse
+
 Don't offer God the fruits of your cursed nature, but present Him with offerings that flow from faith and righteousness.
 
 ---
