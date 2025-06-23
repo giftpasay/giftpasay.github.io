@@ -1,21 +1,36 @@
 <!-- Display GoatCounter pageviews -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const pv = document.getElementById('pageviews');
+  const pv = document.getElementById('pageviews');
 
-    if (pv !== null) {
-      const uri = location.pathname.replace(/\/$/, '');
-      const url = `https://0620.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
+  if (pv !== null) {
+    // Use location.pathname directly, as GoatCounter handles paths with trailing slashes.
+    const path = location.pathname; 
+    const url = `https://0620.goatcounter.com/counter/${encodeURIComponent(path)}.json`;
 
-      fetch(url)
-        .then((response) => response.json())
-        .then((data) => {
-          const count = data.count.replace(/\D/g, '');
+    fetch(url)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        // GoatCounter's `count` is a formatted string (e.g., "1,234").
+        // It's safer to check if the property exists before trying to access it.
+        if (data && typeof data.count === 'string') {
+          // The .replace() is correct for removing thousand separators.
+          const count = data.count.replace(/\D/g, ''); 
           pv.innerText = new Intl.NumberFormat().format(count);
-        })
-        .catch((error) => {
-          pv.innerText = '1';
-        });
-    }
-  });
+        } else {
+          // Handle cases where 'count' isn't a string or is missing.
+          pv.innerText = '1'; 
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching GoatCounter data:', error);
+        pv.innerText = '1'; // Fallback for network errors or failed requests.
+      });
+  }
+});
 </script>
