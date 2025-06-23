@@ -1,6 +1,6 @@
 ---
 layout: compress
-permalink: '/:path/swconf.js'
+permalink: '/assets/js/data/swconf.js'
 # Note that this file will be fetched by the ServiceWorker, so it will not be cached.
 ---
 
