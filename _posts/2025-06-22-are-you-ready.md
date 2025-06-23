@@ -28,7 +28,7 @@ _Preacher: Pastor Sael Anota_
 
 ## The Reality We Cannot Ignore
 
-Pastor Sael opened with heartfelt honesty to the GIFT family: 'I wish I could stand here this morning and say, “Everything is alright”... Unfortunately, that is not reality.'
+Pastor Sael opened with heartfelt honesty to the GIFT family: “I wish I could stand here this morning and say, ‘Everything is alright.’ Unfortunately, that is not the reality.”
 
 The time for comfortable Christianity is over. We are living in the prophetic fulfillment of Jesus' end-time warnings, and the signs are undeniable. The urgency of the hour demands we ask ourselves: **"Are You Ready?"**
 
