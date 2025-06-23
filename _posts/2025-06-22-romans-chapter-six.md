@@ -12,7 +12,7 @@ tags:
     sanctification,
   ]
 description: Minister Michaelle Barcena's Sunday School lesson on Romans 6, addressing the vital question of whether Christians can continue in sin since grace abounds, and teaching believers about their new identity in Christ.
-image: https://ik.imagekit.io/g0xkgtz2g/ROMANS%206.jpg?updatedAt=1750639487694
+image: https://ik.imagekit.io/g0xkgtz2g/ROMANS%206.jpg?updatedAt=1750659032367
 comments: false
 ---
 
