@@ -8,7 +8,7 @@ image: https://ik.imagekit.io/g0xkgtz2g/even%20in%20your%20lowest%20place.jpg?up
 comments: false
 ---
 
-_Text: Luke 14:7-11; Matthew 22:1-14_
+_Text: Luke 14:7-11; Matthew 22:1-14_<br>
 _Preacher: Minister Rogelio(Jun) Soposo_
 
 ---
