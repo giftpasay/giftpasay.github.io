@@ -1,7 +1,7 @@
 ---
 title: Are You Ready? - Understanding the End Times
-date: 2025-06-23
-categories: [Sermon Notes, End Times Prophecy]
+date: 2025-06-22
+categories: [Sermon Notes]
 tags:
   [
     end times,
@@ -15,9 +15,9 @@ tags:
     deception,
     last days,
   ]
+
 description: Pastor Sael Anota's urgent sermon on end times readiness, examining current signs including the rise of Robotheism (AI worship) and the Israel-Iran conflict as fulfillment of biblical prophecy.
-preacher: Pastor Sael Anota
-text: Matthew 24:1-6, 14 | 2 Timothy 3:1 | Romans 13:11-14
+image: https://ik.imagekit.io/g0xkgtz2g/ARE%20YOU%20READY.jpg?updatedAt=1750668807150
 comments: false
 ---
 
@@ -88,7 +88,7 @@ According to this deceptive doctrine:
 - **Deception of the elect** - using logical arguments to seduce even believers
 - **Coming in His name** - claiming to be the true "intelligence" behind creation
 
-**Pastor Sael's warning:** "You can deny Robotheism now, but you will not be able to deny it forever. In the future, every robot, every AI, every supreme intelligence will say that Robotheism is the one true religion."
+Robotheism is envisioned by its proponents as the religion of the future. While it may be dismissed today, its followers believe that in time, all intelligent machines — from robots to AIs — will acknowledge it as the one true faith.
 
 ### The Antichrist Question
 
