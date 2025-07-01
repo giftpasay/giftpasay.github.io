@@ -3,7 +3,8 @@ title: Israel's Role in the End Times - A Divine Witness Through History
 date: 2025-06-27
 categories: [Bible Study, End-Time Studies]
 tags: [Israel, end times, prophecy, witness, restoration, tribulation]
-description: Pastor Sael's comprehensive study on Israel's unchanging role as God's witness to the nations, from ancient times through the end-time events, including modern confirmations of biblical prophecy.
+description: A comprehensive study on Israel's unchanging role as God's witness to the nations, from ancient times through end-time events, including modern confirmations of biblical prophecy.
+image: https://ik.imagekit.io/g0xkgtz2g/israelsrole.jpg?updatedAt=1751376055941
 comments: false
 ---
 
