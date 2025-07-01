@@ -3,7 +3,7 @@ title: Even in Your Lowest Place, Give the Lord Your Highest Praise
 date: 2025-06-22
 categories: [Sermon Notes]
 tags: [praise, humility, worship, kingdom invitation, perseverance]
-description: Minister Rogelio's sermon on maintaining praise in life's challenges, drawing from the Parable of the Wedding Banquet and Jesus' teachings on humility.
+description: A sermon on maintaining praise in life's challenges, drawing from the Parable of the Wedding Banquet and Jesus' teachings on humility.
 image: https://ik.imagekit.io/g0xkgtz2g/even%20in%20your%20lowest%20place.jpg?updatedAt=1750597367625
 comments: false
 ---
