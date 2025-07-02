@@ -17,7 +17,7 @@ _Teacher: Pastor Sael Anota_
 
 With global tensions escalating and Israel dominating world headlines, Christians worldwide are asking: Are we living in the end times? While scholars debate the sequence of prophetic events, there's widespread agreement that Israel will play an increasingly vital role as ancient prophecies unfold.
 
-Our pastor addressed the fundamental question: **What is Israel's role in the end times according to Scripture?**
+Our Pastor addressed the fundamental question: **What is Israel's role in the end times according to Scripture?**
 
 The answer is both simple and profound: **The same role Israel has always had - to be God's witness to the nations.**
 
@@ -117,7 +117,7 @@ Just as Israel serves as God's witness, believers today are called to maintain t
 
 ## Modern Confirmation: Netanyahu's Testament
 
-Our pastor included Prime Minister Netanyahu's powerful speech highlighting Israel's miraculous survival and prosperity:
+Our Pastor included Prime Minister Netanyahu's powerful speech highlighting Israel's miraculous survival and prosperity:
 
 **From persecution to prominence:**
 
