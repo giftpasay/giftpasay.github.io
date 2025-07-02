@@ -169,6 +169,8 @@ kramdown:
       start_line: 1
 
 collections:
+  hidden:
+    output: false
   tabs:
     output: true
     sort_by: order
