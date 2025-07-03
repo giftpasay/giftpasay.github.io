@@ -1,5 +1,5 @@
 ---
-title: "Bible Study Lesson: Bakit Kailangang Ipangaral ang Evangelio?"
+title: "Bakit Kailangang Ipangaral ang Evangelio?"
 date: 2025-07-03
 description: Para sa mga naghahanap ng katotohanan at kaligtasan
 ---
