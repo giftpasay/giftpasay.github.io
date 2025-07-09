@@ -112,7 +112,7 @@ body.about-page .nav-link:hover {
   text-align: center;
   padding: 20px;
   overflow: hidden;
-  border-bottom: 1px solid var(--ab-border-dark);
+  /* border-bottom: 1px solid var(--ab-border-dark); */
 }
 
 body::after {
