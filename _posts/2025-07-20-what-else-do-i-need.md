@@ -17,7 +17,7 @@ _Preacher: Minister Mishael Anota_<br>
 
 **As human beings, we cannot avoid the feeling of inadequacy** - that sense that we are lacking, that we cannot do something, or that we are not enough. **Inadequacy means the state or quality of being inadequate, lacking the quantity or quality required, insufficient for a purpose.**
 
-**We are all different from each other, mga kapatid, and we have different sources of inadequacy:**
+**We are all different from each other, and we have different sources of inadequacy:**
 
 - **The need for affirmation** from others - parents, siblings, spouse, friends
 - **Deep insecurities** about ourselves and things we don't like about ourselves  
@@ -29,9 +29,9 @@ _Preacher: Minister Mishael Anota_<br>
 
 **We have a tendency to think that hard work and unwavering dedication are enough to accomplish anything.** As children, we are taught determination, persistence, and consistency - positive qualities that help us achieve much in the natural world.
 
-**However, mga kapatid, when we come face to face with spiritual opposition, we cannot handle it.** This emphasizes our inadequacy even more because we are only trusting in ourselves, in what we can do, in our intelligence and skills.
+**However, when we come face to face with spiritual opposition, we cannot handle it.** This emphasizes our inadequacy even more because we are only trusting in ourselves, in what we can do, in our intelligence and skills.
 
-**When we face spiritual opposition, we realize that tenacity, persistency, and dogged determination is not enough. But I know someone who is enough, mga kapatid - we need Jesus!**
+**When we face spiritual opposition, we realize that tenacity, persistency, and dogged determination is not enough. But I know someone who is enough - we need Jesus!**
 
 ## The Rich Young Ruler - A Man Who Had Everything
 
@@ -68,7 +68,7 @@ _Preacher: Minister Mishael Anota_<br>
 
 > *"For all have sinned and fall short of the glory of God."* — **Romans 3:23**
 
-**No one is morally perfect, and no one can earn salvation, mga kapatid.**
+**No one is morally perfect, and no one can earn salvation.**
 
 ## The Conditional Nature of Eternal Life
 
@@ -76,7 +76,7 @@ _Preacher: Minister Mishael Anota_<br>
 
 **Jesus attached the word "if" to eternal life, meaning there is a condition.** Something must happen in order for something to follow.
 
-**We must understand, mga kapatid, that there is a cost to salvation. There is a condition, there is a price to be paid for eternity.**
+**We must understand, that there is a cost to salvation. There is a condition, there is a price to be paid for eternity.**
 
 ## The Visible Commandments vs. The Hidden Heart
 
@@ -126,7 +126,7 @@ _Preacher: Minister Mishael Anota_<br>
 
 **Perfection is the criteria for heaven** - moral excellence and moral perfection, as if you are God Himself. **But this gives us a question: If perfection is the criteria for heaven, who then can earn their way there?**
 
-**No one, mga kapatid. Not one of us qualifies for the criteria of heaven except God.**
+**No one, not one of us qualifies for the criteria of heaven except God.**
 
 **For those who are heaven-bound, this is a reminder that we should not be prideful or arrogant in our salvation.** We become complacent, thinking it's normal to:
 - Only go to church on Sundays
@@ -181,11 +181,11 @@ _Preacher: Minister Mishael Anota_<br>
 
 ## A Personal Invitation Still Extended
 
-**Jesus is simply telling us that we are not perfect and that we need a Savior - we need Him.** This is our theme for the month: **"Traversing Back to Basics"** - and this is the basics, mga kapatid.
+**Jesus is simply telling us that we are not perfect and that we need a Savior - we need Him.** This is our theme for the month: **"Traversing Back to Basics"** - and this is the basics.
 
 **Don't turn away from the Lord's invitation in your life: "Come, follow Me. Experience what I can give."**
 
-**What else do we need? We don't need anything else, mga kapatid, but Jesus.**
+**What else do we need? We don't need anything else, but Jesus.**
 
 ---
 
@@ -201,4 +201,4 @@ _Preacher: Minister Mishael Anota_<br>
 
 > *"The LORD bless you and keep you; The LORD make His face shine upon you, And be gracious to you; The LORD lift up His countenance upon you, And give you peace."* — **Numbers 6:24-26**
 
-**What else do we need, mga kapatid? We need Jesus - and Jesus alone.**
+**What else do we need? We need Jesus - and Jesus alone.**
