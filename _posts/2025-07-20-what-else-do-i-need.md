@@ -1,6 +1,6 @@
 ---
 title: "What Else Do I Need? - The Rich Young Ruler's Question"
-date: 2025-07-20
+date: 2025-07-27
 categories: [Sermon Notes]
 tags: [salvation,inadequacy,spiritual maturity,perfection,surrender,idolatry,eternal life,discipleship,back to basics]
 description: A powerful message examining the rich young ruler's encounter with Jesus, revealing our human inadequacy and the call to complete surrender for true spiritual maturity.
