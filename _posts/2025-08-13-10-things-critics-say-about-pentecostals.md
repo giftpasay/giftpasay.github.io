@@ -9,6 +9,7 @@ comments: false
 ---
 
 _Teacher: Min. Mike Barcena_<br>
+_Lesson: Back on Track Bible Studies by Rick Flores_<br>
 _Service: Evening Bible Study_<br>
 _Focus: Pentecostal Identity and Apologetics_<br>
 _Theme: Defending Our Faith and Practice_
