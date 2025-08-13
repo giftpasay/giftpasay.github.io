@@ -4,7 +4,7 @@ date: 2025-08-13
 categories: [Bible Study]
 tags: [pentecostal,identity,criticism,defense,apologetics,baptism,holy spirit,worship,doctrine]
 description: A comprehensive response to common criticisms leveled against Pentecostals, defending our beliefs and practices through biblical foundation.
-image: https://ik.imagekit.io/g0xkgtz2g/10%20THINGS%20CRITICS%20SAYS%20ABOUT.jpg?updatedAt=1755089176915
+image: https://ik.imagekit.io/g0xkgtz2g/10%20THINGS%20CRITICS%20SAYS%20ABOUT.jpg?updatedAt=1755096047223
 comments: false
 ---
 
