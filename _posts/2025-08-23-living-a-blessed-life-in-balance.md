@@ -10,7 +10,7 @@ comments: false
 
 _Text: 3 John 1:2-4, Jeremiah 29:11-13_<br>
 _Preacher: Ptr. Sael Anota_<br>
-_Service: Gift Worship (PM)_<br>
+_Service: Morning Service_<br>
 _Focus: Maturity/Fellowship_<br>
 _Monthly Theme: "Unfolding God's Abounding Blessing"_
 
