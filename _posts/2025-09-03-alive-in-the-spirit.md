@@ -4,6 +4,7 @@ date: 2025-09-03
 categories: [Bible Study]
 tags: [holy spirit, spiritual life, bible study, christian living, devotional]
 description: "Explore the fundamental aspects of living in the Spirit through this comprehensive Bible study. Learn about spiritual growth, overcoming challenges, and experiencing the abundant life promised to believers."
+image: https://ik.imagekit.io/g0xkgtz2g/alive.jpg?updatedAt=1756887303765
 comments: false
 ---
 
