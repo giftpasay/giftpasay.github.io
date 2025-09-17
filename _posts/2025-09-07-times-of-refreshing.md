@@ -2,7 +2,7 @@
 title: "Times of Refreshing"
 date: 2025-09-07
 categories: [Sermon Notes]
-tags: [refreshing,renewal,Holy Spirit,restoration,worship,prayer,presence of God,spiritual vitality,revival]
+tags: [refreshing,renewal,holy spirit,restoration,worship,prayer,presence of God,spiritual vitality,revival]
 description: A message about experiencing God's refreshing presence that brings renewal, restoration, and revitalization to our spirit, soul, and body through right relationship with Him.
 image: https://ik.imagekit.io/g0xkgtz2g/541532401_764191829804140_930611623227323129_n.png?updatedAt=1757740855953
 comments: false
