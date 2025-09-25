@@ -25,7 +25,7 @@ What is distinctive about the Apostolic or Oneness Pentecostal movement? Ano ang
 Makikita ang original Christian church in the New Testament, na binubuo ng apat na bahagi:
 
 1. **The Gospels** present Jesus Christ, ang Siyang naglagay ng pundasyon para sa church by His life, ministry, death, burial, and resurrection.
-2. **The Book of Acts** ay naghahayag ng pagkasilang at pagkabuo ng New Testament church, kasama ng iba pang mga including local congregations sa Mediterranean (Asia, Africa at Europe) nung unang siglo.
+2. **The Book of Acts** ay naghahayag ng pagkasilang at pagkabuo ng New Testament church, kasama ng iba pang mga local congregations sa Mediterranean (Asia, Africa at Europe) nung unang siglo.
 3. **The Epistles** are instructions o mga liham sa mga church,
 4. **Book of Revelation** ay isang prophetic message para sa Iglesia.
 
