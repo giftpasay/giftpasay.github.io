@@ -4,7 +4,7 @@ date: 2025-09-21
 categories: [Sermon Notes]
 tags: [revival,end times,spiritual warfare,church rising,ministry,transformation,awakening,armor of God,last days]
 description: A powerful call for the church to rise up and turn the world upside down for Christ in these perilous last days through revival, renewal, and spiritual awakening.
-image: https://ik.imagekit.io/g0xkgtz2g/riot.jpg?updatedAt=1758766516806
+image: https://ik.imagekit.io/g0xkgtz2g/end-time-riot.jpg?updatedAt=1758767991498
 comments: false
 ---
 

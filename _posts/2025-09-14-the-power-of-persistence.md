@@ -4,7 +4,7 @@ date: 2025-09-14
 categories: [Sermon Notes]
 tags: [persistence,prayer,faith,perseverance,answered prayer,divine justice,endurance,breakthrough,revival]
 description: A powerful message about the importance of persistent prayer and faith, demonstrating how God's delays are not denials and His vengeance comes speedily for those who persist in prayer.
-image: https://ik.imagekit.io/g0xkgtz2g/persistence.jpg?updatedAt=1758766480360
+image: https://ik.imagekit.io/g0xkgtz2g/power-of-persistence.jpg?updatedAt=1758767991929
 comments: false
 ---
 
