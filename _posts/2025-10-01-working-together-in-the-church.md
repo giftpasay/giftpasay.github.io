@@ -3,78 +3,110 @@ title: "Working Together in the Church"
 date: 2025-10-01
 categories: [Bible Study]
 tags: [church governance, unity, leadership, authority, cooperation, accountability, local church, universal church]
-description: A study on church structure and governance based on New Testament principles, exploring how local churches and the general body work together in fellowship, cooperation, and accountability while maintaining apostolic doctrine.
-image: https://ik.imagekit.io/g0xkgtz2g/551693951_1378726530537635_5342607301945747929_n.jpg?updatedAt=1759491320524
+description: A study on church structure and governance based on New Testament principles—exploring how local churches and the general body work together in fellowship, cooperation, and accountability while maintaining apostolic doctrine.
+image: https://ik.imagekit.io/g0xkgtz2g/working-together-in-the-church.jpg?updatedAt=1759932483779
 comments: false
 ---
 
-
-## GIFT SCRIPTURE STUDIES
-**October 1, 2025 / 6:30-8:30 PM**
-
-### FOREWORD
-The main theme of this book by author David Bernard (UPCI GS) is how Apostolic Pentecostals should live and how the Apostolic Pentecostal church should minister in a diverse, postmodern world.
-
-## FIRST SECTION: "DEVELOPING AN APOSTOLIC WORLD VIEW"
-*(Positions the Apostolic movement in contrast to other historical and contemporary Christian movements. Identifies the essential elements of an Apostolic worldview.)*
-
-### Topic: WORKING TOGETHER IN THE CHURCH
-
-The church is the body of believers who are born again, living by faith in Jesus Christ, and pursuing holiness. In the New Testament, the term church refers both to the local congregation and to the universal body of believers.
-
-Hindi natin maitutulad ang New Testament church sa anumang human organization. Halimbawa, ang United Pentecostal Church (UPC) ay hindi nag aangkin na equivalent sa katawan ni Kristo, subalit tayo ay bahagi ng universal church at at itoy nagtatayo rin at nagpapatibay ng mga local churches. Hindi natin sinasabing ang sinumang nais maligtas ay dapat umanib sa UPC, para magkaroon ng matibay at totoong ministry, subalit tayo ay nag sama sama upang matugunan ang pagtuturo ng Bibliya na pagkaka-isa, fellowship, evangelism, at discipleship. Ang ating official mission ay dalhin ang "Buong Ebanghelyo, sa Buong sanlibutan, ng Buong Iglesya."
-("The whole gospel to the whole world by the whole church.")
-
-Gaya ng sinasabi ng kanyang pangalan, ang UPC ay hindi lamang isang ministerial fellowship; ito ay isang organized part ng New Testament church. Both preachers and saints are members of the UPC. Ang mga Credentialed ministers o may mga hawak ng License ay bumoboto sa mga distrito at sa general conferences, habang lahat nmang member ng local church ay may karapatang pumili sa mga church business meetings.
-
-## Church Governance and Structure
-
-Ang New Testament ay hindi nagbibigay ng detailed instructions para sa church governance. Ang kakulangang ito ay intentional o sadya, dahil ang mga needs at mga kapamaraanan, methods ay maaring mag iba batay sa panahon, kultura at mga kaganapan, o circumstances. Maaring ang church ay nag operate ng may kaibahan nuong first-century sa Israel; di katulad sa twenty-first-century Israel o twenty-first-century America; o Philippines.
-
-Nevertheless, ang New Testament ay naghahayag ng mga principles para sa church structure at organization. Ang mga Ministers ay marapat magkaroon ng mga qualifications, ma approved ng mga elders, at ma ordinahan.
-
-Ang mga Believers ay marapat na maging kabilang sa isang local church, at ang mga local church ay marapat na pangunahan ng mga pastor. Ang bawat local church ay marapat ding naka connect sa isang international body na nagpapanatili ng apostolic doctrine, nag-promote ng fellowship at evangelism, nagprovide ng accountability at pagpapasakop o mutual submission, kumikilala rin ng spiritual authority. (See Acts 2:42-47; 16:4-5.)
-
-When a church implements these principles sa kanyang sariling kultura at sirkumstansya, God honors its efforts. Sa konteksto ng church government sinabi ni Jesus, "Whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven" (Matthew 18:18).
-
-Siya rin ay nangako na bibigyang honor ang pagkaka-isa ng church sa prayers at mga pagtitipon (Matthew 18:19-20). Ang church ay hindi infallible, o hindi nagkaka mali; sapagkat walang authority na absolute maliban sa Diyos, subalit God instituted the principle of church government at ginagamit ang mga ito upang ma-accomplish ang Kanyang mga layunin o purposes.
-
-## Human Structure with Divine Purpose
-
-The specific structure of any local church or general organization is human. Subalit, hindi ibig sabihin nito na maaarinitong i-disregard o baliwalain. Ang mga Churches ay may different policies at procedures, minsan ang mga ito ay nababago, so we can't say that a particular one ay sapat na.
-
-Subalit ang mga ito ay ang ating pagsusumikap na ganapin ang mga biblical principles, at dahil dito, ang Diyos ay nag expect sa atin na mag cooperate sa mga ito at maging accountable sa kanila. Marapat nating i-respect ang mga structure, ang itinalagang kapamahalaan, at mga decision sa local at sa general church.
-
-Halimbawa, when God calls people to preach, marapat muna silang kumuha ng approval mula sa kanilang local pastor at church bago sa general body. The New Testament indicates that once a local church grows to maturity, narapat nitong pamahalaan ang sariling mga gawain sa pamumuno ng kanilang senior pastor at hindi minamanipula ng isang panlabas na pamumuno.
-
-## Paul's Example of Church Leadership
-
-Bagaman si Pablo ay ang isang apostle at founding pastor ng maraming mga lokal churches, nung kanyang isina-ayos at hinarap ang mga problema ng mga ito, hindi siya basta nag issue ng mga decrees subalit siya ay sumangguninsa kanilang mga leader para ayusin ang mga problema. He asked the senior pastor sa Philippi upang mamagutan sa isang di pagkakaunawaan ng dalawang kababaihang ministro (Philippians 4:2-3).
-
-1. **In a case of incest in the Corinthian church**, Paul didn't directly excommunicate the sinning member but advised the church on dealing with him (I Corinthians 5:1-5).
-
-2. **In the case of a rebellious member who had repented**, again he advised the local church, promising that if they forgave and restored the man, he would support their decision (II Corinthians 2:5-11).
-
-3. **At the same time, the local churches were not independent**. They received guidance from external leaders such as Paul. They were connected to the general body and accepted its general decisions.
-
-### The Jerusalem Council Example
-
-In Acts 15, the apostles and elders met in Jerusalem to consider the acceptance of Gentiles into the church. The delegates debated, consulted Scripture, sought the leading of the Spirit, achieved consensus, and announced their decision by letter to all local churches. They didn't expect any church or pastor to reject the decision or to leave the fellowship but to accept the conference's action.
-
-## Four Levels of Authority in Paul's Ministry
-
-In Paul's ministry, we see at least four levels of authority in the church:
-
-1. **He submitted to the general body** and reported to its leadership in Jerusalem (Acts 15:1-35; 21:18-26).
-
-2. **The leaders recognized Paul** as apostle to the Gentiles (Galatians 2:6-10).
-
-3. **Paul oversaw the work of ministers** such as Titus, giving him authority over the island of Crete; and in turn
-
-4. **Titus ordained pastors** to lead the local churches in Crete (Titus 1:5).
-
-Likewise, in the UPC each local church is self-governing but is connected to the general body in fellowship, cooperation, and accountability. Let's work together to build up the body of Christ.
+**GIFT SCRIPTURE STUDIES (TAGALOG-ENGLISH)**<br>
+📅 *October 1, 2025 / 6:30–8:30 PM*
 
 ---
 
-**Next Lesson: CHAPTER 4 BUILDING GOD'S HOUSE**
+## **FOREWORD**
+The main theme of the book by **David Bernard (UPCI GS)** is how Apostolic Pentecostals should live and how the Apostolic Church should minister in a diverse, postmodern world.
+
+---
+
+## **FIRST SECTION: “DEVELOPING AN APOSTOLIC WORLDVIEW”**
+*(This section positions the Apostolic movement in contrast to other historical and modern Christian traditions and identifies the essential elements of an Apostolic worldview.)*
+
+### **Topic: “Working Together in the Church”**
+
+The church is the body of believers who have been born again, living by faith in Jesus Christ, and pursuing holiness.  
+In the New Testament, the word *church* refers both to the **local congregation** and to the **universal body of believers**.
+
+Hindi natin maitutulad ang New Testament church sa anumang human organization.  
+For example, the **United Pentecostal Church (UPC)** does not claim to be equivalent to the body of Christ. However, it is part of the universal Church and helps establish and strengthen local congregations.  
+
+We do not teach that one must belong to the UPC to be saved or to have a genuine ministry. Rather, we unite together to fulfill the biblical call to **unity, fellowship, evangelism, and discipleship.**  
+Our official mission is to bring **“the Whole Gospel to the Whole World by the Whole Church.”**
+
+As its name implies, the UPC is more than a ministerial fellowship—it is an **organized expression** of the New Testament Church. Both preachers and saints are members of the UPC.  
+Credentialed ministers (those holding licenses) participate in district and general conferences, while all members of local churches take part in local business meetings.
+
+---
+
+## **Church Governance and Structure**
+
+The New Testament does not provide a detailed, step-by-step manual for church governance.  
+This omission is intentional, recognizing that needs, methods, and circumstances vary across time, culture, and place. The church of the first-century Israel would naturally operate differently from that of the twenty-first century—whether in America or the Philippines.
+
+Nevertheless, the New Testament gives **principles** for church structure and organization.  
+Ministers must meet biblical **qualifications**, be **approved by elders**, and be **ordained** for service.
+
+Believers should belong to a **local church**, and each local church should be **led by a pastor**.  
+Every local church, in turn, should be **connected to a broader fellowship or international body** that upholds apostolic doctrine, promotes fellowship and evangelism, provides accountability, and recognizes mutual spiritual authority.  
+*(See Acts 2:42–47; Acts 16:4–5.)*
+
+When a church applies these principles within its own culture and setting, **God honors its efforts.**  
+Jesus Himself declared concerning church government:
+
+> *“Whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven.”*  
+> — Matthew 18:18
+
+He also promised to honor the church’s **unity in prayer and gatherings** (Matthew 18:19–20).  
+The church is not infallible, for only God’s authority is absolute. Yet, God established **church government** to accomplish His divine purposes.
+
+---
+
+## **Human Structure with Divine Purpose**
+
+The specific structure of any local or general church organization is human in nature—but that does not mean it can be ignored or disregarded.  
+Churches may differ in their **policies** and **procedures**, and these may change over time. No single model is perfect or complete.  
+
+However, each structure represents our collective effort to apply **biblical principles** in an orderly way. Because of this, God expects us to **cooperate** with these systems and remain **accountable** within them.
+
+We are called to respect the structure, recognize appointed authority, and support the decisions of both **local** and **general church leadership**.
+
+For example, when God calls someone to preach, that person should first seek **approval from their local pastor and church**, before being recognized by the general body.  
+The New Testament shows that once a local church matures, it should manage its own affairs under the direction of its senior pastor, without unnecessary external manipulation.
+
+---
+
+## **Paul’s Example of Church Leadership**
+
+Although Paul was an apostle and a founding pastor of many local churches, when he addressed their issues, he did not simply impose decrees.  
+Instead, he worked **in cooperation with local leaders** to resolve problems.
+
+- **In a case of immorality in Corinth**, Paul did not personally excommunicate the offender. Rather, he instructed the local church on how to discipline him (1 Corinthians 5:1–5).  
+- **When that same member later repented**, Paul urged the church to forgive and restore him, promising his full support for their decision (2 Corinthians 2:5–11).  
+- **The local churches were not independent**, however. They remained connected to the larger body and accepted guidance from leaders like Paul.
+
+---
+
+### **The Jerusalem Council Example**
+
+In Acts 15, the apostles and elders met in Jerusalem to decide on the inclusion of Gentiles in the church.  
+They **debated**, **consulted Scripture**, **sought the leading of the Holy Spirit**, reached **consensus**, and communicated their decision by **letter** to all local congregations.
+
+No church or pastor was expected to reject the decision or withdraw from fellowship. Instead, all were expected to accept and uphold the **collective decision** of the council—demonstrating biblical unity in action.
+
+---
+
+## **Four Levels of Authority in Paul’s Ministry**
+
+In the ministry of Paul, we can observe at least four levels of church authority:
+
+1. **Submission to the general body** — Paul reported to the leadership in Jerusalem (Acts 15:1–35; Acts 21:18–26).  
+2. **Recognition of his calling** — The leaders acknowledged Paul as the apostle to the Gentiles (Galatians 2:6–10).  
+3. **Oversight of ministers** — Paul supervised leaders such as Titus, giving him authority over the churches in Crete.  
+4. **Delegation to local pastors** — Titus, in turn, ordained elders and pastors to lead the local churches (Titus 1:5).
+
+Likewise, in the United Pentecostal Church (UPC), each **local congregation** is self-governing yet **connected to the general body** in fellowship, cooperation, and accountability.
+
+When we work together under biblical order, **we build up the body of Christ**—strong, united, and ready for the harvest.
+
+---
+
+### **Next Lesson: CHAPTER 4 — Building God’s House**

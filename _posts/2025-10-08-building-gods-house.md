@@ -8,8 +8,6 @@ image: https://ik.imagekit.io/g0xkgtz2g/building%20God's%20house.jpg?updatedAt=1
 comments: false
 ---
 
-## **Building God's House**
-
 **GIFT SCRIPTURE STUDIES (TAGALOG-ENGLISH)**  
 📅 *October 8, 2025 / 6:30–8:30 PM*
 
