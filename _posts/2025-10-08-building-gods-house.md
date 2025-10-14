@@ -4,7 +4,7 @@ date: 2025-10-08
 categories: [Bible Study]
 tags: [church, temple, priesthood, unity, spiritual building, foundation, ministry, holiness, leadership]
 description: A study on the church as God's house, exploring the metaphor of living stones building a spiritual temple, the role of believers as a holy priesthood, the importance of unity in both local and universal church, and the dangers of harming the body of Christ.
-image: https://ik.imagekit.io/g0xkgtz2g/building%20God's%20house.jpg?updatedAt=1759909534649
+image: https://ik.imagekit.io/g0xkgtz2g/building-god-house.jpg?updatedAt=1760453959688
 comments: false
 ---
 

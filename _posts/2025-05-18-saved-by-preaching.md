@@ -3,7 +3,7 @@ title: Saved By Preaching
 date: 2025-05-18 10:50:00 +0800
 categories: [Sermon Notes]
 tags: [preaching, salvation, calling, gospel, ministry]
-description: Pastor Sael Anota's sermon on the power of preaching in God's plan for salvation, emphasizing the importance of God's Word and the role of preachers as His messengers.
+description: A sermon on the power of preaching in God's plan for salvation, emphasizing the importance of God's Word and the role of preachers as His messengers.
 image: https://ik.imagekit.io/g0xkgtz2g/494570642_476767388814573_7254594102611498172_n.jpg?updatedAt=1747579244195
 comments: false
 ---

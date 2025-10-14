@@ -3,7 +3,7 @@ title: Redemption (God's Work of Salvation)
 date: 2025-05-04
 categories: [Bible Study, Salvation]
 tags: [redemtion, salvation, blood of christ, plan of god, foreknowledge]
-image: https://ik.imagekit.io/g0xkgtz2g/Redemption.jpg?updatedAt=1747217858776
+image: https://ik.imagekit.io/g0xkgtz2g/redemption.jpg?updatedAt=1760450531039
 comments: false
 pin: false
 ---
@@ -188,5 +188,5 @@ Because of Christ's death on the cross of Calvary, we have the opportunity to be
 
 ## Credits
 
-> **Book:** Mga Pangunahing Doktrina sa Biblia - Pages 33-37 <br> **Author:** <a href="https://www.facebook.com/cometa.ranny" target="_blank"> Rev. Ranny D. Cometa | UPC Naga</a>
+> **From the Book:** Mga Pangunahing Doktrina sa Biblia - Pages 33-37 <br> **Author:** <a href="https://www.facebook.com/cometa.ranny" target="_blank"> Rev. Ranny D. Cometa | UPC Naga</a>
 > {: .prompt-info }

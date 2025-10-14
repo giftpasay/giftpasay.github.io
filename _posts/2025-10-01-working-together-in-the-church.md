@@ -4,7 +4,7 @@ date: 2025-10-01
 categories: [Bible Study]
 tags: [church governance, unity, leadership, authority, cooperation, accountability, local church, universal church]
 description: A study on church structure and governance based on New Testament principles—exploring how local churches and the general body work together in fellowship, cooperation, and accountability while maintaining apostolic doctrine.
-image: https://ik.imagekit.io/g0xkgtz2g/working-together-in-the-church.jpg?updatedAt=1759932483779
+image: https://ik.imagekit.io/g0xkgtz2g/working-together.jpg?updatedAt=1760453959663
 comments: false
 ---
 

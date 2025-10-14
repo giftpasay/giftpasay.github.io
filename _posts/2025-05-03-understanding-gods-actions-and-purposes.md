@@ -9,11 +9,7 @@ comments: false
 pin: false
 ---
 
-## 🌿 Bible Q&A
-
----
-
-## ❓1. Why did God kill many people in the Old Testament?
+## 1. Why did God kill many people in the Old Testament?
 
 **Answer:**  
 Because God is **holy and just**, and He cannot allow sin and evil to continue unchecked.  
@@ -26,7 +22,7 @@ These judgments reveal **how serious sin is** and prepare us to understand Jesus
 
 ---
 
-## ❓2. Why did God create man and put the Tree of the Knowledge of Good and Evil in the garden?
+## 2. Why did God create man and put the Tree of the Knowledge of Good and Evil in the garden?
 
 **Answer:**  
 Because God wanted a **real relationship** with mankind — one based on **love, not control**.  
@@ -41,7 +37,7 @@ Through Jesus, the “new Adam,” we are given access again to the **Tree of Li
 
 ---
 
-## ❓3. Why does God allow innocent people, especially children, to suffer?
+## 3. Why does God allow innocent people, especially children, to suffer?
 
 **Answer:**  
 Because we live in a **fallen world** — not the perfect one God originally made.  
@@ -62,7 +58,7 @@ In the end, God will restore justice, comfort, and peace — and every wrong wil
 
 ---
 
-## ❓4. If God is loving, why didn’t He just stop evil from the beginning?
+## 4. If God is loving, why didn’t He just stop evil from the beginning?
 
 **Answer:**  
 Because to remove evil, God would also have to remove **free will**.  
@@ -74,7 +70,7 @@ But He also promises a future where **evil will no longer exist**, and everyone 
 
 ---
 
-## ❓5. So what does all this show about God’s character?
+## 5. So what does all this show about God’s character?
 
 **Answer:**  
 It shows that God is:

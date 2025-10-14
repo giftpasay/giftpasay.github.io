@@ -4,7 +4,7 @@ date: 2025-07-06
 categories: [Sermon Notes]
 tags: [god's greatness,praise,worship,majesty,sovereignty,jesus christ,divine nature,back to basics,biblical truth]
 description: A powerful reminder of God's incomprehensible greatness and our call to daily praise His holy name, emphasizing His uniqueness and sovereignty over all creation.
-image: https://ik.imagekit.io/g0xkgtz2g/HOW%20GREAT%20IS%20OUR%20GOD.jpg?updatedAt=1752045523164
+image: https://ik.imagekit.io/g0xkgtz2g/how%20great.jpg?updatedAt=1760451699423
 comments: false
 ---
 

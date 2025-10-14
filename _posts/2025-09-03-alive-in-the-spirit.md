@@ -4,7 +4,7 @@ date: 2025-09-03
 categories: [Bible Study]
 tags: [holy spirit, spiritual life, bible study, christian living, devotional]
 description: "A study on what it means to truly live in the Spirit — exploring spiritual growth, overcoming challenges, and experiencing the abundant life promised to every believer."
-image: https://ik.imagekit.io/g0xkgtz2g/alive-in-the-spirit.jpg?updatedAt=1759934723144
+image: https://ik.imagekit.io/g0xkgtz2g/aliveinthespirit.jpg?updatedAt=1760453749662
 comments: false
 ---
 

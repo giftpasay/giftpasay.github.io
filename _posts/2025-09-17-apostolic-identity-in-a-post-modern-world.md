@@ -4,7 +4,7 @@ date: 2025-09-17
 categories: [Bible Study]
 tags: [apostolic, pentecostal, doctrine, identity, new testament, baptism, repentance, salvation]
 description: An exploration of Apostolic Pentecostal identity, doctrine, and practices in the modern world—emphasizing the importance of maintaining the original apostolic message and experiences as recorded in the New Testament.
-image: https://ik.imagekit.io/g0xkgtz2g/apostolic-identity.jpg?updatedAt=1759932960036
+image: https://ik.imagekit.io/g0xkgtz2g/apostolic-identity.jpg?updatedAt=1760454113492
 comments: false
 ---
 

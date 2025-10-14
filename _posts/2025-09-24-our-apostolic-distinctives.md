@@ -4,7 +4,7 @@ date: 2025-09-24
 categories: [Bible Study]
 tags: [apostolic, distinctives, oneness, pentecostal, church history, restoration, holiness, holy spirit]
 description: A comprehensive study of what makes Apostolic Pentecostals distinctive from other Christian movements, contrasting restoration with tradition and reformation, and outlining core apostolic beliefs and worldview.
-image: https://ik.imagekit.io/g0xkgtz2g/apostolic-distinctives.jpg?updatedAt=1759933493032
+image: https://ik.imagekit.io/g0xkgtz2g/apostolic-distinctives.jpg?updatedAt=1760454113381
 comments: false
 ---
 
