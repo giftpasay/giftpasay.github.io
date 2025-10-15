@@ -4,7 +4,7 @@ date: 2025-07-13
 categories: [Sermon Notes]
 tags: [prayer,power,discipleship,maturity,intercession,fasting,holy spirit,revival,back to basics,spiritual warfare]
 description: A foundational message on the essential role of prayer in Christian life, emphasizing that prayer engages God, enables His people, and enlarges His kingdom.
-image: https://ik.imagekit.io/g0xkgtz2g/AWESOME%20POWER.jpg?updatedAt=1752655093610
+image: https://ik.imagekit.io/g0xkgtz2g/praying.jpg?updatedAt=1760506706640
 comments: false
 ---
 

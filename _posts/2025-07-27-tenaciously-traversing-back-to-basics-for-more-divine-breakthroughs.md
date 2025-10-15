@@ -4,7 +4,7 @@ date: 2025-07-27
 categories: [Sermon Notes]
 tags: [breakthrough,tenacity,basics,missions,outreach,worship,fellowship,discipleship,perseverance,apostolic]
 description: A powerful message on returning to fundamental Christian principles with persistent determination to experience divine breakthroughs in our spiritual journey.
-image: https://ik.imagekit.io/g0xkgtz2g/TENACIOUSLY%20TRAVERSING.jpg?updatedAt=1754107779783
+image: https://ik.imagekit.io/g0xkgtz2g/back%20to%20basics.jpg?updatedAt=1760506475079
 comments: false
 ---
 
