@@ -4,7 +4,7 @@ date: 2025-08-18
 categories: [Sermon Notes]
 tags: [faith,weakness,strength,calling,restoration,brokenness,victory,second chances,divine strength]
 description: A powerful message about how God can use our weaknesses and failures for His glory, demonstrated through Samson's final act of faith despite his tragic failures.
-image: https://ik.imagekit.io/g0xkgtz2g/THE%20FAITH%20IN%20THE%20MIDST%20OF%20THE%20PILLARS.jpg?updatedAt=1755495652715
+image: https://ik.imagekit.io/g0xkgtz2g/samson.jpg?updatedAt=1760499946418
 comments: false
 ---
 

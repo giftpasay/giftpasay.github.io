@@ -5,7 +5,7 @@ categories: [Sermon Notes]
 tags:
   [faith, offering, worship, Abel, Cain, legacy, remembrance, pananampalataya]
 description: A sermon exploring the legacy of faith through the story of Abel and Cain, emphasizing the importance of faith-filled worship and offerings to God.
-image: https://ik.imagekit.io/g0xkgtz2g/in%20loving%20memory%20of.jpg?updatedAt=1750087826140
+image: https://ik.imagekit.io/g0xkgtz2g/in%20loving%20memory.jpg?updatedAt=1760499107695
 comments: false
 ---
 

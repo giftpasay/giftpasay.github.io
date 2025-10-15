@@ -4,7 +4,7 @@ date: 2025-08-23
 categories: [Sermon Notes]
 tags: [balance,prosperity,stewardship,wisdom,financial blessing,spiritual maturity,moderation,God's provision]
 description: A comprehensive teaching on maintaining biblical balance in all areas of life while experiencing God's abounding blessings without falling into extremes.
-image: https://ik.imagekit.io/g0xkgtz2g/blessed-life.jpg?updatedAt=1755921917816
+image: https://ik.imagekit.io/g0xkgtz2g/balance.jpg?updatedAt=1760500684384
 comments: false
 ---
 
