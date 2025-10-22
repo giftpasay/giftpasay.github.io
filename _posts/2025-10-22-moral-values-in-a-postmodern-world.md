@@ -11,6 +11,8 @@ comments: false
 ## GIFT SCRIPTURE STUDIES
 **October 22, 2025 / 6:30-8:30 PM**
 
+---
+
 ### FOREWORD
 The main theme of this book by author David Bernard (UPCI GS) is how Apostolic Pentecostals should live and how the Apostolic Pentecostal church should minister in a diverse, postmodern world. (Edited for GIFT Church setting)
 
