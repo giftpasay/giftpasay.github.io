@@ -3,7 +3,7 @@ title: Ang Tunay na Daan Patungong Langit
 date: 2025-05-09 11:30:00 +0800
 categories: [Kaligtasan, Pananampalataya]
 tags: [kaligtasan, langit, born again]
-image: https://ik.imagekit.io/g0xkgtz2g/Walking%20to%20heaven.jpg?updatedAt=1746761037589
+image: https://ik.imagekit.io/g0xkgtz2g/heaven.jpg?updatedAt=1761149233025
 comments: false
 pin: false
 ---

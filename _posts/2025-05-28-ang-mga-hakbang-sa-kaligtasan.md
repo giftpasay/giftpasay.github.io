@@ -3,7 +3,7 @@ title: Ang mga Hakbang sa Kaligtasan
 date: 2025-05-28
 categories: [Bible Study]
 tags: [salvation, gospel, new testament]
-image: https://ik.imagekit.io/g0xkgtz2g/steps-to-salvation.jpg?updatedAt=1748428487868
+image: https://ik.imagekit.io/g0xkgtz2g/steps%20to%20salvation.jpg?updatedAt=1761148866116
 comments: false
 ---
 

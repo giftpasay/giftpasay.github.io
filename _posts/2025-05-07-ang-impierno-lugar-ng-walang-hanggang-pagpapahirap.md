@@ -3,7 +3,7 @@ title: Ang Impierno – lugar ng walang hanggang pagpapahirap
 date: 2025-05-07 5:00:00 +/-0800
 categories: [Bible Study, Eschatology]
 tags: [hell, punishment, suffering, eternal life]
-image: https://ik.imagekit.io/g0xkgtz2g/Hell.jpg?updatedAt=1746605766240
+image: https://ik.imagekit.io/g0xkgtz2g/lake%20of%20fire%20(1).jpg?updatedAt=1761150000044
 pin: false
 comments: false
 ---
@@ -39,7 +39,7 @@ Ang impierno ay iba sa libingan sapagkat ang impierno ay lugar na hindi namamata
 
 Kapag pinag-usapan ang dakong kinalalagyan ng impierno, ang biblia ay laging nagbabanggit na ito ay nasa ilalim o ibabang dako.
 
-![Desktop View](https://ik.imagekit.io/g0xkgtz2g/Bottomless%20pit%20hell.jpg?updatedAt=1746606030805){: width="700" height="400" }
+![Desktop View](https://ik.imagekit.io/g0xkgtz2g/lake%20of%20fire.jpg?updatedAt=1761149999604){: width="700" height="400" }
 
 **Isa 14:9** **_Ang Sheol mula sa ibaba_** ay nakikilos sa iyo upang salubungin ka sa iyong pagdating; nangapupukaw ang mga patay dahil sa iyo, sa makatuwid baga'y ang lahat na pinaka-pangulo sa lupa; nagsitindig mula sa kanilang mga luklukan ang lahat ng hari ng mga bansa.
 
@@ -63,7 +63,7 @@ Ang sinapupunan ni Abraham na dati'y nasa ilalim ng lupa, sa ngayon ay wala ng l
 
 > **Isaias 5:14** Kaya't pinalaki ng Sheol ang kaniyang nasa, at ibinuka ang kaniyang bibig ng walang sukat: at ang kanilang kaluwalhatian, at ang kanilang karamihan, at ang kanilang kahambugan, at ang nagagalak sa gitna nila ay bumaba roon.
 
-![Desktop View](https://ik.imagekit.io/g0xkgtz2g/gate%20of%20hell.jpg?updatedAt=1746606538526){: width="700" height="400" }
+![Desktop View](https://ik.imagekit.io/g0xkgtz2g/lake%20of%20fire%20(2).jpg?updatedAt=1761150000136){: width="700" height="400" }
 
 Para bagang sinasabi ng talatang ito na kahit gaano karami ang gustong pumunta sa impierno ay welcome na welcome kayo doon.
 
@@ -101,7 +101,7 @@ Ang `Isaias 14:9-11; Lucas 16:19-31; Apoc. 14:9-11` - ay ilan lang sa mga talata
 
 ## VII – Ano ang kaibahan ng impierno sa Dagat-dagatang apoy o Lake of Fire? Apoc. 20:11-15; 21:8
 
-![Desktop View](https://ik.imagekit.io/g0xkgtz2g/Suffering%20in%20hellfire.jpg?updatedAt=1746605766178){: width="700" height="400" }
+![Desktop View](https://ik.imagekit.io/g0xkgtz2g/realistic%20hell.jpg?updatedAt=1761149999641){: width="700" height="400" }
 
 Ang **impierno** ay ang pansamantalang hantungan ng mga namamatay na makasalanan. Pagkatapos ng Milenyum (1,000 taong paghahari ni Cristo sa lupa), ang mga makasalanan ay iaahon mula rito upang makipag-isa sa **nabuhay na muli at di-namamatay nilang katawan** upang humarap sa Dios at itapon sa Dagat-dagatang apoy magpasa-walang hanggan `(Apoc. 20:11-15)`.
 
