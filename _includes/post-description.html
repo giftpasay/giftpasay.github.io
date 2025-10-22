@@ -1,0 +1,9 @@
+<!-- _includes/post-description.html -->
+{%- comment -%} Minimal post description include. Used by layouts that call {%
+include 'post-description.html' %}. This prints page/post excerpt, or
+page.description, or site.description as fallback. {%- endcomment -%} {%- if
+include.post and include.post.excerpt -%} {{ include.post.excerpt | strip_html |
+truncate: 200 }} {%- elsif page.excerpt -%} {{ page.excerpt | strip_html |
+truncate: 200 }} {%- elsif page.description -%} {{ page.description | strip_html
+| truncate: 200 }} {%- else -%} {{ site.description | strip_html | truncate: 200
+}} {%- endif -%}
