@@ -8,9 +8,8 @@ image: https://ik.imagekit.io/g0xkgtz2g/494570642_476767388814573_72545941026114
 comments: false
 ---
 
-## Saved By Preaching
-
-_Texts: Mark 16:15-16; 1 Corinthians 1:21-23, 2:4; Revelations 1:12-20_
+_Texts: Mark 16:15-16; 1 Corinthians 1:21-23, 2:4; Revelations 1:12-20_<br>
+_Preacher: Ptr. Sael Anota_
 
 ---
 
@@ -18,7 +17,7 @@ _Texts: Mark 16:15-16; 1 Corinthians 1:21-23, 2:4; Revelations 1:12-20_
 
 > _"For after that in the wisdom of God the world by wisdom knew not God, it pleased God by the foolishness of preaching to save them that believe."_ - **1 Corinthians 1:21**
 
-Pastor Sael reminded us that to the world, preaching seems foolish. It seems like nothing special. But God chose this very thing-this seemingly simple act of proclaiming His Word-as His primary method to save people.
+To the world, preaching seems foolish. It seems like nothing special. But God chose this very thing-this seemingly simple act of proclaiming His Word-as His primary method to save people.
 
 **Key insight:** God didn't choose elaborate rituals, complicated philosophy, or spectacular shows. He chose the simple proclamation of His Word.
 
@@ -32,11 +31,11 @@ The Word of God isn't just information-it's alive! It has power to:
 - Expose our deepest thoughts
 - Judge the intentions of our hearts
 
-Pastor Sael emphasized that the Bible defends itself. We don't defend the Word-the Word defends itself through all ages. Our job is simply to declare and emphasize it.
+The Bible defends itself. We don't defend the Word-the Word defends itself through all ages. Our job is simply to declare and emphasize it.
 
 ## 3. Preachers Are God's Messengers
 
-When discussing Revelation 1:20, Pastor Sael explained that the "seven stars" represent the angels (or messengers) of the seven churches. These angels are the preachers of those churches-human messengers appointed by God.
+When discussing Revelation 1:20, the "seven stars" represent the angels (or messengers) of the seven churches. These angels are the preachers of those churches-human messengers appointed by God.
 
 > _"The seven stars are the angels of the seven churches."_ - **Revelation 1:20**
 
@@ -46,7 +45,7 @@ Though preachers have authority, they remain under God's authority. They are sim
 
 ## 4. Nothing Replaces the Preaching of God's Word
 
-In our modern times, many things compete for our attention. Pastor Sael warned that nothing should replace the preaching and teaching of God's Word. He said:
+In our modern times, many things compete for our attention. Nothing should replace the preaching and teaching of God's Word.
 
 > _"I still believe in old-fashioned preaching to save man. Nothing replaces the preaching of the Word of God."_
 
@@ -54,7 +53,7 @@ While many seek wealth, comfort, and pleasure, what people truly need is salvati
 
 ## 5. The Call to Ministry Is for Everyone
 
-One of the most encouraging parts of the sermon was when Pastor Sael shared stories of how God calls ordinary people:
+One of the most encouraging parts of the sermon was how God calls ordinary people:
 
 - Noah was called to build an ark
 - Abraham was called from being a Gentile
@@ -67,7 +66,7 @@ God doesn't call the qualified; He qualifies the called. Humility, availability,
 
 ## 6. The Whole Gospel to the Whole World
 
-Pastor Sael reminded us of our mission: to bring "the whole gospel to the whole world by the whole church."
+Our mission is to bring "the whole gospel to the whole world by the whole church."
 
 What is the whole gospel? It's the death, burial, and resurrection of Jesus Christ (1 Corinthians 15). This is the message that saves men and women.
 
@@ -77,7 +76,7 @@ Our mandate isn't to stay put-it's to go. Even when it's difficult, even when it
 
 ## The Urgency of Our Times
 
-Pastor Sael closed with a powerful reminder that we're living in desperate times. It's not just the Bible telling us this-everything around us confirms we're in the last days.
+We're living in desperate times. It's not just the Bible telling us this-everything around us confirms we're in the last days.
 
 > _"It is high time to awake out of our sleep... the night is far spent, the day is at hand."_ - **Romans 13:11-12**
 

@@ -25,7 +25,7 @@ Every choice, action, and word matters beyond just today. We're not just random 
 
 ## 2. Think About the End Before You Start
 
-> _"Start with the end in mind,"_ Pastor Sael emphasized throughout the sermon.
+> _"Start with the end in mind."_
 
 Wise people think about where their actions will lead. They don't just think about what feels good now, but ask: "What will happen if I keep living this way?"
 
@@ -37,7 +37,7 @@ Solomon thought about the end, and that's how he came to the right conclusion.
 
 This was an eye-opening part of the sermon. "Fearing God" doesn't mean being terrified.
 
-> _"The word 'fear' in Hebrew actually means deep respect and honor,"_ Pastor Sael explained.
+> _"The word 'fear' in Hebrew actually means deep respect and honor."_
 
 It's like respecting a father who loves but also has authority. It's not running away from God - it's running toward Him with respect.
 
@@ -50,7 +50,7 @@ It's like respecting a father who loves but also has authority. It's not running
 
 ## 4. Being Holy Matters More Than Being Happy
 
-> _"The big problem in churches today,"_ Pastor Sael said, _"is that we chase happiness instead of holiness."_
+> _"The big problem in churches today is that we chase happiness instead of holiness."_
 
 This is such a challenging truth. How often do people make choices just to feel good right now?
 
@@ -66,7 +66,7 @@ Real joy doesn't come from quick pleasures that the world offers. It comes from 
 
 Real love for God isn't just feelings or words. It shows up in how we live and obey Him.
 
-Pastor Sael shared the story of Mary pouring expensive perfume on Jesus' feet. Her love led her to sacrifice something valuable. True love for God leads to giving up things for Him.
+The story of Mary pouring expensive perfume on Jesus' feet illustrates this truth. Her love led her to sacrifice something valuable. True love for God leads to giving up things for Him.
 
 ## 6. We Will All Face Judgment
 

@@ -24,7 +24,7 @@ The sermon opened with God's declaration from Zechariah 4:6:
 
 ## Jesus' Final Instructions to His Disciples
 
-From Luke 24:44-53, Pastor Sael highlighted Jesus' last words to His disciples before His ascension:
+From Luke 24:44-53, Jesus' last words to His disciples before His ascension:
 
 > _"And he said unto them, These are the words which I spake unto you, while I was yet with you, that all things must be fulfilled, which were written in the law of Moses, and in the prophets, and in the psalms, concerning me."_
 
@@ -68,7 +68,7 @@ This demonstrates the incredible power and lasting impact of Spirit-filled belie
 
 ## The Holy Spirit as Our Parakletos (Helper)
 
-Pastor Sael explained the Greek term "parakletos" using the illustration of ancient Greek warriors:
+The Greek term "parakletos" can be understood through the illustration of ancient Greek warriors:
 
 **The Warrior Principle:** Greek soldiers went into battle in pairs to protect each other's blind spots. When one faced the enemy, his partner guarded his back.
 
@@ -126,7 +126,7 @@ When the disciples asked about restoring Israel's kingdom, Jesus redirected thei
 
 ## The Call to Receive and Respond
 
-Pastor Sael concluded with a powerful invitation for believers to:
+The sermon concluded with a powerful invitation for believers to:
 
 ### Prepare Your Hearts
 

@@ -23,7 +23,7 @@ The sermon began with Jesus' powerful words from John 15:16:
 
 ## God's Grand Design for Everything
 
-Pastor Sael emphasized that God has planned and created everything in order. There is a grand design for everything in existence:
+God has planned and created everything in order. There is a grand design for everything in existence:
 
 > _"By him were all things created, that are in heaven, and that are in earth, visible and invisible... all things were created by him, and for him."_ — **Colossians 1:16**
 
@@ -83,7 +83,7 @@ Matthew 9:35-38 reveals Jesus' compassion:
 
 ### Practical Methods for Soul Winning
 
-Pastor Sael outlined several evangelistic approaches:
+Several evangelistic approaches include:
 
 - **One-on-one evangelism**
 - **Door-to-door knocking**
@@ -96,7 +96,7 @@ Pastor Sael outlined several evangelistic approaches:
 
 ## The Importance of Follow-up and Consolidation
 
-Pastor Sael emphasized that winning souls is just the beginning. New believers need:
+Winning souls is just the beginning. New believers need:
 
 - **Follow-up visits** to check on their spiritual progress
 - **Relationship building** so they feel like family
@@ -120,7 +120,7 @@ When we fulfill God's design by bearing fruit, Jesus promised:
 
 ## Personal Application and Challenge
 
-Pastor Sael shared from his own experience in church planting, describing times of loneliness, discouragement, and apparent failure. Yet God's timing proved perfect, and breakthrough came when least expected.
+Experience in church planting reveals times of loneliness, discouragement, and apparent failure. Yet God's timing proves perfect, and breakthrough comes when least expected.
 
 **The Challenge:** We haven't done our best yet when it comes to evangelism and proclaiming the gospel. It's not too late to start again.
 
