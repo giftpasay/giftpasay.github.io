@@ -30,7 +30,7 @@ This year marks our **15th Anniversary** - a testament to God's unwavering faith
 
 **Sunday Services:**
 - Morning Service: 8:00 AM
-- Afternoon Service: 4:00 PM *(No afternoon service on first Sunday of each month)*
+- Afternoon Service: 4:00 PM *(No afternoon service on first & last Sunday of each month)*
 
 **Weekly Gatherings:**
 - Tuesday Prayer Meeting: 7:00 PM
