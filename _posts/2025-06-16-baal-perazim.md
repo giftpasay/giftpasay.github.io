@@ -4,7 +4,7 @@ date: 2025-06-15
 categories: [Sermon Notes]
 tags: [breakthroughs, david, philistines, waiting on god, victory, divine timing]
 description: A sermon on God's power to break through in every area of our lives, using David's victory over the Philistines at Baal Perazim as a foundation.
-image: https://ik.imagekit.io/g0xkgtz2g/BAAL-PERAZIM.jpg?updatedAt=1750129266010
+image: https://ik.imagekit.io/g0xkgtz2g/BAAL%20PERAZIM.jpg?updatedAt=1761186629310
 comments: false
 ---
 
