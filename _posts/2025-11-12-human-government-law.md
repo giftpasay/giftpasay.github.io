@@ -4,7 +4,7 @@ date: 2025-11-12
 categories: [Bible Study]
 tags: [government, law enforcement, justice, authority, Romans 13, peace, civil obedience, violence, gospel response]
 description: A biblical perspective on human government and law enforcement, exploring Romans 13:1-7 and how Christians should respond to tragedy, violence, and injustice while upholding the rule of law, promoting justice, and overcoming evil with good through the gospel.
-## image: https://ik.imagekit.io/g0xkgtz2g/HUMAN%20GOVERNMENT%20AND%20LAW%20ENFORCEMENT.jpg?updatedAt=1758097856829
+image: https://ik.imagekit.io/g0xkgtz2g/human-gov-and-law-enforement.jpg?updatedAt=1762953995215
 comments: false
 ---
 
@@ -12,10 +12,6 @@ comments: false
 
 ## GIFT SCRIPTURE STUDIES
 **November 12, 2025 / 7:30-9:00 PM**
-
-## C15 - HUMAN GOVERNMENT AND LAW ENFORCEMENT
-
-### Topic: HUMAN GOVERNMENT AND LAW ENFORCEMENT
 
 **Scripture Ref: Romans 13:1-7 (KJV)**
 
