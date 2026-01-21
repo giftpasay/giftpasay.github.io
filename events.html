@@ -164,8 +164,8 @@
                 // Treat events without status field as "Active" (backward compatibility)
                 const status = event.status || 'Active';
 
-                // Only show Active events in public view
-                if (status !== 'Active') return;
+                // Show Active and Cancelled events in public view (hide Done and Hidden)
+                if (status !== 'Active' && status !== 'Cancelled') return;
 
                 const eventDate = new Date(event.date + 'T00:00:00');
                 const eventTime = eventDate.getTime();
@@ -232,13 +232,19 @@
             };
 
             const categoryColor = categoryColors[event.category] || categoryColors['other'];
+            const isCancelled = event.status === 'Cancelled';
 
             return `
-                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition ${isCancelled ? 'border-4 border-red-500' : ''}">
+                    ${isCancelled ? `
+                        <div class="bg-red-600 text-white text-center py-2 px-4 font-bold text-lg">
+                            CANCELLED
+                        </div>
+                    ` : ''}
                     ${event.imageUrl ? `
-                        <img src="${event.imageUrl}" alt="${event.title}" class="w-full h-48 object-cover">
+                        <img src="${event.imageUrl}" alt="${event.title}" class="w-full h-48 object-cover ${isCancelled ? 'opacity-50' : ''}">
                     ` : `
-                        <div class="w-full h-48 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+                        <div class="w-full h-48 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center ${isCancelled ? 'opacity-50' : ''}">
                             <svg class="w-20 h-20 text-white opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                             </svg>
