@@ -179,6 +179,12 @@
                 }
             });
 
+            // Sort each group by date descending (newest first)
+            const sortByDateDesc = (a, b) => new Date(b.date) - new Date(a.date);
+            current.sort(sortByDateDesc);
+            upcoming.sort(sortByDateDesc);
+            past.sort(sortByDateDesc);
+
             return { current, upcoming, past };
         }
 
