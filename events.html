@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | UPC GIFT Church Events</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Events | UPC GIFT Church Events">
+    <meta property="og:description"
+        content="Stay connected with UPC GIFT Pasay church activities and upcoming events. Join us for worship services, prayer meetings, Bible studies, and fellowship gatherings.">
+    <meta property="og:url" content="https://giftpasay.com/events.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ik.imagekit.io/g0xkgtz2g/gift-cover.jpg?updatedAt=1750476052448">
+    <meta property="og:image:alt"
+        content="16th Year Anniversary Celebration of UPC GIFT Pasay Church building with congregation">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Events | UPC GIFT Church Events">
+    <meta name="twitter:description"
+        content="Stay connected with UPC GIFT Pasay church activities and upcoming events. Join us for worship services, prayer meetings, Bible studies, and fellowship gatherings.">
+    <meta name="twitter:image" content="https://ik.imagekit.io/g0xkgtz2g/gift-cover.jpg?updatedAt=1750476052448">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-indigo-700 text-white shadow-lg">
+        <div class="container mx-auto p-4">
+            <h1 class="text-2xl font-bold">Church Events</h1>
+            <p class="text-sm text-indigo-100">Stay connected with our church activities</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <div id="events-container">
+            <!-- Loading -->
+            <div id="loading" class="text-center py-12">
+                <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto mb-4"></div>
+                <p class="text-gray-600">Loading events...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-4 py-6 text-center">
+            <p>&copy; 2026 UPC GIFT Pasay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module">
+        /*
+         * PUBLIC EVENTS PAGE - SECURITY NOTES
+         * 
+         * This page is READ-ONLY and secure for public deployment:
+         * 
+         * 1. READ OPERATIONS ONLY
+         *    - Only uses getDocs() to read events
+         *    - No write, update, or delete operations
+         *    - Cannot modify backend data
+         * 
+         * 2. FIRESTORE SECURITY RULES
+         *    - Backend is protected by Firestore security rules
+         *    - Rules allow anyone to read events (allow read: if true)
+         *    - Rules require authentication + admin email for writes
+         *    - Only upcgiftpasay@gmail.com can create/update/delete events
+         * 
+         * 3. API KEY EXPOSURE IS SAFE
+         *    - Firebase API keys are safe to expose in client-side code
+         *    - They identify your Firebase project, not authorize access
+         *    - Actual security comes from Firestore rules and authentication
+         *    - See: https://firebase.google.com/docs/projects/api-keys
+         * 
+         * 4. FILTERED DATA
+         *    - Only displays events with status: "Active"
+         *    - Hidden and Done events are filtered out
+         *    - No sensitive admin data is exposed
+         */
+
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getFirestore, collection, getDocs, query, orderBy } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+        // Initialize Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyA9iQOLyNX6tlRcHIfHnqvsXkVa9y5-c44",
+            authDomain: "church-admin-43072.firebaseapp.com",
+            projectId: "church-admin-43072",
+            storageBucket: "church-admin-43072.firebasestorage.app",
+            messagingSenderId: "1048937168877",
+            appId: "1:1048937168877:web:c1273ea2d91e2fa07ff1e4"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        // Cache for events to reduce Firebase reads
+        let cachedEvents = null;
+        let cacheTimestamp = null;
+        const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
+
+        async function loadEvents() {
+            try {
+                // Use cache if available and fresh
+                const now = Date.now();
+                if (cachedEvents && cacheTimestamp && (now - cacheTimestamp) < CACHE_DURATION) {
+                    displayEvents(cachedEvents);
+                    return;
+                }
+
+                const eventsRef = collection(db, 'events');
+
+                // Try without orderBy first to check if it's an indexing issue
+                let querySnapshot;
+                try {
+                    const q = query(eventsRef, orderBy('date', 'asc'));
+                    querySnapshot = await getDocs(q);
+                } catch (indexError) {
+                    // If orderBy fails (missing index), get all events
+                    querySnapshot = await getDocs(eventsRef);
+                }
+
+                const events = [];
+                querySnapshot.forEach((doc) => {
+                    events.push({ id: doc.id, ...doc.data() });
+                });
+
+                // Update cache
+                cachedEvents = events;
+                cacheTimestamp = now;
+
+                displayEvents(events);
+            } catch (error) {
+                console.error('Error loading events:', error);
+                document.getElementById('events-container').innerHTML = `
+                    <div class="text-center py-12">
+                        <p class="text-red-600 font-semibold mb-2">Error loading events</p>
+                        <p class="text-gray-600 text-sm">${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        function groupEventsByPeriod(events) {
+            const now = new Date();
+            now.setHours(0, 0, 0, 0);
+            const today = now.getTime();
+
+            const current = [];
+            const upcoming = [];
+            const past = [];
+
+            events.forEach(event => {
+                // Treat events without status field as "Active" (backward compatibility)
+                const status = event.status || 'Active';
+
+                // Only show Active events in public view
+                if (status !== 'Active') return;
+
+                const eventDate = new Date(event.date + 'T00:00:00');
+                const eventTime = eventDate.getTime();
+
+                if (eventTime === today) {
+                    current.push(event);
+                } else if (eventTime > today) {
+                    upcoming.push(event);
+                } else {
+                    past.push(event);
+                }
+            });
+
+            return { current, upcoming, past };
+        }
+
+        function formatDate(dateString) {
+            if (!dateString) return '';
+            const date = new Date(dateString + 'T00:00:00');
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            return date.toLocaleDateString('en-US', options);
+        }
+
+        function formatTime(timeString, ampm) {
+            if (!timeString) return '';
+
+            try {
+                // If ampm is provided, use it
+                if (ampm) {
+                    const [hours, minutes] = timeString.split(':');
+                    let hour = parseInt(hours);
+
+                    // Convert to 12-hour format
+                    if (hour > 12) {
+                        hour = hour - 12;
+                    } else if (hour === 0) {
+                        hour = 12;
+                    }
+
+                    return `${hour}:${minutes} ${ampm}`;
+                }
+
+                // Convert 24-hour to 12-hour format
+                const [hours, minutes] = timeString.split(':');
+                const hour = parseInt(hours);
+                const period = hour >= 12 ? 'PM' : 'AM';
+                const hour12 = hour % 12 || 12;
+
+                return `${hour12}:${minutes} ${period}`;
+            } catch (error) {
+                return timeString;
+            }
+        }
+
+        function renderEventCard(event) {
+            const categoryColors = {
+                'worship': 'bg-purple-100 text-purple-800',
+                'prayer': 'bg-blue-100 text-blue-800',
+                'bible-study': 'bg-yellow-100 text-yellow-800',
+                'fellowship': 'bg-green-100 text-green-800',
+                'outreach': 'bg-orange-100 text-orange-800',
+                'youth': 'bg-pink-100 text-pink-800',
+                'other': 'bg-gray-100 text-gray-800'
+            };
+
+            const categoryColor = categoryColors[event.category] || categoryColors['other'];
+
+            return `
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    ${event.imageUrl ? `
+                        <img src="${event.imageUrl}" alt="${event.title}" class="w-full h-48 object-cover">
+                    ` : `
+                        <div class="w-full h-48 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+                            <svg class="w-20 h-20 text-white opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                    `}
+                    
+                    <div class="p-5">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-lg font-semibold text-gray-900 flex-1">${event.title}</h3>
+                            <span class="px-2 py-1 text-xs font-semibold rounded ${categoryColor} ml-2">
+                                ${event.category}
+                            </span>
+                        </div>
+
+                        <div class="space-y-2 text-sm text-gray-600 mb-4">
+                            <div class="flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                </svg>
+                                ${formatDate(event.date)}
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                                ${formatTime(event.time, event.ampm)}
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
+                                ${event.location}
+                            </div>
+                        </div>
+
+                        ${event.notes ? `
+                            <p class="text-sm text-gray-600 line-clamp-3">${event.notes}</p>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        function displayEvents(events) {
+            const container = document.getElementById('events-container');
+
+            if (events.length === 0) {
+                container.innerHTML = `
+                    <div class="text-center py-12">
+                        <svg class="w-16 h-16 text-gray-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                        <p class="text-gray-500 text-lg">No events scheduled at this time</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const { current, upcoming, past } = groupEventsByPeriod(events);
+            let html = '';
+
+            // Current Events
+            if (current.length > 0) {
+                html += `
+                    <div class="mb-10">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                            <span class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></span>
+                            Happening Today
+                        </h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            ${current.map(event => renderEventCard(event)).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Upcoming Events
+            if (upcoming.length > 0) {
+                html += `
+                    <div class="mb-10">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                            <span class="w-3 h-3 bg-blue-500 rounded-full mr-3"></span>
+                            Upcoming Events
+                        </h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            ${upcoming.map(event => renderEventCard(event)).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Past Events
+            if (past.length > 0) {
+                html += `
+                    <div class="mb-10">
+                        <h2 class="text-2xl font-bold text-gray-500 mb-6 flex items-center">
+                            <span class="w-3 h-3 bg-gray-400 rounded-full mr-3"></span>
+                            Past Events
+                        </h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 opacity-75">
+                            ${past.map(event => renderEventCard(event)).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            container.innerHTML = html;
+        }
+
+        // Load events on page load
+        loadEvents();
+    </script>
+</body>
+
+</html>
