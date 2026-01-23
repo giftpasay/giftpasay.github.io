@@ -29,6 +29,7 @@
         content="Stay connected with UPC GIFT Pasay church activities and upcoming events. Join us for worship services, prayer meetings, Bible studies, and fellowship gatherings.">
     <meta name="twitter:image" content="https://ik.imagekit.io/g0xkgtz2g/gift-cover.jpg?updatedAt=1750476052448">
 
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -161,6 +162,9 @@
             const past = [];
 
             events.forEach(event => {
+                // Filter out archived events from public view
+                if (event.archived) return;
+
                 // Treat events without status field as "Active" (backward compatibility)
                 const status = event.status || 'Active';
 
@@ -179,10 +183,13 @@
                 }
             });
 
-            // Sort each group by date descending (newest first)
+            // Sort Current and Upcoming by date ascending (nearest first)
+            const sortByDateAsc = (a, b) => new Date(a.date) - new Date(b.date);
+            current.sort(sortByDateAsc);
+            upcoming.sort(sortByDateAsc);
+
+            // Sort Past by date descending (most recent first)
             const sortByDateDesc = (a, b) => new Date(b.date) - new Date(a.date);
-            current.sort(sortByDateDesc);
-            upcoming.sort(sortByDateDesc);
             past.sort(sortByDateDesc);
 
             return { current, upcoming, past };
@@ -234,6 +241,9 @@
                 'fellowship': 'bg-green-100 text-green-800',
                 'outreach': 'bg-orange-100 text-orange-800',
                 'youth': 'bg-pink-100 text-pink-800',
+                'national-event': 'bg-red-100 text-red-800',
+                'sectional-event': 'bg-indigo-100 text-indigo-800',
+                'district-event': 'bg-teal-100 text-teal-800',
                 'other': 'bg-gray-100 text-gray-800'
             };
 
