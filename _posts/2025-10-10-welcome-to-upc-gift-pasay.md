@@ -52,6 +52,6 @@ We stand firmly on the Apostolic Faith, believing in:
 
 ## Contact Us
 
-For inquiries, prayer requests, or to get involved with our church community, please [visit our contact page](/contact).
+For inquiries, prayer requests, or to get involved with our church community, please [visit our website](https://giftpasay.com).
 
 ---
