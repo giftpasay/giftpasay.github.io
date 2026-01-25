@@ -7,11 +7,11 @@ pin: true
 
 **United Pentecostal Church Philippines, Inc. – Grace In-Christ Fellowship Temple (GIFT) Pasay** is a vibrant, Spirit-filled community of believers dedicated to sharing the Gospel and nurturing spiritual growth through sound Biblical teaching and authentic fellowship.
 
-This year marks our **15th Anniversary** - a testament to God's unwavering faithfulness, divine guidance, and abundant grace.
+This year marks our **16th Anniversary** - a testament to God's unwavering faithfulness, divine guidance, and abundant grace.
 
 ## Our Pastor
 
-**[Rev. Virgilio (Sael) C. Anota Jr](https://www.facebook.com/sael.anota)** serves as our dedicated pastor, bringing years of experience and a genuine heart for ministry. With a deep passion for teaching and preaching God's Word, Pastor Sael guides our congregation with wisdom, compassion, and unwavering commitment to Biblical truth.
+**<a href="https://www.facebook.com/sael.anota" target="_blank" rel="noopener noreferrer">Rev. Virgilio (Sael) C. Anota Jr</a>** serves as our dedicated pastor, bringing years of experience and a genuine heart for ministry. With a deep passion for teaching and preaching God's Word, Pastor Sael guides our congregation with wisdom, compassion, and unwavering commitment to Biblical truth.
 
 ## Our Vision
 
@@ -30,7 +30,7 @@ This year marks our **15th Anniversary** - a testament to God's unwavering faith
 
 **Sunday Services:**
 - Morning Service: 8:00 AM
-- Afternoon Service: 4:00 PM *(No afternoon service on first & last Sunday of each month)*
+- Afternoon Service: 4:00 PM *(No afternoon service on first & 4th Sunday of each month)*
 
 **Weekly Gatherings:**
 - Tuesday Prayer Meeting: 7:00 PM
@@ -52,6 +52,6 @@ We stand firmly on the Apostolic Faith, believing in:
 
 ## Contact Us
 
-For inquiries, prayer requests, or to get involved with our church community, please [visit our website](https://giftpasay.com).
+For inquiries, prayer requests, or to get involved with our church community, please <a href="https://giftpasay.com" target="_blank" rel="noopener noreferrer">visit our website</a>.
 
 ---
