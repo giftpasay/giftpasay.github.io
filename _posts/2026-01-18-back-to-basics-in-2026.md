@@ -1,5 +1,5 @@
 ---
-title: "Back to B.A.S.I.C.S. in 2026"
+title: "Back to BASICS in 2026"
 date: 2026-01-18
 categories: [Sermon Notes]
 tags: [apostolic,basics,discipleship,unity,church,community]
