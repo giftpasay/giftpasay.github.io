@@ -1,219 +1,185 @@
 ---
 title: "Above All Else Guard Your Heart"
-date: 2026-02-15s
+date: 2026-02-15
 categories: [Sermon Notes]
 tags: [heart, holiness, discernment, spiritual growth, basics]
-description: A call to guard the heart diligently, recognizing its value, influence, and vulnerability in a distracted world.
+description: A call to guard the heart diligently, recognizing its value, influence, and vulnerability in a world full of distractions.
 comments: false
 image: ../assets/img/thumbnails/guard-your-heart.jpg
 ---
 
-_Service: GIFT Worship_  
-_Monthly Theme: “All We Need Is an Upgrade”_  
-_Series: Back to Basics in 2026_  
-_Subtitle: “Building Apostolic Saints in the City for the Savior”_
+_Service: GIFT Worship_<br>
+_Monthly Theme: "All We Need Is an Upgrade"_<br>
+_Series: Back to Basics in 2026_<br>
+_Subtitle: "Building Apostolic Saints in the City for the Savior"_
 
 ---
 
-## Text
+## Above All Else Guard Your Heart
 
-**Proverbs 4:23 / Psalm 139:23–24**
+The text for this message comes from two anchoring scriptures. The first is Proverbs 4:23, heard across four translations:
 
-> “Keep thy heart with all diligence; for out of it are the issues of life.” (KJV)
+> "Keep thy heart with all diligence; for out of it are the issues of life." (KJV)
 
-> “Watch over your heart with all diligence, For from it flow the springs of life.” (AMP)
+> "Watch over your heart with all diligence, For from it flow the springs of life." (AMP)
 
-> “Ingatan mo ang iyong puso ng buong sikap; sapagka't dinadaluyan ng buhay.” (TAB)
+> "Ingatan mo ang iyong puso ng buong sikap; sapagka't dinadaluyan ng buhay." (TAB)
 
-> “Above all else, guard your heart, for everything you do flows from it.” (NIV)
+> "Above all else, guard your heart, for everything you do flows from it." (NIV)
 
-> “Search me, O God, and know my heart: try me, and know my thoughts:  
-> 24 And see if there be any wicked way in me, and lead me in the way everlasting.”  
-> Psalm 139:23–24 (KJV)
+The second is Psalm 139:23-24, a prayer that belongs alongside it:
 
----
+> "Search me, O God, and know my heart: try me, and know my thoughts:
+> And see if there be any wicked way in me, and lead me in the way everlasting."
+> Psalm 139:23-24 (KJV)
 
-## Proposition
-
-In a world overflowing with distractions, the call to guard your heart takes on paramount importance, as highlighted in Proverbs 4:23. This essential scripture encourages believers to monitor their thoughts and emotions, recognizing the profound impact these elements have on their lives.
-
-Your heart is the most important tool you have. It is not your experience, not your knowledge, or skills. It is your heart that matters most of all.
+<!-- suggest internal link: holiness and spiritual growth -->
 
 ---
 
-## Topic
+In a world overflowing with distractions, the call to guard your heart is not optional. It is urgent. Proverbs 4:23 is not just a nice thought to hang on a wall. It is a command that reaches into the core of how we live, how we relate to God, and how we treat one another.
 
-### “ABOVE ALL ELSE GUARD YOUR HEART”
+Here is a truth worth sitting with: your heart is the most important thing you carry. Not your experience. Not your knowledge. Not your skills. Your heart. Above all else, the condition of your heart determines the direction of your life.
 
 ---
 
-## Fire @ Bridge
+## The World and the Heart: A Timely Warning
 
-### The Dark Origins of Valentine’s Day
+This message was shared around the season of Valentine's Day, and there is good reason to address what surrounds that day. Valentine's Day presents itself as a celebration of romance and love. But its origins tell a different story.
 
-“IS IT FINE FOR CHRISTIANS TO CELEBRATE VALENTINE’S DAY?”
+Lupercalia was an ancient pagan festival held each year in Rome on February 15. It was designed as a purification and fertility ceremony. Though Valentine's Day shares its name with a martyred Christian saint, historians trace connections between the holiday and this older pagan celebration.
 
-Valentine’s Day is a time to celebrate romance and love. But the origins of this festival of candy and cupids are actually dark, bloody, and a bit muddled. Though no one has pinpointed the exact origin of the holiday, one place to start is ancient Rome.
+Lupercalia was violent, sexually charged, and built around animal sacrifice. The Romans executed two men named Valentine on February 14 in different years during the third century. From February 13 to 15, the festival was observed with rituals that bear no resemblance to love as Scripture defines it.
 
-Lupercalia was an ancient pagan festival held each year in Rome on February 15. The festival was meant to be a purification and fertility ceremony. Although Valentine’s Day shares its name with a martyred Christian saint, some historians believe the holiday is actually an offshoot of Lupercalia.
+Later, Pope Gelasius I moved to replace Lupercalia with the feast of St. Valentine's Day. The overt violence faded, but the association with romantic love and fertility remained.
 
-Unlike Valentine’s Day, however, Lupercalia was a bloody, violent and sexually charged celebration filled with animal sacrifice and feasting in the hopes of warding off evil spirits and infertility.
+The point here is not to start a debate about the holiday. The point is this: the world has always had its own version of love, and it looks nothing like what Scripture describes.
 
-The Romans executed two men named Valentine on February 14 of different years in the third century. From February 13 to 15, the Romans celebrated the feast of Lupercalia. The men sacrificed a goat and a dog, then whipped women with the hides of the animals they had just slain.
+One popular sentiment says: *"If I had to choose between breathing and loving you, I'd save my last breath to say I love you."* That sounds beautiful until you place it next to what God says about the human heart:
 
-The Roman participants were drunk and naked. Young women would line up for the men to hit them. They believed this would make them fertile. The celebration included a matchmaking lottery in which young men drew the names of women from a jar. The couple would then be paired for the duration of the festival or longer.
-
-Emperor Claudius II executed two men both named Valentine. Their martyrdom was honored by the Catholic Church with the celebration of St. Valentine’s Day.
-
-Later, Pope Gelasius I combined St. Valentine’s Day with Lupercalia to expel the pagan rituals. The festival became less violent, but it remained associated with fertility and love.
-
-> “If I had to choose between breathing and loving you, I’d save my last breath to say I love you.”  
-> “Kung ako’y pipiliin sa pagitan ng paghinga at ang mahalin ka, aking pipigilin ang aking huling hininga upang sabihin na mahal kita.”
-
-But Scripture reminds us:
-
-> “The heart is deceitful above all things, and desperately wicked: who can know it?”  
+> "The heart is deceitful above all things, and desperately wicked: who can know it?"
 > Jeremiah 17:9 (KJV)
 
-> “The heart is deceitful above all things and beyond cure. Who can understand it?” (AMP)
+> "The heart is deceitful above all things and beyond cure. Who can understand it?" (AMP)
+
+The unregenerate heart cannot be trusted to lead itself. This is exactly why guarding it is so necessary.
 
 ---
 
-## For Instances
+## What Guarding the Heart Looks Like
 
-Proverbs 4:23 says:
+King Solomon's words in Proverbs 4:23 carry the weight of wisdom earned through experience. When he says "above all else," he means it sits at the top of your priority list. Everything else flows from this one commitment.
 
-> “Above all else, guard your heart, for everything you do flows from it.” (NIV)
+Our hearts are the source of our thoughts, attitudes, beliefs, and actions. Whatever we allow to take root there will eventually work its way outward, into our words, our decisions, and our relationships.
 
-These words from King Solomon emphasize the importance of protecting our innermost being. Our heart is the source of our thoughts, attitudes, beliefs, and actions. Therefore, it is crucial to guard our hearts above all else.
+Guarding the heart means being intentional in three practical ways:
 
-The heart can lead us toward righteousness or toward destruction. Our hearts are susceptible to sinful thoughts, attitudes, and beliefs. Everything we allow into our hearts eventually flows outward.
+- Being mindful of what we think about
+- Being careful about what we set our affection on
+- Being selective about what we give our attention to
 
-### Guarding the Heart Means:
+Negativity, bitterness, and anger do not stay contained. They take root, and when they do, they move outward into sinful behavior and broken relationships. Paul addresses this directly:
 
-- Being mindful of what we think about.
-- Being careful what we set our affection on.
-- Being selective about what we give our attention to.
-
-Negativity, bitterness, and anger can take root and lead to sinful behavior.
-
-> “Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice.”  
+> "Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice."
 > Ephesians 4:31
 
-- Focus on godly thoughts.  
-  Colossians 3:2  
-  Philippians 4:8
+Guarding the heart also means actively filling it with what is pure:
 
-- Remove hindrances to spiritual progress.  
-  Hebrews 12:1–3
-
-- Become who God designed you to be.  
-  Ephesians 2:10
+- Focus on godly thoughts (Colossians 3:2; Philippians 4:8)
+- Remove hindrances to spiritual progress (Hebrews 12:1-3)
+- Become who God designed you to be (Ephesians 2:10)
 
 ---
 
-### First Reason: Your Relationship with God
+## Why It Matters: Your Relationship with God
 
-The condition of our heart determines whether we draw near to God or drift away.
+The condition of your heart determines whether you draw near to God or drift away from Him. A heart that is guarded and surrendered to God opens wide the door to everything He promises:
 
-- Meditate on the Word. Psalm 1:2  
-- Experience abundant life. John 10:10  
-- Walk in peace and joy. Philippians 4:6–7  
-- Bear the fruit of the Spirit. Galatians 5:22–23  
+- Meditating on the Word (Psalm 1:2)
+- Experiencing abundant life (John 10:10)
+- Walking in peace and joy (Philippians 4:6-7)
+- Bearing the fruit of the Spirit (Galatians 5:22-23)
 
-Allowing sinful influences to remain in the heart will hinder prayer, Bible reading, and spiritual sensitivity.
-
----
-
-### Second Reason: Your Relationship with Others
-
-A guarded heart builds:
-
-- Love and kindness. Ephesians 4:32  
-- Unity and mutual care. 1 Corinthians 12:25–27  
-
-An unguarded heart breeds:
-
-- Bitterness  
-- Envy  
-- Resentment  
-- Broken relationships  
-
-Guarding the heart in godly fear protects spiritual health and strengthens community.
+On the other hand, when sinful influences are allowed to remain in the heart, they quietly work against your spiritual life. Prayer becomes harder. The Word feels distant. Spiritual sensitivity dulls. The heart is not a passive thing. It responds to what we feed it.
 
 ---
 
-### A Direct Question
+## Why It Matters: Your Relationship with Others
 
-“IS YOUR HEART RIGHT WITH GOD?”  
-Read: Acts 8:9–21
+A guarded heart does not just affect you. It shapes every relationship you are in.
 
-> “A person can be baptized in Jesus’ name and receive the gift of the Holy Ghost and yet still have a heart that is not right with God.”
+When your heart is healthy, it builds:
 
-> “Search me, O God, and know my heart: try me, and know my thoughts:  
-> And see if there be any wicked way in me, and lead me in the way everlasting.”  
-> Psalm 139:23–24 (KJV)
+- Love and kindness toward others (Ephesians 4:32)
+- Unity and genuine care for the body (1 Corinthians 12:25-27)
 
----
+When your heart is unguarded, it produces the opposite. Bitterness, envy, and resentment do not stay hidden. They surface in how we speak, how we respond, and how we treat the people closest to us. Broken relationships are almost always connected to an unguarded heart somewhere along the way.
 
-## Guarding Our Heart Is Necessary for Three Reasons
-
-### 1. Because Your Heart Is Extremely Valuable
-
-We do not guard worthless things.
-
-Garbage sits unguarded on the sidewalk because it has no value. But your heart is the essence of who you are. It is your authentic self. It is the core of your being. It is where your dreams, desires, and passions live. It is where you connect with God and others.
-
-If your spiritual heart dies, everything else collapses.
-
-This is why Solomon says, “Above all else.” Make it your top priority.
+Guarding the heart in godly fear is not just a personal discipline. It is what holds community together.
 
 ---
 
-### 2. Because Your Heart Is the Source of Everything You Do
+## A Direct Question
 
-Solomon calls it the wellspring of life.
+Read Acts 8:9-21.
 
-In Tennessee there are thousands of natural springs where water flows from deep underground. If you plug the spring, you stop the flow. If you poison it, the flow becomes toxic.
+Here is a sobering truth from that passage: a person can be baptized in Jesus' name, receive the gift of the Holy Ghost, and still have a heart that is not right with God. Water and Spirit do not automatically settle what lives inside us. The heart must be yielded and kept.
 
-Everything downstream depends on the condition of the source.
+This is why the prayer of Psalm 139 is so fitting here:
 
-If your heart is unhealthy, it impacts:
+> "Search me, O God, and know my heart: try me, and know my thoughts:
+> And see if there be any wicked way in me, and lead me in the way everlasting."
+> Psalm 139:23-24 (KJV)
 
-- Your family  
-- Your friends  
-- Your ministry  
-- Your career  
-- Your legacy  
-
-It is imperative that you guard it.
+Is your heart right with God? That is the question worth sitting with today.
 
 ---
 
-### 3. Because Your Heart Is Under Constant Attack
+## Three Reasons We Must Guard Our Hearts
 
-When Solomon says guard your heart, he implies a combat zone.
+### 1. Your Heart Is Extremely Valuable
 
-We have an enemy who opposes God and everything aligned with Him.
+We do not guard worthless things. Garbage sits uncovered on the sidewalk because nobody thinks it is worth protecting. But your heart is another matter entirely.
 
-Pastors and leaders are especially vulnerable. Many face discouragement, disappointment, and disillusionment. These pressures tempt them to quit.
+Your heart is the essence of who you are. It is your authentic self. It is where your dreams, desires, and passions live. It is where you connect with God and where you connect with others. If your spiritual heart dies, everything else collapses around it.
 
-The enemy attacks the heart through:
+This is why Solomon does not say "among the important things" or "one of your priorities." He says "above all else." Make it your highest concern.
 
-- Circumstances  
-- Criticism  
-- Fatigue  
-- Emotional wounds  
+### 2. Your Heart Is the Source of Everything You Do
 
-> “If your heart is unhealthy, it threatens everything else, family, friends, career, everything.”  
-> Michael Hyatt
+Solomon calls the heart the wellspring of life. That is a precise image. In Tennessee, thousands of natural springs push water up from deep underground. If you plug the spring, the flow stops. If you poison the source, everything downstream becomes toxic.
 
-If we lose heart, we lose everything.
+The same is true of your heart. Its condition flows outward into every area of your life:
+
+- Your family
+- Your friends
+- Your ministry
+- Your career
+- Your legacy
+
+Whatever lives in the heart will eventually show up somewhere downstream. You cannot clean the stream while leaving the source untouched.
+
+### 3. Your Heart Is Under Constant Attack
+
+When Solomon uses the word "guard," he is not describing a relaxed posture. Guarding implies a threat. It implies a combat zone.
+
+We have a real enemy who opposes God and everything aligned with Him. Pastors, leaders, and believers in demanding seasons are especially vulnerable. Discouragement, disappointment, and disillusionment are real pressures that tempt people to quit. The enemy does not always attack with something obviously sinful. He often works through weariness, through small compromises, through wounds that go unaddressed.
+
+He attacks the heart through:
+
+- Difficult circumstances
+- Criticism and opposition
+- Physical and emotional fatigue
+- Deep emotional wounds
+
+As Michael Hyatt observed: *"If your heart is unhealthy, it threatens everything else, family, friends, career, everything."*
+
+If we lose heart, we lose everything. That is not an overstatement. It is a reality worth taking seriously.
 
 ---
 
-## Closing Emphasis
+## Closing
 
-If we are going to succeed as believers and survive as leaders, we must guard our hearts. They are more important than we imagine.
+If we are going to succeed as believers and survive as leaders, we must guard our hearts. They are more important than we often realize, more vulnerable than we want to admit, and more central to everything we do than any skill or experience we bring to the table.
 
 Above all else, guard your heart.

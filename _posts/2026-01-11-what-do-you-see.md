@@ -2,191 +2,152 @@
 title: "What Do You See?"
 date: 2026-01-11
 categories: [Sermon Notes]
-tags: [vision,purpose,faith,apostolic,growth,calling]
+tags: [vision, purpose, faith, apostolic, growth, calling]
 description: A sermon on the power of vision, showing how God-given vision determines direction, perseverance, and victory in life and faith.
 comments: false
 image: https://ik.imagekit.io/g0xkgtz2g/whatdoyousee.jpg
 ---
 
-_Text: Habakkuk 2:2-3 / Proverbs 29:18 (KJV)_  
-_Service: GIFT Worship_  
-_Theme for 2026: “GIFT’s for Maximum Impact”_  
-_Monthly Theme: “Building Apostolic Saints in the City”_  
+_Text: Habakkuk 2:2-3 / Proverbs 29:18 (KJV)_<br>
+_Service: GIFT Worship_<br>
+_Theme for 2026: "GIFT's for Maximum Impact"_<br>
+_Monthly Theme: "Building Apostolic Saints in the City"_
 
 ---
 
-## Introduction
+## What Do You See? The Victory of Vision
 
-**Song:**  
+Two scriptures carry this message. Read them slowly.
 
-> “And the LORD answered me, and said, Write the vision, and make it plain upon tables, that he may run that readeth it.  
-For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry.”  
-Habakkuk 2:2-3 (KJV)
+> "And the LORD answered me, and said, Write the vision, and make it plain upon tables, that he may run that readeth it. For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry."
+> Habakkuk 2:2-3 (KJV)
 
-> “Where there is no vision, the people perish: but he that keepeth the law, happy is he.”  
-Proverbs 29:18 (KJV)
+> "Where there is no vision, the people perish: but he that keepeth the law, happy is he."
+> Proverbs 29:18 (KJV)
 
-Vision is not optional. It is essential for life, leadership, faith, and purpose. Without vision, people drift, lose direction, and eventually perish.
+Vision is not optional. It is essential. Without it, people drift, lose direction, and eventually perish. That is not poetic language. It is a biblical description of what happens when a life has no clear sense of where it is going or why.
+
+<!-- suggest internal link: purpose and calling -->
 
 ---
 
-## Proposition
+## Why Vision Makes the Difference
 
 In a world full of people with great ideas that never come to fruition, the one factor that tilts the odds in your favor is having a clear vision of your future.
 
-A clear vision of what you want in life, whether physical or spiritual, in relationships, business, or faith, becomes the catalyst that separates the wheat from the chaff. Vision distinguishes what is valuable from what is worthless.
+Whether in your physical life, spiritual life, relationships, business, or faith, a clear vision acts as a catalyst. It separates what is valuable from what is worthless. It separates who is moving toward something from who is simply moving.
 
-Your vision will determine your victory in every area, or your total defeat.
+Your vision will determine your victory in every area, or it will allow your defeat. There is very little middle ground.
 
 At the beginning of this year, the question is simple and personal. In the near future, what do you see?
 
 ---
 
-## Topic
+## What Vision Actually Is
 
-### **What Do You See?**  
-**The Victory of Vision**
+Vision is more than ambition or goal-setting. It is the ability to think about and plan the future with imagination and wisdom. It involves perception, foresight, and the anticipation of what has not yet come. In Scripture, vision often refers to an encounter with God where He imparts revelation through dreams or divine insight. Vision is a God-given mental impression of what can be.
 
----
+These reflections are worth considering:
 
-## Fire @ Bridge
-
-**Vision** is the faculty or state of being able to see. It is the ability to think about or plan the future with imagination and wisdom. It involves perception, foresight, and anticipation of what is yet to come. Vision can also be prophetic, entrepreneurial, or spiritual. Synonyms include discernment and perception.
-
-Key reflections on vision:
-
-- “It’s not what you look at that matters, it’s what you see.” Henry David Thoreau  
-- “Be brave enough to live the life of your dreams according to your vision and purpose instead of the expectations and opinions of others.” Roy T. Bennett  
-- “Don’t expect people to understand your grind when God didn’t give them your vision.”  
-- “The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.” Michelangelo  
-- “The most pathetic person in the world is someone who has sight but no vision.” Helen Keller  
-- “We are limited, not by our abilities, but by our vision.” Khalil Gibran  
+- *"It's not what you look at that matters, it's what you see."* Henry David Thoreau
+- *"Be brave enough to live the life of your dreams according to your vision and purpose instead of the expectations and opinions of others."* Roy T. Bennett
+- *"Don't expect people to understand your grind when God didn't give them your vision."*
+- *"The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it."* Michelangelo
+- *"The most pathetic person in the world is someone who has sight but no vision."* Helen Keller
+- *"We are limited, not by our abilities, but by our vision."* Khalil Gibran
 
 ---
 
-## Defining Your Vision
+## How to Identify Your Vision
 
-To identify your vision and purpose, you must think about two things:
+To identify your vision and purpose, two things must be settled:
+
 1. What you want to achieve (vision)
 2. What is important to you and why (purpose)
 
-Once these are identified and written down, they must be put into action.
+Once those are identified and written down, they must be put into action. A personal vision statement describes your values, strengths, and goals. It orients you toward your long-term calling and keeps you from drifting into what is merely convenient.
 
-A personal vision statement describes your values, strengths, and goals. It may focus on life or professional direction and is meant to orient you toward long-term dreams.
+Research on visionary leadership points to five characteristics that every true vision carries:
 
-In Scripture, vision often refers to an encounter with God where He imparts revelation through dreams or divine insight. Vision is a God-given mental impression of what can be.
+1. A picture of what could be
+2. A change it calls for
+3. Values it is built on
+4. A map for how to get there
+5. A challenge that requires something of you
 
----
-
-## The Five Main Characteristics of Vision
-
-Research on visionary leadership highlights five characteristics:
-
-1. A picture  
-2. A change  
-3. Values  
-4. A map  
-5. A challenge  
+Vision has these characteristics because it is not passive. It demands something from the person who carries it.
 
 ---
 
-## Exploring Principles and Purpose
+## What Happens Without Vision
 
-- The poorest person is one without vision (Proverbs 29:18)  
-- Lack of vision leads to stagnation and frustration  
-- Many individuals have ideas but struggle to act on them  
-- A frustrated person is often one who has abandoned dreams  
-- Fear, doubt, and external pressure cause people to deviate from vision  
-- God created everyone with unique purpose and potential  
-- Fulfilled vision gives meaning to life  
-- Education alone does not guarantee success, understanding vision does  
-- Everyone has gifts and must take responsibility for developing them  
-- Many are born leaders but drift into following  
-- Dreams must be realized, not stored as unfulfilled hopes  
+The poorest person in the world is not the one without money. It is the one without vision (Proverbs 29:18). Here is what the absence of vision produces:
 
-Every individual is endowed with vision and gifts to fulfill it. Vision empowers action based on purpose rather than obligation. Persistence is essential in fulfilling God-given purpose.
+- Stagnation and prolonged frustration
+- Ideas that never become action
+- Frustration that is actually the grief of abandoned dreams
+- Deviation caused by fear, doubt, and external pressure
+
+God created every person with unique purpose and potential. Fulfilled vision gives life meaning. Education alone does not guarantee success. Understanding your vision does. Everyone has gifts and must take personal responsibility for developing them. Many people are born leaders who drift into passive following because no one ever helped them see what they were made for.
+
+Dreams must be realized, not stored away as unfulfilled hopes.
 
 ---
 
-## Body
+## The Biblical Example: David and Goliath
 
-### Biblical Example: David and Goliath (1 Samuel 17)
+1 Samuel 17 is not just a story about a boy and a giant. It is a demonstration of what vision does when everyone else only sees a problem.
 
-David’s victory was rooted in vision.
+- The Israelites saw the size of the problem and were paralyzed with fear (verses 4-11)
+- David saw the solution because his vision was different (verses 25-27)
+- He remembered past victories over the lion and the bear, evidence of God's faithfulness (verses 34-37)
+- He used weapons he had tested and trusted, not what someone else handed him (verses 38-40)
 
-- The Israelites saw the size of the problem and were afraid (verses 4-11)  
-- David saw the solution because of his vision (verses 25-27)  
-- He remembered past victories over the lion and the bear (verses 34-37)  
-- He used weapons he had tested and trusted (verses 38-40)  
+Vision allowed David to see differently when everyone else saw defeat. As Myles Monroe put it: vision can be understood as foresight, insight, and hindsight combined. It is looking forward while understanding the present and learning from the past.
 
-Vision allowed David to see differently when everyone else saw defeat.
-
-Vision can be defined as foresight, insight, and hindsight combined. It is looking forward while understanding the present and learning from the past.
-
-The key to fulfilling purpose is recognizing and activating the vision God has given. Understanding the source of vision reveals its origin and guides the journey from idea to fulfillment. Myles Monroe
-
-If a dream or vision contradicts the Word of God, it is not from the Lord. God never contradicts His Word.  
-“The word of the Lord endureth for ever.” 1 Peter 1:25 (KJV)
+One important guardrail: if a dream or vision contradicts the Word of God, it is not from the Lord. God never contradicts His Word. "The word of the Lord endureth for ever." (1 Peter 1:25, KJV)
 
 ---
 
-## The Importance of Vision
+## What It Means to Have a Vision
 
-In a world full of unrealized ideas, vision is what moves people forward. A clear vision of your future separates those who merely dream from those who act.
+A vision is a picture of who you are and what can happen.
 
-Vision brings focus, direction, motivation, and endurance.
+The clearer and more defined that picture is, the more powerfully it directs your thoughts and shapes your decisions. A strong vision helps you push through obstacles and gives you clarity about why you do what you do. It keeps you focused, motivated, and open to possibilities you would otherwise miss. When you can clearly imagine a better future, change becomes easier to embrace.
 
----
-
-## What Does It Mean to Have a Vision?
-
-A vision is a picture or idea in your mind of who you are and what can happen.
-
-The clearer and more defined the vision, the more powerfully it directs thoughts and actions. A strong vision helps overcome obstacles and clarifies why you do what you do.
-
-Vision keeps you focused, motivated, and open to greater possibilities. When you imagine a better future, change becomes easier.
-
-Having vision means knowing who you are now and who you want to become. Without clarity about the present, the future becomes uncertain.
+Having vision also means knowing who you are now, not just who you want to become. Without clarity about the present, the future stays uncertain.
 
 ---
 
-## Personal Reflection
+## A Personal Reflection
 
-There was a season when vision was unclear. The goal was simply to graduate, then to finish college, then to find a job. Along the way came confusion, distraction, and loss of focus.
+There was a season when vision was unclear. The goal at one point was simply to graduate, then to finish college, then to find a job. Along the way came confusion, distraction, and loss of focus. There was movement, but no real direction.
 
-At one point, there was no vision, only movement without direction. But when vision became clear again, alignment followed. Goals took shape. Progress resumed.
+When vision became clear again, alignment followed. Goals took shape. Progress resumed.
 
-Vision made alignment possible in both personal life and career.
+This is a reminder that vision must include physical, emotional, spiritual, and intellectual dimensions. Ask yourself where you want to be in one year, five years, and ten years. Picture it without artificial limits.
 
-This reminds us that vision must include physical, emotional, spiritual, and intellectual dimensions. Ask yourself where you want to be in one year, five years, and ten years. Picture it clearly and without limits.
-
-“The only thing worse than being blind is having sight and no vision.” Helen Keller
+Helen Keller said it well: *"The only thing worse than being blind is having sight and no vision."*
 
 ---
 
 ## The Power of Vision
 
-Everyone should have a vision. If you have one, nurture it. If you do not, begin creating one.
+Vision inspires action. It attracts ideas, people, and resources. It produces energy, endurance, and persistent commitment. When vision is formed and owned, it creates the kind of inner drive that pushes through fatigue and discouragement.
 
-We are easily distracted and forgetful. Keeping vision visible produces focus and results.
-
-Vision inspires action. It attracts ideas, people, and resources. It creates energy, perseverance, and commitment.
-
-When vision is formed, the body releases endorphins that create passion and endurance. These help overcome fatigue and disappointment along the journey.
+Everyone should have a vision. If you have one, protect it and nurture it. If you do not, begin building one now. We are easily distracted and forgetful. Keeping your vision visible, written down and in plain sight, produces the kind of focus that gets results.
 
 ---
 
-## Conclusion and Action
+## The Question That Closes It All
 
-> “And they came over unto the other side of the sea, into the country of the Gadarenes…  
-But when he saw Jesus afar off, he ran and worshipped him.”  
-Mark 5:1-6 (KJV)
+> "And they came over unto the other side of the sea, into the country of the Gadarenes... But when he saw Jesus afar off, he ran and worshipped him."
+> Mark 5:1-6 (KJV)
 
-The turning point came when the man saw Jesus.
+The turning point for that man came the moment he saw Jesus.
 
-What you see determines how you respond.  
-What you see determines whether you run in fear or run in faith.  
-What you see determines whether you remain bound or step into freedom.
+What you see determines how you respond. What you see determines whether you run in fear or run in faith. What you see determines whether you remain bound or step into freedom.
 
-The question remains.  
+The question is still open.
+
 What do you see?
