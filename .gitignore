@@ -21,7 +21,11 @@ package-lock.json
 !.vscode/settings.json
 !.vscode/extensions.json
 !.vscode/tasks.json
+!.vscode/mcp.json
 
 # Misc
 _sass/vendors
 assets/js/dist
+
+# MCP publisher secrets
+tools/mcp-publisher/.env
