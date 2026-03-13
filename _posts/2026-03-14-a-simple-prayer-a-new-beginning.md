@@ -2,7 +2,7 @@
 title: A Simple Prayer, A New Beginning
 date: 2026-03-14
 categories: [Devotional]
-tags: [prayer, new life, salvation, evangelism, God's love, forgiveness, Jesus, Bible]
+tags: [prayer, new life, salvation, evangelism, God's love, forgiveness, jesus, Bible]
 description: Discover the transforming power of a simple prayer and God's incredible care for you, leading to a new beginning in Jesus Christ.
 comments: false
 ---
