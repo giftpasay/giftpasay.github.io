@@ -1,0 +1,302 @@
+.scripture-ref {
+  display: inline;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px dotted var(--link-color, #c8102e);
+  background: transparent;
+  color: var(--link-color, #c8102e);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.scripture-ref:hover,
+.scripture-ref:focus-visible {
+  color: #c8102e;
+  outline: 0;
+}
+
+.scripture-ref:focus-visible {
+  box-shadow: 0 2px 0 color-mix(in srgb, var(--link-color, #c8102e) 28%, transparent);
+}
+
+.scripture-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  background: rgba(0, 0, 0, 0.52);
+  backdrop-filter: blur(2px);
+}
+
+.scripture-overlay[hidden] {
+  display: none;
+}
+
+body.scripture-open {
+  overflow: hidden;
+}
+
+.scripture-card {
+  width: min(100%, 430px);
+  overflow: hidden;
+  border: 1px solid var(--main-border-color, rgba(0, 0, 0, 0.08));
+  border-radius: 22px;
+  background: var(--card-bg, var(--main-bg, #ffffff));
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.34);
+  color: var(--text-color, #34343c);
+}
+
+.scripture-card-header,
+.scripture-card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.scripture-card-header {
+  padding: 26px 28px 0;
+}
+
+.scripture-card h2 {
+  margin: 0;
+  color: var(--heading-color, #2a2a2a);
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.scripture-close,
+.scripture-copy,
+.scripture-chapter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 38px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 800;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.scripture-close {
+  width: 38px;
+  padding: 0;
+  background: transparent;
+  color: var(--text-muted-color, #757575);
+}
+
+.scripture-close:hover,
+.scripture-close:focus-visible {
+  background: var(--button-bg, rgba(0, 0, 0, 0.04));
+  color: var(--heading-color, #2a2a2a);
+}
+
+.scripture-tabs {
+  display: flex;
+  gap: 10px;
+  margin: 24px 28px 18px;
+}
+
+.scripture-tabs button {
+  min-height: 38px;
+  padding: 0 16px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-muted-color, #757575);
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.scripture-tabs button.active {
+  background: var(--link-color, #c8102e);
+  color: #ffffff;
+}
+
+.scripture-content {
+  max-height: min(48vh, 360px);
+  overflow: auto;
+  padding: 0 28px;
+  color: var(--text-color, #34343c);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.scripture-loading,
+.scripture-error {
+  margin: 0;
+  color: var(--text-muted-color, #757575);
+  font-weight: 700;
+}
+
+.scripture-verse {
+  margin: 0 0 10px;
+}
+
+.scripture-verse sup {
+  margin-right: 4px;
+  color: var(--link-color, #c8102e);
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.scripture-card-actions {
+  margin-top: 20px;
+  padding: 18px 28px 26px;
+  border-top: 1px solid var(--main-border-color, rgba(0, 0, 0, 0.08));
+  background: color-mix(in srgb, var(--card-bg, #ffffff) 84%, var(--main-bg, #f6f8fa));
+}
+
+.scripture-chapter {
+  padding: 0 18px;
+  background: var(--button-bg, #ffffff);
+  border-color: var(--btn-border-color, #e9ecef);
+  color: var(--heading-color, #2a2a2a);
+}
+
+.scripture-copy {
+  padding: 0 14px;
+  background: transparent;
+  color: var(--text-muted-color, #757575);
+}
+
+.scripture-chapter:hover,
+.scripture-chapter:focus-visible,
+.scripture-copy:hover,
+.scripture-copy:focus-visible {
+  border-color: var(--link-color, #c8102e);
+  color: var(--link-color, #c8102e);
+}
+
+.scripture-button-text {
+  line-height: 1;
+}
+
+.scripture-block {
+  margin: 1.6rem 0;
+}
+
+.scripture-block-label {
+  margin: 0 0 1rem;
+  color: var(--link-color, #c8102e);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.scripture-quote-card {
+  margin-left: 0;
+  padding: 18px 20px;
+  border-left: 4px solid var(--link-color, #c8102e);
+  background: color-mix(in srgb, var(--card-bg, #ffffff) 88%, var(--main-bg, #f6f8fa));
+  color: var(--text-color, #34343c);
+}
+
+.scripture-quote-card cite {
+  display: block;
+  margin-top: 0.75rem;
+  color: var(--text-muted-color, #757575);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.scripture-comparison-card {
+  position: relative;
+  margin: 2rem 0;
+  padding: 32px 34px 30px;
+  border: 1.5px solid var(--link-color, #c8102e);
+  border-radius: 16px;
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--card-bg, #ffffff) 84%, var(--link-color, #c8102e) 6%),
+      var(--card-bg, var(--main-bg, #ffffff))
+    );
+  box-shadow: 0 20px 52px rgba(0, 0, 0, 0.12);
+  color: var(--text-color, #34343c);
+}
+
+.scripture-comparison-card > .scripture-block-label {
+  position: absolute;
+  top: -0.72rem;
+  left: 20px;
+  padding: 0 8px;
+  background: var(--card-bg, var(--main-bg, #ffffff));
+}
+
+.scripture-comparison-card h3 {
+  margin: 0 0 1rem;
+  color: var(--heading-color, #2a2a2a);
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+
+.scripture-comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.scripture-comparison-grid > div + div {
+  padding-left: 28px;
+  border-left: 1px solid var(--main-border-color, rgba(0, 0, 0, 0.08));
+}
+
+.scripture-comparison-grid strong {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--link-color, #c8102e);
+  font-size: 0.84rem;
+  letter-spacing: 0.16em;
+}
+
+.scripture-comparison-grid .scripture-verse {
+  margin: 0 0 0.8rem;
+}
+
+.scripture-comparison-grid .scripture-verse:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .scripture-card-header,
+  .scripture-content {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .scripture-tabs {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .scripture-card-actions {
+    align-items: stretch;
+    flex-direction: column;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .scripture-comparison-card {
+    padding: 28px 22px 24px;
+  }
+
+  .scripture-comparison-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .scripture-comparison-grid > div + div {
+    padding-top: 18px;
+    padding-left: 0;
+    border-top: 1px solid var(--main-border-color, rgba(0, 0, 0, 0.08));
+    border-left: 0;
+  }
+}

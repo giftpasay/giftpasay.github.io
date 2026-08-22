@@ -2,6 +2,7 @@
 title: WELCOME TO UPC GIFT PASAY
 date: 2025-10-10
 comments: false
+pin: true
 ---
 
 **United Pentecostal Church Philippines, Inc. – Grace In-Christ Fellowship Temple (GIFT) Pasay** is a vibrant, Spirit-filled community of believers dedicated to sharing the Gospel and nurturing spiritual growth through sound Biblical teaching and authentic fellowship.

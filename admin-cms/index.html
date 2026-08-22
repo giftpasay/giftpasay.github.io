@@ -6,13 +6,54 @@
     <meta name="robots" content="noindex, nofollow" />
     <title>Admin CMS | UPC GIFT Pasay</title>
     <link rel="icon" href="/assets/img/favicons/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="app-shell">
+    <section id="login-view" class="login-view hidden" aria-labelledby="login-title">
+      <div class="login-card">
+        <div class="login-brand">
+          <img
+            src="/assets/img/gift-cms-logo.png"
+            alt="UPC GIFT Pasay logo"
+          />
+          <div>
+            <p class="eyebrow">UPC GIFT Pasay</p>
+            <h1 id="login-title">Admin CMS</h1>
+          </div>
+        </div>
+        <p class="login-copy">
+          Sign in to write, update, and publish blog articles for the UPC GIFT Pasay website.
+        </p>
+        <button id="login-view-button" class="button primary login-button" type="button">
+          <i class="fa-brands fa-github"></i>
+          Continue with GitHub
+        </button>
+        <p id="login-status" class="login-status">Checking your sign-in...</p>
+      </div>
+    </section>
+
+    <div id="app-shell" class="app-shell hidden">
       <aside class="sidebar" aria-label="Admin navigation">
+        <button id="mobile-menu-close" class="mobile-menu-close" type="button" aria-label="Close menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
         <a class="brand" href="/admin-cms/" aria-label="UPC GIFT admin home">
-          <span class="brand-mark">G</span>
+          <span class="brand-mark">
+            <img
+              src="/assets/img/gift-cms-logo.png"
+              alt=""
+            />
+          </span>
           <span>
             <strong>GIFT CMS</strong>
             <small>Pasay publishing</small>
@@ -22,60 +63,124 @@
         <nav class="nav-groups">
           <section>
             <p>Publishing</p>
-            <button class="nav-item active" data-view="articles">
+            <button class="nav-item active" data-view="articles" data-nav="articles">
+              <i class="fa-solid fa-newspaper"></i>
               <span>Articles</span>
             </button>
-            <button class="nav-item" data-action="new">
+            <button class="nav-item" data-action="new" data-nav="new">
+              <i class="fa-solid fa-pen-nib"></i>
               <span>Write new</span>
             </button>
           </section>
           <section>
             <p>Library</p>
-            <button class="nav-item" data-view="media">
+            <button class="nav-item" data-view="media" data-nav="media">
+              <i class="fa-solid fa-image"></i>
               <span>Media</span>
             </button>
           </section>
         </nav>
 
         <div class="sidebar-note">
-          <strong>Markdown-safe</strong>
-          <span>Creates files for the existing Jekyll blog format.</span>
+          <a href="/" target="_blank" rel="noopener">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <span>View live site</span>
+          </a>
         </div>
       </aside>
+      <div id="mobile-menu-overlay" class="mobile-menu-overlay hidden"></div>
 
       <main class="workspace">
         <header class="topbar">
-          <div>
-            <p class="eyebrow">UPC GIFT Pasay</p>
-            <h1 id="screen-title">Articles</h1>
+          <div class="topbar-title">
+            <button
+              id="mobile-menu-toggle"
+              class="mobile-menu-toggle"
+              type="button"
+              aria-label="Open menu"
+              aria-controls="app-shell"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div>
+              <p class="eyebrow">UPC GIFT Pasay</p>
+              <h1 id="screen-title">Articles</h1>
+            </div>
           </div>
           <div class="topbar-actions">
-            <span id="auth-status" class="session-pill">Checking session...</span>
-            <button id="login-btn" class="button primary hidden" type="button">Sign in with GitHub</button>
-            <button id="logout-btn" class="button ghost hidden" type="button">Sign out</button>
+            <span id="auth-status" class="session-pill">Checking sign-in...</span>
+            <button id="login-btn" class="button primary hidden" type="button" aria-label="Sign in">
+              <i class="fa-brands fa-github"></i>
+              <span class="button-label">Sign in</span>
+            </button>
+            <button id="logout-btn" class="button ghost hidden" type="button" aria-label="Sign out">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              <span class="button-label">Sign out</span>
+            </button>
           </div>
         </header>
 
-        <section id="auth-panel" class="auth-panel hidden">
-          <div>
-            <p class="eyebrow">Secure publishing</p>
-            <h2>Sign in to manage blog posts</h2>
-            <p>
-              This CMS uses GitHub OAuth and commits Markdown to the repository through
-              the free Cloudflare Worker API.
-            </p>
-          </div>
-          <button id="auth-panel-login" class="button primary" type="button">Continue with GitHub</button>
-        </section>
-
         <section id="article-list-view" class="view">
           <div class="view-toolbar">
-            <div class="segmented" role="group" aria-label="Article status filter">
-              <button class="segment active" data-filter="all" type="button">All</button>
-              <button class="segment" data-filter="published" type="button">Published</button>
-              <button class="segment" data-filter="draft" type="button">Drafts</button>
+            <div class="toolbar-left">
+              <div class="segmented" role="group" aria-label="Article filter">
+                <button class="segment active" data-filter="all" type="button">
+                  <i class="fa-solid fa-layer-group"></i>
+                  All
+                </button>
+                <button class="segment" data-filter="published" type="button">
+                  <i class="fa-solid fa-circle-check"></i>
+                  Published
+                </button>
+                <button class="segment" data-filter="draft" type="button">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                  Drafts
+                </button>
+              </div>
+              <label class="search-field">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="article-search" type="search" placeholder="Search articles..." />
+              </label>
+              <label class="sort-field">
+                <i class="fa-solid fa-arrow-down-wide-short"></i>
+                <span>Sort</span>
+                <select id="article-sort">
+                  <option value="latest">Latest first</option>
+                  <option value="oldest">Oldest first</option>
+                  <option value="title">Title A-Z</option>
+                  <option value="status">Status</option>
+                </select>
+              </label>
             </div>
-            <button class="button primary" data-action="new" type="button">New article</button>
+            <button class="button primary" data-action="new" type="button">
+              <i class="fa-solid fa-plus"></i>
+              New article
+            </button>
+          </div>
+
+          <div class="stats-grid" aria-label="CMS article totals">
+            <article>
+              <i class="fa-solid fa-newspaper"></i>
+              <div>
+                <span>Total articles</span>
+                <strong id="total-count">0</strong>
+              </div>
+            </article>
+            <article>
+              <i class="fa-solid fa-circle-check"></i>
+              <div>
+                <span>Published</span>
+                <strong id="published-count">0</strong>
+              </div>
+            </article>
+            <article>
+              <i class="fa-solid fa-file-lines"></i>
+              <div>
+                <span>Drafts</span>
+                <strong id="draft-count">0</strong>
+              </div>
+            </article>
           </div>
 
           <div id="article-list" class="article-list" aria-live="polite"></div>
@@ -83,7 +188,10 @@
 
         <section id="editor-view" class="view hidden">
           <div class="editor-heading">
-            <button id="back-to-list" class="button soft" type="button">Back to articles</button>
+            <button id="back-to-list" class="button soft" type="button">
+              <i class="fa-solid fa-arrow-left"></i>
+              Back to articles
+            </button>
             <div class="save-state" id="save-state">Not saved</div>
           </div>
 
@@ -101,43 +209,116 @@
                   rows="4"
                   placeholder="One or two sentences summarising the article."
                 ></textarea>
-                <small>Shown on cards and search results, and used as the page meta description.</small>
+                <small>This short summary appears on article cards and search results.</small>
               </label>
 
               <section class="body-panel">
                 <div class="panel-label">Article body</div>
                 <div class="editor-toolbar" role="toolbar" aria-label="Article formatting">
-                  <button type="button" data-command="heading2">H2</button>
-                  <button type="button" data-command="heading3">H3</button>
+                  <div class="editor-toolbar-commands">
+                  <button type="button" data-command="heading2" title="Heading 2" aria-label="Heading 2">
+                    <span class="heading-icon">H2</span>
+                  </button>
+                  <button type="button" data-command="heading3" title="Heading 3" aria-label="Heading 3">
+                    <span class="heading-icon">H3</span>
+                  </button>
                   <span class="divider"></span>
-                  <button type="button" data-command="bold">B</button>
-                  <button type="button" data-command="italic">I</button>
-                  <button type="button" data-command="quote">Quote</button>
-                  <button type="button" data-command="ul">List</button>
-                  <button type="button" data-command="ol">1.</button>
+                  <button type="button" data-command="bold" title="Bold" aria-label="Bold">
+                    <i class="fa-solid fa-bold"></i>
+                  </button>
+                  <button type="button" data-command="italic" title="Italic" aria-label="Italic">
+                    <i class="fa-solid fa-italic"></i>
+                  </button>
+                  <button type="button" data-command="strike" title="Strikethrough" aria-label="Strikethrough">
+                    <i class="fa-solid fa-strikethrough"></i>
+                  </button>
+                  <button type="button" data-command="code" title="Inline code" aria-label="Inline code">
+                    <i class="fa-solid fa-code"></i>
+                  </button>
+                  <button type="button" data-command="quote" title="Quote" aria-label="Quote"><i class="fa-solid fa-quote-left"></i></button>
+                  <button type="button" data-command="ul" title="Bulleted list" aria-label="Bulleted list"><i class="fa-solid fa-list-ul"></i></button>
+                  <button type="button" data-command="ol" title="Numbered list" aria-label="Numbered list"><i class="fa-solid fa-list-ol"></i></button>
+                  <button type="button" data-command="hr" title="Divider" aria-label="Divider"><i class="fa-solid fa-minus"></i></button>
                   <span class="divider"></span>
-                  <button type="button" data-command="link">Link</button>
-                  <button type="button" data-command="image">Image</button>
-                  <button type="button" data-command="scripture">Scripture</button>
-                  <span class="toolbar-spacer"></span>
-                  <button id="mode-toggle" type="button" class="mode-button">Markdown</button>
-                  <button id="preview-toggle" type="button">Preview</button>
+                  <button type="button" data-command="link" title="Link" aria-label="Link"><i class="fa-solid fa-link"></i></button>
+                  <button type="button" data-command="image" title="Image" aria-label="Image"><i class="fa-regular fa-image"></i></button>
+                  <button type="button" data-command="table" title="Table" aria-label="Table"><i class="fa-solid fa-table"></i></button>
+                  <button type="button" data-command="scripture" title="Scripture" aria-label="Scripture">
+                    <i class="fa-solid fa-book-bible"></i>
+                    <span class="button-label">Scripture</span>
+                  </button>
+                  </div>
+                  <div class="editor-view-toggle" aria-label="Editor view controls">
+                    <button id="mode-toggle" type="button" class="mode-button" title="Switch editor mode" aria-label="Plain text">
+                      <i class="fa-solid fa-code"></i>
+                      <span class="button-label">Plain text</span>
+                    </button>
+                    <button id="preview-toggle" type="button" title="Toggle preview" aria-label="Preview">
+                      <i class="fa-regular fa-eye"></i>
+                      <span class="button-label">Preview</span>
+                    </button>
+                  </div>
+                </div>
+                <div id="scripture-insert-panel" class="scripture-insert-panel hidden">
+                  <label>
+                    <span>Reference</span>
+                    <input id="scripture-reference-input" type="text" placeholder="John 1:1 · Acts 2:38-39 · 1 Corinthians 8:6" />
+                    <small>Use one or more references. Separate multiple references with commas or dots.</small>
+                  </label>
+                  <label>
+                    <span>Insert as</span>
+                    <select id="scripture-insert-mode">
+                      <option value="quote">Block quote</option>
+                      <option value="comparison">Comparison</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Translation</span>
+                    <select id="scripture-translation-input">
+                      <option value="kjv">KJV</option>
+                      <option value="tgl">TGL</option>
+                    </select>
+                  </label>
+                  <div class="scripture-insert-actions">
+                    <button id="scripture-insert-btn" class="button danger" type="button">Insert</button>
+                    <button id="scripture-cancel-btn" class="button soft" type="button">Cancel</button>
+                  </div>
+                </div>
+                <div id="table-insert-panel" class="scripture-insert-panel table-insert-panel hidden">
+                  <label>
+                    <span>Columns</span>
+                    <input id="table-columns-input" type="number" min="1" max="12" value="2" />
+                  </label>
+                  <label>
+                    <span>Rows</span>
+                    <input id="table-rows-input" type="number" min="1" max="50" value="2" />
+                    <small>Rows are added below the heading row.</small>
+                  </label>
+                  <div class="scripture-insert-actions">
+                    <button id="table-insert-btn" class="button danger" type="button">Insert table</button>
+                    <button id="table-cancel-btn" class="button soft" type="button">Cancel</button>
+                  </div>
                 </div>
                 <div id="rich-editor" class="rich-editor" contenteditable="true" aria-label="Article body editor"></div>
-                <textarea id="markdown-editor" class="markdown-editor hidden" aria-label="Markdown editor"></textarea>
+                <textarea id="markdown-editor" class="markdown-editor hidden" aria-label="Plain text article editor"></textarea>
                 <div id="preview-pane" class="preview-pane hidden"></div>
               </section>
             </section>
 
             <aside class="editor-side">
-              <section class="side-card">
+              <section class="side-card action-card">
                 <div class="side-card-title">
                   <span>Status</span>
                   <strong id="status-label">Draft</strong>
                 </div>
-                <button id="publish-btn" class="button danger full" type="button">Publish now</button>
-                <button id="draft-btn" class="button soft full" type="button">Save draft</button>
-                <button id="delete-btn" class="button warning full" type="button">Delete file</button>
+                <button id="publish-btn" class="button danger full" type="button">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  <span class="button-label">Publish now</span>
+                </button>
+                <button id="draft-btn" class="button soft full" type="button">
+                  <i class="fa-solid fa-floppy-disk"></i>
+                  <span class="button-label" id="draft-btn-label">Save draft</span>
+                </button>
               </section>
 
               <section class="side-card">
@@ -146,21 +327,32 @@
                   <input id="date-input" type="date" />
                 </label>
                 <label>
-                  <span>Category</span>
-                  <select id="category-input">
-                    <option>Sermon Notes</option>
-                    <option>Bible Study</option>
-                    <option>Devotional</option>
-                    <option>Apostolic Identity</option>
-                  </select>
+                  <span>Categories</span>
+                  <div class="input-with-action">
+                    <input id="category-input" type="text" placeholder="Sermon Notes, Bible Study" />
+                    <button id="category-toggle" type="button" aria-label="Show categories">
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                  </div>
                 </label>
+                <div id="category-chips" class="taxonomy-panel hidden" aria-label="Available categories"></div>
                 <label>
                   <span>Tags</span>
-                  <input id="tags-input" type="text" placeholder="faith, prayer, holy ghost" />
+                  <div class="input-with-action">
+                    <input id="tags-input" type="text" placeholder="faith, prayer, holy ghost" />
+                    <button id="tag-toggle" type="button" aria-label="Show tags">
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                  </div>
                 </label>
+                <div id="tag-chips" class="taxonomy-panel hidden" aria-label="Available tags"></div>
                 <label class="check-row">
                   <input id="comments-input" type="checkbox" />
                   <span>Enable comments</span>
+                </label>
+                <label class="check-row">
+                  <input id="pin-input" type="checkbox" />
+                  <span>Pin article</span>
                 </label>
               </section>
 
@@ -170,19 +362,34 @@
                 </div>
                 <div id="image-preview" class="image-preview">No image chosen</div>
                 <input id="image-file" type="file" accept="image/*" hidden />
-                <button id="upload-image-btn" class="button soft full" type="button">Upload image</button>
+                <button id="upload-image-btn" class="button soft full" type="button">
+                  <i class="fa-solid fa-cloud-arrow-up"></i>
+                  Upload image
+                </button>
+                <small id="image-upload-note">Images larger than 800 KB are compressed before upload.</small>
                 <label>
-                  <span>Image path</span>
-                  <input id="image-input" type="text" placeholder="assets/img/thumbnails/example.jpg" />
+                  <span>Saved image link</span>
+                  <input id="image-input" type="text" placeholder="/assets/img/thumbnails/example.jpg" />
                 </label>
               </section>
 
               <section class="side-card">
                 <label>
-                  <span>URL slug</span>
+                  <span>Article link name</span>
                   <input id="slug-input" type="text" placeholder="untitled-article" />
                 </label>
-                <small>Published URL: <span id="url-preview">/posts/untitled-article/</span></small>
+                <small>Published link: <span id="url-preview">/posts/untitled-article/</span></small>
+              </section>
+
+              <section class="side-card danger-card">
+                <div class="side-card-title">
+                  <span>Danger zone</span>
+                </div>
+                <button id="delete-btn" class="button warning full" type="button">
+                  <i class="fa-solid fa-trash"></i>
+                  <span class="button-label">Delete article</span>
+                </button>
+                <small>Deleting removes the file from the site repository.</small>
               </section>
             </aside>
           </div>
@@ -190,23 +397,17 @@
 
         <section id="media-view" class="view hidden">
           <div class="empty-state">
+            <i class="fa-regular fa-images"></i>
             <h2>Media is managed from the editor</h2>
-            <p>Upload a featured image while editing an article. Files are committed to <code>assets/img/thumbnails/</code>.</p>
+            <p>Open an article and use Featured image to upload or change the main image.</p>
           </div>
         </section>
       </main>
-    </div>
 
-    <template id="article-row-template">
-      <article class="article-row">
-        <div>
-          <span class="status-dot"></span>
-          <h2></h2>
-          <p></p>
-        </div>
-        <button class="button soft" type="button">Edit</button>
-      </article>
-    </template>
+      <button id="scroll-top-btn" class="scroll-top-btn hidden" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
 
     <script src="./config.js"></script>
     <script src="./app.js"></script>

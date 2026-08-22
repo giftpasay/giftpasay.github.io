@@ -12,10 +12,9 @@ script_includes:
 
 {% include lang.html %} {% include toc-status.html %}
 
-<!-- Translation Widget CSS -->
 <link
   rel="stylesheet"
-  href="{{ '/assets/css/translation-widget.css' | relative_url }}"
+  href="{{ '/assets/css/scripture-autolink.css?v=20260822-6' | relative_url }}"
 />
 
 <article class="px-1" data-toc="{{ enable_toc }}">
@@ -187,5 +186,7 @@ script_includes:
   <!-- div.post-tail-wrapper -->
 </article>
 
-<!-- Translation Widget -->
-{% include translation-widget.html %}
+<script
+  defer
+  src="{{ '/assets/js/scripture-autolink.js?v=20260822-6' | relative_url }}"
+></script>

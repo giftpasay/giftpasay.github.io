@@ -77,7 +77,9 @@ export default {
 
 async function handleLogin(request, env) {
   assertEnv(env, ['GH_CLIENT_ID', 'SESSION_SECRET']);
+  const url = new URL(request.url);
   const state = crypto.randomUUID();
+  const returnTo = safeAdminReturnUrl(url.searchParams.get('returnTo') || request.headers.get('Referer'), env);
   const callbackUrl = env.OAUTH_CALLBACK_URL || `${new URL(request.url).origin}/auth/callback`;
   const authUrl = new URL('https://github.com/login/oauth/authorize');
   authUrl.searchParams.set('client_id', env.GH_CLIENT_ID);
@@ -85,7 +87,7 @@ async function handleLogin(request, env) {
   authUrl.searchParams.set('scope', env.GITHUB_OAUTH_SCOPES || 'public_repo');
   authUrl.searchParams.set('state', state);
 
-  const cookie = await encryptedCookie(request, env, STATE_COOKIE, { state, createdAt: Date.now() }, 600);
+  const cookie = await encryptedCookie(request, env, STATE_COOKIE, { state, returnTo, createdAt: Date.now() }, 600);
   return redirect(authUrl.toString(), cookie);
 }
 
@@ -117,7 +119,8 @@ async function handleCallback(request, env) {
     SESSION_TTL_SECONDS,
   );
 
-  const successUrl = env.OAUTH_SUCCESS_URL || `${env.CMS_ORIGIN || 'https://blog.giftpasay.com'}/admin-cms/`;
+  const successUrl =
+    savedState.returnTo || env.OAUTH_SUCCESS_URL || `${env.CMS_ORIGIN || 'https://blog.giftpasay.com'}/admin-cms/`;
   return redirect(successUrl, [sessionCookie, clearCookie(request, STATE_COOKIE)]);
 }
 
@@ -213,9 +216,10 @@ async function listFolderArticles(token, env, folder, status) {
         return {
           status,
           path: file.path,
-          title: file.name.replace(/\.md$/, '').replace(/-/g, ' '),
-          date: '',
+          title: titleFromPath(file.path),
+          date: dateFromPath(file.path),
           description: '',
+          pin: false,
         };
       }
     }),
@@ -228,9 +232,13 @@ function summarizeArticle(article, status) {
   return {
     status,
     path: article.path,
-    title: article.title,
-    date: article.date,
-    description: article.description,
+    title: displayTitle(article.title || titleFromPath(article.path)),
+    date: article.date || dateFromPath(article.path),
+    description: article.description || excerptFromMarkdown(article.body),
+    categories: article.categories || [],
+    tags: article.tags || [],
+    image: article.image || '',
+    pin: Boolean(article.pin),
     slug: article.slug,
   };
 }
@@ -243,6 +251,7 @@ async function getArticle(token, env, path) {
     path,
     sha: file.sha,
     status: path.startsWith('_drafts/') ? 'draft' : 'published',
+    date: parsed.date || dateFromPath(path),
     slug: parsed.slug || slugFromPath(path),
   };
 }
@@ -316,6 +325,7 @@ function normalizePayload(payload) {
     description: String(payload.description || '').trim(),
     image: String(payload.image || '').trim(),
     comments: Boolean(payload.comments),
+    pin: Boolean(payload.pin),
     slug,
     body: String(payload.body || '').trim(),
   };
@@ -331,6 +341,7 @@ function serializePost(article) {
     `description: ${yamlString(article.description)}`,
     article.image ? `image: ${yamlString(article.image)}` : 'image:',
     `comments: ${article.comments ? 'true' : 'false'}`,
+    `pin: ${article.pin ? 'true' : 'false'}`,
     '---',
     '',
     article.body || '',
@@ -350,6 +361,7 @@ function parsePost(content) {
       description: '',
       image: '',
       comments: false,
+      pin: false,
       body: content,
     };
   }
@@ -364,6 +376,7 @@ function parsePost(content) {
     description: readScalar(frontmatter, 'description'),
     image: readScalar(frontmatter, 'image'),
     comments: readScalar(frontmatter, 'comments') === 'true',
+    pin: readScalar(frontmatter, 'pin') === 'true',
     body,
   };
 }
@@ -480,6 +493,50 @@ function slugFromPath(path) {
     .pop()
     .replace(/^\d{4}-\d{2}-\d{2}-/, '')
     .replace(/\.md$/, '');
+}
+
+function titleFromPath(path) {
+  return displayTitle(slugFromPath(path).replace(/-/g, ' '));
+}
+
+function dateFromPath(path) {
+  const match = String(path || '').match(/(?:^|\/)(\d{4}-\d{2}-\d{2})-/);
+  return match ? match[1] : '';
+}
+
+function displayTitle(value) {
+  return titleCase(stripLeadingDate(value));
+}
+
+function stripLeadingDate(value) {
+  return String(value || '')
+    .replace(/^\s*\d{4}[-_\s]+\d{1,2}[-_\s]+\d{1,2}[-_\s]+/, '')
+    .replace(/^\s*\d{4}[-_\s]+\d{1,2}[-_\s]+/, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function titleCase(value) {
+  const keepLower = new Set(['a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'in', 'of', 'on', 'or', 'the', 'to', 'with']);
+  return String(value || '')
+    .split(' ')
+    .map((word, index) => {
+      const lower = word.toLowerCase();
+      if (index > 0 && keepLower.has(lower)) return lower;
+      return lower.replace(/(^|[-'"])([a-z])/g, (match, prefix, letter) => `${prefix}${letter.toUpperCase()}`);
+    })
+    .join(' ');
+}
+
+function excerptFromMarkdown(markdown) {
+  const text = String(markdown || '')
+    .replace(/^---[\s\S]*?---/, '')
+    .replace(/!\[[^\]]*]\([^)]*\)/g, '')
+    .replace(/\[[^\]]+]\([^)]*\)/g, (match) => match.replace(/^\[|\]\([^)]*\)$/g, ''))
+    .replace(/[`*_>#-]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return text.length > 156 ? `${text.slice(0, 153).trim()}...` : text;
 }
 
 function slugify(value) {
@@ -620,8 +677,7 @@ function withCors(response, request, env) {
   const origin = request.headers.get('Origin');
   if (!origin) return response;
 
-  const allowed = allowedOrigins(env);
-  if (!allowed.includes(origin)) return response;
+  if (!isAllowedOrigin(origin, env)) return response;
 
   const headers = new Headers(response.headers);
   headers.set('Access-Control-Allow-Origin', origin);
@@ -633,7 +689,7 @@ function withCors(response, request, env) {
 function corsPreflight(request, env) {
   const origin = request.headers.get('Origin');
   const headers = new Headers();
-  if (origin && allowedOrigins(env).includes(origin)) {
+  if (origin && isAllowedOrigin(origin, env)) {
     headers.set('Access-Control-Allow-Origin', origin);
     headers.set('Access-Control-Allow-Credentials', 'true');
     headers.set('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS');
@@ -644,10 +700,49 @@ function corsPreflight(request, env) {
 }
 
 function allowedOrigins(env) {
-  return parseCsv(
-    env.CMS_ORIGIN ||
-      'https://blog.giftpasay.com,http://localhost:4000,http://127.0.0.1:4000,http://localhost:5500,http://127.0.0.1:5500',
-  );
+  const defaults = [
+    'https://blog.giftpasay.com',
+    'http://localhost:4000',
+    'http://127.0.0.1:4000',
+    'http://localhost:5500',
+    'http://127.0.0.1:5500',
+    'http://localhost:8080',
+    'http://127.0.0.1:8080',
+  ];
+  return [...new Set([...parseCsv(env.CMS_ORIGIN), ...defaults].map(normalizeOrigin).filter(Boolean))];
+}
+
+function isAllowedOrigin(origin, env) {
+  const normalized = normalizeOrigin(origin);
+  if (allowedOrigins(env).includes(normalized)) return true;
+
+  try {
+    const url = new URL(normalized);
+    if (url.protocol === 'https:' && (url.hostname === 'giftpasay.com' || url.hostname.endsWith('.giftpasay.com'))) {
+      return true;
+    }
+  } catch (_) {}
+
+  return false;
+}
+
+function safeAdminReturnUrl(value, env) {
+  if (!value) return '';
+
+  try {
+    const url = new URL(value);
+    const path = url.pathname.replace(/\/+$/, '') || '/';
+    if (!isAllowedOrigin(url.origin, env)) return '';
+    if (path !== '/admin-cms' && !path.startsWith('/admin-cms/')) return '';
+    url.hash = '';
+    return url.toString();
+  } catch (_) {
+    return '';
+  }
+}
+
+function normalizeOrigin(origin) {
+  return String(origin || '').trim().replace(/\/+$/, '').toLowerCase();
 }
 
 function appendVary(current, value) {
