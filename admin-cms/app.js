@@ -1,6 +1,7 @@
 (function () {
   const config = window.ADMIN_CMS_CONFIG || {};
   const apiBaseUrl = (config.apiBaseUrl || '').replace(/\/$/, '');
+  const siteUrl = (config.siteUrl || 'https://blog.giftpasay.com').replace(/\/$/, '');
   const CACHE_PREFIX = 'gift-admin-cms';
   const ARTICLE_LIST_CACHE_KEY = `${CACHE_PREFIX}:articles:v2`;
   const ARTICLE_DETAIL_CACHE_PREFIX = `${CACHE_PREFIX}:article:v2:`;
@@ -110,6 +111,7 @@
     authStatus: document.getElementById('auth-status'),
     loginBtn: document.getElementById('login-btn'),
     logoutBtn: document.getElementById('logout-btn'),
+    liveSiteLink: document.getElementById('live-site-link'),
     loginViewButton: document.getElementById('login-view-button'),
     mobileMenuToggle: document.getElementById('mobile-menu-toggle'),
     mobileMenuClose: document.getElementById('mobile-menu-close'),
@@ -171,6 +173,7 @@
 
   function init() {
     registerServiceWorker();
+    els.liveSiteLink.href = siteUrl || 'https://blog.giftpasay.com';
 
     if (!apiBaseUrl || apiBaseUrl.includes('your-admin-cms-worker')) {
       setLoggedOut('The admin sign-in service is not ready yet.');
