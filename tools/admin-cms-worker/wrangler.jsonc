@@ -1,0 +1,23 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "giftpasay-admin-cms",
+  "main": "worker.js",
+  "compatibility_date": "2026-08-22",
+  "vars": {
+    "REPO_OWNER": "giftpasay",
+    "REPO_NAME": "giftpasay.github.io",
+    "TARGET_BRANCH": "main",
+    "CMS_ORIGIN": "https://blog.giftpasay.com",
+    "OAUTH_SUCCESS_URL": "https://blog.giftpasay.com/admin-cms/",
+    "GITHUB_OAUTH_SCOPES": "public_repo"
+  },
+  "secrets": {
+    "required": [
+      "GH_CLIENT_ID",
+      "GH_CLIENT_SECRET",
+      "SESSION_SECRET",
+      "ADMIN_GITHUB_LOGINS",
+      "OAUTH_CALLBACK_URL"
+    ]
+  }
+}

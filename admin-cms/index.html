@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Admin CMS | UPC GIFT Pasay</title>
+    <link rel="icon" href="/assets/img/favicons/favicon.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Admin navigation">
+        <a class="brand" href="/admin-cms/" aria-label="UPC GIFT admin home">
+          <span class="brand-mark">G</span>
+          <span>
+            <strong>GIFT CMS</strong>
+            <small>Pasay publishing</small>
+          </span>
+        </a>
+
+        <nav class="nav-groups">
+          <section>
+            <p>Publishing</p>
+            <button class="nav-item active" data-view="articles">
+              <span>Articles</span>
+            </button>
+            <button class="nav-item" data-action="new">
+              <span>Write new</span>
+            </button>
+          </section>
+          <section>
+            <p>Library</p>
+            <button class="nav-item" data-view="media">
+              <span>Media</span>
+            </button>
+          </section>
+        </nav>
+
+        <div class="sidebar-note">
+          <strong>Markdown-safe</strong>
+          <span>Creates files for the existing Jekyll blog format.</span>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">UPC GIFT Pasay</p>
+            <h1 id="screen-title">Articles</h1>
+          </div>
+          <div class="topbar-actions">
+            <span id="auth-status" class="session-pill">Checking session...</span>
+            <button id="login-btn" class="button primary hidden" type="button">Sign in with GitHub</button>
+            <button id="logout-btn" class="button ghost hidden" type="button">Sign out</button>
+          </div>
+        </header>
+
+        <section id="auth-panel" class="auth-panel hidden">
+          <div>
+            <p class="eyebrow">Secure publishing</p>
+            <h2>Sign in to manage blog posts</h2>
+            <p>
+              This CMS uses GitHub OAuth and commits Markdown to the repository through
+              the free Cloudflare Worker API.
+            </p>
+          </div>
+          <button id="auth-panel-login" class="button primary" type="button">Continue with GitHub</button>
+        </section>
+
+        <section id="article-list-view" class="view">
+          <div class="view-toolbar">
+            <div class="segmented" role="group" aria-label="Article status filter">
+              <button class="segment active" data-filter="all" type="button">All</button>
+              <button class="segment" data-filter="published" type="button">Published</button>
+              <button class="segment" data-filter="draft" type="button">Drafts</button>
+            </div>
+            <button class="button primary" data-action="new" type="button">New article</button>
+          </div>
+
+          <div id="article-list" class="article-list" aria-live="polite"></div>
+        </section>
+
+        <section id="editor-view" class="view hidden">
+          <div class="editor-heading">
+            <button id="back-to-list" class="button soft" type="button">Back to articles</button>
+            <div class="save-state" id="save-state">Not saved</div>
+          </div>
+
+          <div class="editor-grid">
+            <section class="editor-main">
+              <label class="field-card">
+                <span>Title</span>
+                <input id="title-input" type="text" placeholder="Untitled article" />
+              </label>
+
+              <label class="field-card">
+                <span>Excerpt</span>
+                <textarea
+                  id="description-input"
+                  rows="4"
+                  placeholder="One or two sentences summarising the article."
+                ></textarea>
+                <small>Shown on cards and search results, and used as the page meta description.</small>
+              </label>
+
+              <section class="body-panel">
+                <div class="panel-label">Article body</div>
+                <div class="editor-toolbar" role="toolbar" aria-label="Article formatting">
+                  <button type="button" data-command="heading2">H2</button>
+                  <button type="button" data-command="heading3">H3</button>
+                  <span class="divider"></span>
+                  <button type="button" data-command="bold">B</button>
+                  <button type="button" data-command="italic">I</button>
+                  <button type="button" data-command="quote">Quote</button>
+                  <button type="button" data-command="ul">List</button>
+                  <button type="button" data-command="ol">1.</button>
+                  <span class="divider"></span>
+                  <button type="button" data-command="link">Link</button>
+                  <button type="button" data-command="image">Image</button>
+                  <button type="button" data-command="scripture">Scripture</button>
+                  <span class="toolbar-spacer"></span>
+                  <button id="mode-toggle" type="button" class="mode-button">Markdown</button>
+                  <button id="preview-toggle" type="button">Preview</button>
+                </div>
+                <div id="rich-editor" class="rich-editor" contenteditable="true" aria-label="Article body editor"></div>
+                <textarea id="markdown-editor" class="markdown-editor hidden" aria-label="Markdown editor"></textarea>
+                <div id="preview-pane" class="preview-pane hidden"></div>
+              </section>
+            </section>
+
+            <aside class="editor-side">
+              <section class="side-card">
+                <div class="side-card-title">
+                  <span>Status</span>
+                  <strong id="status-label">Draft</strong>
+                </div>
+                <button id="publish-btn" class="button danger full" type="button">Publish now</button>
+                <button id="draft-btn" class="button soft full" type="button">Save draft</button>
+                <button id="delete-btn" class="button warning full" type="button">Delete file</button>
+              </section>
+
+              <section class="side-card">
+                <label>
+                  <span>Publish date</span>
+                  <input id="date-input" type="date" />
+                </label>
+                <label>
+                  <span>Category</span>
+                  <select id="category-input">
+                    <option>Sermon Notes</option>
+                    <option>Bible Study</option>
+                    <option>Devotional</option>
+                    <option>Apostolic Identity</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Tags</span>
+                  <input id="tags-input" type="text" placeholder="faith, prayer, holy ghost" />
+                </label>
+                <label class="check-row">
+                  <input id="comments-input" type="checkbox" />
+                  <span>Enable comments</span>
+                </label>
+              </section>
+
+              <section class="side-card">
+                <div class="side-card-title">
+                  <span>Featured image</span>
+                </div>
+                <div id="image-preview" class="image-preview">No image chosen</div>
+                <input id="image-file" type="file" accept="image/*" hidden />
+                <button id="upload-image-btn" class="button soft full" type="button">Upload image</button>
+                <label>
+                  <span>Image path</span>
+                  <input id="image-input" type="text" placeholder="assets/img/thumbnails/example.jpg" />
+                </label>
+              </section>
+
+              <section class="side-card">
+                <label>
+                  <span>URL slug</span>
+                  <input id="slug-input" type="text" placeholder="untitled-article" />
+                </label>
+                <small>Published URL: <span id="url-preview">/posts/untitled-article/</span></small>
+              </section>
+            </aside>
+          </div>
+        </section>
+
+        <section id="media-view" class="view hidden">
+          <div class="empty-state">
+            <h2>Media is managed from the editor</h2>
+            <p>Upload a featured image while editing an article. Files are committed to <code>assets/img/thumbnails/</code>.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <template id="article-row-template">
+      <article class="article-row">
+        <div>
+          <span class="status-dot"></span>
+          <h2></h2>
+          <p></p>
+        </div>
+        <button class="button soft" type="button">Edit</button>
+      </article>
+    </template>
+
+    <script src="./config.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -17,6 +17,7 @@ package-lock.json
 
 # IDE configurations
 .idea
+.claude
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
@@ -26,6 +27,14 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+__pycache__/
+*.py[cod]
 
 # MCP publisher secrets
 tools/mcp-publisher/.env
+
+# Cloudflare Worker local secrets/state
+.dev.vars
+.wrangler/
+tools/**/.dev.vars
+tools/**/.wrangler/
