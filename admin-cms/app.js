@@ -2,8 +2,8 @@
   const config = window.ADMIN_CMS_CONFIG || {};
   const apiBaseUrl = (config.apiBaseUrl || '').replace(/\/$/, '');
   const CACHE_PREFIX = 'gift-admin-cms';
-  const ARTICLE_LIST_CACHE_KEY = `${CACHE_PREFIX}:articles:v1`;
-  const ARTICLE_DETAIL_CACHE_PREFIX = `${CACHE_PREFIX}:article:v1:`;
+  const ARTICLE_LIST_CACHE_KEY = `${CACHE_PREFIX}:articles:v2`;
+  const ARTICLE_DETAIL_CACHE_PREFIX = `${CACHE_PREFIX}:article:v2:`;
   const CACHE_TTL_MS = 10 * 60 * 1000;
   const BIBLE_SOURCES = {
     kjv: '/assets/bibles/kjv/king-james-version.xml',
@@ -95,6 +95,8 @@
     mode: 'rich',
     preview: false,
     routeRestored: false,
+    busy: false,
+    hydrating: null,
     savedRichRange: null,
     richInsertMarkerId: '',
     savedMarkdownSelection: { start: 0, end: 0 },
@@ -118,7 +120,8 @@
     mediaView: document.getElementById('media-view'),
     articleList: document.getElementById('article-list'),
     backToList: document.getElementById('back-to-list'),
-    saveState: document.getElementById('save-state'),
+    toastRegion: document.getElementById('toast-region'),
+    navLoader: document.getElementById('nav-loader'),
     title: document.getElementById('title-input'),
     description: document.getElementById('description-input'),
     rich: document.getElementById('rich-editor'),
@@ -167,6 +170,8 @@
   document.addEventListener('DOMContentLoaded', init);
 
   function init() {
+    registerServiceWorker();
+
     if (!apiBaseUrl || apiBaseUrl.includes('your-admin-cms-worker')) {
       setLoggedOut('The admin sign-in service is not ready yet.');
       els.loginStatus.textContent = 'Ask the site manager to finish setting up admin sign-in.';
@@ -175,6 +180,14 @@
 
     bindEvents();
     checkSession();
+  }
+
+  function registerServiceWorker() {
+    if (!('serviceWorker' in navigator)) return;
+
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => null);
+    });
   }
 
   function bindEvents() {
@@ -237,6 +250,12 @@
     document.querySelectorAll('[data-action="new"]').forEach((button) => {
       button.addEventListener('click', () => {
         closeMobileMenu();
+        // Only the sidebar entry gets the loader; the in-page "New article"
+        // button sits in the view it is already looking at.
+        if (button.classList.contains('nav-item')) {
+          withNavLoader(async () => openEditor(newArticle()));
+          return;
+        }
         openEditor(newArticle());
       });
     });
@@ -244,7 +263,17 @@
     document.querySelectorAll('[data-view]').forEach((button) => {
       button.addEventListener('click', () => {
         closeMobileMenu();
-        showView(button.dataset.view);
+        withNavLoader(async () => {
+          showView(button.dataset.view);
+          // Articles renders from cache, then lazily fills summaries and
+          // categories. Wait for that pass when it has real work, but never
+          // hold the view hostage to a slow one: those cells patch themselves
+          // in afterwards either way.
+          await Promise.race([
+            Promise.resolve(state.hydrating),
+            new Promise((resolve) => window.setTimeout(resolve, NAV_LOADER_MAX_MS)),
+          ]);
+        });
       });
     });
 
@@ -467,7 +496,11 @@
       row.querySelector('button').addEventListener('click', () => loadArticle(article.path));
       tbody.append(row);
     });
-    hydrateVisibleRows(pageItems);
+    // Kept on state so sidebar navigation can wait for it. Resolves immediately
+    // when every visible row is already cached or its fetch is already in
+    // flight; it only takes real time on a page whose details are still unread.
+    // hydrateVisibleRows swallows per-article errors, so this never rejects.
+    state.hydrating = hydrateVisibleRows(pageItems);
 
     els.articleList.querySelectorAll('[data-page]').forEach((button) => {
       button.addEventListener('click', () => {
@@ -478,14 +511,12 @@
   }
 
   async function loadArticle(path, options = {}) {
-    setSaving('Loading article...');
     try {
       const article = await loadArticleDetails(path);
       rememberArticleDetails(article);
       openEditor(article, options);
-      setSaving('Article loaded');
     } catch (error) {
-      setSaving(friendlyError(error.message) || 'Could not open this article.');
+      reportError(error, 'Could not open this article.');
     }
   }
 
@@ -579,7 +610,7 @@
     els.tags.value = (article.tags || []).map(normalizeTag).join(', ');
     els.comments.checked = Boolean(article.comments);
     els.pin.checked = Boolean(article.pin);
-    els.imageInput.value = article.image || '';
+    els.imageInput.value = cleanImageValue(article.image || '');
     els.slug.value = article.slug || slugify(article.title || 'untitled-article');
     els.markdown.value = article.body || '';
     els.rich.innerHTML = markdownToHtml(article.body || '');
@@ -606,7 +637,7 @@
       categories: splitCommaList(els.category.value || 'Sermon Notes'),
       tags: splitTags(els.tags.value),
       description: els.description.value.trim(),
-      image: els.imageInput.value.trim(),
+        image: cleanImageValue(els.imageInput.value),
       comments: els.comments.checked,
       pin: els.pin.checked,
       slug,
@@ -615,9 +646,15 @@
   }
 
   async function saveArticle(kind) {
+    const publishing = kind === 'publish';
+    const activeButton = publishing ? els.publishBtn : els.draftBtn;
+    if (!beginEditorAction(activeButton, publishing ? 'Publishing...' : 'Saving...')) {
+      return;
+    }
+
     const article = collectArticle();
     const originalPath = state.current?.path || article.originalPath || '';
-    setSaving(kind === 'publish' ? 'Publishing...' : 'Saving draft...');
+
     let saved;
     try {
       saved = await api(`/api/articles/${kind}`, {
@@ -625,7 +662,19 @@
         body: JSON.stringify(article),
       });
     } catch (error) {
-      setSaving(friendlyError(error.message) || 'Could not save this article.');
+      reportError(error, 'Could not save this article.');
+      return;
+    } finally {
+      // Runs before the success path below, so fillEditor gets the last word on
+      // the draft button's label.
+      endEditorAction();
+    }
+
+    if (!saved || !saved.article) {
+      reportError(
+        new Error('The publishing service did not return the saved article.'),
+        'Could not save this article.'
+      );
       return;
     }
 
@@ -633,13 +682,16 @@
     state.current = saved.article;
     fillEditor(saved.article);
     updateRoute({ view: 'editor', path: saved.article.path }, { replace: true });
-    setSaving(kind === 'publish' ? 'Published' : 'Draft saved');
     writeCache(ARTICLE_LIST_CACHE_KEY, { articles: state.articles });
+    showToast(
+      publishing ? 'Article published to the site.' : 'Draft saved.',
+      'success'
+    );
   }
 
   async function deleteArticle() {
     if (!state.current || !state.current.path) {
-      setSaving('Nothing to delete');
+      showToast('There is nothing to delete yet.', 'info');
       return;
     }
 
@@ -647,60 +699,84 @@
     if (!confirmed) return;
 
     const deletedPath = state.current.path;
-    setSaving('Deleting...');
+    if (!beginEditorAction(els.deleteBtn, 'Deleting...')) return;
+
     try {
       await api(`/api/articles/${encodeURIComponent(deletedPath)}`, { method: 'DELETE' });
     } catch (error) {
-      setSaving(friendlyError(error.message) || 'Could not delete this article.');
+      reportError(error, 'Could not delete this article.');
       return;
+    } finally {
+      endEditorAction();
     }
+
     removeArticleFromState(deletedPath);
     state.current = null;
     showArticles();
-    setSaving('Article deleted');
+    showToast('Article deleted.', 'success');
   }
 
   async function uploadImage() {
     const file = els.imageFile.files && els.imageFile.files[0];
     if (!file) return;
+    if (!beginEditorAction(els.uploadImageBtn, 'Uploading...')) return;
 
-    setSaving('Preparing image...');
-    let uploadFile;
     try {
-      uploadFile = await prepareImageForUpload(file);
-    } catch (error) {
-      setSaving(error.message || 'Could not prepare this image.');
-      return;
+      let uploadFile;
+      try {
+        uploadFile = await prepareImageForUpload(file);
+      } catch (error) {
+        reportError(error, 'Could not prepare this image.');
+        return;
+      }
+
+      const originalSize = formatBytes(file.size);
+      const uploadSize = formatBytes(uploadFile.size);
+      const wasCompressed = uploadFile !== file;
+      els.imageUploadNote.textContent = wasCompressed
+        ? `Compressed from ${originalSize} to ${uploadSize} before upload.`
+        : `Image size ${uploadSize}.`;
+
+      let base64;
+      try {
+        base64 = await fileToBase64(uploadFile);
+      } catch (error) {
+        reportError(error, 'Could not read this image file.');
+        return;
+      }
+
+      let response;
+      try {
+        response = await api('/api/media', {
+          method: 'POST',
+          body: JSON.stringify({
+            fileName: uploadFile.name,
+            mimeType: uploadFile.type || 'application/octet-stream',
+            base64,
+            slug: slugify(els.slug.value || els.title.value || uploadFile.name),
+          }),
+        });
+      } catch (error) {
+        reportError(error, 'Could not upload this image.');
+        return;
+      }
+
+      if (!response || !response.path) {
+        reportError(
+          new Error('The upload did not return an image path.'),
+          'Could not upload this image.'
+        );
+        return;
+      }
+
+      els.imageInput.value = response.path;
+      updateImagePreview();
+      showToast('Featured image uploaded.', 'success');
+    } finally {
+      endEditorAction();
+      // Clear the input so re-picking the same file still fires `change`.
+      els.imageFile.value = '';
     }
-
-    const originalSize = formatBytes(file.size);
-    const uploadSize = formatBytes(uploadFile.size);
-    const wasCompressed = uploadFile !== file;
-    setSaving(wasCompressed ? `Image compressed from ${originalSize} to ${uploadSize}. Uploading...` : 'Uploading image...');
-    els.imageUploadNote.textContent = wasCompressed
-      ? `Compressed from ${originalSize} to ${uploadSize} before upload.`
-      : `Image size ${uploadSize}.`;
-
-    const base64 = await fileToBase64(uploadFile);
-    let response;
-    try {
-      response = await api('/api/media', {
-        method: 'POST',
-        body: JSON.stringify({
-          fileName: uploadFile.name,
-          mimeType: uploadFile.type || 'application/octet-stream',
-          base64,
-          slug: slugify(els.slug.value || els.title.value || uploadFile.name),
-        }),
-      });
-    } catch (error) {
-      setSaving(friendlyError(error.message) || 'Could not upload this image.');
-      return;
-    }
-
-    els.imageInput.value = response.path;
-    updateImagePreview();
-    setSaving(wasCompressed ? `Image uploaded (${uploadSize})` : 'Image uploaded');
   }
 
   function showArticles(options = {}) {
@@ -1180,7 +1256,6 @@
     }
 
     els.tablePanel.classList.add('hidden');
-    setSaving(`Table added (${columns} columns, ${rows} rows)`);
   }
 
   function buildTableMarkdown(columns, rows) {
@@ -1230,7 +1305,6 @@
     }
 
     els.scripturePanel.classList.add('hidden');
-    setSaving('Scripture block added');
   }
 
   function cancelInsertPanels() {
@@ -1257,7 +1331,8 @@
   }
 
   function updateImagePreview() {
-    const value = els.imageInput.value.trim();
+    const value = cleanImageValue(els.imageInput.value);
+    if (value !== els.imageInput.value.trim()) els.imageInput.value = value;
     if (!value) {
       els.imagePreview.textContent = 'No image chosen';
       return;
@@ -1267,24 +1342,47 @@
   }
 
   async function api(path, options = {}) {
-    const response = await fetch(`${apiBaseUrl}${path}`, {
-      credentials: 'include',
-      headers: {
-        'Content-Type': 'application/json',
-        ...(options.headers || {}),
-      },
-      ...options,
-    });
+    let response;
+    try {
+      response = await fetch(`${apiBaseUrl}${path}`, {
+        credentials: 'include',
+        headers: {
+          'Content-Type': 'application/json',
+          ...(options.headers || {}),
+        },
+        ...options,
+      });
+    } catch (_) {
+      // fetch only rejects for network-level failures, never for HTTP errors
+      const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
+      const error = new Error(
+        offline
+          ? 'You appear to be offline. Reconnect and try again.'
+          : 'Could not reach the publishing service. Check your connection and try again.'
+      );
+      error.offline = true;
+      throw error;
+    }
 
     if (!response.ok) {
-      let message = response.statusText;
+      // Read the body exactly once. Reading it as JSON and then falling back to
+      // text() throws "body stream already read" and masks the real failure.
+      const raw = await response.text().catch(() => '');
+      let message = '';
       try {
-        const data = await response.json();
-        message = data.error || message;
+        message = (JSON.parse(raw) || {}).error || '';
       } catch (_) {
-        message = await response.text();
+        message = raw;
       }
-      throw new Error(message);
+      message = String(message || '').trim();
+      // A proxy or gateway can answer with an HTML error page; showing that
+      // markup verbatim is worse than saying nothing useful.
+      if (!message || message.startsWith('<') || message.length > 200) {
+        message = `The publishing service returned an error (${response.status}). Please try again.`;
+      }
+      const error = new Error(message);
+      error.status = response.status;
+      throw error;
     }
 
     if (response.status === 204) return null;
@@ -1337,12 +1435,164 @@
     };
   }
 
+  function cleanImageValue(value) {
+    const clean = String(value || '').trim();
+    return /^[a-z_]+:\s*(true|false)?$/i.test(clean) ? '' : clean;
+  }
+
   function loadingHtml(message) {
     return `<div class="empty-state"><p>${escapeHtml(message)}</p></div>`;
   }
 
-  function setSaving(message) {
-    els.saveState.textContent = message;
+  const TOAST_MS = { success: 4200, info: 4200, error: 8000 };
+  const TOAST_ICON = {
+    success: 'fa-circle-check',
+    error: 'fa-circle-exclamation',
+    info: 'fa-circle-info',
+  };
+
+  function showToast(message, kind = 'info') {
+    const region = els.toastRegion;
+    const text = String(message || '').trim();
+    if (!region || !text) return;
+
+    // Repeating an identical message just restarts its timer instead of stacking.
+    const last = region.lastElementChild;
+    if (last && last.dataset.message === text && !last.classList.contains('leaving')) {
+      startToastTimer(last, kind);
+      return;
+    }
+
+    while (region.children.length >= 3) {
+      region.firstElementChild.remove();
+    }
+
+    const toast = document.createElement('div');
+    toast.className = `toast ${kind}`;
+    toast.dataset.message = text;
+    // Errors interrupt; success and info wait for a pause in the announcements.
+    if (kind === 'error') toast.setAttribute('role', 'alert');
+    toast.innerHTML = `
+      <i class="fa-solid ${TOAST_ICON[kind] || TOAST_ICON.info}" aria-hidden="true"></i>
+      <span class="toast-message"></span>
+      <button class="toast-close" type="button" aria-label="Dismiss message">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+    `;
+    // textContent, not innerHTML: server error strings are untrusted input.
+    toast.querySelector('.toast-message').textContent = text;
+    toast
+      .querySelector('.toast-close')
+      .addEventListener('click', () => dismissToast(toast));
+
+    region.append(toast);
+    startToastTimer(toast, kind);
+  }
+
+  function startToastTimer(toast, kind) {
+    window.clearTimeout(Number(toast.dataset.timer) || 0);
+    const ms = TOAST_MS[kind] || TOAST_MS.info;
+    toast.dataset.timer = String(window.setTimeout(() => dismissToast(toast), ms));
+  }
+
+  function dismissToast(toast) {
+    if (!toast || toast.classList.contains('leaving')) return;
+    window.clearTimeout(Number(toast.dataset.timer) || 0);
+    toast.classList.add('leaving');
+    window.setTimeout(() => toast.remove(), 200);
+  }
+
+  // Shown while a sidebar view swaps. Held for a short minimum so a cached,
+  // instant switch still reads as a deliberate transition instead of a flicker.
+  const NAV_LOADER_MIN_MS = 320;
+  const NAV_LOADER_MAX_MS = 2000;
+  let navLoaderDepth = 0;
+
+  function beginNavLoader() {
+    const el = els.navLoader;
+    if (!el) return () => Promise.resolve();
+    navLoaderDepth += 1;
+    el.classList.remove('hidden');
+    el.setAttribute('aria-busy', 'true');
+    const startedAt = Date.now();
+
+    return () =>
+      new Promise((resolve) => {
+        const remaining = Math.max(0, NAV_LOADER_MIN_MS - (Date.now() - startedAt));
+        window.setTimeout(() => {
+          navLoaderDepth = Math.max(0, navLoaderDepth - 1);
+          // Only the last outstanding navigation clears it.
+          if (navLoaderDepth === 0) {
+            el.classList.add('hidden');
+            el.removeAttribute('aria-busy');
+          }
+          resolve();
+        }, remaining);
+      });
+  }
+
+  async function withNavLoader(run) {
+    const endNavLoader = beginNavLoader();
+    try {
+      await run();
+    } catch (error) {
+      reportError(error, 'Could not open that view.');
+    } finally {
+      await endNavLoader();
+    }
+  }
+
+  function editorActionButtons() {
+    return [
+      els.publishBtn,
+      els.draftBtn,
+      els.deleteBtn,
+      els.uploadImageBtn,
+    ].filter(Boolean);
+  }
+
+  // Locks every editor action while one is in flight and marks the clicked
+  // button busy. Returns false if something is already running, so a rapid
+  // second click cannot start a duplicate request.
+  function beginEditorAction(activeButton, busyLabel) {
+    if (state.busy) return false;
+    state.busy = true;
+    editorActionButtons().forEach((button) => {
+      button.disabled = true;
+    });
+    if (activeButton) {
+      const label = activeButton.querySelector('.button-label');
+      if (label && !activeButton.dataset.idleLabel) {
+        activeButton.dataset.idleLabel = label.textContent;
+      }
+      activeButton.classList.add('is-busy');
+      if (busyLabel) setButtonLabel(activeButton, busyLabel);
+    }
+    return true;
+  }
+
+  function endEditorAction() {
+    state.busy = false;
+    editorActionButtons().forEach((button) => {
+      button.disabled = false;
+      button.classList.remove('is-busy');
+      if (button.dataset.idleLabel) {
+        setButtonLabel(button, button.dataset.idleLabel);
+        delete button.dataset.idleLabel;
+      }
+    });
+  }
+
+  function reportError(error, fallback) {
+    // 401 means the 8h session cookie is gone; keeping the editor open would
+    // just fail again on every action, so say so plainly and send them back.
+    const expired = Boolean(error && error.status === 401);
+    const message = expired
+      ? 'Your sign-in expired. Please sign in again.'
+      : friendlyError(error && error.message) || fallback;
+    showToast(message, 'error');
+    if (expired) setLoggedOut(message);
+    return message;
   }
 
   function statusText(status) {
@@ -1407,10 +1657,10 @@
     const input = type === 'category' ? els.category : els.tags;
     const panel = type === 'category' ? els.categoryChips : els.tagChips;
     const values = type === 'category' ? state.categories : state.tags.map(normalizeTag);
-    const current = splitCommaList(input.value).map((item) => item.toLowerCase());
+    const current = committedTokens(input.value).map((item) => item.toLowerCase());
     const query = currentToken(input.value).toLowerCase();
     const matches = [...new Set(values)]
-      .filter((value) => !current.includes(value.toLowerCase()) || value.toLowerCase().includes(query))
+      .filter((value) => !current.includes(value.toLowerCase()))
       .filter((value) => !query || value.toLowerCase().includes(query));
 
     panel.innerHTML = matches.length
@@ -1418,6 +1668,10 @@
       : `<p class="taxonomy-empty">Press Enter to add "${escapeHtml(currentToken(input.value) || 'new value')}"</p>`;
 
     panel.querySelectorAll('button').forEach((button) => {
+      // Keep focus in the input. Blurring it runs the tag normaliser, which
+      // strips the trailing comma that marks "not mid-token" -- and then the
+      // next suggestion overwrites the last tag instead of appending to it.
+      button.addEventListener('mousedown', (event) => event.preventDefault());
       button.addEventListener('click', () => {
         appendToken(input, button.dataset.value);
         renderTaxonomyPanel(type);
@@ -1460,9 +1714,10 @@
   function appendToken(input, value) {
     const isTagInput = input === els.tags;
     const token = isTagInput ? normalizeTag(value) : String(value || '').trim();
-    const current = splitCommaList(withoutCurrentToken(input.value));
-    const normalizedCurrent = isTagInput ? current.map(normalizeTag) : current;
-    if (!normalizedCurrent.map((item) => item.toLowerCase()).includes(token.toLowerCase())) {
+    if (!token) return;
+    const kept = committedTokens(input.value);
+    const normalizedCurrent = isTagInput ? kept.map(normalizeTag) : kept;
+    if (!normalizedCurrent.some((item) => item.toLowerCase() === token.toLowerCase())) {
       normalizedCurrent.push(token);
     }
     input.value = ensureTrailingComma(normalizedCurrent.join(', '));
@@ -1470,6 +1725,15 @@
 
   function currentToken(value) {
     return String(value || '').split(',').pop().trim();
+  }
+
+  // Tokens the user has finished entering. A trailing comma (or an empty field)
+  // means there is no partial token, so every segment counts; otherwise the last
+  // segment is still being typed and a chosen suggestion replaces it.
+  function committedTokens(value) {
+    const raw = String(value || '');
+    if (!raw.trim() || /,\s*$/.test(raw)) return splitCommaList(raw);
+    return splitCommaList(withoutCurrentToken(raw));
   }
 
   function withoutCurrentToken(value) {

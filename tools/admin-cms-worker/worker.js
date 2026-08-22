@@ -66,6 +66,10 @@ export default {
         }
       }
 
+      if (request.method === 'GET' && isAdminAssetPath(url.pathname)) {
+        return proxyPublicAdminAsset(request, env);
+      }
+
       return withCors(json({ error: 'Not found' }, 404), request, env);
     } catch (error) {
       const status = error.status || 500;
@@ -74,6 +78,41 @@ export default {
     }
   },
 };
+
+async function proxyPublicAdminAsset(request, env) {
+  const sourceOrigin = env.PUBLIC_SITE_ORIGIN || env.CMS_ORIGIN || 'https://blog.giftpasay.com';
+  const url = new URL(request.url);
+
+  if (url.pathname === '/admin-cms') {
+    url.pathname = '/admin-cms/';
+    return redirect(url.toString());
+  }
+
+  const sourceUrl = new URL(url.pathname + url.search, sourceOrigin);
+  const response = await fetch(sourceUrl.toString(), {
+    headers: {
+      Accept: request.headers.get('Accept') || '*/*',
+      'User-Agent': 'giftpasay-admin-cms-worker',
+    },
+  });
+
+  if (!response.ok) return response;
+
+  const headers = new Headers(response.headers);
+  headers.delete('content-security-policy');
+  headers.delete('x-frame-options');
+  headers.set('Cache-Control', url.pathname.endsWith('/config.js') ? 'no-store' : 'public, max-age=300');
+  return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
+}
+
+function isAdminAssetPath(pathname) {
+  return (
+    pathname === '/admin-cms' ||
+    pathname.startsWith('/admin-cms/') ||
+    pathname.startsWith('/assets/img/') ||
+    pathname.startsWith('/assets/bibles/')
+  );
+}
 
 async function handleLogin(request, env) {
   assertEnv(env, ['GH_CLIENT_ID', 'SESSION_SECRET']);
@@ -382,7 +421,7 @@ function parsePost(content) {
 }
 
 function readScalar(frontmatter, key) {
-  const match = frontmatter.match(new RegExp(`^${escapeRegExp(key)}:\\s*(.*)$`, 'm'));
+  const match = frontmatter.match(new RegExp(`^${escapeRegExp(key)}:[ \\t]*(.*)$`, 'm'));
   if (!match) return '';
   return unquoteYaml(match[1].trim());
 }

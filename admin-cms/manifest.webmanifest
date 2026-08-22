@@ -1,0 +1,47 @@
+{
+  "name": "UPC GIFT Pasay Admin CMS",
+  "short_name": "GIFT CMS",
+  "description": "Write, update, and publish UPC GIFT Pasay website articles.",
+  "id": "/admin-cms/",
+  "start_url": "/admin-cms/",
+  "scope": "/admin-cms/",
+  "display": "standalone",
+  "background_color": "#fffaf2",
+  "theme_color": "#003044",
+  "orientation": "any",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/assets/img/gift-cms-logo.png",
+      "sizes": "192x192 256x256 384x384 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Write new article",
+      "short_name": "Write",
+      "url": "/admin-cms/#new",
+      "icons": [
+        {
+          "src": "/assets/img/gift-cms-logo.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Article list",
+      "short_name": "Articles",
+      "url": "/admin-cms/",
+      "icons": [
+        {
+          "src": "/assets/img/gift-cms-logo.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

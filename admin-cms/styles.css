@@ -18,7 +18,9 @@
   --dark-bg: #181818;
   --touch: 44px;
   --topbar-h: 72px;
-  --toolbar-h: 54px;
+  /* Rendered height of the formatting bar. The scripture insert panel sticks
+     directly beneath it, so this must match what the bar actually measures. */
+  --toolbar-h: 60px;
   --safe-b: env(safe-area-inset-bottom, 0px);
 }
 
@@ -386,8 +388,7 @@ iframe {
   gap: 10px;
 }
 
-.session-pill,
-.save-state {
+.session-pill {
   color: var(--muted);
   font-size: 0.86rem;
 }
@@ -790,6 +791,166 @@ select:focus-visible {
   cursor: not-allowed;
   opacity: 0.52;
   transform: none;
+}
+
+/* Busy state: swaps the button's icon for a spinner and blocks further clicks,
+   so a second tap cannot fire a duplicate commit while a save is in flight. */
+.button.is-busy {
+  cursor: progress;
+  pointer-events: none;
+}
+
+.button.is-busy > i {
+  display: none;
+}
+
+.button.is-busy::before {
+  content: '';
+  flex: 0 0 auto;
+  width: 1em;
+  height: 1em;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: button-spin 0.6s linear infinite;
+}
+
+@keyframes button-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Centred over the content area only, so the sidebar stays usable. Offsets
+   mirror .topbar so the overlay lines up with the workspace at every width. */
+.nav-loader {
+  position: fixed;
+  top: var(--topbar-h);
+  right: 0;
+  bottom: 0;
+  left: 248px;
+  z-index: 28;
+  display: grid;
+  place-items: center;
+  background: rgba(246, 242, 234, 0.72);
+  backdrop-filter: blur(2px);
+}
+
+.nav-loader-spinner {
+  width: 38px;
+  height: 38px;
+  border: 3px solid var(--line);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: button-spin 0.7s linear infinite;
+}
+
+.toast-region {
+  position: fixed;
+  top: calc(var(--topbar-h) + 12px);
+  right: 16px;
+  z-index: 60;
+  display: grid;
+  gap: 10px;
+  width: min(384px, calc(100% - 32px));
+  pointer-events: none;
+}
+
+.toast {
+  display: grid;
+  grid-template-columns: 1.1em minmax(0, 1fr) 26px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 12px 12px 14px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--muted);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.45;
+  box-shadow: 0 16px 38px rgba(4, 47, 67, 0.18);
+  pointer-events: auto;
+  animation: toast-in 160ms ease-out;
+}
+
+.toast.success {
+  border-left-color: var(--good);
+}
+
+.toast.success > i {
+  color: var(--good);
+}
+
+.toast.error {
+  border-left-color: var(--accent);
+}
+
+.toast.error > i {
+  color: var(--accent);
+}
+
+.toast.info {
+  border-left-color: var(--ink-soft);
+}
+
+.toast.info > i {
+  color: var(--ink-soft);
+}
+
+.toast > i {
+  line-height: 1;
+}
+
+.toast-close {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.toast-close:hover,
+.toast-close:focus-visible {
+  background: #efe9dd;
+  color: var(--ink);
+  outline: 0;
+}
+
+.toast.leaving {
+  animation: toast-out 150ms ease-in forwards;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes toast-out {
+  to {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button.is-busy::before,
+  .nav-loader-spinner {
+    animation-duration: 2.4s;
+  }
+
+  .toast,
+  .toast.leaving {
+    animation: none;
+  }
 }
 
 .article-tags,
@@ -1482,6 +1643,52 @@ code {
 }
 
 @media (max-width: 1100px) {
+  /* Compact formatter shared by phone, tablet and 1024. Only the command strip
+     scrolls, so the view toggle stays pinned and reachable; putting the overflow
+     on .editor-toolbar itself scrolls the toggle off-screen entirely. */
+  .editor-toolbar {
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 6px;
+    width: 100%;
+    max-width: 100%;
+    min-height: var(--toolbar-h);
+    padding: 4px 6px;
+  }
+
+  .editor-toolbar button {
+    flex: 0 0 auto;
+    min-width: var(--touch);
+    height: var(--touch);
+  }
+
+  .divider {
+    flex: 0 0 1px;
+    height: 22px;
+    margin: 0 2px;
+  }
+
+  .editor-view-toggle {
+    flex: 0 0 auto;
+    gap: 2px;
+    margin-left: auto;
+    padding: 2px;
+    border-left: 1px solid var(--line);
+  }
+
+  .editor-view-toggle button {
+    width: var(--touch);
+    min-width: var(--touch);
+    height: var(--touch);
+    gap: 0;
+    padding: 0;
+  }
+
+  .editor-view-toggle .button-label,
+  .editor-toolbar [data-command='scripture'] .button-label {
+    display: none;
+  }
+
   .app-shell {
     display: block;
   }
@@ -1502,6 +1709,10 @@ code {
   }
 
   .topbar {
+    left: 0;
+  }
+
+  .nav-loader {
     left: 0;
   }
 
@@ -1652,6 +1863,13 @@ code {
     overflow-x: auto;
   }
 
+  .body-panel {
+    max-width: 100%;
+    /* `clip`, not `hidden`: hidden makes this a scroll container, which breaks
+       the sticky toolbar inside it. */
+    overflow-x: clip;
+  }
+
   /* Portrait-tablet article cards. A compact two-tier card: the title block
      gets the full width on top, then one meta strip (status / date / tags) with
      the action pinned right. Replaces a 4-row spanning grid that left most of
@@ -1760,9 +1978,14 @@ code {
 }
 
 @media (max-width: 720px) {
+  .toast-region {
+    right: 12px;
+    left: 12px;
+    width: auto;
+  }
+
   :root {
     --topbar-h: 62px;
-    --toolbar-h: 52px;
     --actionbar-clear: 88px;
   }
 
@@ -2041,46 +2264,6 @@ code {
   .side-card {
     max-width: 100%;
     padding: 12px;
-  }
-
-  .editor-toolbar {
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 6px;
-    width: 100%;
-    max-width: 100%;
-    min-height: var(--toolbar-h);
-    padding: 4px 6px;
-  }
-
-  .editor-toolbar button {
-    flex: 0 0 auto;
-    min-width: var(--touch);
-    height: var(--touch);
-  }
-
-  .divider {
-    flex: 0 0 1px;
-    height: 22px;
-    margin: 0 2px;
-  }
-
-  .editor-view-toggle {
-    gap: 2px;
-    padding: 2px;
-    border-left: 1px solid var(--line);
-  }
-
-  .editor-view-toggle button {
-    width: var(--touch);
-    min-width: var(--touch);
-    gap: 0;
-    padding: 0;
-  }
-
-  .editor-view-toggle .button-label,
-  .editor-toolbar [data-command='scripture'] .button-label {
-    display: none;
   }
 
   .scripture-insert-panel {

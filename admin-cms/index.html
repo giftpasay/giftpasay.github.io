@@ -4,8 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#003044" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="GIFT CMS" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <title>Admin CMS | UPC GIFT Pasay</title>
     <link rel="icon" href="/assets/img/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/img/gift-cms-logo.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -121,6 +128,10 @@
           </div>
         </header>
 
+        <div id="nav-loader" class="nav-loader hidden">
+          <span class="nav-loader-spinner" role="status" aria-label="Loading"></span>
+        </div>
+
         <section id="article-list-view" class="view">
           <div class="view-toolbar">
             <div class="toolbar-left">
@@ -192,7 +203,6 @@
               <i class="fa-solid fa-arrow-left"></i>
               Back to articles
             </button>
-            <div class="save-state" id="save-state">Not saved</div>
           </div>
 
           <div class="editor-grid">
@@ -408,6 +418,8 @@
         <i class="fa-solid fa-arrow-up"></i>
       </button>
     </div>
+
+    <div id="toast-region" class="toast-region" role="status" aria-live="polite"></div>
 
     <script src="./config.js"></script>
     <script src="./app.js"></script>
