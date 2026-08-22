@@ -1,0 +1,8 @@
+---
+---
+
+{% if jekyll.environment == 'production' %}
+@use 'main.bundle';
+{% else %}
+@use 'main';
+{% endif %}
