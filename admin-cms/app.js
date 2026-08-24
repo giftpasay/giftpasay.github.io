@@ -2346,7 +2346,13 @@
       button.setAttribute('aria-label', text);
       return;
     }
-    button.textContent = text;
+    const textNode = Array.from(button.childNodes).find((node) => node.nodeType === Node.TEXT_NODE && node.textContent.trim());
+    if (textNode) {
+      textNode.textContent = ` ${text}`;
+    } else {
+      button.append(document.createTextNode(` ${text}`));
+    }
+    button.setAttribute('aria-label', text);
   }
 
   function escapeHtml(value) {
