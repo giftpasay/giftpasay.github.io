@@ -36,7 +36,7 @@ export default {
         }
 
         if (url.pathname.startsWith('/api/articles/') && request.method === 'GET') {
-          const path = decodeURIComponent(url.pathname.replace('/api/articles/', ''));
+          const path = normalizeArticlePath(decodeURIComponent(url.pathname.replace('/api/articles/', '')));
           const article = await getArticle(session.token, env, path);
           return withCors(json(article, 200), request, env);
         }
@@ -54,7 +54,7 @@ export default {
         }
 
         if (url.pathname.startsWith('/api/articles/') && request.method === 'DELETE') {
-          const path = decodeURIComponent(url.pathname.replace('/api/articles/', ''));
+          const path = normalizeArticlePath(decodeURIComponent(url.pathname.replace('/api/articles/', '')));
           await deleteRepoFile(session.token, env, path, `cms: delete ${path}`);
           return withCors(json({ ok: true }, 200), request, env);
         }
@@ -283,6 +283,7 @@ function summarizeArticle(article, status) {
 }
 
 async function getArticle(token, env, path) {
+  path = normalizeArticlePath(path);
   const file = await getRepoFile(token, env, path);
   const parsed = parsePost(file.content);
   return {
@@ -297,12 +298,13 @@ async function getArticle(token, env, path) {
 
 async function saveDraft(token, env, payload) {
   const article = normalizePayload(payload);
+  const originalPath = optionalArticlePath(payload.originalPath);
   const path = `_drafts/${article.slug}.md`;
   const content = serializePost(article);
   await putRepoFile(token, env, path, content, `cms: save draft ${article.slug}.md`);
 
-  if (payload.originalPath && payload.originalPath.startsWith('_posts/') && payload.originalPath !== path) {
-    await deleteRepoFile(token, env, payload.originalPath, `cms: move published post to draft ${payload.originalPath}`).catch(
+  if (originalPath && originalPath.startsWith('_posts/') && originalPath !== path) {
+    await deleteRepoFile(token, env, originalPath, `cms: move published post to draft ${originalPath}`).catch(
       () => null,
     );
   }
@@ -319,15 +321,16 @@ async function saveDraft(token, env, payload) {
 
 async function publishArticle(token, env, payload) {
   const article = normalizePayload(payload);
+  const originalPath = optionalArticlePath(payload.originalPath);
   const path = `_posts/${article.date}-${article.slug}.md`;
   const content = serializePost(article);
   await putRepoFile(token, env, path, content, `cms: publish ${article.date}-${article.slug}.md`);
 
-  if (payload.originalPath && payload.originalPath !== path) {
-    const message = payload.originalPath.startsWith('_drafts/')
-      ? `cms: remove draft ${payload.originalPath}`
-      : `cms: replace published post ${payload.originalPath}`;
-    await deleteRepoFile(token, env, payload.originalPath, message).catch(() => null);
+  if (originalPath && originalPath !== path) {
+    const message = originalPath.startsWith('_drafts/')
+      ? `cms: remove draft ${originalPath}`
+      : `cms: replace published post ${originalPath}`;
+    await deleteRepoFile(token, env, originalPath, message).catch(() => null);
   }
 
   return {
@@ -368,6 +371,24 @@ function normalizePayload(payload) {
     slug,
     body: String(payload.body || '').trim(),
   };
+}
+
+function optionalArticlePath(path) {
+  if (!path) return '';
+  return normalizeArticlePath(path);
+}
+
+function normalizeArticlePath(path) {
+  const clean = String(path || '')
+    .replace(/\\/g, '/')
+    .replace(/^\/+/, '')
+    .trim();
+
+  if (!/^_(posts|drafts)\/[^/]+\.md$/.test(clean)) {
+    throw httpError(400, 'Invalid article path');
+  }
+
+  return clean;
 }
 
 function serializePost(article) {
