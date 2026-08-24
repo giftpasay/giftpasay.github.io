@@ -4,9 +4,12 @@
 #back-to-top {
   visibility: hidden;
   opacity: 0;
-  z-index: 1;
+  z-index: 1040;
   cursor: pointer;
+  pointer-events: none;
   position: fixed;
+  display: inline-grid;
+  place-items: center;
   right: 1rem;
   bottom: calc(v.$footer-height-large - v.$back2top-size / 2);
   background: var(--button-bg);
@@ -39,13 +42,13 @@
   }
 
   i {
-    line-height: v.$back2top-size;
-    position: relative;
-    bottom: 0;
+    line-height: 1;
+    position: static;
   }
 
   &.show {
     opacity: 1;
     visibility: visible;
+    pointer-events: auto;
   }
 }
