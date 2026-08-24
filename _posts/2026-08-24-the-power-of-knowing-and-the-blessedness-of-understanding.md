@@ -9,10 +9,6 @@ comments: false
 pin: false
 ---
 
-_Service: Missions Sunday_
-
- _Message: The Power of Knowing and the Blessedness of Understanding_
-
 ## Introduction
 
  Sa panahon ngayon, makikita po natin kung gaano kalaki ang kaibahan ng taong may alam lamang at ng taong tunay na nakauunawa. Maraming tao ang may karunungan, lakas, kayamanan, at pinag-aralan. Pero sabi ng Panginoon sa Jeremiah 9:23, huwag magmapuri ang marunong sa kaniyang karunungan, huwag magmapuri ang malakas sa kaniyang kalakasan, at huwag magmapuri ang mayaman sa kaniyang kayamanan.
