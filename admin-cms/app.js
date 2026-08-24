@@ -101,6 +101,8 @@
     savedRichRange: null,
     richInsertMarkerId: '',
     savedMarkdownSelection: { start: 0, end: 0 },
+    imagePreviewObjectUrl: '',
+    imagePreviewMeta: null,
   };
 
   const els = {
@@ -228,7 +230,11 @@
     els.imageFile.addEventListener('change', uploadImage);
     els.slug.addEventListener('input', updateUrlPreview);
     els.title.addEventListener('input', onTitleChanged);
-    els.imageInput.addEventListener('input', updateImagePreview);
+    els.imageInput.addEventListener('input', () => {
+      clearImagePreviewObjectUrl();
+      state.imagePreviewMeta = null;
+      updateImagePreview();
+    });
     els.articleSearch.addEventListener('input', () => {
       state.query = els.articleSearch.value.trim().toLowerCase();
       state.page = 1;
@@ -606,6 +612,8 @@
   }
 
   function fillEditor(article) {
+    clearImagePreviewObjectUrl();
+    state.imagePreviewMeta = null;
     els.title.value = article.title || '';
     els.description.value = article.description || '';
     els.date.value = article.date || today();
@@ -736,9 +744,16 @@
       const originalSize = formatBytes(file.size);
       const uploadSize = formatBytes(uploadFile.size);
       const wasCompressed = uploadFile !== file;
+      let uploadMeta = null;
+      try {
+        uploadMeta = await imageFileMeta(uploadFile);
+      } catch (_) {
+        uploadMeta = { width: 0, height: 0, size: uploadFile.size };
+      }
+      setLocalImagePreview(uploadFile, uploadMeta);
       els.imageUploadNote.textContent = wasCompressed
-        ? `Compressed from ${originalSize} to ${uploadSize} before upload.`
-        : `Image size ${uploadSize}.`;
+        ? `Thumbnail ${formatImageMeta(uploadMeta)}. Compressed from ${originalSize} to ${uploadSize}.`
+        : `Thumbnail ${formatImageMeta(uploadMeta)}.`;
 
       let base64;
       try {
@@ -1336,12 +1351,48 @@
   function updateImagePreview() {
     const value = cleanImageValue(els.imageInput.value);
     if (value !== els.imageInput.value.trim()) els.imageInput.value = value;
-    if (!value) {
+    const previewSrc = state.imagePreviewObjectUrl;
+    if (!value && !previewSrc) {
       els.imagePreview.textContent = 'No image chosen';
+      els.imageUploadNote.textContent = 'Images larger than 800 KB are compressed before upload.';
       return;
     }
-    const src = value.startsWith('http') || value.startsWith('/') ? value : `/${value}`;
+    const src = previewSrc || (value.startsWith('http') || value.startsWith('/') ? value : `/${value}`);
     els.imagePreview.innerHTML = `<img src="${escapeHtml(src)}" alt="">`;
+    const image = els.imagePreview.querySelector('img');
+
+    if (state.imagePreviewMeta) {
+      image.width = state.imagePreviewMeta.width || image.width;
+      image.height = state.imagePreviewMeta.height || image.height;
+    }
+
+    if (!previewSrc) {
+      els.imageUploadNote.textContent = 'Loading thumbnail details...';
+      image.addEventListener('load', () => {
+        els.imageUploadNote.textContent = image.naturalWidth && image.naturalHeight
+          ? `Thumbnail ${formatImageMeta({
+            width: image.naturalWidth,
+            height: image.naturalHeight,
+          })}.`
+          : 'Images larger than 800 KB are compressed before upload.';
+      }, { once: true });
+      image.addEventListener('error', () => {
+        els.imageUploadNote.textContent = 'Could not load thumbnail preview. Check the image path.';
+      }, { once: true });
+    }
+  }
+
+  function setLocalImagePreview(file, meta) {
+    clearImagePreviewObjectUrl();
+    state.imagePreviewObjectUrl = URL.createObjectURL(file);
+    state.imagePreviewMeta = meta;
+    updateImagePreview();
+  }
+
+  function clearImagePreviewObjectUrl() {
+    if (!state.imagePreviewObjectUrl) return;
+    URL.revokeObjectURL(state.imagePreviewObjectUrl);
+    state.imagePreviewObjectUrl = '';
   }
 
   async function api(path, options = {}) {
@@ -2416,6 +2467,33 @@
   function formatBytes(bytes) {
     if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)} KB`;
     return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+  }
+
+  function formatImageMeta(meta) {
+    const parts = [];
+    if (meta?.width && meta?.height) parts.push(`${meta.width} x ${meta.height} px`);
+    if (meta?.size) parts.push(formatBytes(meta.size));
+    return parts.length ? parts.join(' · ') : 'details unavailable';
+  }
+
+  function imageFileMeta(file) {
+    return new Promise((resolve, reject) => {
+      const url = URL.createObjectURL(file);
+      const image = new Image();
+      image.onload = () => {
+        URL.revokeObjectURL(url);
+        resolve({
+          width: image.naturalWidth,
+          height: image.naturalHeight,
+          size: file.size,
+        });
+      };
+      image.onerror = () => {
+        URL.revokeObjectURL(url);
+        reject(new Error('Could not read image dimensions.'));
+      };
+      image.src = url;
+    });
   }
 
   function fileToBase64(file) {

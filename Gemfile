@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 7.2", ">= 7.2.4"
+gem "jekyll-theme-chirpy", "7.3.0"
 gem "sass-embedded", "1.89.2"
 
 # gem "jekyll-livereload"

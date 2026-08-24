@@ -114,15 +114,43 @@
 
   {% include js-selector.html lang=lang %}
   <script>
+    const setGiftThemeMode = (mode) => {
+      document.documentElement.setAttribute('data-mode', mode);
+
+      try {
+        sessionStorage.setItem('mode', mode);
+      } catch (_) {
+        // Continue with the visual update even when storage is unavailable.
+      }
+
+      window.postMessage({ id: 'theme-mode' }, '*');
+      window.postMessage({ direction: 'mode-toggle', message: mode }, '*');
+    };
+
+    const toggleGiftThemeMode = () => {
+      const currentMode = (() => {
+        try {
+          return sessionStorage.getItem('mode');
+        } catch (_) {
+          return null;
+        }
+      })();
+      const explicitMode = currentMode || document.documentElement.getAttribute('data-mode');
+      const visualMode = explicitMode
+        || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+      setGiftThemeMode(visualMode === 'dark' ? 'light' : 'dark');
+    };
+
     document.addEventListener(
       'click',
       (event) => {
         const modeToggle = event.target.closest('#mode-toggle');
 
-        if (modeToggle && window.Theme) {
+        if (modeToggle) {
           event.preventDefault();
           event.stopImmediatePropagation();
-          window.Theme.flip();
+          toggleGiftThemeMode();
           return;
         }
 
