@@ -1,5 +1,5 @@
 ---
-title: "Coming back to the heart of worship"
+title: "Coming Back to the Heart of Worship"
 date: 2026-08-17
 categories: ["Sermon Notes"]
 tags: ["worship", "glory", "creation", "purpose", "stewardship", "jesus"]
