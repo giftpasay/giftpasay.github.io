@@ -11,35 +11,37 @@ pin: false
 
 ## For His Name's Sake
 
- The Word of the Lord shows us again and again that God moves for the glory of His name.
+ Sa book of Isaiah chapter 48, makikita natin na ang Panginoon ay gumagawa para sa Kaniyang pangalan. Hindi lamang ito tungkol sa tao. Hindi lamang ito tungkol sa atin. Ang lahat ng ginagawa ng Diyos ay para sa kaluwalhatian ng Kaniyang dakilang pangalan.
 
- In Isaiah 48:9-11, the Lord said that for His name's sake He would defer His anger, and for His praise He would refrain. He said He had refined His people, not with silver, but in the furnace of affliction.
+ Sa Isaiah 48:9-11, sabi ng Panginoon:
 
- Then He said:
+> "For my name's sake will I defer mine anger, and for my praise will I refrain for thee, that I cut thee not off. Behold, I have refined thee, but not with silver; I have chosen thee in the furnace of affliction. For mine own sake, even for mine own sake, will I do it: for how should my name be polluted? and I will not give my glory unto another."
 
-> "For mine own sake, even for mine own sake, will I do it: for how should my name be polluted? and I will not give my glory unto another."
+> Isaiah 48:9-11
 
-> Isaiah 48:11
+ Take note of that:**for my name's sake**,**for my praise**,**for mine own sake**. The Lord said, "I will not give my glory unto another."
 
- In Ezekiel 36:22, the Lord spoke to the house of Israel and said:
+ Sa Ezekiel 36:22, sinabi rin ng Panginoon sa house of Israel:
 
 > "I do not this for your sakes, O house of Israel, but for mine holy name's sake..."
 
 > Ezekiel 36:22
 
- God said He would sanctify His great name. The heathen would know that He is the Lord when He sanctified His people before their eyes.
+ Hindi ko ito ginagawa dahil sa inyo, sabi ng Panginoon, kundi dahil sa Aking banal na pangalan. I will sanctify my great name. Do you believe the name of the Lord is great? The unbelievers shall know. The world shall know that He is the Lord.
 
- That is why David said in Psalm 46:10:
+ Kaya sinabi ni David sa Psalm 46:10:
 
 > "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth."
 
 > Psalm 46:10
 
- The Lord of hosts is with us. The God of Jacob is our refuge. Kasama natin ang Diyos ngayon. He is present among His people, and His name will be glorified.
+ The Lord will be exalted among the nations. The Lord of hosts is with us. The God of Jacob is our refuge. Kasama natin ang Diyos ngayon. Hallelujah.
 
 ---
 
-## Knowing The True God
+## We Must Know And Understand Him
+
+ Napakahalaga na kilala natin ang Panginoon. Hindi lang natin Siya naririnig. Hindi lang natin Siya binabanggit. We must know Him, and we must understand Him.
 
  1 John 5:20 says:
 
@@ -47,123 +49,137 @@ pin: false
 
 > 1 John 5:20
 
- Napakahalaga nito: we must know, and we must understand. God has given us understanding so that we may know Him that is true. The verse continues by saying that we are in Him that is true, even in His Son Jesus Christ. Then it says:
+ And the verse says that we are in Him that is true, even in His Son Jesus Christ. Then it says:
 
 > "This is the true God, and eternal life."
 
- That is the knowledge of God. That is the understanding of the Lord.
+ This is the knowledge of God. Ito ang understanding of the Lord. Kaya sabi ng Jeremiah 9:23-24, huwag magmapuri ang wise man sa kaniyang wisdom. Huwag magmapuri ang mighty man sa kaniyang might. Huwag din magmapuri ang rich man sa kaniyang riches.
 
- Jeremiah 9:23-24 reminds us not to glory in wisdom, strength, or riches. Let not the wise man glory in his wisdom. Let not the mighty man glory in his might. Let not the rich man glory in his riches.
+ But let him that glorieth glory in this: that he understandeth and knoweth Me.
 
- But if a man will glory, let him glory in this: that he understands and knows the Lord, who exercises lovingkindness, judgment, and righteousness in the earth.
-
- Kilala mo ba Siya? Nauunawaan mo ba Siya?
+ Kilala mo ba Siya? Do you understand Him? Nauunawaan mo ba kung sino talaga ang Panginoon sa buhay mo?
 
 ---
 
-## Returning To The Heart Of Worship
+## Back To The Heart Of Worship
 
- There is a proper time for everything, but the time has now come when the true worshippers shall worship the Father in spirit and in truth. Jesus said that the Father seeks such to worship Him.
+ There is a proper time for everything, but the time has now come when the true worshippers shall worship the Father in spirit and in truth. Jesus said the Father seeketh such to worship Him.
 
- This message calls us back to the heart of worship.
+ Kaya ang mensaheng ito:**let us come back to the heart of worship**.
 
- Many of us are familiar with the song by Matt Redman, "The Heart of Worship." The story behind the song reminds us that worship is not just music. Worship is not only singing. Praise and worship may include singing, but true worship goes deeper than a song.
+ Familiar tayo sa song na "The Heart of Worship." Si Matt Redman ang worship leader na nagsulat noon. The story behind that song is that their pastor was teaching the church the real meaning of worship.
 
- The pastor of that church wanted the people to understand the real meaning of worship. For a time, he did not allow singing in the congregation. Through that season, the people learned to worship the Lord without depending only on music.
+ Yung tunay na ibig sabihin ng pagsamba, hindi lang music. Hindi lang kanta. Hindi lang tugtog. Praise and worship can include singing, yes, pero hindi lang iyon ang worship.
 
- God moved on the heart of that worship leader, and the message of the song became clear: worship is all about Jesus.
+ For a period of time, hindi muna pinayagan ng pastor nila ang singing sa church. Bakit? Para matutunan ng mga tao na sumamba sa Panginoon kahit walang music. Para maunawaan nila na worship is deeper than a song.
 
- Sometimes we make worship about what we feel, what we like, what we receive, or what we can get from it. Minsan ang tanong natin ay, "Ano ang mapapala ko dito?" But worship is not centered on us. Worship is centered on God.
+ During that time, God moved upon the heart of the worship leader. At naging malinaw ang mensahe: worship is all about Jesus.
 
- Your life is not really about you. It is all about God.
+ Minsan kasi, ginagawa nating tungkol sa sarili natin ang pagsamba. Ano bang meron dito para sa akin? Ano bang mapapala ko? What's in it for me?
+
+ Pero kapatid, the reality we must understand is this:**your life is not really about you. It's all about God.**
 
 ---
 
-## This World Is God's World
+## It's All About Him
 
- This world is God's world. It is not ours.
+ This world is God's world. Hindi ito sa atin. Even history is His story. Hindi ito primarily history natin. It is His story.
 
- Even history is His story. History is not mainly our story. We are only part of the greater work God is writing. Our time is not ours. Our lives are not ours. We belong to God.
+ Tayo, we are only players in this story of the Lord. Our time is not ours. Our life is not ours. We belong to God.
 
- From the beginning until now, the Lord has desired that His name be glorified. Creation, history, and our very lives exist for His praise.
+ From the beginning until now, makikita natin that the Lord wants His name to be glorified. All about worship. All about praising the Lord. All about glorifying the name of our God.
 
- That is why we need a fresh perspective. Ang daming bagay ngayon na nakaka-discourage. Maraming balita, posts, videos, issues, and distractions that can damage our focus, our joy, and our spiritual condition.
+ This world again is God's world, not ours. We are just a small part of His story.
 
- But let us be encouraged: God loves us. God is here. God delights in the worship offered to Him.
+ Kailangan natin ng fresh perspective, lalo na sa panahon ngayon. Ang daming bagay na nakaka-discourage. Ang daming nakakasira ng focus. Makikita mo sa Facebook, YouTube, media, at sa paligid, ang daming bagay na nakakapagod sa puso.
 
- Francis Chan wrote in_Crazy Love_that the deeper problem is not simply that Christians are lukewarm, halfhearted, or stagnant. The deeper problem is that many have an inaccurate view of God.
+ But let us be encouraged: God loves you. Our God is here. Our God delights in the worship that we give to Him.
 
- When our view of God is too small, we try to fit Him into some small part of our lives. But God never begs us for a small portion of ourselves. He commands everything.
+---
 
- He said to love Him with all your heart, all your mind, all your soul, and all your strength. Hindi kaunti lamang. Hindi tira-tira lamang. The Lord wants all of us.
+## Our View Of God Must Be Right
 
- We live halfheartedly because we forget who God really is. We magnify ourselves and minimize Him.
+ May isang book si Francis Chan,_Crazy Love_, na nagsabi ng ganito: the core problem is not only that we are lukewarm, halfhearted, or stagnant Christians. The deeper problem is that we have an inaccurate view of God.
 
- So let us join David in Psalm 34:3:
+ Hindi tama ang view natin sa Diyos. Minsan parang pinapasok lang natin Siya sa maliit na bahagi ng buhay natin. We try to fit God into our lives in some small way.
+
+ Pero ang Panginoon hindi nanghihingi ng maliit na parte lang ng sarili natin. He commands everything.
+
+ Those who love Him must love Him with all their heart, all their mind, all their soul, and all their strength. Hindi kaunti lamang. Hindi tira lamang. Hindi kung kailan convenient lamang.
+
+ The Lord wants all of you. The Lord wants all of us.
+
+ Bakit minsan halfhearted tayo? Bakit minsan lukewarm tayo? Possibly because we do not really know God for who He is. We tend to magnify ourselves, sinasadya man o hindi, and we minimize Him.
+
+ Kaya sumama tayo kay David nang sabihin niya:
 
 > "O magnify the LORD with me, and let us exalt his name together."
 
 > Psalm 34:3
 
+ Magnify the Lord with me. Let us exalt His name together. Ganyan ang worship. Ganyan ang church na marunong lumaban sa espiritu. We praise Him for the victory. We worship Him because He is worthy.
+
 ---
 
-## Creation Declares His Glory
+## Creation Is All About God
 
  Creation is all about God.
 
- Romans 1:20 tells us that the invisible things of Him from the creation of the world are clearly seen, being understood by the things that are made, even His eternal power and Godhead.
+ Romans 1:20 says:
 
- The works of creation reveal His power. The world around us points to the greatness of God.
+> "For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made..."
 
- Think about the earth. It is the third planet from the sun. It is approximately 25,000 miles around, and it supports millions of forms of plant and animal life through a finely tuned balance of factors. If those factors changed even slightly, life would not continue as we know it.
+> Romans 1:20
 
- Kahit may bagyo, ulan, init, at pagbabago ng panahon, still the world continues because God sustains what He created.
+ Yung mga bagay na ginawa ng Diyos, they reveal His eternal power and Godhead. Nakikita sa creation ang kapangyarihan at pagka-Diyos ng Panginoon.
 
- The sun is about 93 million miles away. Neptune, one of the farthest planets, is billions of miles away. At the speed of a commercial passenger plane, it would take many years of non-stop travel just to reach the sun.
+ Think about the earth. Pangatlong planeta tayo from the sun: Mercury, Venus, Earth. The earth is around 25,000 miles around, and it is inhabited by so many kinds of plants and animals. It supports life because of a finely tuned balance.
 
- And yet our sun is only one star. In the Milky Way, there are billions of stars. Scientists speak of billions of galaxies. The vastness of creation is beyond our full understanding.
+ Kung ang mga factors na iyon ay mabago kahit kaunti lamang, life would cease to exist. Pero hanggang ngayon, kahit may bagyo, ulan, init, at pagbabago ng panahon, buhay pa rin ang mundo. Bakit? Because God sustains His creation.
 
- But our God created them all.
+ The sun is about 93 million miles away. Neptune is so far away. At the speed of a commercial passenger plane, it would take many years of nonstop travel just to reach the sun.
 
- Heaven is His throne, and the earth is His footstool. What house can contain Him? What building can hold Him?
+ And yet our sun is only one star.
 
- And yet, this great God says, "I will be with you." Jesus said that where two or three are gathered together in His name, He is there in the midst of them.
+ Sa Milky Way, scientists say there are billions of stars. They also speak about billions of galaxies. Paano nila nakita iyon? Through instruments like the Hubble telescope. But whether man measures it or not, one thing is clear:**our God created them all**.
 
- Kaya naniniwala tayo: kasama natin ang dakilang Diyos. The King of kings is with us. If your heart is open, the Lord can enter your heart.
+ Napakalaki ng creation, pero mas dakila ang Panginoon. Heaven is His throne, and the earth is His footstool. Anong bahay ang ilalagay natin para sa Kaniya?
+
+ Pero salamat sa Diyos, He said, "I will be with you." Jesus said where two or three are gathered together in His name, He is there in the midst of them.
+
+ Kaya naniniwala tayo: kasama natin ngayon ang ating dakilang Diyos. Kasama natin ang King of kings. And if your heart is open, the Lord can enter your heart.
 
 ---
 
 ## All Things Were Created By Him And For Him
 
- Colossians 1:16 tells us:
+ Colossians 1:16 says:
 
 > "For by him were all things created, that are in heaven, and that are in earth, visible and invisible..."
 
 > Colossians 1:16
 
- Visible and invisible. Thrones, dominions, principalities, and powers. All things were created by Him and for Him.
+ Visible and invisible. Thrones, principalities, dominions, rulers, authorities. All things were created by Him and for Him.
 
- Those last words matter:**for Him**.
+ Take note of those last words:**for Him**.
 
- All things were created for Him. Creation is for Him. History is for Him. Our lives are for Him.
+ Lahat ay nilikha Niya at para sa Kaniya. Creation is all about God. History is all about God. Your life is all about God.
 
- In the beginning, God created the heavens and the earth for Himself. Wala pa tayo noon, yet God was already working according to His purpose.
+ In the beginning, God created the heavens and the earth for Himself. Wala pa tayo noon. But God created everything according to His purpose.
 
- When God created man, He did not simply speak as He did with other parts of creation. He formed man from the dust of the ground. He fashioned man with His own hands.
+ Nang ginawa ng Diyos ang tao, hindi lamang Siya nagsalita. Kumuha Siya ng lupa at hinubog Niya ang tao. He fashioned man by His own hands.
 
  That means you are special to God. Huwag mong maliitin ang sarili mo sa harapan ng Diyos. You can do something for Him. Hindi aksidente na tinawag ka ng Panginoon. Hindi aksidente na nandito ka.
 
- Everything has come into being because God created it and fashioned it to be so.
+ Everything came to being because God created it. Lahat ay fashioned by the Master's hands.
 
 ---
 
-## Trust The Lord In His Story
+## Trust The Lord With All Your Heart
 
- We may not always understand what God is doing, but we can trust Him.
+ We know that all things work together for good to them that love God and to them who are called according to His purpose.
 
- Romans 8:28 tells us that all things work together for good to them that love God and are called according to His purpose.
-
- Hindi natin laging nauunawaan kung paano. But we are called to trust in the Lord with all our heart and lean not unto our own understanding. In all our ways, we acknowledge Him, and He directs our paths.
+ Hindi natin laging nauunawaan kung paano. Minsan may mga bagay na nangyayari sa buhay natin na hindi natin maintindihan. But just trust in the Lord with all your heart. Lean not unto your own understanding. In all your ways acknowledge Him, and He shall direct your paths.
 
  Psalm 118:8 says:
 
@@ -171,73 +187,81 @@ pin: false
 
 > Psalm 118:8
 
- Whatever is happening in your life, trust the Lord. Mahal mo ba ang Diyos? Tinawag ka ba Niya? If you love Him and you are called according to His purpose, He can work all things together for your good.
+ Whatever is happening in your life, trust the Lord. Mahal mo ba ang Diyos? Tinawag ka ba Niya? If you love Him and you are called according to His purpose, God can work all things together for your good.
 
- The sermon shared a personal testimony of being called "Pastor Accident" after a motorcycle accident years ago. But even in that history, the point remains the same: our story belongs to God. What we call accident, God can use in His purpose.
+ May mga bagay sa buhay natin na akala natin aksidente. Pero sa kamay ng Diyos, even what we call accident can become part of His story.
 
- We are only players in His story. We are what we are because of His amazing grace.
+ Our history is really His story. Hindi talaga sa atin ang istorya. Player lang tayo doon sa story ng Panginoon. We are what we are today because of His amazing grace.
 
- Wala tayong may ipagmamalaki sa Panginoon. Everything we have is because of Him. The strength to work, the knowledge we have, the ability to serve, and the breath we breathe all come from God.
+ Ako ay ako ngayon dahil sa biyaya Niya lamang. Not because of me. Not because of what I have done. Lahat ng meron tayo, dahilan sa Kaniya.
+
+ Wala tayong may pagmamalaki sa Panginoon. Lahat ng alam mo, lahat ng lakas mo, lahat ng kaya mong gawin, galing pa rin sa Diyos.
 
 ---
 
 ## Jesus Is The Center Of The Story
 
- This story is not about us. It is about Him.
+ This story is not about you. The story is about Him.
 
- Jesus came because without the shedding of blood, there is no remission of sins. No ordinary blood could pay for the sins of humanity. God Himself, who is Spirit, was manifested in the flesh. That is Jesus Christ.
+ Bakit nagkaroon ng kapanganakan ni Jesus? Para saan Siya dumating? Because without the shedding of blood, there is no remission of sins. Walang ordinaryong dugo ang pwedeng magbayad ng kasalanan ng tao.
 
- He came to give His blood for our sins.
+ God Himself, who is Spirit, was manifested in the flesh. That is Jesus Christ. Siya mismo ang nagbigay ng dugo para bayaran ang ating kasalanan.
 
- This did not make two gods. God manifested Himself in the flesh. Colossians 2:9 says:
+ Hindi naging dalawa ang Diyos. He manifested Himself in the flesh.
+
+ Colossians 2:9 says:
 
 > "For in him dwelleth all the fulness of the Godhead bodily."
 
 > Colossians 2:9
 
- All the fullness is in Jesus Christ.
+ Sa katawan ni Jesus Christ nananahan ang lahat ng kapuspusan ng pagka-Diyos. Kung hiwalay ang Father, hiwalay ang Son, at hiwalay ang Spirit, then anong Godhead ang nasa bawat isa? But the Bible says all the fullness is in Jesus Christ.
 
- The Bible sometimes uses physical language to help us understand spiritual things. These are anthropomorphic expressions. God speaks in ways we can understand because our minds are limited.
+ Sometimes the Bible uses anthropomorphic expressions. Ibig sabihin, gumagamit ang Scripture ng physical or human terms para maintindihan natin ang spiritual things.
 
- When the Bible speaks of God's hand, it does not mean God is limited to a human body. It shows His power and ability. When the Bible speaks of the right hand of God, it speaks of authority, majesty, and power.
+ Kapag sinabi ng Bible na hindi maikli ang kamay ng Diyos, hindi ibig sabihin may literal na kamay ang Diyos gaya ng tao. It speaks of His power and His ability. Kapag sinabi na Jesus is at the right hand of God, it speaks of authority, majesty, and power.
 
- God is Spirit. He is not limited by time, place, or distance. He sees all things. He knows the heart. Walang mahirap sa Panginoon. Nothing is too hard for the Lord.
+ God is a Spirit. Paano mo makikita ang Spirit? But God uses language that human minds can understand.
 
- He makes all things beautiful in His time. Kaya huwag kang mainip. May panahon ang Diyos sa bagay na hinihingi mo. Trust in the Lord.
+ Walang mahirap sa Panginoon. Nothing is too hard for the Lord. Anumang bagay na sa tingin mo ay imposible, kayang-kaya ng Diyos. He makes all things beautiful in His time.
+
+ Kaya huwag kang mainip. May panahon ang Diyos para sa bagay na hinihingi mo. Trust in the Lord.
 
 ---
 
 ## You Are Not Your Own
 
- 1 Corinthians 6:19 reminds us:
+ 1 Corinthians 6:19 says:
 
 > "What? know ye not that your body is the temple of the Holy Ghost which is in you... and ye are not your own?"
 
 > 1 Corinthians 6:19
 
- You are not your own. Hindi mo pag-aari ang sarili mo.
+ Hindi mo na pag-aari ang sarili mo. You are not your own. Why? Because you are bought with a price.
 
- Why? Because you were bought with a price. Therefore, glorify God in your body and in your spirit, which are God's.
+ Therefore glorify God in your body and in your spirit, which are God's.
 
- The sermon gave a simple story of a child who made a small boat. He shaped it, painted it, and loved it. One day, while playing near the water, the current carried the boat away. He lost what he had made.
+ May isang story tungkol sa isang bata na gumawa ng maliit na bangka. Ginawa niya, pinaganda niya, pininturahan niya, at mahal na mahal niya iyon. Isang araw, habang nilalaro niya sa tubig, lumakas ang current at nawala ang bangka.
 
- Later, he saw that same boat in a market. He recognized it immediately: "Akin iyan. Ako ang gumawa niyan." But now it had a price. He had to buy back what was already his.
+ Nalungkot siya dahil nawala ang ginawa niya.
 
- That is what the Lord did for us.
+ Pagdating ng araw, nakita niya sa isang tindahan ang bangkang iyon. Kilala niya agad: "Akin ito. Ako ang gumawa nito." Pero may presyo na. Kailangan niyang bilhin ang sarili niyang ginawa.
 
- God made us, but because of sin, we were lost. Then He bought us back with His own blood. We became His property again because of His goodness.
+ Ganoon ang ginawa ng Panginoon sa atin.
 
- You belong to God twice: first, because He made you for Himself; second, because He bought you for Himself.
+ Ginawa tayo ng Diyos. Dahil sa kasalanan, nawala tayo. Pero binili Niya tayo pabalik sa pamamagitan ng Kaniyang sariling dugo. Kaya naging property muli tayo ng ating dakilang Panginoon.
+
+ You belong to God twice: una, because He made you for Himself; pangalawa, because He bought you for Himself.
 
  Therefore, you are not your own.
 
 ---
 
-## Live For The Glory Of God
+## Do All For The Glory Of God
 
  2 Corinthians 5:15 says that Christ died for all, that they which live should not live unto themselves, but unto Him which died for them and rose again.
 
- Because Christ died for you, you belong to Him. You do not live for yourself anymore. You must live for Jesus.
+ Because Christ died for you, you belong to Him. Hindi ka na nabubuhay para sa sarili mo. You must live for Him. You must live for Jesus.
 
  Paul said:
 
@@ -245,26 +269,28 @@ pin: false
 
 > 1 Corinthians 10:31
 
- Whatever you do, do it all for the glory of God.
+ Anumang ginagawa mo, gawin mo para sa kapurihan ng Panginoon.
 
- This church continues to function according to the purposes God has given: fellowship, maturity, ministry, service, and mission. Every part matters.
+ This church has been functioning according to the purposes that the Lord has given. Fellowship. Maturity. Ministry. Service. Mission. Lahat may bahagi sa gawain ng Panginoon.
 
- Whether you are singing, worshiping, praying, giving, encouraging a brother or sister, cleaning, serving, carrying, arranging, or doing something no one else sees, do it for the glory of God.
+ Whether you are singing, worshiping, praying, encouraging, giving, cleaning, arranging, serving, or doing something no one notices, do it for the glory of God.
 
- Kung naglilinis ka ng toilet, do it for the glory of God. Kung nagtatapon ka ng basura, do it for the glory of God. Kung nananalangin ka, do it for the glory of God. Kung nagbibigay ka, do it for the glory of God.
+ Kung naglilinis ka ng toilet, do it for the glory of God. Kung nagtatapon ka ng basura, do it for the glory of God. Kung nananalangin ka, do it for the glory of God. Kung nag-e-encourage ka ng kapatid, do it for the glory of God. Kapag nagbibigay ka, do it for the glory of God.
 
- Everything we do must return to this:**it is all about Him**.
+ Everything that we do, do it all for the glory of God.
 
 ---
 
-## Back To The Heart Of Worship
+## Let Us Return To The Heart Of Worship
 
  Let us go back to the heart of worship.
 
- The heart of worship is not performance. It is not music alone. It is not about what we receive or how we feel. The heart of worship is acknowledging that everything is about Jesus.
+ Ang heart of worship ay hindi performance. Hindi ito tungkol sa ganda ng tugtog, lakas ng boses, o paborito nating kanta. Worship is more than a song. Worship is the heart acknowledging that everything is about Him.
 
- Creation is about Him. History is about Him. Our bodies are His. Our service is for Him. Our lives belong to Him.
+ Creation is all about Him. History is all about Him. Our bodies belong to Him. Our service is for Him. Our life is His.
 
- So let us worship the Lord from our hearts. Let us bring Him more than a song. Let us offer Him lives that glorify His name.
+ Kaya bumalik tayo sa tunay na pagsamba. Lord, we bring You more than a song. We bring You our hearts. We bring You our lives. We give You the glory that belongs only to You.
+
+ It's all about You, Jesus.
 
  Praise the Lord.
