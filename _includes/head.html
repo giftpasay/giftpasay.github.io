@@ -110,9 +110,49 @@
 
   <!-- Scripts -->
 
-  <script src="{{ '/assets/js/dist/theme.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/dist/theme.min.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
 
-  {% include js-selector.html lang=lang %} {% if jekyll.environment ==
+  {% include js-selector.html lang=lang %}
+  <script>
+    document.addEventListener(
+      'click',
+      (event) => {
+        const modeToggle = event.target.closest('#mode-toggle');
+
+        if (modeToggle && window.Theme) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          window.Theme.flip();
+          return;
+        }
+
+        const backToTop = event.target.closest('#back-to-top');
+
+        if (backToTop) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      },
+      true
+    );
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const backToTop = document.getElementById('back-to-top');
+
+      if (!backToTop) {
+        return;
+      }
+
+      const updateBackToTop = () => {
+        backToTop.classList.toggle('show', window.scrollY > 50);
+      };
+
+      window.addEventListener('scroll', updateBackToTop, { passive: true });
+      updateBackToTop();
+    });
+  </script>
+  {% if jekyll.environment ==
   'production' %}
   <!-- PWA -->
   {% if site.pwa.enabled %}
