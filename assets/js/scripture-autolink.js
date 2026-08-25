@@ -75,6 +75,7 @@
 
   const aliasToBook = new Map();
   const aliasMatchers = [];
+  const bookNumberToName = books.map(([book]) => book);
 
   books.forEach(([book, ...aliases]) => {
     [book, ...aliases].forEach((alias) => {
@@ -323,16 +324,24 @@
     const parsed = {};
 
     documentXml.querySelectorAll("BIBLEBOOK").forEach((bookNode) => {
-      const bookName = bookNode.getAttribute("bname");
-      parsed[bookName] = {};
+      const rawBookName = bookNode.getAttribute("bname");
+      const bookNumber = Number(bookNode.getAttribute("bnumber"));
+      const bookName =
+        bookNumberToName[bookNumber - 1] ||
+        aliasToBook.get(normalizeAlias(rawBookName)) ||
+        rawBookName;
+      const chapters = {};
+
+      parsed[bookName] = chapters;
+      if (rawBookName && rawBookName !== bookName) parsed[rawBookName] = chapters;
 
       bookNode.querySelectorAll("CHAPTER").forEach((chapterNode) => {
         const chapterNumber = Number(chapterNode.getAttribute("cnumber"));
-        parsed[bookName][chapterNumber] = {};
+        chapters[chapterNumber] = {};
 
         chapterNode.querySelectorAll("VERS").forEach((verseNode) => {
           const verseNumber = Number(verseNode.getAttribute("vnumber"));
-          parsed[bookName][chapterNumber][verseNumber] = verseNode.textContent.trim();
+          chapters[chapterNumber][verseNumber] = verseNode.textContent.trim();
         });
       });
     });
