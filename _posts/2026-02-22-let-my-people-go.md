@@ -5,7 +5,7 @@ categories: [Sermon Notes]
 tags: [evangelism, outreach, deliverance, exodus, redemption, sin, compromise, holy ghost, pasay city]
 description: "A biblical message on deliverance from sin's bondage, drawing from Exodus to challenge believers to refuse every compromise the enemy offers."
 comments: false
-image: ../assets/img/thumbnails/letmypeoplego.jpg
+image: /assets/img/thumbnails/letmypeoplego.jpg
 ---
 
 ## Let My People Go

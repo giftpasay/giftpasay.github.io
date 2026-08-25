@@ -30,15 +30,15 @@
   {% unless src contains '://' %} {%- capture img_url -%} {% include
   media-url.html src=src subpath=page.media_subpath absolute=true %} {%-
   endcapture -%} {%- capture old_url -%}{{ src | absolute_url }}{%- endcapture
-  -%} {%- capture new_url -%}{{ img_url }}{%- endcapture -%} {% assign seo_tags
+  -%} {%- capture new_url -%}{{ img_url | strip }}{%- endcapture -%} {% assign seo_tags
   = seo_tags | replace: old_url, new_url %} {% endunless %} {% elsif
   site.social_preview_image %} {%- capture img_url -%} {% include media-url.html
   src=site.social_preview_image absolute=true %} {%- endcapture -%} {%- capture
   og_image -%}
-  <meta property="og:image" content="{{ img_url }}" />
+  <meta property="og:image" content="{{ img_url | strip }}" />
   {%- endcapture -%} {%- capture twitter_image -%}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:image" content="{{ img_url }}" />
+  <meta property="twitter:image" content="{{ img_url | strip }}" />
   {%- endcapture -%} {% assign old_meta_clip = '
   <meta name="twitter:card" content="summary" />
   ' %} {% assign new_meta_clip = og_image | append: twitter_image %} {% assign

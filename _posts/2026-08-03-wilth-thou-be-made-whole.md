@@ -4,7 +4,7 @@ date: 2026-08-03
 categories: ["Sermon Notes"]
 tags: ["made whole", "healing", "prosperity", "wholeness", "faith", "harvest"]
 description: "God wants His people to be made whole in body, soul, spirit, family, finances, and service for the harvest."
-image: "assets/img/thumbnails/wilth-thou-be-made-whole-1787586465412.jpg"
+image: "/assets/img/thumbnails/wilth-thou-be-made-whole-1787586465412.jpg"
 comments: false
 pin: false
 ---

@@ -4,7 +4,7 @@ date: 2026-07-29
 categories: ["Bible Study"]
 tags: ["evangelism", "discipleship", "prayer", "fasting", "great commission"]
 description: "God is calling the whole church to become helpers of the war, laboring together in prayer, evangelism, and urgency for lost souls."
-image: "assets/img/thumbnails/the-helpers-of-the-war-1787619045066.jpg"
+image: "/assets/img/thumbnails/the-helpers-of-the-war-1787619045066.jpg"
 comments: false
 pin: false
 ---

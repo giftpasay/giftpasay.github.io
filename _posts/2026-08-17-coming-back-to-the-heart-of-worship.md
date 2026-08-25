@@ -4,7 +4,7 @@ date: 2026-08-17
 categories: ["Sermon Notes"]
 tags: ["worship", "glory", "creation", "purpose", "stewardship", "jesus"]
 description: "Worship is not centered on us. Worship is centered on God. Your life is not really about you. It is all about God. Creation, history, our bodies, and our service all exist for His glory. Let us go back to the heart of worship, where everything returns to Jesus."
-image: "assets/img/thumbnails/coming-back-to-the-heart-of-worship-1787583173044.jpg"
+image: "/assets/img/thumbnails/coming-back-to-the-heart-of-worship-1787583173044.jpg"
 comments: false
 pin: false
 ---

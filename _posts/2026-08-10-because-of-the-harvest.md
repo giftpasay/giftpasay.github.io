@@ -4,7 +4,7 @@ date: 2026-08-10
 categories: ["Sermon Notes"]
 tags: ["harvest", "souls", "evangelism", "apostolic doctrine", "revival", "thanksgiving"]
 description: "The harvest is ready. Because of souls, the church must worship, hold apostolic doctrine, be revived, and give itself to God's work."
-image: "assets/img/thumbnails/because-of-the-harvest-1787585788784.jpg"
+image: "/assets/img/thumbnails/because-of-the-harvest-1787585788784.jpg"
 comments: false
 pin: false
 ---

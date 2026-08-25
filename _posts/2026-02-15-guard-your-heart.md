@@ -5,7 +5,7 @@ categories: [Sermon Notes]
 tags: [heart, holiness, discernment, spiritual growth, basics]
 description: A call to guard the heart diligently, recognizing its value, influence, and vulnerability in a world full of distractions.
 comments: false
-image: ../assets/img/thumbnails/guard-your-heart.jpg
+image: /assets/img/thumbnails/guard-your-heart.jpg
 ---
 
 _Service: GIFT Worship_<br>

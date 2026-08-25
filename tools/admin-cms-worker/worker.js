@@ -349,7 +349,7 @@ async function uploadMedia(token, env, payload) {
   const ext = mediaExtension(payload.fileName, payload.mimeType);
   const path = `assets/img/thumbnails/${cleanSlug}-${Date.now()}.${ext}`;
   await putRepoFileBase64(token, env, path, payload.base64, `cms: upload ${path}`);
-  return { ok: true, path };
+  return { ok: true, path: `/${path}` };
 }
 
 function normalizePayload(payload) {
@@ -365,12 +365,19 @@ function normalizePayload(payload) {
     categories: categories.map((value) => String(value).trim()).filter(Boolean),
     tags: tags.map((value) => String(value).trim().toLowerCase()).filter(Boolean),
     description: String(payload.description || '').trim(),
-    image: String(payload.image || '').trim(),
+    image: normalizeImagePath(payload.image),
     comments: Boolean(payload.comments),
     pin: Boolean(payload.pin),
     slug,
     body: String(payload.body || '').trim(),
   };
+}
+
+function normalizeImagePath(value) {
+  const clean = String(value || '').trim();
+  if (!clean) return '';
+  if (/^[a-z][a-z0-9+.-]*:/i.test(clean)) return clean;
+  return `/${clean.replace(/\\/g, '/').replace(/^(\.\.\/)+/, '').replace(/^\/+/, '')}`;
 }
 
 function optionalArticlePath(path) {

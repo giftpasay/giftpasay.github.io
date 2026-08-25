@@ -4,7 +4,7 @@ date: 2026-08-24
 categories: ["Sermon Notes"]
 tags: ["knowledge", "understanding", "truth", "oneness", "salvation"]
 description: "There is power in knowing who God is, and there is blessedness in understanding His Word. Hindi sapat na may alam tayo tungkol sa Diyos. Kailangan nating maunawaan, tanggapin, at ipamuhay ang katotohanan na ipinahayag Niya sa Kaniyang Salita."
-image: "assets/img/thumbnails/the-power-of-knowing-and-the-blessedness-of-understanding-1787580260864.jpg"
+image: "/assets/img/thumbnails/the-power-of-knowing-and-the-blessedness-of-understanding-1787580260864.jpg"
 comments: false
 pin: false
 ---

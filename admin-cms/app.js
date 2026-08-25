@@ -1491,7 +1491,9 @@
 
   function cleanImageValue(value) {
     const clean = String(value || '').trim();
-    return /^[a-z_]+:\s*(true|false)?$/i.test(clean) ? '' : clean;
+    if (/^[a-z_]+:\s*(true|false)?$/i.test(clean)) return '';
+    if (!clean || /^[a-z][a-z0-9+.-]*:/i.test(clean)) return clean;
+    return `/${clean.replace(/\\/g, '/').replace(/^(\.\.\/)+/, '').replace(/^\/+/, '')}`;
   }
 
   function loadingHtml(message) {

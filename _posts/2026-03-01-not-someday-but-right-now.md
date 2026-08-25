@@ -5,7 +5,7 @@ categories: [Sermon Notes]
 tags: [faith, miracles, healing, worship, holy ghost, patience, right now]
 description: A powerful call to move from a "someday" faith to a "right now" faith, believing God for present-day miracles, healing, and breakthroughs.
 comments: false
-image: ../assets/img/thumbnails/rev-trent-gilliam.jpg
+image: /assets/img/thumbnails/rev-trent-gilliam.jpg
 ---
 
 _Service: GIFT Worship Family Day_<br>
