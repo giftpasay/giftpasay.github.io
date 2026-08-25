@@ -24,6 +24,34 @@
     color: inherit;
     min-height: 0;
     padding: 0;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    z-index: 1;
+
+    .btn-close {
+      align-items: center;
+      border-radius: 50%;
+      box-shadow: none;
+      display: inline-flex;
+      height: 2rem;
+      justify-content: center;
+      margin: 0 !important;
+      opacity: 0.65;
+      padding: 0;
+      width: 2rem;
+
+      &:hover,
+      &:focus-visible {
+        background-color: var(--btn-border-color);
+        opacity: 1;
+      }
+
+      &:focus-visible {
+        outline: 2px solid var(--link-color);
+        outline-offset: 2px;
+      }
+    }
   }
 
   .toast-body {
@@ -32,7 +60,7 @@
     font-family: Lato, sans-serif;
     font-size: 0.95rem;
     line-height: 1.4;
-    padding: 1rem;
+    padding: 1.5rem 1rem 1rem;
 
     button {
       align-items: center;
@@ -77,6 +105,7 @@
       left: 50%;
       bottom: max(1rem, env(safe-area-inset-bottom));
       transform: translateX(-50%);
+      overflow: hidden;
       -webkit-animation: popup 0.8s;
       animation: popup 0.8s;
       z-index: 1100;
