@@ -2,7 +2,7 @@
 title: "The Helpers of the War"
 date: 2026-07-29
 categories: ["Bible Study"]
-tags: []
+tags: ["evangelism", "discipleship", "prayer", "fasting", "great commission"]
 description: "God is calling the whole church to become helpers of the war, laboring together in prayer, evangelism, and urgency for lost souls."
 image: "assets/img/thumbnails/the-helpers-of-the-war-1787618500444.jpg"
 comments: false
