@@ -3,7 +3,7 @@ title: "Reaching The Lost"
 date: 2026-08-26
 categories: ["Bible Study"]
 tags: ["evangelism", "mission", "soul winning", "compassion", "discipleship"]
-description: ""
+description: "Reaching the lost is the heartbeat of the church: going, seeing with compassion, praying, and ministering beyond the church walls."
 image: "/assets/img/thumbnails/reaching-the-lost-1787759530430.jpg"
 comments: false
 pin: false
@@ -16,7 +16,7 @@ pin: false
 > 38Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest.
 > Matthew 9:35-38
 
-Since this is the fourth week of the month, ang ating focus as a church ay tungkol sa **evangelism and mission**. Tonight, this is a simple lesson: **Reaching The Lost**, ang pag-abot sa mga naliligaw.
+ Since this is the fourth week of the month, ang ating focus as a church ay tungkol sa **evangelism and mission**. Tonight, this is a simple lesson: **Reaching The Lost**, ang pag-abot sa mga naliligaw.
 
  Reaching the lost does not end when we invite a person to church. Nagpapatuloy ito, mga kapatid, maging sa sandali na siya ay nagsisimula pa lamang lumakad bilang Kristiyano.
 
