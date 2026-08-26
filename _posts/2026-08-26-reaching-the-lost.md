@@ -9,7 +9,11 @@ comments: false
 pin: false
 ---
 
-Matthew 9:35-38 KJV
+> 35 And Jesus went about all the cities and villages, teaching in their synagogues, and preaching the gospel of the kingdom, and healing every sickness and every disease among the people.
+> 36 But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, as sheep having no shepherd.
+> 37 Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few;
+> 38 Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest.
+> Matthew 9:35-38 KJV
 
  Since this is the fourth week of the month, ang ating focus as a church ay tungkol sa **evangelism and mission**. Tonight, this is a simple lesson: **Reaching The Lost**, ang pag-abot sa mga naliligaw.
 
