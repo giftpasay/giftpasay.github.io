@@ -9,6 +9,8 @@ comments: false
 pin: false
 ---
 
+_Teacher: Min. Michaelle Barcena_
+
 > 35 And Jesus went about all the cities and villages, teaching in their synagogues, and preaching the gospel of the kingdom, and healing every sickness and every disease among the people.
 > 36 But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, as sheep having no shepherd.
 > 37 Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few;
