@@ -32,18 +32,41 @@
     .btn-close {
       align-items: center;
       background-color: var(--button-bg);
-      background-position: center;
-      background-size: 0.75rem;
+      background-image: none;
       border-radius: 50%;
       box-shadow: none;
+      color: var(--text-muted-color);
       display: inline-flex;
+      flex: 0 0 auto;
       height: 2rem;
       justify-content: center;
       margin: 0 !important;
       opacity: 0.9;
       padding: 0;
+      position: relative;
       transition: background-color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
       width: 2rem;
+
+      &::before,
+      &::after {
+        background: currentColor;
+        border-radius: 999px;
+        content: '';
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform-origin: center;
+        width: 0.78rem;
+      }
+
+      &::before {
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+
+      &::after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
 
       &:hover,
       &:focus-visible {
@@ -65,7 +88,7 @@
     font-family: Lato, sans-serif;
     font-size: 0.95rem;
     line-height: 1.4;
-    padding: 1.45rem 1.15rem 1.15rem;
+    padding: 1.25rem !important;
     text-align: left !important;
 
     p {
@@ -73,7 +96,7 @@
       font-weight: 600;
       margin: 0;
       max-width: 16rem;
-      padding: 0.25rem 2.75rem 0 0 !important;
+      padding: 0 2.75rem 0 0 !important;
     }
 
     button {
@@ -130,12 +153,24 @@
 }
 
 html[data-mode='dark'] #notification .toast-header .btn-close {
-  filter: invert(1) grayscale(100%) brightness(200%);
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #fff;
+
+  &:hover,
+  &:focus-visible {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   html:not([data-mode]) #notification .toast-header .btn-close {
-    filter: invert(1) grayscale(100%) brightness(200%);
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #fff;
+
+    &:hover,
+    &:focus-visible {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
   }
 }
 

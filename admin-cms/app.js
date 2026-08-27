@@ -743,7 +743,7 @@
 
       const originalSize = formatBytes(file.size);
       const uploadSize = formatBytes(uploadFile.size);
-      const wasCompressed = uploadFile !== file;
+      const wasOptimized = uploadFile !== file;
       let uploadMeta = null;
       try {
         uploadMeta = await imageFileMeta(uploadFile);
@@ -751,8 +751,8 @@
         uploadMeta = { width: 0, height: 0, size: uploadFile.size };
       }
       setLocalImagePreview(uploadFile, uploadMeta);
-      els.imageUploadNote.textContent = wasCompressed
-        ? `Thumbnail ${formatImageMeta(uploadMeta)}. Compressed from ${originalSize} to ${uploadSize}.`
+      els.imageUploadNote.textContent = wasOptimized
+        ? `Thumbnail ${formatImageMeta(uploadMeta)}. Converted to WebP from ${originalSize} to ${uploadSize}.`
         : `Thumbnail ${formatImageMeta(uploadMeta)}.`;
 
       let base64;
@@ -1354,7 +1354,7 @@
     const previewSrc = state.imagePreviewObjectUrl;
     if (!value && !previewSrc) {
       els.imagePreview.textContent = 'No image chosen';
-      els.imageUploadNote.textContent = 'Images larger than 800 KB are compressed before upload.';
+      els.imageUploadNote.textContent = 'Images are converted to WebP and kept below 800 KB when possible.';
       return;
     }
     const src = previewSrc || (value.startsWith('http') || value.startsWith('/') ? value : `/${value}`);
@@ -1374,7 +1374,7 @@
             width: image.naturalWidth,
             height: image.naturalHeight,
           })}.`
-          : 'Images larger than 800 KB are compressed before upload.';
+          : 'Images are converted to WebP and kept below 800 KB when possible.';
       }, { once: true });
       image.addEventListener('error', () => {
         els.imageUploadNote.textContent = 'Could not load thumbnail preview. Check the image path.';
@@ -2425,10 +2425,9 @@
     const maxBytes = 800 * 1024;
     if (!file.type.startsWith('image/')) throw new Error('Please choose an image file.');
     if (file.type === 'image/gif') {
-      if (file.size > maxBytes) throw new Error('GIF images cannot be compressed here. Please choose an image below 800 KB.');
+      if (file.size > maxBytes) throw new Error('GIF images cannot be converted here. Please choose an image below 800 KB.');
       return file;
     }
-    if (file.size <= maxBytes) return file;
 
     const bitmap = await createImageBitmap(file);
     const maxDimension = 1600;
@@ -2439,22 +2438,22 @@
     canvas.width = width;
     canvas.height = height;
     const context = canvas.getContext('2d');
-    context.fillStyle = '#ffffff';
-    context.fillRect(0, 0, width, height);
+    context.clearRect(0, 0, width, height);
     context.drawImage(bitmap, 0, 0, width, height);
+    if (typeof bitmap.close === 'function') bitmap.close();
 
     let quality = 0.82;
-    let blob = await canvasToBlob(canvas, 'image/jpeg', quality);
+    let blob = await canvasToBlob(canvas, 'image/webp', quality);
     while (blob.size > maxBytes && quality > 0.48) {
       quality -= 0.08;
-      blob = await canvasToBlob(canvas, 'image/jpeg', quality);
+      blob = await canvasToBlob(canvas, 'image/webp', quality);
     }
     if (blob.size > maxBytes) {
-      throw new Error('This image is still above 800 KB after compression. Please choose a smaller image.');
+      throw new Error('This image is still above 800 KB after WebP conversion. Please choose a smaller image.');
     }
 
-    const name = `${file.name.replace(/\.[^.]+$/, '') || 'featured-image'}.jpg`;
-    return new File([blob], name, { type: 'image/jpeg', lastModified: Date.now() });
+    const name = `${file.name.replace(/\.[^.]+$/, '') || 'featured-image'}.webp`;
+    return new File([blob], name, { type: 'image/webp', lastModified: Date.now() });
   }
 
   function canvasToBlob(canvas, type, quality) {

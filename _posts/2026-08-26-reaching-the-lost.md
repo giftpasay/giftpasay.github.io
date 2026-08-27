@@ -253,7 +253,7 @@ _Teacher: Min. Michaelle Barcena_
 
 ## We Need Each Other In Evangelism
 
- Pwede ba, GIFT Church, kapag may evangelism at nagpatawag si Brother June, samahan natin siya sa kanyang faith? Samahan natin siya sa kanyang pananampalataya.
+ Pwede ba, GIFT Church, kapag may evangelism at nagpatawag si Brother Jun, samahan natin siya sa kanyang faith? Samahan natin siya sa kanyang pananampalataya.
 
  Hindi mo man alam lahat ng sasabihin. Nahihiya ka man. But the mere fact that you are there, your presence and support mean a lot to those who are sharing.
 
@@ -319,7 +319,7 @@ _Teacher: Min. Michaelle Barcena_
 
  Hanapin ninyo kung sino ang bago. Sino ang nangangailangan ng guide. Sino ang kailangang alagaan hanggang lumago sa Panginoon.
 
- Hindi iyan matututukan lahat ni Pastor. May limitation iyan. Hindi iyan kaya lahat ni Brother June. Physically, may limitation ang iilan. Pero ikaw, baka marami kang time. Baka kaya mong isingit. Baka may kaya kang alagaan.
+ Hindi iyan matututukan lahat ni Pastor. May limitation iyan. Hindi iyan kaya lahat ni Brother Jun. Physically, may limitation ang iilan. Pero ikaw, baka marami kang time. Baka kaya mong isingit. Baka may kaya kang alagaan.
 
  Soul must never be considered an interruption to our busy schedule, because souls are the subject of God's heartbeat.
 
