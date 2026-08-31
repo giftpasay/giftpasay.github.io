@@ -9,11 +9,7 @@ comments: false
 pin: false
 ---
 
-## An Attitude of Gratitude
-
- _Being grateful to our great God, all the time!_
-
- Today is our last Sunday of the month worship, and our focus is **worship and magnification**. Lahat ng ating gagawin today, let it be worship to our God. Anything that we do, let it be worship to the Lord.
+Today is our last Sunday of the month worship, and our focus is **worship and magnification**. Lahat ng ating gagawin today, let it be worship to our God. Anything that we do, let it be worship to the Lord.
 
  Worshiping God takes both **spirit and truth**. We worship in spirit, but we also have to hear the truth.
 
