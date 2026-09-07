@@ -745,7 +745,3 @@ There are times when it feels like the enemy is moving in everything. May mga pa
  And remind us that even when the enemy thinks it is checkmate, our King still has one more move.
 
  In Jesus' name, amen.
-
-```
-
-```
